@@ -1,0 +1,46 @@
+{
+    "name": "blobfolio\/righteous-mimes",
+    "description": "A comprehensive MIME and file extension tool for PHP. Finally!",
+    "keywords": [
+        "mimes",
+        "files",
+        "extensions",
+        "suffix"
+    ],
+    "version": "0.1.0",
+    "type": "library",
+    "homepage": "https:\/\/github.com\/Blobfolio\/righteous-mimes",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Josh Stoik",
+            "email": "josh@blobfolio.com",
+            "homepage": "https:\/\/blobfolio.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.3",
+        "ext-dom": "*",
+        "ext-fileinfo": "*",
+        "ext-filter": "*",
+        "ext-mbstring": "*",
+        "ext-json": "*",
+        "ext-xml": "*"
+    },
+    "require-dev": {
+        "james-heinrich\/getid3": "*"
+    },
+    "suggest": {
+        "james-heinrich\/getid3": "ID3 parsing improves detection of audio\/video variants."
+    },
+    "config": {
+        "vendor-dir": "lib\/vendor",
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Righteous\\": "lib\/righteous"
+        }
+    }
+}
