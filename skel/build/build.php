@@ -13,6 +13,7 @@ namespace Righteous\Build;
 
 use Righteous\MIMEs;
 use function Righteous\Build\collect_data;
+use function Righteous\Build\collect_group;
 use function Righteous\Build\json_to_php;
 use const Righteous\Build\BIN_DIR;
 use const Righteous\Build\LIB_DIR;
@@ -72,6 +73,24 @@ function collect_data(string $class, string $path) : void {
 	}
 
 	$data[$class::FLAG] = $result;
+}
+
+/**
+ * Collate Derived
+ *
+ * @param string $ext Extension.
+ * @param int $group Group.
+ * @return void Nothing.
+ */
+function collect_group(string $ext, int $group) : void {
+	global $out_groups;
+
+	if (! isset($out_groups[$ext])) {
+		$out_groups[$ext] = $group;
+	}
+	else {
+		$out_groups[$ext] |= $group;
+	}
 }
 
 /**
@@ -141,14 +160,7 @@ collect_data(
 
 // Now that we have all the data separated by source, let's merge them.
 $out_aliases = array();
-$out_derived = array(
-	'gzip'=>array(),
-	'json'=>array(),
-	'office'=>array(),
-	'text'=>array(),
-	'xml'=>array(),
-	'zip'=>array(),
-);
+$out_groups = array();
 $out_extensions = array();
 $out_office = array();
 $out_primaries = array();
@@ -354,28 +366,29 @@ foreach ($out_extensions as $ext=>$types) {
 
 		// Now checkout derived fits.
 		if ('application/gzip' === $type) {
-			$out_derived['gzip'][] = $ext;
+			collect_group($ext, MIMEs::GROUP_GZIP);
 		}
 		if ('application/json' === $type || '+json' === \substr($type, -5)) {
-			$out_derived['json'][] = $ext;
+			collect_group($ext, MIMEs::GROUP_JSON);
 		}
 		if (
 			'xml' !== $ext &&
 			(MIMEs::TYPE_OFFICE === $type)
 		) {
-			$out_derived['office'][] = $ext;
+			collect_group($ext, MIMEs::GROUP_OFFICE);
+			$out_office[] = $ext;
 		}
 		if (0 === \strpos($type, 'text/')) {
-			$out_derived['text'][] = $ext;
+			collect_group($ext, MIMEs::GROUP_TEXT);
 		}
 		if (
 			'svgz' !== $ext &&
 			('application/xml' === $type || '+xml' === \substr($type, -4))
 		) {
-			$out_derived['xml'][] = $ext;
+			collect_group($ext, MIMEs::GROUP_XML);
 		}
 		if ('application/zip' === $type) {
-			$out_derived['zip'][] = $ext;
+			collect_group($ext, MIMEs::GROUP_ZIP);
 		}
 	}
 }
@@ -416,13 +429,12 @@ foreach ($out_types as $type=>$exts) {
 }
 
 // Clean up the derived associations.
-foreach ($out_derived as $k=>$v) {
-	$out_derived[$k] = \array_unique($v);
-	\sort($out_derived[$k]);
-}
+\ksort($out_groups);
 
 // Build a reverse type list for office aliases.
-foreach ($out_derived['office'] as $ext) {
+$tmp = \array_unique($out_office);
+$out_office = array();
+foreach ($tmp as $ext) {
 	$out_office = \array_merge(
 		$out_office,
 		\array_keys($out_extensions[$ext])
@@ -464,6 +476,9 @@ $out_aliases = \json_encode($out_aliases);
 $out_extensions = \json_encode($out_extensions);
 \file_put_contents(BIN_DIR . '/extensions.json', $out_extensions);
 
+$out_groups = \json_encode($out_groups);
+\file_put_contents(BIN_DIR . '/groups.json', $out_groups);
+
 $out_types = \json_encode($out_types);
 \file_put_contents(BIN_DIR . '/types.json', $out_types);
 
@@ -489,21 +504,11 @@ $content = \file_get_contents(SKEL_DIR . '/templates/extensions.php');
 $content = \str_replace(
 	array(
 		'TYPES = null',
-		'GZIP = null',
-		'JSON = null',
-		'OFFICE = null',
-		'TEXT = null',
-		'XML = null',
-		'ZIP = null',
+		'GROUPS = null',
 	),
 	array(
 		'TYPES = ' . json_to_php($out_extensions),
-		'GZIP = ' . json_to_php(\json_encode($out_derived['gzip']), true),
-		'JSON = ' . json_to_php(\json_encode($out_derived['json']), true),
-		'OFFICE = ' . json_to_php(\json_encode($out_derived['office']), true),
-		'TEXT = ' . json_to_php(\json_encode($out_derived['text']), true),
-		'XML = ' . json_to_php(\json_encode($out_derived['xml']), true),
-		'ZIP = ' . json_to_php(\json_encode($out_derived['zip']), true),
+		'GROUPS = ' . json_to_php($out_groups),
 	),
 	$content
 );

@@ -636,9 +636,12 @@ class File {
 			return;
 		}
 
+		// Do we have a group?
+		$naive_group = Extensions::group($naive_ext);
+
 		// If we're expecting JSON data and didn't get it, let's just
 		// try to decode it!
-		if (\in_array($naive_ext, Data\Extensions::JSON, true)) {
+		if (MIMEs::GROUP_JSON & $naive_group) {
 			$content = @\file_get_contents($this->_file['path']);
 			if (null !== @\json_decode($content)) {
 				if ($naive_type) {
@@ -654,7 +657,7 @@ class File {
 		// magic and naive disagree on the particulars but both point to
 		// office, we should stick with the expected.
 		if (
-			\in_array($naive_ext, Data\Extensions::OFFICE, true) &&
+			(MIMEs::GROUP_OFFICE & $naive_group) &&
 			Types::is_office_alias($type)
 		) {
 			if ($naive_type) {
@@ -670,12 +673,12 @@ class File {
 		if (
 			(
 				'text/html' === $type &&
-				\in_array($naive_ext, Data\Extensions::XML, true)
+				(MIMEs::GROUP_XML & $naive_group)
 			) ||
 			('application/xml' === $type && 'text/html' === $naive_type) ||
 			(
 				0 === \strpos($type, 'text/') &&
-				\in_array($naive_ext, Data\Extensions::TEXT, true)
+				(MIMEs::GROUP_TEXT & $naive_group)
 			)
 		) {
 			$type = $naive_type;

@@ -39,22 +39,33 @@ final class Extensions {
 			return $out;
 		}
 
-		// Now go through and add in parent types as needed.
-		if (\in_array($ext, Data\Extensions::GZIP, true)) {
-			$out = \array_merge($out, \array_keys(Data\Extensions::TYPES['gz']));
-		}
-		if (\in_array($ext, Data\Extensions::JSON, true)) {
-			$out = \array_merge($out, \array_keys(Data\Extensions::TYPES['json']));
-		}
-		if (\in_array($ext, Data\Extensions::TEXT, true)) {
-			$out[] = 'text/plain';
-		}
-		if (\in_array($ext, Data\Extensions::XML, true)) {
-			$out = \array_merge($out, \array_keys(Data\Extensions::TYPES['xml']));
-		}
-		if (\in_array($ext, Data\Extensions::ZIP, true)) {
-			$out[] = 'application/zip';
-			$out[] = MIMEs::TYPE_DEFAULT;
+		$groups = self::group($ext);
+		if (0 < $groups) {
+			if (MIMEs::GROUP_GZIP & $groups) {
+				$out = \array_merge(
+					$out,
+					\array_keys(Data\Extensions::TYPES['gz'])
+				);
+			}
+			if (MIMEs::GROUP_JSON & $groups) {
+				$out = \array_merge(
+					$out,
+					\array_keys(Data\Extensions::TYPES['json'])
+				);
+			}
+			if (MIMEs::GROUP_TEXT & $groups) {
+				$out[] = 'text/plain';
+			}
+			if (MIMEs::GROUP_XML & $groups) {
+				$out = \array_merge(
+					$out,
+					\array_keys(Data\Extensions::TYPES['xml'])
+				);
+			}
+			if (MIMEs::GROUP_ZIP & $groups) {
+				$out[] = 'application/zip';
+				$out[] = MIMEs::TYPE_DEFAULT;
+			}
 		}
 
 		// Sort and return.
@@ -73,29 +84,11 @@ final class Extensions {
 	 * @return int Groups.
 	 */
 	public static function group(string $ext) : int {
-		if (null !== ($ext = Sanitize::extension($ext, MIMEs::FILTER_NO_UNKNOWN))) {
-			$out = 0;
-
-			if (\in_array($ext, Data\Extensions::GZIP, true)) {
-				$out |= MIMEs::GROUP_GZIP;
-			}
-			if (\in_array($ext, Data\Extensions::JSON, true)) {
-				$out |= MIMEs::GROUP_JSON;
-			}
-			if (\in_array($ext, Data\Extensions::OFFICE, true)) {
-				$out |= MIMEs::GROUP_OFFICE;
-			}
-			if (\in_array($ext, Data\Extensions::TEXT, true)) {
-				$out |= MIMEs::GROUP_TEXT;
-			}
-			if (\in_array($ext, Data\Extensions::XML, true)) {
-				$out |= MIMEs::GROUP_XML;
-			}
-			if (\in_array($ext, Data\Extensions::ZIP, true)) {
-				$out |= MIMEs::GROUP_ZIP;
-			}
-
-			return $out;
+		if (
+			(null !== ($ext = Sanitize::extension($ext))) &&
+			isset(Data\Extensions::GROUPS[$ext])
+		) {
+			return Data\Extensions::GROUPS[$ext];
 		}
 
 		return 0;

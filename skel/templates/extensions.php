@@ -67,32 +67,7 @@ final class Extensions {
 	const TYPES = null;
 
 	/**
-	 * Extensions with Gzip Content.
+	 * Type Groups by Extension.
 	 */
-	const GZIP = null;
-
-	/**
-	 * Extensions with JSON Content.
-	 */
-	const JSON = null;
-
-	/**
-	 * Extensions with Office Content.
-	 */
-	const OFFICE = null;
-
-	/**
-	 * Extensions with Text Content.
-	 */
-	const TEXT = null;
-
-	/**
-	 * Extensions with XML Content.
-	 */
-	const XML = null;
-
-	/**
-	 * Extensions with ZIP Content.
-	 */
-	const ZIP = null;
+	const GROUPS = null;
 }

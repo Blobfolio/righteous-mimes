@@ -130,13 +130,12 @@ final class MIMEs {
 	// Group Constants
 	// -----------------------------------------------------------------
 
-	const GROUP_FONT = 1;
-	const GROUP_GZIP = 2;
-	const GROUP_JSON = 4;
-	const GROUP_OFFICE = 8;
-	const GROUP_TEXT = 16;
-	const GROUP_XML = 32;
-	const GROUP_ZIP = 64;
+	const GROUP_GZIP = 1;
+	const GROUP_JSON = 2;
+	const GROUP_OFFICE = 4;
+	const GROUP_TEXT = 8;
+	const GROUP_XML = 16;
+	const GROUP_ZIP = 32;
 
 
 
