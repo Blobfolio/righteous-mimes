@@ -39,8 +39,6 @@
     },
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {
-            "Righteous\\": "lib\/righteous"
-        }
+        "classmap": ["lib\/righteous"]
     }
 }

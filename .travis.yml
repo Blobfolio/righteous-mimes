@@ -16,5 +16,5 @@ php:
   - 7.4
 
 install: travis_retry composer install --no-interaction
-before_script: composer require phpunit/phpunit && composer update -q -n -a
+before_script: composer require phpunit/phpunit
 script: lib/vendor/bin/phpunit --configuration phpunit.xml
