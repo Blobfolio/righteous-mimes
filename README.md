@@ -2,6 +2,8 @@
 
 **BETA WARNING:** This software is close but not yet ready for production use!
 
+[![Build Status](https://travis-ci.org/Blobfolio/righteous-mimes.svg?branch=master)](https://travis-ci.org/Blobfolio/righteous-mimes)
+
 PHP has a file type detection problem. Extensions like `FileInfo` and `ID3` rely on static data which is often incomplete, stale, or simply wrong, and their deducations frequently vary from method to method and server to server.
 
 **Righteous MIMEs!** is a lightweight, stand-alone PHP library that augments PHP's native type detection capabilities (i.e. `fileinfo.so`) with numerous type-specific workarounds, extra magic parsing, and extensive type alias cross-referencing.
