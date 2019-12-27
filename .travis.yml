@@ -17,4 +17,4 @@ php:
 
 install: travis_retry composer install --no-interaction
 before_script: composer require phpunit/phpunit
-script: lib/vendor/bin/phpunit --configuration phpunit.xml.dist
+script: lib/vendor/bin/phpunit --configuration phpunit.xml
