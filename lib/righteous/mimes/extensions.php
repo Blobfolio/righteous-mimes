@@ -57,10 +57,8 @@ final class Extensions {
 				$out[] = 'text/plain';
 			}
 			if (MIMEs::GROUP_XML & $groups) {
-				$out = \array_merge(
-					$out,
-					\array_keys(Data\Extensions::TYPES['xml'])
-				);
+				$out[] = 'application/xml';
+				$out[] = 'text/xml';
 			}
 			if (MIMEs::GROUP_ZIP & $groups) {
 				$out[] = 'application/zip';
