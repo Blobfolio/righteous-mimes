@@ -168,6 +168,7 @@ final class MIMEs {
 	const SOURCE_IANA = 32;
 	const SOURCE_NGINX = 64;
 	const SOURCE_TIKA = 128;
+	const SOURCE_WORDPRESS = 256;
 
 	/**
 	 * All Sources
@@ -177,7 +178,8 @@ final class MIMEs {
 		MIMEs::SOURCE_FREEDESKTOP |
 		MIMEs::SOURCE_IANA |
 		MIMEs::SOURCE_NGINX |
-		MIMEs::SOURCE_TIKA;
+		MIMEs::SOURCE_TIKA |
+		MIMEs::SOURCE_WORDPRESS;
 
 
 
@@ -247,6 +249,9 @@ final class MIMEs {
 			++$score;
 		}
 		if (self::SOURCE_TIKA & $source) {
+			++$score;
+		}
+		if (self::SOURCE_WORDPRESS & $source) {
 			++$score;
 		}
 

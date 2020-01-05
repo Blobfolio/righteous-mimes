@@ -57,6 +57,15 @@
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  */
 
+/**
+ * Data Source: WordPress
+ *
+ * @see {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
+ *
+ * @copyright 2020 Automattic
+ * @license https://wordpress.org/about/license/ GPLv2
+ */
+
 namespace Righteous\MIMEs\Data;
 
 final class Aliases {
@@ -279,6 +288,7 @@ final class Aliases {
 		'application/pskc+xml'=>'application/pskc+xml',
 		'application/ram'=>'audio/x-pn-realaudio',
 		'application/raml+yaml'=>'application/raml+yaml',
+		'application/rar'=>'application/vnd.rar',
 		'application/rdf+xml'=>'application/rdf+xml',
 		'application/reginfo+xml'=>'application/reginfo+xml',
 		'application/relax-ng-compact-syntax'=>'application/relax-ng-compact-syntax',
@@ -345,6 +355,7 @@ final class Aliases {
 		'application/thraud+xml'=>'application/thraud+xml',
 		'application/timestamped-data'=>'application/timestamped-data',
 		'application/trig'=>'application/trig',
+		'application/ttaf+xml'=>'application/ttaf+xml',
 		'application/ttml+xml'=>'application/ttml+xml',
 		'application/urc-ressheet+xml'=>'application/urc-ressheet+xml',
 		'application/vnd.1000minds.decision-model+xml'=>'application/vnd.1000minds.decision-model+xml',
@@ -729,6 +740,7 @@ final class Aliases {
 		'application/vnd.ms-word.template.macroenabled.12'=>'application/vnd.ms-word.template.macroenabled.12',
 		'application/vnd.ms-works'=>'application/vnd.ms-works',
 		'application/vnd.ms-wpl'=>'application/vnd.ms-wpl',
+		'application/vnd.ms-write'=>'application/x-mswrite',
 		'application/vnd.ms-xpsdocument'=>'application/vnd.ms-xpsdocument',
 		'application/vnd.msa-disk-image'=>'application/vnd.msa-disk-image',
 		'application/vnd.msaccess'=>'application/x-msaccess',
@@ -1199,7 +1211,7 @@ final class Aliases {
 		'application/x-gtar'=>'application/x-gtar',
 		'application/x-gtk-builder'=>'application/x-designer',
 		'application/x-gunzip'=>'application/gzip',
-		'application/x-gzip'=>'application/gzip',
+		'application/x-gzip'=>'application/x-gzip',
 		'application/x-gzip-compressed'=>'application/gzip',
 		'application/x-hdf'=>'application/x-hdf',
 		'application/x-hfe-file'=>'application/x-hfe-floppy-image',
@@ -2094,8 +2106,7 @@ final class Aliases {
 		'video/3gpp-encrypted'=>'video/3gpp',
 		'video/3gpp2'=>'video/3gpp2',
 		'video/annodex'=>'video/annodex',
-		'video/avi'=>'video/x-msvideo',
-		'video/divx'=>'video/x-msvideo',
+		'video/divx'=>'video/divx',
 		'video/dv'=>'video/dv',
 		'video/flv'=>'video/x-flv',
 		'video/h261'=>'video/h261',
@@ -2108,7 +2119,6 @@ final class Aliases {
 		'video/mp2t'=>'video/mp2t',
 		'video/mp4'=>'video/mp4',
 		'video/mpeg'=>'video/mpeg',
-		'video/msvideo'=>'video/x-msvideo',
 		'video/ogg'=>'video/ogg',
 		'video/quicktime'=>'video/quicktime',
 		'video/vivo'=>'video/vnd.vivo',
@@ -2118,7 +2128,6 @@ final class Aliases {
 		'video/vnd.dece.pd'=>'video/vnd.dece.pd',
 		'video/vnd.dece.sd'=>'video/vnd.dece.sd',
 		'video/vnd.dece.video'=>'video/vnd.dece.video',
-		'video/vnd.divx'=>'video/x-msvideo',
 		'video/vnd.dvb.file'=>'video/vnd.dvb.file',
 		'video/vnd.fvt'=>'video/vnd.fvt',
 		'video/vnd.hns.video'=>'audio/vnd.hns.audio',
@@ -2136,7 +2145,6 @@ final class Aliases {
 		'video/vnd.youtube.yt'=>'video/vnd.youtube.yt',
 		'video/webm'=>'video/webm',
 		'video/x-annodex'=>'video/annodex',
-		'video/x-avi'=>'video/x-msvideo',
 		'video/x-dirac'=>'video/x-dirac',
 		'video/x-f4v'=>'video/x-f4v',
 		'video/x-flc'=>'video/x-flic',

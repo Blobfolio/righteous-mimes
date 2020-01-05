@@ -57,6 +57,15 @@
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  */
 
+/**
+ * Data Source: WordPress
+ *
+ * @see {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
+ *
+ * @copyright 2020 Automattic
+ * @license https://wordpress.org/about/license/ GPLv2
+ */
+
 namespace Righteous\MIMEs\Data;
 
 final class Aliases {

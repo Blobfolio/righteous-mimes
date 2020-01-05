@@ -353,6 +353,7 @@ The following source constants are defined in the `Righteous\MIMEs` class:
 | `SOURCE_IANA` | IANA. | [Misc](https://www.rfc-editor.org/copyright/) | [Data](https://www.iana.org/assignments/media-types) |
 | `SOURCE_NGINX` | Nginx. | [BSD-2](https://opensource.org/licenses/BSD-2-Clause) | [Data](http://hg.nginx.org/nginx/raw-file/default/conf/mime.types) |
 | `SOURCE_TIKA` | Apache "Tika". | [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) | [Data](https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml) |
+| `SOURCE_WORDPRESS` | WordPress | [GPLv2](https://wordpress.org/about/license/) | [Data](https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php) |
 
 **Parameters**
 

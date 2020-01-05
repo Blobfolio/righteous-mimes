@@ -54,6 +54,7 @@ require __DIR__ . '/source/freedesktop.php';
 require __DIR__ . '/source/iana.php';
 require __DIR__ . '/source/nginx.php';
 require __DIR__ . '/source/tika.php';
+require __DIR__ . '/source/wordpress.php';
 
 // Early parsed data.
 $data = array();
@@ -156,6 +157,10 @@ collect_data(
 collect_data(
 	'Righteous\\Build\\Source\\Tika',
 	TMP_DIR . '/tika.xml'
+);
+collect_data(
+	'Righteous\\Build\\Source\\WordPress',
+	TMP_DIR . '/wp.php'
 );
 
 // Now that we have all the data separated by source, let's merge them.

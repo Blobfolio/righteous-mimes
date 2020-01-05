@@ -58,6 +58,9 @@ docker_sig   := "/opt/righteous"
 	just _info "Fetching Tika data."
 	wget -q -O "/tmp/raw-mimes/tika.xml" https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml
 
+	just _info "Fetching WordPress data."
+	wget -q -O "/tmp/raw-mimes/wp.php" https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php
+
 	# Crunch it!
 	php "{{ skel_dir }}/build/build.php"
 
