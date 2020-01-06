@@ -12,10 +12,9 @@ branches:
     - master
 
 php:
-  - 7.2
   - 7.3
   - 7.4
 
-install: travis_retry composer install --ignore-platform-reqs --no-interaction
-before_script: composer require phpunit/phpunit:8.5.1 --ignore-platform-reqs
+install: travis_retry composer install --no-interaction
+before_script: composer require phpunit/phpunit
 script: lib/vendor/bin/phpunit --configuration phpunit.xml
