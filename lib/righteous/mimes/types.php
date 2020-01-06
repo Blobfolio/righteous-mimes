@@ -90,17 +90,16 @@ final class Types {
 	 * @return ?array Extensions.
 	 */
 	public static function extensions(string $type) : ?array {
-		if (
-			null !== ($type = Sanitize::type($type,
-				MIMEs::FILTER_NO_DEFAULT |
-				MIMEs::FILTER_NO_EMPTY |
-				MIMEs::FILTER_NO_UNKNOWN |
-				MIMEs::FILTER_UPDATE_ALIAS
-			)) &&
-			isset(Data\Types::TYPES[$type])
-		) {
-			return Data\Types::TYPES[$type];
+		if (null === ($type = Sanitize::type($type,
+			MIMEs::FILTER_NO_DEFAULT |
+			MIMEs::FILTER_NO_EMPTY |
+			MIMEs::FILTER_NO_UNKNOWN |
+			MIMEs::FILTER_UPDATE_ALIAS
+		))) {
+			return null;
 		}
+
+		return Data\Types::TYPES[$type] ?? null;
 	}
 
 	/**
