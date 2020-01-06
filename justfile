@@ -45,6 +45,9 @@ docker_sig   := "/opt/righteous"
 	just _info "Fetching Apache data."
 	wget -q -O "/tmp/raw-mimes/apache.txt" https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types
 
+	just _info "Fetching Drupal data."
+	wget -q -O "/tmp/raw-mimes/drupal.php" https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php
+
 	just _info "Fetching FreeDesktop.org data."
 	wget -q -O "/tmp/raw-mimes/freedesktop.xml" https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in
 

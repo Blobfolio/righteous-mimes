@@ -15,6 +15,6 @@ php:
   - 7.3
   - 7.4
 
-install: travis_retry composer install --no-interaction
+install: travis_retry composer install --ignore-platform-reqs --no-interaction
 before_script: composer require phpunit/phpunit
 script: lib/vendor/bin/phpunit --configuration phpunit.xml

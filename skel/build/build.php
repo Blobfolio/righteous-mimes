@@ -50,6 +50,7 @@ require LIB_DIR . '/vendor/autoload.php';
 require __DIR__ . '/source.php';
 require __DIR__ . '/source/apache.php';
 require __DIR__ . '/source/blobfolio.php';
+require __DIR__ . '/source/drupal.php';
 require __DIR__ . '/source/freedesktop.php';
 require __DIR__ . '/source/iana.php';
 require __DIR__ . '/source/nginx.php';
@@ -159,6 +160,10 @@ collect_data(
 	TMP_DIR . '/tika.xml'
 );
 collect_data(
+	'Righteous\\Build\\Source\\Drupal',
+	TMP_DIR . '/drupal.php'
+);
+collect_data(
 	'Righteous\\Build\\Source\\WordPress',
 	TMP_DIR . '/wp.php'
 );
@@ -257,9 +262,7 @@ foreach ($out_extensions as $k=>$v) {
 			$authority = 999;
 
 			// Treat it like ours since it kinda is.
-			if (! $certain) {
-				$v2 |= MIMEs::SOURCE_BLOBFOLIO;
-			}
+			$v2 |= MIMEs::SOURCE_BLOBFOLIO;
 		}
 		// Otherwise we calculate it from the source(s) present.
 		else {

@@ -169,6 +169,7 @@ final class MIMEs {
 	const SOURCE_NGINX = 64;
 	const SOURCE_TIKA = 128;
 	const SOURCE_WORDPRESS = 256;
+	const SOURCE_DRUPAL = 512;
 
 	/**
 	 * All Sources
@@ -179,7 +180,8 @@ final class MIMEs {
 		MIMEs::SOURCE_IANA |
 		MIMEs::SOURCE_NGINX |
 		MIMEs::SOURCE_TIKA |
-		MIMEs::SOURCE_WORDPRESS;
+		MIMEs::SOURCE_WORDPRESS |
+		MIMEs::SOURCE_DRUPAL;
 
 
 
@@ -238,7 +240,15 @@ final class MIMEs {
 			return $score;
 		}
 
-		// Start with the little guys.
+		// CMSes.
+		if (self::SOURCE_DRUPAL & $source) {
+			++$score;
+		}
+		if (self::SOURCE_WORDPRESS & $source) {
+			++$score;
+		}
+
+		// Servers.
 		if (self::SOURCE_APACHE & $source) {
 			++$score;
 		}
@@ -251,11 +261,8 @@ final class MIMEs {
 		if (self::SOURCE_TIKA & $source) {
 			++$score;
 		}
-		if (self::SOURCE_WORDPRESS & $source) {
-			++$score;
-		}
 
-		// Now the weighted guys.
+		// Independnet authorities.
 		$shared = (bool) (self::SOURCE_SHARED & $source);
 		if (self::SOURCE_IANA & $source) {
 			$score += $shared ? 1 : 10;

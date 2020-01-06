@@ -349,6 +349,7 @@ The following source constants are defined in the `Righteous\MIMEs` class:
 | `SOURCE_ALIAS` | This indicates an association should only be used for cross-referencing purposes (because it is an alias). | | |
 | `SOURCE_APACHE` | Apache. | [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) | [Data](https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types) |
 | `SOURCE_BLOBFOLIO` | Our own data! | [WTFPL](http://www.wtfpl.net/) | |
+| `SOURCE_DRUPAL` | Drupal | [GPL](https://www.drupal.org/about/licensing) | [Data](https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php) |
 | `SOURCE_FREEDESKTOP` | FreeDesktop.org. | [MIT](https://opensource.org/licenses/MIT) | [Data](https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in) |
 | `SOURCE_IANA` | IANA. | [Misc](https://www.rfc-editor.org/copyright/) | [Data](https://www.iana.org/assignments/media-types) |
 | `SOURCE_NGINX` | Nginx. | [BSD-2](https://opensource.org/licenses/BSD-2-Clause) | [Data](http://hg.nginx.org/nginx/raw-file/default/conf/mime.types) |

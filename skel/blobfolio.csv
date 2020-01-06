@@ -6,6 +6,7 @@ jpf,image/jpx,0
 jpx,image/jpx,0
 jp2,image/jpx,0
 ivf,video/x-ivf,0
+mov,video/quicktime,0
 ttf,application/font-sfnt,1
 svgz,application/gzip,1
 ai,application/pdf,1

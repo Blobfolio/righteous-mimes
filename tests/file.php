@@ -473,7 +473,7 @@ class file_tests extends \PHPUnit\Framework\TestCase {
 			'file'=>file_tests::ASSET_DIR . '/video.mp4',
 			'ext'=>'mp4',
 			'type'=>'video/mp4',
-			'naked_ext'=>'mp4',
+			'naked_ext'=>'m4v',
 			'naked_type'=>'video/mp4',
 		),
 
@@ -481,7 +481,7 @@ class file_tests extends \PHPUnit\Framework\TestCase {
 			'file'=>file_tests::ASSET_DIR . '/video-av1.mp4',
 			'ext'=>'mp4',
 			'type'=>'video/mp4',
-			'naked_ext'=>'mp4',
+			'naked_ext'=>'m4v',
 			'naked_type'=>'video/mp4',
 		),
 

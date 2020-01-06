@@ -23,6 +23,15 @@
  */
 
 /**
+ * Data Source: Drupal
+ *
+ * @see {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
+ *
+ * @copyright 2020 Drupal.
+ * @license https://www.drupal.org/about/licensing GPL
+ */
+
+/**
  * Data Source: Freedesktop.org
  *
  * @see {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
