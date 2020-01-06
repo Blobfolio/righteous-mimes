@@ -10,6 +10,10 @@
  *
  * @package blobfolio/righteous-mimes
  * @author	Blobfolio, LLC <hello@blobfolio.com>
+ */
+
+/**
+ * Data Sources.
  *
  * @sources
  */

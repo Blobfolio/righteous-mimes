@@ -11,6 +11,10 @@
  *
  * @package blobfolio/righteous-mimes
  * @author	Blobfolio, LLC <hello@blobfolio.com>
+ */
+
+/**
+ * Data Sources.
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
