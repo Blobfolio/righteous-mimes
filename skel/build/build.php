@@ -360,16 +360,18 @@ foreach ($out_primaries as $p) {
 foreach ($out_extensions as $ext=>$types) {
 	foreach ($types as $type=>$info) {
 		// Let's start with the reverse list.
-		if (! isset($out_types[$type])) {
-			$out_types[$type] = array();
-		}
+		if (\in_array($type, $out_primaries, true)) {
+			if (! isset($out_types[$type])) {
+				$out_types[$type] = array();
+			}
 
-		if (! isset($out_types[$type][$ext])) {
-			$out_types[$type][$ext] = $info;
-			$out_types[$type][$ext]['extension'] = $ext;
-		}
-		else {
-			$out_types[$type][$ext]['source'] |= $info['source'];
+			if (! isset($out_types[$type][$ext])) {
+				$out_types[$type][$ext] = $info;
+				$out_types[$type][$ext]['extension'] = $ext;
+			}
+			else {
+				$out_types[$type][$ext]['source'] |= $info['source'];
+			}
 		}
 
 		// Now checkout derived fits.

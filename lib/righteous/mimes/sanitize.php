@@ -159,7 +159,10 @@ final class Sanitize {
 		if (MIMEs::FILTER_NO_UNKNOWN & $flags) {
 			if (null !== ($types = Types::ambiguate($type))) {
 				foreach ($types as $v) {
-					if (isset(Data\Types::TYPES[$v])) {
+					if (
+						isset(Data\Types::TYPES[$v]) ||
+						isset(Data\Aliases::ALIASES[$v])
+					) {
 						return (MIMEs::FILTER_UPDATE_ALIAS & $flags) ? $v : $type;
 					}
 				}

@@ -90,18 +90,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/acad'=>array(
-			'dwg'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/acrobat'=>array(
-			'pdf'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/aml'=>array(
 			'aml'=>array(
 				'authority'=>36,
@@ -144,12 +132,6 @@ final class Types {
 			'atfx'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/atom'=>array(
-			'atom'=>array(
-				'authority'=>36,
-				'source'=>512,
 			),
 		),
 		'application/atom+xml'=>array(
@@ -212,32 +194,10 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/autocaddwg'=>array(
-			'dwg'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/bacnet-xdd+zip'=>array(
 			'xdd'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/bat'=>array(
-			'bat'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'cmd'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/binhex'=>array(
-			'hqx'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'application/bizagi-modeler'=>array(
@@ -246,30 +206,10 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'application/bzip2'=>array(
-			'bz2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'bz'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/calendar+xml'=>array(
 			'xcs'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/cap'=>array(
-			'cap'=>array(
-				'authority'=>1,
-				'source'=>512,
-			),
-			'pcap'=>array(
-				'authority'=>1,
-				'source'=>512,
 			),
 		),
 		'application/cbor'=>array(
@@ -348,18 +288,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/cea-2018+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/clue+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/clueinfo+xml'=>array(
 			'clue'=>array(
 				'authority'=>36,
@@ -370,36 +298,6 @@ final class Types {
 			'cmsc'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/conference-info+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/coreldraw'=>array(
-			'cdr'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
-		'application/cose'=>array(
-			'cbor'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/cose-key'=>array(
-			'cbor'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/cose-key-set'=>array(
-			'cbor'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/cpl+xml'=>array(
@@ -416,12 +314,6 @@ final class Types {
 			'csrattrs'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/csvm+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/cu-seeme'=>array(
@@ -448,28 +340,10 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/dbase'=>array(
-			'dbf'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/dbf'=>array(
-			'dbf'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/dcd'=>array(
 			'dcd'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/dialog-info+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/dicom'=>array(
@@ -480,18 +354,6 @@ final class Types {
 			'dicomdir'=>array(
 				'authority'=>21,
 				'source'=>24,
-			),
-		),
-		'application/dicom+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/dicom+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/dif+xml'=>array(
@@ -510,20 +372,6 @@ final class Types {
 			'dit'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/dita+xml'=>array(
-			'dita'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'ditamap'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'ditaval'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'application/dita+xmlformatmap'=>array(
@@ -584,12 +432,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/dwg'=>array(
-			'dwg'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/ecmascript'=>array(
 			'es'=>array(
 				'authority'=>36,
@@ -612,54 +454,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/emergencycalldata.comment+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/emergencycalldata.control+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/emergencycalldata.deviceinfo+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/emergencycalldata.providerinfo+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/emergencycalldata.serviceinfo+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/emergencycalldata.subscriberinfo+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/emergencycalldata.veds+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/emf'=>array(
-			'emf'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/emma+xml'=>array(
 			'emma'=>array(
 				'authority'=>36,
@@ -670,18 +464,6 @@ final class Types {
 			'emotionml'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/envi.hdr'=>array(
-			'hdr'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/epp+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/epub+zip'=>array(
@@ -720,32 +502,10 @@ final class Types {
 				'source'=>160,
 			),
 		),
-		'application/font-sfnt'=>array(
-			'ttf'=>array(
-				'authority'=>36,
-				'source'=>9,
-			),
-		),
 		'application/font-tdpfr'=>array(
 			'pfr'=>array(
 				'authority'=>36,
 				'source'=>164,
-			),
-		),
-		'application/font-woff'=>array(
-			'woff'=>array(
-				'authority'=>36,
-				'source'=>48,
-			),
-		),
-		'application/futuresplash'=>array(
-			'spl'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'swf'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'application/geo+json'=>array(
@@ -778,22 +538,10 @@ final class Types {
 				'source'=>32,
 			),
 		),
-		'application/gml+xml'=>array(
-			'gml'=>array(
-				'authority'=>36,
-				'source'=>20,
-			),
-		),
 		'application/gnunet-directory'=>array(
 			'gnd'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'application/gpx'=>array(
-			'gpx'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/gpx+xml'=>array(
@@ -830,26 +578,6 @@ final class Types {
 				'source'=>25,
 			),
 		),
-		'application/gzip-compressed'=>array(
-			'tgz'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'gz'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/gzipped'=>array(
-			'tgz'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'gz'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
 		'application/held+xml'=>array(
 			'heldxml'=>array(
 				'authority'=>36,
@@ -866,28 +594,6 @@ final class Types {
 			'stk'=>array(
 				'authority'=>36,
 				'source'=>140,
-			),
-		),
-		'application/ico'=>array(
-			'ico'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/ics'=>array(
-			'ics'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vcs'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/illustrator'=>array(
-			'ai'=>array(
-				'authority'=>36,
-				'source'=>144,
 			),
 		),
 		'application/inkml+xml'=>array(
@@ -912,12 +618,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/java'=>array(
-			'class'=>array(
-				'authority'=>36,
-				'source'=>272,
-			),
-		),
 		'application/java-archive'=>array(
 			'jar'=>array(
 				'authority'=>5,
@@ -936,22 +636,10 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'application/java-byte-code'=>array(
-			'class'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/java-serialized-object'=>array(
 			'ser'=>array(
 				'authority'=>36,
 				'source'=>652,
-			),
-		),
-		'application/java-vm'=>array(
-			'class'=>array(
-				'authority'=>36,
-				'source'=>660,
 			),
 		),
 		'application/javascript'=>array(
@@ -970,12 +658,6 @@ final class Types {
 			'mjs'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'application/jf2feed+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/jrd+json'=>array(
@@ -1034,12 +716,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/load-control+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/lost+xml'=>array(
 			'lostxml'=>array(
 				'authority'=>36,
@@ -1052,64 +728,16 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/lotus123'=>array(
-			'wk1'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wk3'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wk4'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wks'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/lxf'=>array(
 			'lxf'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
 		),
-		'application/m3u'=>array(
-			'm3u'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vlc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'm3u8'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/mac-binhex'=>array(
-			'hqx'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/mac-binhex40'=>array(
 			'hqx'=>array(
 				'authority'=>36,
 				'source'=>708,
-			),
-		),
-		'application/mac-compactpro'=>array(
-			'cpt'=>array(
-				'authority'=>36,
-				'source'=>132,
 			),
 		),
 		'application/mads+xml'=>array(
@@ -1154,22 +782,10 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/matlab-mat'=>array(
-			'mat'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/mbox'=>array(
 			'mbox'=>array(
 				'authority'=>36,
 				'source'=>148,
-			),
-		),
-		'application/mdb'=>array(
-			'mdb'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/media-policy-dataset+xml'=>array(
@@ -1212,12 +828,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/mipc'=>array(
-			'h5'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/mmt-aei+xml'=>array(
 			'maei'=>array(
 				'authority'=>36,
@@ -1252,74 +862,6 @@ final class Types {
 				'source'=>132,
 			),
 		),
-		'application/mrb-consumer+xml'=>array(
-			'xdf'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/mrb-publish+xml'=>array(
-			'xdf'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/ms-tnef'=>array(
-			'tnf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'tnef'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/msaccess'=>array(
-			'mdb'=>array(
-				'authority'=>36,
-				'source'=>528,
-			),
-		),
-		'application/msexcel'=>array(
-			'xla'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'xlc'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'xld'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'xll'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'xlm'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'xls'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'xlt'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'xlw'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-		),
-		'application/msonenote'=>array(
-			'onetmp'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/mspowerpoint'=>array(
 			'pot'=>array(
 				'authority'=>2,
@@ -1352,28 +894,10 @@ final class Types {
 				'source'=>660,
 			),
 		),
-		'application/msword-template'=>array(
-			'dot'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/mxf'=>array(
 			'mxf'=>array(
 				'authority'=>36,
 				'source'=>188,
-			),
-		),
-		'application/nappdf'=>array(
-			'pdf'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/node'=>array(
-			'js'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/ocsp-request'=>array(
@@ -1496,12 +1020,6 @@ final class Types {
 				'source'=>668,
 			),
 		),
-		'application/odm+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/odx'=>array(
 			'odx'=>array(
 				'authority'=>36,
@@ -1570,22 +1088,6 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'application/onenoteformatonetoc2'=>array(
-			'onetoc'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'onetoc2'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/onenoteformatpackage'=>array(
-			'onepkg'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/owl+xml'=>array(
 			'owx'=>array(
 				'authority'=>36,
@@ -1614,20 +1116,6 @@ final class Types {
 				'source'=>164,
 			),
 		),
-		'application/pcap'=>array(
-			'cap'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'dmp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pcap'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/pdf'=>array(
 			'pdf'=>array(
 				'authority'=>36,
@@ -1652,20 +1140,6 @@ final class Types {
 			'pem'=>array(
 				'authority'=>36,
 				'source'=>32,
-			),
-		),
-		'application/pgp'=>array(
-			'pgp'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'asc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'gpg'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'application/pgp-encrypted'=>array(
@@ -1726,22 +1200,10 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/photoshop'=>array(
-			'psd'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
 		'application/pics-rules'=>array(
 			'prf'=>array(
 				'authority'=>36,
 				'source'=>652,
-			),
-		),
-		'application/pidf-diff+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/pkcs10'=>array(
@@ -1818,12 +1280,6 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'application/pls'=>array(
-			'pls'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/pls+xml'=>array(
 			'vxm'=>array(
 				'authority'=>10,
@@ -1864,24 +1320,6 @@ final class Types {
 				'source'=>16,
 			),
 			'pfb'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/powerpoint'=>array(
-			'pot'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pps'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ppt'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ppz'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -1940,48 +1378,10 @@ final class Types {
 				'source'=>44,
 			),
 		),
-		'application/quicktime'=>array(
-			'm4a'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'm4b'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'mov'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'mp4a'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'mp4s'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'qt'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/ram'=>array(
-			'ram'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/raml+yaml'=>array(
 			'raml'=>array(
 				'authority'=>36,
 				'source'=>16,
-			),
-		),
-		'application/rar'=>array(
-			'rar'=>array(
-				'authority'=>36,
-				'source'=>768,
 			),
 		),
 		'application/rdf+xml'=>array(
@@ -2028,12 +1428,6 @@ final class Types {
 			'rld'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'application/rfc+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/rls-services+xml'=>array(
@@ -2338,12 +1732,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/stuffit'=>array(
-			'sit'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/swid+xml'=>array(
 			'swidtag'=>array(
 				'authority'=>36,
@@ -2486,12 +1874,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.3gpp.sms'=>array(
-			'sms'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.3gpp2.sms'=>array(
 			'sms'=>array(
 				'authority'=>36,
@@ -2544,12 +1926,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.adobe.aftereffects.project'=>array(
-			'aep'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/vnd.adobe.aftereffects.template'=>array(
 			'aet'=>array(
 				'authority'=>36,
@@ -2560,16 +1936,6 @@ final class Types {
 			'air'=>array(
 				'authority'=>36,
 				'source'=>140,
-			),
-		),
-		'application/vnd.adobe.flash.movie'=>array(
-			'spl'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'swf'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'application/vnd.adobe.formscentral.fcdt'=>array(
@@ -2586,12 +1952,6 @@ final class Types {
 			'fxpl'=>array(
 				'authority'=>31,
 				'source'=>44,
-			),
-		),
-		'application/vnd.adobe.illustrator'=>array(
-			'ai'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/vnd.adobe.xdp+xml'=>array(
@@ -2654,12 +2014,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.amadeus+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.amazon.ebook'=>array(
 			'azw'=>array(
 				'authority'=>36,
@@ -2686,12 +2040,6 @@ final class Types {
 			'ami'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'application/vnd.amundsen.maze+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.android.ota'=>array(
@@ -2730,24 +2078,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.api+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.aplextor.warrp+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.appimage'=>array(
-			'appimage'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/vnd.apple.installer+xml'=>array(
 			'mpkg'=>array(
 				'authority'=>22,
@@ -2764,20 +2094,6 @@ final class Types {
 			'distz'=>array(
 				'authority'=>10,
 				'source'=>32,
-			),
-		),
-		'application/vnd.apple.iwork'=>array(
-			'key'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'numbers'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'pages'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'application/vnd.apple.keynote'=>array(
@@ -2812,12 +2128,6 @@ final class Types {
 				'source'=>416,
 			),
 		),
-		'application/vnd.arastra.swi'=>array(
-			'swi'=>array(
-				'authority'=>36,
-				'source'=>160,
-			),
-		),
 		'application/vnd.aristanetworks.swi'=>array(
 			'swi'=>array(
 				'authority'=>36,
@@ -2848,18 +2158,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.avalon+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.avistar+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.balsamiq.bmml+xml'=>array(
 			'bmml'=>array(
 				'authority'=>36,
@@ -2876,12 +2174,6 @@ final class Types {
 			'ac2'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/vnd.bekitzur-stech+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.blueice.multipass'=>array(
@@ -2914,28 +2206,10 @@ final class Types {
 				'source'=>32,
 			),
 		),
-		'application/vnd.bpf3'=>array(
-			'bpf'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.businessobjects'=>array(
 			'rep'=>array(
 				'authority'=>36,
 				'source'=>164,
-			),
-		),
-		'application/vnd.byu.uapi+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.capasystems-pg+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.cendio.thinlinc.clientconf'=>array(
@@ -3062,24 +2336,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.collection+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.collection.doc+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.collection.next+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.comicbook+zip'=>array(
 			'cbz'=>array(
 				'authority'=>36,
@@ -3128,12 +2384,6 @@ final class Types {
 			'cdbcmsg'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'application/vnd.corel-draw'=>array(
-			'cdr'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/vnd.coreos.ignition+json'=>array(
@@ -3188,12 +2438,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.cryptii.pipe+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.crypto-shade-file'=>array(
 			'ssvc'=>array(
 				'authority'=>30,
@@ -3220,12 +2464,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.curl'=>array(
-			'curl'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.curl.car'=>array(
 			'car'=>array(
 				'authority'=>36,
@@ -3238,12 +2476,6 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'application/vnd.cyan.dean.root+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.dart'=>array(
 			'dart'=>array(
 				'authority'=>36,
@@ -3254,18 +2486,6 @@ final class Types {
 			'rdz'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'application/vnd.datapackage+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.dataresource+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.debian.binary-package'=>array(
@@ -3344,12 +2564,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.dolby.mlp'=>array(
-			'mlp'=>array(
-				'authority'=>36,
-				'source'=>132,
-			),
-		),
 		'application/vnd.doremir.scorecloud-binary-document'=>array(
 			'scld'=>array(
 				'authority'=>36,
@@ -3368,12 +2582,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.drive+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.ds-keypoint'=>array(
 			'kpxx'=>array(
 				'authority'=>36,
@@ -3386,12 +2594,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.dtg.local.html'=>array(
-			'html'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.dvb.ait'=>array(
 			'ait'=>array(
 				'authority'=>36,
@@ -3400,12 +2602,6 @@ final class Types {
 		),
 		'application/vnd.dvb.dvbj'=>array(
 			'class'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.dvb.pfr'=>array(
-			'pfr'=>array(
 				'authority'=>36,
 				'source'=>32,
 			),
@@ -3434,12 +2630,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.easykaraoke.cdgdownload'=>array(
-			'zip'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.ecowin.chart'=>array(
 			'mag'=>array(
 				'authority'=>36,
@@ -3456,12 +2646,6 @@ final class Types {
 			'nml'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'application/vnd.eprints.data+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.epson.esf'=>array(
@@ -3537,12 +2721,6 @@ final class Types {
 			),
 			'scs'=>array(
 				'authority'=>10,
-				'source'=>32,
-			),
-		),
-		'application/vnd.etsi.pstn+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
 				'source'=>32,
 			),
 		),
@@ -3798,16 +2976,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.geo+json'=>array(
-			'geojson'=>array(
-				'authority'=>11,
-				'source'=>48,
-			),
-			'json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-		),
 		'application/vnd.geocube+xml'=>array(
 			'g3'=>array(
 				'authority'=>36,
@@ -3854,12 +3022,6 @@ final class Types {
 				'source'=>44,
 			),
 		),
-		'application/vnd.gerber'=>array(
-			'gbr'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.gmx'=>array(
 			'gmx'=>array(
 				'authority'=>36,
@@ -3876,24 +3038,6 @@ final class Types {
 			'kmz'=>array(
 				'authority'=>36,
 				'source'=>756,
-			),
-		),
-		'application/vnd.gov.sk.e-form+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.gov.sk.e-form+zip'=>array(
-			'zip'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.gov.sk.xmldatacontainer+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.grafeq'=>array(
@@ -3948,24 +3092,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.haansoft-hwp'=>array(
-			'hwp'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/vnd.haansoft-hwt'=>array(
-			'hwt'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/vnd.hal+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.hal+xml'=>array(
 			'hal'=>array(
 				'authority'=>36,
@@ -3984,28 +3110,10 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'application/vnd.hc+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.hcl-bireports'=>array(
-			'rep'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.hdt'=>array(
 			'hdt'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/vnd.heroku+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.hhe.lesson-player'=>array(
@@ -4058,30 +3166,6 @@ final class Types {
 			'sfd-hdstx'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'application/vnd.hyper+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.hyper-item+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.hyperdrive+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.hzn-3d-crossword'=>array(
-			'x3d'=>array(
-				'authority'=>36,
-				'source'=>160,
 			),
 		),
 		'application/vnd.ibm.electronic-media'=>array(
@@ -4178,96 +3262,6 @@ final class Types {
 				'source'=>32,
 			),
 		),
-		'application/vnd.ims.imsccv1p3'=>array(
-			'imscc'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.ims.lis.v2.result+json'=>array(
-			'json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'jsonld'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-		),
-		'application/vnd.ims.lti.v2.toolconsumerprofile+json'=>array(
-			'json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'jsonld'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-		),
-		'application/vnd.ims.lti.v2.toolproxy+json'=>array(
-			'json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'jsonld'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-		),
-		'application/vnd.ims.lti.v2.toolproxy.id+json'=>array(
-			'json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'jsonld'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-		),
-		'application/vnd.ims.lti.v2.toolsettings+json'=>array(
-			'json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'jsonld'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-		),
-		'application/vnd.ims.lti.v2.toolsettings.simple+json'=>array(
-			'json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'jsonld'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-		),
-		'application/vnd.informedcontrol.rms+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.informix-visionary'=>array(
-			'vis'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.infotech.project'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.infotech.project+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.insors.igm'=>array(
 			'igm'=>array(
 				'authority'=>36,
@@ -4302,30 +3296,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.iptc.g2.catalogitem+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.iptc.g2.conceptitem+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.iptc.g2.knowledgeitem+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.iptc.g2.newsitem+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.iptc.g2.newsmessage+xml'=>array(
 			'xml'=>array(
 				'authority'=>10,
@@ -4334,18 +3304,6 @@ final class Types {
 			'nar'=>array(
 				'authority'=>1,
 				'source'=>128,
-			),
-		),
-		'application/vnd.iptc.g2.packageitem+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.iptc.g2.planningitem+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.ipunplugged.rcprofile'=>array(
@@ -4370,12 +3328,6 @@ final class Types {
 			'fcs'=>array(
 				'authority'=>36,
 				'source'=>44,
-			),
-		),
-		'application/vnd.iso11783-10+zip'=>array(
-			'zip'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.jam'=>array(
@@ -4418,12 +3370,6 @@ final class Types {
 				'source'=>132,
 			),
 		),
-		'application/vnd.kde.kchart'=>array(
-			'chrt'=>array(
-				'authority'=>36,
-				'source'=>132,
-			),
-		),
 		'application/vnd.kde.kformula'=>array(
 			'kfo'=>array(
 				'authority'=>36,
@@ -4439,32 +3385,6 @@ final class Types {
 		'application/vnd.kde.kontour'=>array(
 			'kon'=>array(
 				'authority'=>36,
-				'source'=>132,
-			),
-		),
-		'application/vnd.kde.kpresenter'=>array(
-			'kpr'=>array(
-				'authority'=>2,
-				'source'=>132,
-			),
-			'kpt'=>array(
-				'authority'=>2,
-				'source'=>132,
-			),
-		),
-		'application/vnd.kde.kspread'=>array(
-			'ksp'=>array(
-				'authority'=>36,
-				'source'=>132,
-			),
-		),
-		'application/vnd.kde.kword'=>array(
-			'kwd'=>array(
-				'authority'=>2,
-				'source'=>132,
-			),
-			'kwt'=>array(
-				'authority'=>2,
 				'source'=>132,
 			),
 		),
@@ -4542,12 +3462,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.leap+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.llamagraphics.life-balance.desktop'=>array(
 			'lbd'=>array(
 				'authority'=>36,
@@ -4600,34 +3514,6 @@ final class Types {
 			'wks'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'application/vnd.lotus-1-2-3version2'=>array(
-			'wk1'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'wk2'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/vnd.lotus-1-2-3version3'=>array(
-			'wk3'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/vnd.lotus-1-2-3version4'=>array(
-			'wk4'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/vnd.lotus-1-2-3version97+9.x'=>array(
-			array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'application/vnd.lotus-approach'=>array(
@@ -4692,12 +3578,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.mason+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.maxmind.maxmind-db'=>array(
 			'mmdb'=>array(
 				'authority'=>36,
@@ -4734,12 +3614,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.micro+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.micrografx.flo'=>array(
 			'flo'=>array(
 				'authority'=>36,
@@ -4750,18 +3624,6 @@ final class Types {
 			'igx'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'application/vnd.miele+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.mif'=>array(
-			'mif'=>array(
-				'authority'=>36,
-				'source'=>132,
 			),
 		),
 		'application/vnd.mindjet.mindmanager'=>array(
@@ -4850,12 +3712,6 @@ final class Types {
 				'source'=>132,
 			),
 		),
-		'application/vnd.mozilla.aul+xml'=>array(
-			'xul'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.mozilla.xul+xml'=>array(
 			'xul'=>array(
 				'authority'=>36,
@@ -4866,12 +3722,6 @@ final class Types {
 			'3mf'=>array(
 				'authority'=>36,
 				'source'=>1020,
-			),
-		),
-		'application/vnd.ms-access'=>array(
-			'mdb'=>array(
-				'authority'=>36,
-				'source'=>272,
 			),
 		),
 		'application/vnd.ms-artgalry'=>array(
@@ -5002,170 +3852,10 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'application/vnd.ms-office'=>array(
-			'doc'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'ppt'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlw'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlt'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xls'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlr'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlm'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xll'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xld'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlc'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlb'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xla'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'ppz'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xml'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'pot'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'dot'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'pps'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'ppa'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'ppsx'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'docx'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xltx'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xltm'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlsx'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlsm'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlsb'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'dotm'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'dotx'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'potm'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'pptm'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'potx'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'ppam'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlam'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'thmx'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'docm'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'sldm'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'ppsm'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'pptx'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'sldx'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-		),
 		'application/vnd.ms-officetheme'=>array(
 			'thmx'=>array(
 				'authority'=>36,
 				'source'=>36,
-			),
-		),
-		'application/vnd.ms-opentype'=>array(
-			'otf'=>array(
-				'authority'=>36,
-				'source'=>9,
 			),
 		),
 		'application/vnd.ms-outlook'=>array(
@@ -5188,12 +3878,6 @@ final class Types {
 			'cat'=>array(
 				'authority'=>36,
 				'source'=>652,
-			),
-		),
-		'application/vnd.ms-pki.stl'=>array(
-			'stl'=>array(
-				'authority'=>36,
-				'source'=>644,
 			),
 		),
 		'application/vnd.ms-powerpoint'=>array(
@@ -5258,12 +3942,6 @@ final class Types {
 				'source'=>388,
 			),
 		),
-		'application/vnd.ms-publisher'=>array(
-			'pub'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/vnd.ms-tnef'=>array(
 			'tnf'=>array(
 				'authority'=>1,
@@ -5272,36 +3950,6 @@ final class Types {
 			'tnef'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'application/vnd.ms-visio'=>array(
-			'vsd'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'vss'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'vst'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'vsw'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/vnd.ms-visio.drawing'=>array(
-			'vsdx'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/vnd.ms-visio.drawing.macroenabled.12'=>array(
-			'vsdm'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'application/vnd.ms-visio.drawing.macroenabled.main+xml'=>array(
@@ -5316,18 +3964,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/vnd.ms-visio.stencil'=>array(
-			'vssx'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/vnd.ms-visio.stencil.macroenabled.12'=>array(
-			'vssm'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/vnd.ms-visio.stencil.macroenabled.main+xml'=>array(
 			'vssm'=>array(
 				'authority'=>36,
@@ -5340,18 +3976,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/vnd.ms-visio.template'=>array(
-			'vstx'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/vnd.ms-visio.template.macroenabled.12'=>array(
-			'vstm'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/vnd.ms-visio.template.macroenabled.main+xml'=>array(
 			'vstm'=>array(
 				'authority'=>36,
@@ -5362,16 +3986,6 @@ final class Types {
 			'vstx'=>array(
 				'authority'=>36,
 				'source'=>16,
-			),
-		),
-		'application/vnd.ms-word'=>array(
-			'doc'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'dot'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'application/vnd.ms-word.document.macroenabled.12'=>array(
@@ -5414,12 +4028,6 @@ final class Types {
 				'source'=>156,
 			),
 		),
-		'application/vnd.ms-write'=>array(
-			'wri'=>array(
-				'authority'=>36,
-				'source'=>256,
-			),
-		),
 		'application/vnd.ms-xpsdocument'=>array(
 			'xps'=>array(
 				'authority'=>15,
@@ -5434,12 +4042,6 @@ final class Types {
 			'msa'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/vnd.msaccess'=>array(
-			'mdb'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/vnd.mseq'=>array(
@@ -5476,12 +4078,6 @@ final class Types {
 			'taglet'=>array(
 				'authority'=>36,
 				'source'=>44,
-			),
-		),
-		'application/vnd.nearst.inv+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.nervana'=>array(
@@ -5560,12 +4156,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.nokia.n-gage.ac+xml'=>array(
-			'ac'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.nokia.n-gage.data'=>array(
 			'ngdat'=>array(
 				'authority'=>36,
@@ -5606,22 +4196,6 @@ final class Types {
 			'ext'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'application/vnd.oasis.docbook+xml'=>array(
-			'dbk'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'docbook'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/vnd.oasis.opendocument.base'=>array(
-			'odb'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'application/vnd.oasis.opendocument.chart'=>array(
@@ -5758,12 +4332,6 @@ final class Types {
 				'source'=>692,
 			),
 		),
-		'application/vnd.oftn.l10n+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.olpc-sugar'=>array(
 			'xo'=>array(
 				'authority'=>36,
@@ -5846,96 +4414,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.openxmlformats-officedocument.custom-properties+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.customxmlproperties+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.drawing+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.drawingml.chart+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.drawingml.diagramcolors+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.drawingml.diagramdata+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.drawingml.diagramlayout+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.drawingml.diagramstyle+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.extended-properties+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.commentauthors+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.comments+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.handoutmaster+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.notesmaster+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.notesslide+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.openxmlformats-officedocument.presentationml.presentation'=>array(
 			'pptx'=>array(
 				'authority'=>15,
@@ -5950,18 +4428,6 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.presprops+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.openxmlformats-officedocument.presentationml.slide'=>array(
 			'sldx'=>array(
 				'authority'=>14,
@@ -5970,24 +4436,6 @@ final class Types {
 			'sldm'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.slide+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.slidelayout+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.slidemaster+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.openxmlformats-officedocument.presentationml.slideshow'=>array(
@@ -6000,30 +4448,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.slideupdateinfo+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.tablestyles+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.tags+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.openxmlformats-officedocument.presentationml.template'=>array(
 			'potx'=>array(
 				'authority'=>15,
@@ -6032,96 +4456,6 @@ final class Types {
 			'potm'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.template.main+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.presentationml.viewprops+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.calcchain+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.externallink+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcachedefinition+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcacherecords+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.pivottable+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.querytable+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.revisionheaders+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.revisionlog+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.sharedstrings+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'=>array(
@@ -6146,36 +4480,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.sheetmetadata+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.tablesinglecells+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.openxmlformats-officedocument.spreadsheetml.template'=>array(
 			'xltx'=>array(
 				'authority'=>15,
@@ -6184,48 +4488,6 @@ final class Types {
 			'xltm'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.usernames+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.volatiledependencies+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.theme+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.themeoverride+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.openxmlformats-officedocument.wordprocessingml.document'=>array(
@@ -6238,60 +4500,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.wordprocessingml.fonttable+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.openxmlformats-officedocument.wordprocessingml.template'=>array(
 			'dotx'=>array(
 				'authority'=>15,
@@ -6300,42 +4508,6 @@ final class Types {
 			'dotm'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-officedocument.wordprocessingml.websettings+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-package.core-properties+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.openxmlformats-package.relationships+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.oracle.resource+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.osa.netdeploy'=>array(
@@ -6460,36 +4632,6 @@ final class Types {
 				'source'=>164,
 			),
 		),
-		'application/vnd.powerbuilder6-s'=>array(
-			'pbd'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.powerbuilder7'=>array(
-			'pbd'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.powerbuilder7-s'=>array(
-			'pbd'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.powerbuilder75'=>array(
-			'pbd'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.powerbuilder75-s'=>array(
-			'pbd'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.preminet'=>array(
 			'preminet'=>array(
 				'authority'=>36,
@@ -6612,12 +4754,6 @@ final class Types {
 				'source'=>32,
 			),
 		),
-		'application/vnd.restful+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.rig.cryptonote'=>array(
 			'cryptonote'=>array(
 				'authority'=>36,
@@ -6688,12 +4824,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.rs-274x'=>array(
-			'gbr'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.sailingtracker.track'=>array(
 			'st'=>array(
 				'authority'=>36,
@@ -6720,12 +4850,6 @@ final class Types {
 			'scd'=>array(
 				'authority'=>10,
 				'source'=>32,
-			),
-		),
-		'application/vnd.sdp'=>array(
-			'sdp'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/vnd.sealed.3df'=>array(
@@ -6860,12 +4984,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.shade-save-file'=>array(
-			'ssv'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.shana.informed.formdata'=>array(
 			'ifm'=>array(
 				'authority'=>36,
@@ -6890,12 +5008,6 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'application/vnd.shootproof+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.sigrok.session'=>array(
 			'sr'=>array(
 				'authority'=>36,
@@ -6910,12 +5022,6 @@ final class Types {
 			'twds'=>array(
 				'authority'=>32,
 				'source'=>172,
-			),
-		),
-		'application/vnd.siren+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.smaf'=>array(
@@ -7082,12 +5188,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.sun.xml.base'=>array(
-			'odb'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/vnd.sun.xml.calc'=>array(
 			'sxc'=>array(
 				'authority'=>36,
@@ -7108,12 +5208,6 @@ final class Types {
 		),
 		'application/vnd.sun.xml.draw.template'=>array(
 			'std'=>array(
-				'authority'=>36,
-				'source'=>660,
-			),
-		),
-		'application/vnd.sun.xml.impress'=>array(
-			'sxi'=>array(
 				'authority'=>36,
 				'source'=>660,
 			),
@@ -7198,18 +5292,6 @@ final class Types {
 				'source'=>32,
 			),
 		),
-		'application/vnd.syncml.dmddf+xml'=>array(
-			'ddf'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.tableschema+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.tao.intent-module-archive'=>array(
 			'tao'=>array(
 				'authority'=>36,
@@ -7240,12 +5322,6 @@ final class Types {
 			'ppttc'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/vnd.tmd.mediaflex.api+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.tml'=>array(
@@ -7280,12 +5356,6 @@ final class Types {
 			'tra'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'application/vnd.ubisoft.webplayer'=>array(
-			'cab'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.ufdl'=>array(
@@ -7376,12 +5446,6 @@ final class Types {
 				'source'=>32,
 			),
 		),
-		'application/vnd.vel+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.veryant.thin'=>array(
 			'istc'=>array(
 				'authority'=>30,
@@ -7428,12 +5492,6 @@ final class Types {
 				'source'=>164,
 			),
 		),
-		'application/vnd.vividence.scriptfile'=>array(
-			'vsc'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.vsf'=>array(
 			'vsf'=>array(
 				'authority'=>36,
@@ -7470,22 +5528,10 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.wfa.wsc'=>array(
-			'wsc'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.wmc'=>array(
 			'wmc'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/vnd.wolfram.mathematica'=>array(
-			'nb'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.wolfram.player'=>array(
@@ -7550,26 +5596,10 @@ final class Types {
 				'source'=>32,
 			),
 		),
-		'application/vnd.xacml+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/vnd.xara'=>array(
 			'xar'=>array(
 				'authority'=>36,
 				'source'=>164,
-			),
-		),
-		'application/vnd.xdgapp'=>array(
-			'flatpak'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xdgapp'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'application/vnd.xfdl'=>array(
@@ -7593,12 +5623,6 @@ final class Types {
 			),
 		),
 		'application/vnd.xmpie.dpkg'=>array(
-			'dpkg'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/vnd.xmpie.plan'=>array(
 			'dpkg'=>array(
 				'authority'=>36,
 				'source'=>32,
@@ -7674,12 +5698,6 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'application/vnd.youtube.yt'=>array(
-			'yt'=>array(
-				'authority'=>36,
-				'source'=>48,
-			),
-		),
 		'application/vnd.zul'=>array(
 			'zir'=>array(
 				'authority'=>22,
@@ -7734,12 +5752,6 @@ final class Types {
 				'source'=>32,
 			),
 		),
-		'application/webpush-options+json'=>array(
-			'json'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/widget'=>array(
 			'wgt'=>array(
 				'authority'=>36,
@@ -7752,66 +5764,6 @@ final class Types {
 				'source'=>148,
 			),
 		),
-		'application/wk1'=>array(
-			'wk1'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wk3'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wk4'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wks'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/wmf'=>array(
-			'wmf'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/wordperfect'=>array(
-			'wpd'=>array(
-				'authority'=>3,
-				'source'=>784,
-			),
-			'wp'=>array(
-				'authority'=>2,
-				'source'=>272,
-			),
-			'wp4'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wp5'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wp6'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wpp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/wordperfect5.1'=>array(
-			'wp5'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
 		'application/wsdl+xml'=>array(
 			'wsdl'=>array(
 				'authority'=>36,
@@ -7822,12 +5774,6 @@ final class Types {
 			'wspolicy'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'application/wwf'=>array(
-			'wwf'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-123'=>array(
@@ -7880,18 +5826,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/x-acad'=>array(
-			'dwg'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-ace'=>array(
-			'ace'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-ace-compressed'=>array(
 			'ace'=>array(
 				'authority'=>36,
@@ -7928,12 +5862,6 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'application/x-annodex'=>array(
-			'anx'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-aportisdoc'=>array(
 			'pdb'=>array(
 				'authority'=>1,
@@ -7950,12 +5878,6 @@ final class Types {
 				'source'=>660,
 			),
 		),
-		'application/x-appleworks'=>array(
-			'cwk'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/x-appleworks-document'=>array(
 			'cwk'=>array(
 				'authority'=>36,
@@ -7964,12 +5886,6 @@ final class Types {
 		),
 		'application/x-applix-spreadsheet'=>array(
 			'as'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-applix-word'=>array(
-			'aw'=>array(
 				'authority'=>36,
 				'source'=>16,
 			),
@@ -7992,18 +5908,6 @@ final class Types {
 			'arj'=>array(
 				'authority'=>36,
 				'source'=>144,
-			),
-		),
-		'application/x-arj-compressed'=>array(
-			'arj'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-asp'=>array(
-			'asp'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-atari-2600-rom'=>array(
@@ -8052,12 +5956,6 @@ final class Types {
 			'aas'=>array(
 				'authority'=>36,
 				'source'=>140,
-			),
-		),
-		'application/x-autocad'=>array(
-			'dwg'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'application/x-awk'=>array(
@@ -8122,12 +6020,6 @@ final class Types {
 			'blorb'=>array(
 				'authority'=>21,
 				'source'=>12,
-			),
-		),
-		'application/x-bplist'=>array(
-			'webarchive'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'application/x-brotli'=>array(
@@ -8204,18 +6096,6 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'application/x-cab'=>array(
-			'cab'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
-		'application/x-cb7'=>array(
-			'cb7'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-cbr'=>array(
 			'cba'=>array(
 				'authority'=>21,
@@ -8238,18 +6118,6 @@ final class Types {
 				'source'=>4,
 			),
 		),
-		'application/x-cbt'=>array(
-			'cbt'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-cbz'=>array(
-			'cbz'=>array(
-				'authority'=>36,
-				'source'=>528,
-			),
-		),
 		'application/x-ccmx'=>array(
 			'ccmx'=>array(
 				'authority'=>36,
@@ -8266,22 +6134,10 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/x-cdf'=>array(
-			'cdf'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
 		'application/x-cdlink'=>array(
 			'vcd'=>array(
 				'authority'=>36,
 				'source'=>652,
-			),
-		),
-		'application/x-cdr'=>array(
-			'cdr'=>array(
-				'authority'=>36,
-				'source'=>144,
 			),
 		),
 		'application/x-cdrdao-toc'=>array(
@@ -8302,46 +6158,16 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'application/x-chess-pgn'=>array(
-			'pgn'=>array(
-				'authority'=>36,
-				'source'=>660,
-			),
-		),
-		'application/x-chm'=>array(
-			'chm'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-chrome-package'=>array(
 			'crx'=>array(
 				'authority'=>36,
 				'source'=>136,
 			),
 		),
-		'application/x-cisco-vpn-settings'=>array(
-			'pcf'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-cocoa'=>array(
 			'cco'=>array(
 				'authority'=>36,
 				'source'=>72,
-			),
-		),
-		'application/x-compress'=>array(
-			'taz'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-compressed-tar'=>array(
-			'tgz'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-conference'=>array(
@@ -8354,12 +6180,6 @@ final class Types {
 			'core'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'application/x-coreldraw'=>array(
-			'cdr'=>array(
-				'authority'=>36,
-				'source'=>144,
 			),
 		),
 		'application/x-corelpresentations'=>array(
@@ -8396,12 +6216,6 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'application/x-dbase'=>array(
-			'dbf'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-dbf'=>array(
 			'dbase'=>array(
 				'authority'=>21,
@@ -8420,26 +6234,6 @@ final class Types {
 			'dc'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'application/x-deb'=>array(
-			'deb'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'udeb'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/x-debian-package'=>array(
-			'deb'=>array(
-				'authority'=>4,
-				'source'=>660,
-			),
-			'udeb'=>array(
-				'authority'=>4,
-				'source'=>660,
 			),
 		),
 		'application/x-designer'=>array(
@@ -8524,12 +6318,6 @@ final class Types {
 				'source'=>132,
 			),
 		),
-		'application/x-dms'=>array(
-			'dms'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
 		'application/x-docbook+xml'=>array(
 			'dbk'=>array(
 				'authority'=>1,
@@ -8544,18 +6332,6 @@ final class Types {
 			'wad'=>array(
 				'authority'=>36,
 				'source'=>644,
-			),
-		),
-		'application/x-doom-wad'=>array(
-			'wad'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-dosexec'=>array(
-			'exe'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'application/x-dtbncx+xml'=>array(
@@ -8582,12 +6358,6 @@ final class Types {
 				'source'=>668,
 			),
 		),
-		'application/x-dwg'=>array(
-			'dwg'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/x-e-theme'=>array(
 			'etheme'=>array(
 				'authority'=>36,
@@ -8598,18 +6368,6 @@ final class Types {
 			'egon'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'application/x-elc'=>array(
-			'elc'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-emf'=>array(
-			'emf'=>array(
-				'authority'=>36,
-				'source'=>144,
 			),
 		),
 		'application/x-endnote-refer'=>array(
@@ -8640,84 +6398,10 @@ final class Types {
 				'source'=>12,
 			),
 		),
-		'application/x-executable'=>array(
-			'awk'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'lua'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pod'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pyx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'al'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'appimage'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'es'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'perl'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pl'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pm'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'py'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'rb'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'sh'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wsgi'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/x-fd-file'=>array(
-			'fd'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'qd'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/x-fds-disk'=>array(
 			'fds'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'application/x-fictionbook'=>array(
-			'fb2'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-fictionbook+xml'=>array(
@@ -8730,18 +6414,6 @@ final class Types {
 			'fp7'=>array(
 				'authority'=>36,
 				'source'=>136,
-			),
-		),
-		'application/x-flac'=>array(
-			'flac'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
-		'application/x-flash-video'=>array(
-			'flv'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-fluid'=>array(
@@ -8786,12 +6458,6 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'application/x-font-afm'=>array(
-			'afm'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-font-bdf'=>array(
 			'bdf'=>array(
 				'authority'=>36,
@@ -8810,44 +6476,16 @@ final class Types {
 				'source'=>148,
 			),
 		),
-		'application/x-font-otf'=>array(
-			'otf'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
 		'application/x-font-pcf'=>array(
 			'pcf'=>array(
 				'authority'=>36,
 				'source'=>148,
 			),
 		),
-		'application/x-font-printer-metric'=>array(
-			'pfm'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/x-font-snf'=>array(
 			'snf'=>array(
 				'authority'=>36,
 				'source'=>140,
-			),
-		),
-		'application/x-font-speedo'=>array(
-			'spd'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-font-ttf'=>array(
-			'ttf'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'ttc'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'application/x-font-ttx'=>array(
@@ -8878,26 +6516,10 @@ final class Types {
 				'source'=>4,
 			),
 		),
-		'application/x-frame'=>array(
-			'mif'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'fm'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/x-freearc'=>array(
 			'arc'=>array(
 				'authority'=>36,
 				'source'=>4,
-			),
-		),
-		'application/x-freemind'=>array(
-			'mm'=>array(
-				'authority'=>36,
-				'source'=>512,
 			),
 		),
 		'application/x-futuresplash'=>array(
@@ -8924,18 +6546,6 @@ final class Types {
 			'gb'=>array(
 				'authority'=>21,
 				'source'=>24,
-			),
-		),
-		'application/x-gamecube-iso-image'=>array(
-			'iso'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-gamecube-rom'=>array(
-			'iso'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-gamegear-rom'=>array(
@@ -8994,12 +6604,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/x-gettext'=>array(
-			'po'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-gettext-translation'=>array(
 			'gmo'=>array(
 				'authority'=>21,
@@ -9022,16 +6626,6 @@ final class Types {
 				'source'=>12,
 			),
 		),
-		'application/x-gnome-app-info'=>array(
-			'desktop'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'kdelnk'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/x-gnucash'=>array(
 			'gnucash'=>array(
 				'authority'=>22,
@@ -9052,12 +6646,6 @@ final class Types {
 				'source'=>660,
 			),
 		),
-		'application/x-gnumeric-spreadsheet'=>array(
-			'gnumeric'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/x-gnuplot'=>array(
 			'gnuplot'=>array(
 				'authority'=>1,
@@ -9076,18 +6664,6 @@ final class Types {
 			'sgf'=>array(
 				'authority'=>36,
 				'source'=>528,
-			),
-		),
-		'application/x-gpx'=>array(
-			'gpx'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-gpx+xml'=>array(
-			'gpx'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-gramps-xml'=>array(
@@ -9144,22 +6720,6 @@ final class Types {
 				'source'=>512,
 			),
 		),
-		'application/x-gtk-builder'=>array(
-			'ui'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-gunzip'=>array(
-			'tgz'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'gz'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
 		'application/x-gzip'=>array(
 			'gzip'=>array(
 				'authority'=>21,
@@ -9170,16 +6730,6 @@ final class Types {
 				'source'=>400,
 			),
 			'tgz'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/x-gzip-compressed'=>array(
-			'tgz'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'gz'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
@@ -9210,12 +6760,6 @@ final class Types {
 				'source'=>144,
 			),
 		),
-		'application/x-hfe-file'=>array(
-			'hfe'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-hfe-floppy-image'=>array(
 			'hfe'=>array(
 				'authority'=>36,
@@ -9226,12 +6770,6 @@ final class Types {
 			'rhtml'=>array(
 				'authority'=>36,
 				'source'=>520,
-			),
-		),
-		'application/x-httpd-jsp'=>array(
-			'jsp'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'application/x-httpd-php'=>array(
@@ -9248,28 +6786,10 @@ final class Types {
 				'source'=>512,
 			),
 		),
-		'application/x-httpd-php-source'=>array(
-			'phps'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
-		'application/x-httpd-php3'=>array(
-			'php3'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
 		'application/x-httpd-php3-preprocessed'=>array(
 			'php3p'=>array(
 				'authority'=>36,
 				'source'=>520,
-			),
-		),
-		'application/x-httpd-php4'=>array(
-			'php4'=>array(
-				'authority'=>36,
-				'source'=>512,
 			),
 		),
 		'application/x-hwp'=>array(
@@ -9286,54 +6806,6 @@ final class Types {
 		),
 		'application/x-ibooks+zip'=>array(
 			'ibooks'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-ica'=>array(
-			'ica'=>array(
-				'authority'=>36,
-				'source'=>528,
-			),
-		),
-		'application/x-iff'=>array(
-			'aif'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'iff'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'lbm'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'aifc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'aiff'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'aiffc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ilbm'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/x-install-instructions'=>array(
-			'install'=>array(
-				'authority'=>36,
-				'source'=>4,
-			),
-		),
-		'application/x-internet-archive'=>array(
-			'arc'=>array(
 				'authority'=>36,
 				'source'=>128,
 			),
@@ -9392,44 +6864,10 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'application/x-iwork-keynote-sffkey'=>array(
-			'key'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-jar'=>array(
-			'jar'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-java'=>array(
-			'class'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
-		'application/x-java-archive'=>array(
-			'apk'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'jar'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/x-java-archive-diff'=>array(
 			'jardiff'=>array(
 				'authority'=>36,
 				'source'=>72,
-			),
-		),
-		'application/x-java-class'=>array(
-			'class'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-java-jce-keystore'=>array(
@@ -9470,26 +6908,6 @@ final class Types {
 				'source'=>152,
 			),
 		),
-		'application/x-java-vm'=>array(
-			'class'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
-		'application/x-javascript'=>array(
-			'js'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'jsm'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mjs'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/x-jbuilder-project'=>array(
 			'jpr'=>array(
 				'authority'=>21,
@@ -9504,12 +6922,6 @@ final class Types {
 			'jmz'=>array(
 				'authority'=>36,
 				'source'=>520,
-			),
-		),
-		'application/x-karbon'=>array(
-			'karbon'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-kchart'=>array(
@@ -9530,26 +6942,8 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'application/x-kexiproject-sqlite'=>array(
-			'kexi'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-kexiproject-sqlite2'=>array(
 			'kexi'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-kexiproject-sqlite3'=>array(
-			'kexi'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-kformula'=>array(
-			'kfo'=>array(
 				'authority'=>36,
 				'source'=>16,
 			),
@@ -9558,36 +6952,6 @@ final class Types {
 			'kil'=>array(
 				'authority'=>36,
 				'source'=>664,
-			),
-		),
-		'application/x-kivio'=>array(
-			'flw'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-koan'=>array(
-			'skd'=>array(
-				'authority'=>2,
-				'source'=>640,
-			),
-			'skm'=>array(
-				'authority'=>2,
-				'source'=>640,
-			),
-			'skp'=>array(
-				'authority'=>2,
-				'source'=>640,
-			),
-			'skt'=>array(
-				'authority'=>2,
-				'source'=>640,
-			),
-		),
-		'application/x-kontour'=>array(
-			'kon'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-kpovmodeler'=>array(
@@ -9640,48 +7004,10 @@ final class Types {
 				'source'=>644,
 			),
 		),
-		'application/x-lha'=>array(
-			'lha'=>array(
-				'authority'=>2,
-				'source'=>528,
-			),
-			'lzh'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/x-lhz'=>array(
 			'lhz'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'application/x-linguist'=>array(
-			'ts'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-lotus123'=>array(
-			'wk1'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wk3'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wk4'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wks'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'application/x-lrzip'=>array(
@@ -9710,12 +7036,6 @@ final class Types {
 			'lz4'=>array(
 				'authority'=>36,
 				'source'=>152,
-			),
-		),
-		'application/x-lzh'=>array(
-			'lzh'=>array(
-				'authority'=>36,
-				'source'=>512,
 			),
 		),
 		'application/x-lzh-compressed'=>array(
@@ -9766,18 +7086,6 @@ final class Types {
 				'source'=>520,
 			),
 		),
-		'application/x-m4'=>array(
-			'm4'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-magicpoint'=>array(
-			'mgp'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-maker'=>array(
 			'fb'=>array(
 				'authority'=>21,
@@ -9820,40 +7128,10 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/x-mathematica'=>array(
-			'nb'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-matlab-data'=>array(
 			'mat'=>array(
 				'authority'=>36,
 				'source'=>128,
-			),
-		),
-		'application/x-matroska'=>array(
-			'mkv'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'mka'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'mk3d'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'webm'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/x-mdb'=>array(
-			'mdb'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-mie'=>array(
@@ -9878,16 +7156,6 @@ final class Types {
 				'source'=>144,
 			),
 		),
-		'application/x-mobi8-ebook'=>array(
-			'kfx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'azw3'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/x-mobipocket-ebook'=>array(
 			'prc'=>array(
 				'authority'=>4,
@@ -9910,36 +7178,6 @@ final class Types {
 			'application'=>array(
 				'authority'=>36,
 				'source'=>140,
-			),
-		),
-		'application/x-ms-asx'=>array(
-			'asx'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'wax'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wmx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wvx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/x-ms-dos-executable'=>array(
-			'exe'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-ms-emz'=>array(
-			'emz'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'application/x-ms-installer'=>array(
@@ -10014,24 +7252,6 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'application/x-msdos-program'=>array(
-			'bat'=>array(
-				'authority'=>1,
-				'source'=>512,
-			),
-			'com'=>array(
-				'authority'=>1,
-				'source'=>512,
-			),
-			'dll'=>array(
-				'authority'=>1,
-				'source'=>512,
-			),
-			'exe'=>array(
-				'authority'=>1,
-				'source'=>512,
-			),
-		),
 		'application/x-msdownload'=>array(
 			'exe'=>array(
 				'authority'=>3,
@@ -10052,40 +7272,6 @@ final class Types {
 			'msi'=>array(
 				'authority'=>1,
 				'source'=>4,
-			),
-		),
-		'application/x-msexcel'=>array(
-			'xla'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xlc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xld'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xll'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xlm'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xls'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xlt'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xlw'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'application/x-msi'=>array(
@@ -10140,36 +7326,6 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'application/x-mspowerpoint'=>array(
-			'pot'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pps'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ppt'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ppz'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/x-mspublisher'=>array(
-			'pub'=>array(
-				'authority'=>36,
-				'source'=>132,
-			),
-		),
-		'application/x-msschedule'=>array(
-			'scd'=>array(
-				'authority'=>36,
-				'source'=>132,
-			),
-		),
 		'application/x-msterminal'=>array(
 			'trm'=>array(
 				'authority'=>36,
@@ -10182,12 +7338,6 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'application/x-msword'=>array(
-			'doc'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-mswrite'=>array(
 			'wri'=>array(
 				'authority'=>36,
@@ -10198,16 +7348,6 @@ final class Types {
 			'msx'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'application/x-mysql-db'=>array(
-			'myd'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'myi'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'application/x-mysql-misam-compressed-index'=>array(
@@ -10282,12 +7422,6 @@ final class Types {
 				'source'=>148,
 			),
 		),
-		'application/x-netshow-channel'=>array(
-			'nsc'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-nintendo-ds-rom'=>array(
 			'nds'=>array(
 				'authority'=>36,
@@ -10316,82 +7450,6 @@ final class Types {
 			'o'=>array(
 				'authority'=>36,
 				'source'=>520,
-			),
-		),
-		'application/x-ogg'=>array(
-			'ogx'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'ogg'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/x-ole-storage'=>array(
-			'doc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'msi'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'p65'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pm6'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pmd'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pub'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vsd'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vss'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vst'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vsw'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wcm'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wdb'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wks'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wps'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xlr'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pm'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'application/x-oleo'=>array(
@@ -10430,24 +7488,6 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'application/x-palm-database'=>array(
-			'pqa'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pdb'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'prc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'oprc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/x-par2'=>array(
 			'par2'=>array(
 				'authority'=>36,
@@ -10474,26 +7514,6 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'application/x-pcap'=>array(
-			'cap'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'dmp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pcap'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/x-pdf'=>array(
-			'pdf'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
 		'application/x-perl'=>array(
 			'pl'=>array(
 				'authority'=>2,
@@ -10513,12 +7533,6 @@ final class Types {
 			),
 			'perl'=>array(
 				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/x-photoshop'=>array(
-			'psd'=>array(
-				'authority'=>36,
 				'source'=>16,
 			),
 		),
@@ -10544,26 +7558,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/x-pilot'=>array(
-			'pdb'=>array(
-				'authority'=>1,
-				'source'=>64,
-			),
-			'prc'=>array(
-				'authority'=>1,
-				'source'=>64,
-			),
-		),
-		'application/x-pkcs12'=>array(
-			'p12'=>array(
-				'authority'=>3,
-				'source'=>148,
-			),
-			'pfx'=>array(
-				'authority'=>3,
-				'source'=>148,
-			),
-		),
 		'application/x-pkcs7-certificates'=>array(
 			'p7b'=>array(
 				'authority'=>23,
@@ -10578,12 +7572,6 @@ final class Types {
 			'p7r'=>array(
 				'authority'=>36,
 				'source'=>652,
-			),
-		),
-		'application/x-pkcs7-crl'=>array(
-			'crl'=>array(
-				'authority'=>36,
-				'source'=>512,
 			),
 		),
 		'application/x-planperfect'=>array(
@@ -10624,16 +7612,6 @@ final class Types {
 			'pyo'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'application/x-python-code'=>array(
-			'pyc'=>array(
-				'authority'=>1,
-				'source'=>512,
-			),
-			'pyo'=>array(
-				'authority'=>1,
-				'source'=>512,
 			),
 		),
 		'application/x-qemu-disk'=>array(
@@ -10688,38 +7666,6 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'application/x-quattro-proversion1+5'=>array(
-			'wb1'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-quattro-proversion1-4'=>array(
-			'wkq'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'wq1'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/x-quattro-proversion5'=>array(
-			'wkq'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'wq2'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/x-quattro-proversion6'=>array(
-			'wb2'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/x-quattropro'=>array(
 			'wb1'=>array(
 				'authority'=>1,
@@ -10734,12 +7680,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/x-quicktime-media-link'=>array(
-			'qtl'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-quicktimeplayer'=>array(
 			'qtl'=>array(
 				'authority'=>36,
@@ -10750,18 +7690,6 @@ final class Types {
 			'qif'=>array(
 				'authority'=>36,
 				'source'=>16,
-			),
-		),
-		'application/x-rar'=>array(
-			'rar'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
-		'application/x-rar-compressed'=>array(
-			'rar'=>array(
-				'authority'=>36,
-				'source'=>212,
 			),
 		),
 		'application/x-raw-disk-image'=>array(
@@ -10806,38 +7734,16 @@ final class Types {
 				'source'=>592,
 			),
 		),
-		'application/x-reject'=>array(
-			'rej'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-research-info-systems'=>array(
 			'ris'=>array(
 				'authority'=>36,
 				'source'=>12,
 			),
 		),
-		'application/x-rnc'=>array(
-			'rnc'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-roxio-toast'=>array(
 			'toast'=>array(
 				'authority'=>36,
 				'source'=>128,
-			),
-		),
-		'application/x-rpm'=>array(
-			'rpm'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'spm'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'application/x-ruby'=>array(
@@ -10857,12 +7763,6 @@ final class Types {
 			),
 			'sami'=>array(
 				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/x-sap-file'=>array(
-			'sap'=>array(
-				'authority'=>36,
 				'source'=>16,
 			),
 		),
@@ -11030,28 +7930,10 @@ final class Types {
 				'source'=>136,
 			),
 		),
-		'application/x-saturn-rom'=>array(
-			'iso'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-sdp'=>array(
-			'sdp'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-sea'=>array(
 			'sea'=>array(
 				'authority'=>36,
 				'source'=>72,
-			),
-		),
-		'application/x-sega-cd-rom'=>array(
-			'iso'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-sfdu'=>array(
@@ -11094,22 +7976,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/x-sharedlib'=>array(
-			'so'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-shellscript'=>array(
-			'csh'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'sh'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/x-shockwave-flash'=>array(
 			'swfl'=>array(
 				'authority'=>21,
@@ -11142,12 +8008,6 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'application/x-sit'=>array(
-			'sit'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-smaf'=>array(
 			'mmf'=>array(
 				'authority'=>1,
@@ -11158,38 +8018,16 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/x-sms-rom'=>array(
-			'sms'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-snappy-framed'=>array(
 			'sz'=>array(
 				'authority'=>36,
 				'source'=>136,
 			),
 		),
-		'application/x-snes-rom'=>array(
-			'sfc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'smc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/x-source-rpm'=>array(
 			'spm'=>array(
 				'authority'=>36,
 				'source'=>16,
-			),
-		),
-		'application/x-speex'=>array(
-			'spx'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'application/x-spss-por'=>array(
@@ -11208,22 +8046,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/x-spss-savefile'=>array(
-			'sav'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'zsav'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/x-sql'=>array(
-			'sql'=>array(
-				'authority'=>36,
-				'source'=>4,
-			),
-		),
 		'application/x-sqlite2'=>array(
 			'sqlite2'=>array(
 				'authority'=>21,
@@ -11232,28 +8054,6 @@ final class Types {
 			'kexi'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'application/x-sqlite3'=>array(
-			'kexi'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'sqlite3'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/x-srt'=>array(
-			'srt'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-staroffice-template'=>array(
-			'vor'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'application/x-stata-do'=>array(
@@ -11446,24 +8246,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/x-tika-java-enterprise-archive'=>array(
-			'ear'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-tika-java-web-archive'=>array(
-			'war'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-tika-msworks-spreadsheet'=>array(
-			'xlr'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/x-trash'=>array(
 			'bak'=>array(
 				'authority'=>22,
@@ -11478,74 +8260,12 @@ final class Types {
 				'source'=>536,
 			),
 		),
-		'application/x-trig'=>array(
-			'trig'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-troff'=>array(
-			'tr'=>array(
-				'authority'=>3,
-				'source'=>656,
-			),
-			'roff'=>array(
-				'authority'=>3,
-				'source'=>656,
-			),
-			'man'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'me'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'ms'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'nroff'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			't'=>array(
-				'authority'=>1,
-				'source'=>512,
-			),
-		),
 		'application/x-troff-man'=>array(
 			'man'=>array(
 				'authority'=>3,
 				'source'=>656,
 			),
 			'me'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'ms'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'nroff'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'roff'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'tr'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/x-troff-me'=>array(
-			'me'=>array(
-				'authority'=>2,
-				'source'=>640,
-			),
-			'man'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
@@ -11610,12 +8330,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'application/x-unix-archive'=>array(
-			'ar'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/x-ustar'=>array(
 			'ustar'=>array(
 				'authority'=>36,
@@ -11634,167 +8348,15 @@ final class Types {
 				'source'=>136,
 			),
 		),
-		'application/x-vnd.kde.kexi'=>array(
-			'kexi'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.chart'=>array(
-			'odc'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.chart-template'=>array(
-			'otc'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.formula'=>array(
-			'odf'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.formula-template'=>array(
-			'odft'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.graphics'=>array(
-			'odg'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.graphics-template'=>array(
-			'otg'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.image'=>array(
-			'odi'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.image-template'=>array(
-			'oti'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.presentation'=>array(
-			'odp'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.presentation-template'=>array(
-			'otp'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.spreadsheet'=>array(
-			'ods'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.spreadsheet-template'=>array(
-			'ots'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.text'=>array(
-			'odt'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.text-master'=>array(
-			'otm'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.text-template'=>array(
-			'ott'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.oasis.opendocument.text-web'=>array(
-			'oth'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-vnd.sun.xml.writer'=>array(
-			'sxw'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'application/x-wais-source'=>array(
 			'src'=>array(
 				'authority'=>36,
 				'source'=>660,
 			),
 		),
-		'application/x-wbfs'=>array(
-			'iso'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-webarchive'=>array(
 			'webarchive'=>array(
 				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'application/x-wia'=>array(
-			'iso'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-wii-iso-image'=>array(
-			'iso'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-wii-rom'=>array(
-			'iso'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-wii-wad'=>array(
-			'wad'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-windows-installer'=>array(
-			'msi'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'msp'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'mst'=>array(
-				'authority'=>1,
 				'source'=>128,
 			),
 		),
@@ -11810,48 +8372,10 @@ final class Types {
 				'source'=>520,
 			),
 		),
-		'application/x-wmf'=>array(
-			'wmf'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-wonderswan-color-rom'=>array(
-			'wsc'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'application/x-wonderswan-rom'=>array(
 			'ws'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'application/x-wordperfect'=>array(
-			'wp4'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wp5'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wp6'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wpd'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wpp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wp'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'application/x-wpg'=>array(
@@ -11884,52 +8408,16 @@ final class Types {
 				'source'=>80,
 			),
 		),
-		'application/x-xar'=>array(
-			'pkg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xar'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/x-xbel'=>array(
 			'xbel'=>array(
 				'authority'=>36,
 				'source'=>16,
 			),
 		),
-		'application/x-xcf'=>array(
-			'xcf'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
 		'application/x-xfig'=>array(
 			'fig'=>array(
 				'authority'=>36,
 				'source'=>644,
-			),
-		),
-		'application/x-xliff'=>array(
-			'xlf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xliff'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/x-xliff+xml'=>array(
-			'xlf'=>array(
-				'authority'=>2,
-				'source'=>132,
-			),
-			'xliff'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'application/x-xliff+zip'=>array(
@@ -11944,30 +8432,10 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'application/x-xml'=>array(
-			'xml'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'xsd'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'xsl'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
 		'application/x-xpinstall'=>array(
 			'xpi'=>array(
 				'authority'=>36,
 				'source'=>724,
-			),
-		),
-		'application/x-xspf+xml'=>array(
-			'xspf'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'application/x-xz'=>array(
@@ -11998,18 +8466,6 @@ final class Types {
 			'yaml'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'application/x-zip'=>array(
-			'zip'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'application/x-zip-compressed'=>array(
-			'zip'=>array(
-				'authority'=>36,
-				'source'=>144,
 			),
 		),
 		'application/x-zmachine'=>array(
@@ -12088,28 +8544,10 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/xcap-error+xml'=>array(
-			'xer'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'application/xcap-ns+xml'=>array(
 			'xns'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'application/xcon-conference-info+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'application/xcon-conference-info-diff+xml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/xenc+xml'=>array(
@@ -12142,24 +8580,6 @@ final class Types {
 			'html'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'application/xhtml-voice+xml'=>array(
-			'xvm'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'mxml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'xhvml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'xvml'=>array(
-				'authority'=>10,
-				'source'=>32,
 			),
 		),
 		'application/xliff+xml'=>array(
@@ -12542,32 +8962,12 @@ final class Types {
 				'source'=>12,
 			),
 		),
-		'application/xps'=>array(
-			'xps'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'oxps'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/xquery'=>array(
 			'xq'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
 			'xquery'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'application/xslfo+xml'=>array(
-			'fo'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'xslfo'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
@@ -12908,48 +9308,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'audio/3gpp'=>array(
-			'3ga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gpp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/3gpp-encrypted'=>array(
-			'3ga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gpp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/3gpp2'=>array(
-			'3g2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gp2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gpp2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'audio/aac'=>array(
 			'aac'=>array(
 				'authority'=>12,
@@ -12976,39 +9334,13 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'audio/aiff'=>array(
-			'aif'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'aifc'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'aiff'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
 		'audio/amr'=>array(
 			'amr'=>array(
 				'authority'=>36,
 				'source'=>144,
 			),
 		),
-		'audio/amr-encrypted'=>array(
-			'amr'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'audio/amr-wb'=>array(
-			'awb'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'audio/amr-wb-encrypted'=>array(
 			'awb'=>array(
 				'authority'=>36,
 				'source'=>16,
@@ -13036,40 +9368,6 @@ final class Types {
 				'source'=>1020,
 			),
 		),
-		'audio/imelody'=>array(
-			'ime'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'imy'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/m3u'=>array(
-			'm3u'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vlc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'm3u8'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/m4a'=>array(
-			'f4a'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'm4a'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'audio/midi'=>array(
 			'mid'=>array(
 				'authority'=>36,
@@ -13094,22 +9392,6 @@ final class Types {
 				'source'=>32,
 			),
 			'xmf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/mp2'=>array(
-			'mp2'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'audio/mp3'=>array(
-			'mp3'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpga'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13182,20 +9464,6 @@ final class Types {
 				'source'=>256,
 			),
 		),
-		'audio/mpegurl'=>array(
-			'm3u'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vlc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'm3u8'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'audio/ogg'=>array(
 			'oga'=>array(
 				'authority'=>36,
@@ -13214,12 +9482,6 @@ final class Types {
 				'source'=>176,
 			),
 		),
-		'audio/opus'=>array(
-			'opus'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'audio/prs.sid'=>array(
 			'psid'=>array(
 				'authority'=>31,
@@ -13236,34 +9498,10 @@ final class Types {
 				'source'=>4,
 			),
 		),
-		'audio/scpls'=>array(
-			'pls'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'audio/silk'=>array(
 			'sil'=>array(
 				'authority'=>36,
 				'source'=>12,
-			),
-		),
-		'audio/sp-midi'=>array(
-			'mid'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'audio/speex'=>array(
-			'spx'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'audio/tta'=>array(
-			'tta'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'audio/usac'=>array(
@@ -13280,26 +9518,6 @@ final class Types {
 			'asnd'=>array(
 				'authority'=>36,
 				'source'=>136,
-			),
-		),
-		'audio/vnd.audible'=>array(
-			'aax'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'aa'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/vnd.audible.aax'=>array(
-			'aax'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'aa'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'audio/vnd.audiokoz'=>array(
@@ -13378,26 +9596,10 @@ final class Types {
 				'source'=>172,
 			),
 		),
-		'audio/vnd.m-realaudio'=>array(
-			'rax'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ra'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'audio/vnd.ms-playready.media.pya'=>array(
 			'pya'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'audio/vnd.nokia.mobile-xmf'=>array(
-			'mxmf'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'audio/vnd.nortel.vbk'=>array(
@@ -13460,58 +9662,16 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'audio/vnd.wave'=>array(
-			'wav'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
-		'audio/vorbis'=>array(
-			'ogg'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'oga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'audio/wav'=>array(
 			'wav'=>array(
 				'authority'=>36,
 				'source'=>1020,
 			),
 		),
-		'audio/wave'=>array(
-			'wav'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'audio/webm'=>array(
 			'weba'=>array(
 				'authority'=>36,
 				'source'=>524,
-			),
-		),
-		'audio/wma'=>array(
-			'wma'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'audio/x-aac'=>array(
-			'aac'=>array(
-				'authority'=>3,
-				'source'=>148,
-			),
-			'ass'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'adts'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'audio/x-aifc'=>array(
@@ -13538,26 +9698,10 @@ final class Types {
 				'source'=>644,
 			),
 		),
-		'audio/x-aiffc'=>array(
-			'aifc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'aiffc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'audio/x-amzxml'=>array(
 			'amz'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'audio/x-annodex'=>array(
-			'axa'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'audio/x-ape'=>array(
@@ -13572,54 +9716,10 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'audio/x-dts'=>array(
-			'dts'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'audio/x-dtshd'=>array(
-			'dtshd'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'audio/x-flac'=>array(
-			'flac'=>array(
-				'authority'=>36,
-				'source'=>148,
-			),
-		),
-		'audio/x-flac+ogg'=>array(
-			'oga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ogg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-gsm'=>array(
-			'gsm'=>array(
-				'authority'=>36,
-				'source'=>528,
-			),
-		),
 		'audio/x-hx-aac-adts'=>array(
 			'aac'=>array(
 				'authority'=>36,
 				'source'=>8,
-			),
-		),
-		'audio/x-imelody'=>array(
-			'ime'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'imy'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'audio/x-iriver-pla'=>array(
@@ -13634,48 +9734,6 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'audio/x-m3u'=>array(
-			'm3u'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vlc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'm3u8'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-m4a'=>array(
-			'm4a'=>array(
-				'authority'=>3,
-				'source'=>208,
-			),
-			'f4a'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'm4b'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'mp4a'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'audio/x-m4b'=>array(
-			'f4b'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'm4b'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'audio/x-m4r'=>array(
 			'm4r'=>array(
 				'authority'=>36,
@@ -13686,20 +9744,6 @@ final class Types {
 			'mka'=>array(
 				'authority'=>36,
 				'source'=>916,
-			),
-		),
-		'audio/x-midi'=>array(
-			'kar'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mid'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'midi'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'audio/x-minipsf'=>array(
@@ -13744,76 +9788,6 @@ final class Types {
 				'source'=>144,
 			),
 		),
-		'audio/x-mp2'=>array(
-			'mp2'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'audio/x-mp3'=>array(
-			'mp3'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-mp3-playlist'=>array(
-			'm3u'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vlc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'm3u8'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-mp4a'=>array(
-			'm4a'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'm4b'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'mp4a'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'audio/x-mpeg'=>array(
-			'mp3'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'mpga'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'm2a'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'm3a'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'mp2'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'mp2a'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
 		'audio/x-mpegurl'=>array(
 			'm3u'=>array(
 				'authority'=>4,
@@ -13828,34 +9802,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'audio/x-mpg'=>array(
-			'mp3'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-ms-asx'=>array(
-			'asx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wax'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wmx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wvx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'audio/x-ms-wax'=>array(
 			'wax'=>array(
 				'authority'=>36,
@@ -13866,46 +9812,6 @@ final class Types {
 			'wma'=>array(
 				'authority'=>36,
 				'source'=>916,
-			),
-		),
-		'audio/x-musepack'=>array(
-			'mpc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-ogg'=>array(
-			'oga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ogg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'opus'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-oggflac'=>array(
-			'oga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ogg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-opus+ogg'=>array(
-			'opus'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'audio/x-pn-audibleaudio'=>array(
@@ -13942,20 +9848,6 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'audio/x-psf'=>array(
-			'psf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'minipsf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'psflib'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'audio/x-psflib'=>array(
 			'psflib'=>array(
 				'authority'=>36,
@@ -13972,108 +9864,6 @@ final class Types {
 				'source'=>384,
 			),
 		),
-		'audio/x-rn-3gpp-amr'=>array(
-			'3ga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gpp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-rn-3gpp-amr-encrypted'=>array(
-			'3ga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gpp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-rn-3gpp-amr-wb'=>array(
-			'3ga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gpp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-rn-3gpp-amr-wb-encrypted'=>array(
-			'3ga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gpp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-s3m'=>array(
-			's3m'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'audio/x-scpls'=>array(
-			'pls'=>array(
-				'authority'=>36,
-				'source'=>528,
-			),
-		),
-		'audio/x-sd2'=>array(
-			'sd2'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
-		'audio/x-shorten'=>array(
-			'shn'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'audio/x-speex'=>array(
-			'spx'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'audio/x-speex+ogg'=>array(
-			'oga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ogg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-stm'=>array(
-			'stm'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'audio/x-tta'=>array(
 			'tta'=>array(
 				'authority'=>36,
@@ -14084,32 +9874,6 @@ final class Types {
 			'voc'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'audio/x-vorbis'=>array(
-			'oga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ogg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-vorbis+ogg'=>array(
-			'oga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ogg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'audio/x-wav'=>array(
-			'wav'=>array(
-				'authority'=>36,
-				'source'=>660,
 			),
 		),
 		'audio/x-wavpack'=>array(
@@ -14134,12 +9898,6 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'audio/x-xm'=>array(
-			'xm'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'audio/x-xmf'=>array(
 			'xmf'=>array(
 				'authority'=>36,
@@ -14150,12 +9908,6 @@ final class Types {
 			'xm'=>array(
 				'authority'=>36,
 				'source'=>4,
-			),
-		),
-		'audio/xmf'=>array(
-			'xmf'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'chemical/x-alchemy'=>array(
@@ -14200,28 +9952,10 @@ final class Types {
 				'source'=>652,
 			),
 		),
-		'chemical/x-cerius'=>array(
-			'cer'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
 		'chemical/x-chem3d'=>array(
 			'c3d'=>array(
 				'authority'=>36,
 				'source'=>520,
-			),
-		),
-		'chemical/x-chemdraw'=>array(
-			'chm'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
-		'chemical/x-cif'=>array(
-			'cif'=>array(
-				'authority'=>36,
-				'source'=>644,
 			),
 		),
 		'chemical/x-cmdf'=>array(
@@ -14284,12 +10018,6 @@ final class Types {
 				'source'=>520,
 			),
 		),
-		'chemical/x-galactic-spc'=>array(
-			'spc'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
 		'chemical/x-gamess-input'=>array(
 			'inp'=>array(
 				'authority'=>21,
@@ -14344,12 +10072,6 @@ final class Types {
 			'gcg'=>array(
 				'authority'=>36,
 				'source'=>520,
-			),
-		),
-		'chemical/x-genbank'=>array(
-			'gen'=>array(
-				'authority'=>36,
-				'source'=>512,
 			),
 		),
 		'chemical/x-hin'=>array(
@@ -14486,18 +10208,6 @@ final class Types {
 				'source'=>520,
 			),
 		),
-		'chemical/x-mopac-vib'=>array(
-			'mvb'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
-		'chemical/x-ncbi-asn1-ascii'=>array(
-			'prt'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
 		'chemical/x-ncbi-asn1-binary'=>array(
 			'val'=>array(
 				'authority'=>21,
@@ -14512,16 +10222,6 @@ final class Types {
 			'asn'=>array(
 				'authority'=>36,
 				'source'=>520,
-			),
-		),
-		'chemical/x-pdb'=>array(
-			'pdb'=>array(
-				'authority'=>2,
-				'source'=>640,
-			),
-			'ent'=>array(
-				'authority'=>1,
-				'source'=>512,
 			),
 		),
 		'chemical/x-rosdal'=>array(
@@ -14560,34 +10260,10 @@ final class Types {
 				'source'=>652,
 			),
 		),
-		'drawing/dwg'=>array(
-			'dwg'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'drawing/x-dwf'=>array(
-			'dwf'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'flv-application/octet-stream'=>array(
-			'flv'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'font/collection'=>array(
 			'ttc'=>array(
 				'authority'=>36,
 				'source'=>20,
-			),
-		),
-		'font/eot'=>array(
-			'eot'=>array(
-				'authority'=>36,
-				'source'=>9,
 			),
 		),
 		'font/otf'=>array(
@@ -14618,16 +10294,6 @@ final class Types {
 				'source'=>124,
 			),
 		),
-		'gzip/document'=>array(
-			'tgz'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'gz'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
 		'image/aces'=>array(
 			'exr'=>array(
 				'authority'=>36,
@@ -14656,12 +10322,6 @@ final class Types {
 				'source'=>176,
 			),
 		),
-		'image/cdr'=>array(
-			'cdr'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
 		'image/cgm'=>array(
 			'cgm'=>array(
 				'authority'=>36,
@@ -14680,22 +10340,10 @@ final class Types {
 				'source'=>176,
 			),
 		),
-		'image/fax-g3'=>array(
-			'g3'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'image/fits'=>array(
 			'fits'=>array(
 				'authority'=>36,
 				'source'=>48,
-			),
-		),
-		'image/g3fax'=>array(
-			'g3'=>array(
-				'authority'=>36,
-				'source'=>148,
 			),
 		),
 		'image/gif'=>array(
@@ -14712,20 +10360,6 @@ final class Types {
 			'heif'=>array(
 				'authority'=>11,
 				'source'=>48,
-			),
-		),
-		'image/heic-sequence'=>array(
-			'heifs'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'heic'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'heif'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'image/heif'=>array(
@@ -14758,34 +10392,10 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'image/hevc'=>array(
-			'heic'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'image/hsj2'=>array(
 			'hsj2'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'image/icns'=>array(
-			'icns'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'image/ico'=>array(
-			'ico'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'image/icon'=>array(
-			'ico'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'image/ief'=>array(
@@ -14852,42 +10462,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'image/jpeg2000'=>array(
-			'jpg2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'jp2'=>array(
-				'authority'=>0,
-				'source'=>25,
-			),
-			'jpf'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'jpx'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-		),
-		'image/jpeg2000-image'=>array(
-			'jpg2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'jp2'=>array(
-				'authority'=>0,
-				'source'=>25,
-			),
-			'jpf'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'jpx'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-		),
 		'image/jph'=>array(
 			'jph'=>array(
 				'authority'=>36,
@@ -14898,16 +10472,6 @@ final class Types {
 			'jhc'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'image/jpm'=>array(
-			'jpm'=>array(
-				'authority'=>12,
-				'source'=>176,
-			),
-			'jpgm'=>array(
-				'authority'=>2,
-				'source'=>144,
 			),
 		),
 		'image/jpx'=>array(
@@ -14972,61 +10536,9 @@ final class Types {
 				'source'=>28,
 			),
 		),
-		'image/nitf'=>array(
-			'ntf'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'nitf'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'image/ntf'=>array(
-			'ntf'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'nitf'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
 		'image/openraster'=>array(
 			'ora'=>array(
 				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'image/pcx'=>array(
-			'pcx'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
-		'image/pdf'=>array(
-			'pdf'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'image/photoshop'=>array(
-			'psd'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'image/pjpeg'=>array(
-			'jpe'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'jpg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'jpeg'=>array(
-				'authority'=>1,
 				'source'=>16,
 			),
 		),
@@ -15052,22 +10564,10 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'image/psd'=>array(
-			'psd'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'image/rle'=>array(
 			'rle'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'image/sgi'=>array(
-			'sgi'=>array(
-				'authority'=>36,
-				'source'=>4,
 			),
 		),
 		'image/svg+xml'=>array(
@@ -15078,12 +10578,6 @@ final class Types {
 			'svgz'=>array(
 				'authority'=>4,
 				'source'=>708,
-			),
-		),
-		'image/svg+xml-compressed'=>array(
-			'svgz'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'image/t38'=>array(
@@ -15152,16 +10646,6 @@ final class Types {
 			'djvu'=>array(
 				'authority'=>14,
 				'source'=>692,
-			),
-		),
-		'image/vnd.djvu+multipage'=>array(
-			'djv'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'djvu'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'image/vnd.dvb.subtitle'=>array(
@@ -15384,16 +10868,6 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'image/x-bmp'=>array(
-			'bmp'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'dib'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-		),
 		'image/x-bpg'=>array(
 			'bpg'=>array(
 				'authority'=>36,
@@ -15412,12 +10886,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'image/x-cdr'=>array(
-			'cdr'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
 		'image/x-cmu-raster'=>array(
 			'ras'=>array(
 				'authority'=>36,
@@ -15430,104 +10898,10 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'image/x-coreldraw'=>array(
-			'cdr'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
-		'image/x-coreldrawpattern'=>array(
-			'pat'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
 		'image/x-coreldrawtemplate'=>array(
 			'cdt'=>array(
 				'authority'=>36,
 				'source'=>520,
-			),
-		),
-		'image/x-corelphotopaint'=>array(
-			'cpt'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
-		'image/x-dcraw'=>array(
-			'arw'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'orf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'srf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'sr2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'rw2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'raw'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'raf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pef'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'nef'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'cr2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mrw'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'kdc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'k25'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'dng'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'dcr'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'crw'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'x3f'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'image/x-dcx'=>array(
-			'dcx'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'image/x-dds'=>array(
@@ -15536,64 +10910,10 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'image/x-djvu'=>array(
-			'djv'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'djvu'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'image/x-dpx'=>array(
 			'dpx'=>array(
 				'authority'=>36,
 				'source'=>136,
-			),
-		),
-		'image/x-dwg'=>array(
-			'dwg'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'image/x-emf'=>array(
-			'emf'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
-		'image/x-emf-compressed'=>array(
-			'emz'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'image/x-eps'=>array(
-			'eps'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'epsf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'epsi'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'image/x-exr'=>array(
-			'exr'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'image/x-fits'=>array(
-			'fits'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'image/x-freehand'=>array(
@@ -15676,12 +10996,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'image/x-gimp-gbr'=>array(
-			'gbr'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'image/x-gimp-gih'=>array(
 			'gih'=>array(
 				'authority'=>36,
@@ -15694,57 +11008,9 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'image/x-icb'=>array(
-			'icb'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'tga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vda'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vst'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'tpic'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'image/x-icns'=>array(
 			'icns'=>array(
 				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'image/x-ico'=>array(
-			'ico'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'image/x-icon'=>array(
-			'ico'=>array(
-				'authority'=>36,
-				'source'=>477,
-			),
-		),
-		'image/x-iff'=>array(
-			'iff'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'lbm'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ilbm'=>array(
-				'authority'=>1,
 				'source'=>16,
 			),
 		),
@@ -15760,16 +11026,6 @@ final class Types {
 			'ilbm'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'image/x-jb2'=>array(
-			'jb2'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'jbig2'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'image/x-jbig2'=>array(
@@ -15806,48 +11062,6 @@ final class Types {
 			'jpc'=>array(
 				'authority'=>21,
 				'source'=>24,
-			),
-		),
-		'image/x-jp2-container'=>array(
-			'jp2'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'jpf'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'jpm'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'mj2'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'jpgm'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'mjp2'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'image/x-jpeg2000-image'=>array(
-			'jp2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'jpg2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'image/x-kodak-dcr'=>array(
-			'dcr'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'image/x-kodak-k25'=>array(
@@ -15890,22 +11104,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'image/x-mrsid-image'=>array(
-			'sid'=>array(
-				'authority'=>36,
-				'source'=>4,
-			),
-		),
-		'image/x-ms-bmp'=>array(
-			'bmp'=>array(
-				'authority'=>4,
-				'source'=>720,
-			),
-			'dib'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-		),
 		'image/x-msod'=>array(
 			'msod'=>array(
 				'authority'=>36,
@@ -15924,18 +11122,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'image/x-panasonic-raw'=>array(
-			'raw'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'image/x-panasonic-raw2'=>array(
-			'rw2'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'image/x-panasonic-rw'=>array(
 			'raw'=>array(
 				'authority'=>36,
@@ -15948,18 +11134,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'image/x-pc-paintbrush'=>array(
-			'pcx'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'image/x-pcx'=>array(
-			'pcx'=>array(
-				'authority'=>36,
-				'source'=>148,
-			),
-		),
 		'image/x-pentax-pef'=>array(
 			'pef'=>array(
 				'authority'=>36,
@@ -15970,12 +11144,6 @@ final class Types {
 			'pcd'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'image/x-photoshop'=>array(
-			'psd'=>array(
-				'authority'=>36,
-				'source'=>528,
 			),
 		),
 		'image/x-pict'=>array(
@@ -16036,12 +11204,6 @@ final class Types {
 				'source'=>660,
 			),
 		),
-		'image/x-psd'=>array(
-			'psd'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
 		'image/x-quicktime'=>array(
 			'qtif'=>array(
 				'authority'=>21,
@@ -16050,22 +11212,6 @@ final class Types {
 			'qif'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'image/x-raw-adobe'=>array(
-			'dng'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'image/x-raw-canon'=>array(
-			'cr2'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'crw'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'image/x-raw-casio'=>array(
@@ -16078,12 +11224,6 @@ final class Types {
 			'erf'=>array(
 				'authority'=>36,
 				'source'=>136,
-			),
-		),
-		'image/x-raw-fuji'=>array(
-			'raf'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'image/x-raw-hasselblad'=>array(
@@ -16134,34 +11274,12 @@ final class Types {
 				'source'=>136,
 			),
 		),
-		'image/x-raw-minolta'=>array(
-			'mrw'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'image/x-raw-nikon'=>array(
 			'nrw'=>array(
 				'authority'=>21,
 				'source'=>136,
 			),
 			'nef'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'image/x-raw-olympus'=>array(
-			'orf'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'image/x-raw-panasonic'=>array(
-			'raw'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'rw2'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
@@ -16194,36 +11312,10 @@ final class Types {
 				'source'=>136,
 			),
 		),
-		'image/x-raw-sigma'=>array(
-			'x3f'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'image/x-raw-sony'=>array(
-			'arw'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'sr2'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'srf'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
 		'image/x-rgb'=>array(
 			'rgb'=>array(
 				'authority'=>36,
 				'source'=>668,
-			),
-		),
-		'image/x-sgi'=>array(
-			'sgi'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'image/x-sigma-x3f'=>array(
@@ -16266,20 +11358,6 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'image/x-targa'=>array(
-			'icb'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'tga'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'vda'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
 		'image/x-tga'=>array(
 			'tga'=>array(
 				'authority'=>3,
@@ -16308,18 +11386,6 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'image/x-win-metafile'=>array(
-			'wmf'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'image/x-wmf'=>array(
-			'wmf'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
 		'image/x-xbitmap'=>array(
 			'xbm'=>array(
 				'authority'=>36,
@@ -16332,44 +11398,16 @@ final class Types {
 				'source'=>144,
 			),
 		),
-		'image/x-xfig'=>array(
-			'fig'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'image/x-xpixmap'=>array(
 			'xpm'=>array(
 				'authority'=>36,
 				'source'=>660,
 			),
 		),
-		'image/x-xpm'=>array(
-			'xpm'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'image/x-xwindowdump'=>array(
 			'xwd'=>array(
 				'authority'=>36,
 				'source'=>668,
-			),
-		),
-		'image/x.djvu'=>array(
-			'djv'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'djvu'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'image/xcf'=>array(
-			'xcf'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'javascript/module'=>array(
@@ -16388,26 +11426,6 @@ final class Types {
 			'the'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'message/imdn+xml'=>array(
-			'xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'cl'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-		),
-		'message/rfc2557'=>array(
-			'mht'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'mhtml'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'message/rfc822'=>array(
@@ -16444,12 +11462,6 @@ final class Types {
 			'rmail'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'model/3mf'=>array(
-			'3mf'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'model/gltf+json'=>array(
@@ -16636,18 +11648,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'model/x.stl-ascii'=>array(
-			'stl'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'model/x.stl-binary'=>array(
-			'stl'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'model/x3d+binary'=>array(
 			'x3dbz'=>array(
 				'authority'=>21,
@@ -16690,26 +11690,10 @@ final class Types {
 				'source'=>32,
 			),
 		),
-		'multipart/related'=>array(
-			'mht'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'mhtml'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-		),
 		'multipart/voice-message'=>array(
 			'vpm'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'text/asp'=>array(
-			'asp'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'text/aspdotnet'=>array(
@@ -16764,46 +11748,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'text/directory'=>array(
-			'vcf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vct'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'gcrd'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vcard'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'text/ecmascript'=>array(
-			'es'=>array(
-				'authority'=>36,
-				'source'=>48,
-			),
-		),
-		'text/gedcom'=>array(
-			'ged'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'gedcom'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'text/google-video-pointer'=>array(
-			'gvp'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'text/h323'=>array(
 			array(
 				'authority'=>36,
@@ -16824,12 +11768,6 @@ final class Types {
 				'source'=>980,
 			),
 		),
-		'text/ico'=>array(
-			'ico'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'text/iso19139+xml'=>array(
 			'iso19139'=>array(
 				'authority'=>36,
@@ -16840,20 +11778,6 @@ final class Types {
 			'uls'=>array(
 				'authority'=>36,
 				'source'=>520,
-			),
-		),
-		'text/javascript'=>array(
-			'js'=>array(
-				'authority'=>12,
-				'source'=>176,
-			),
-			'jsm'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mjs'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'text/jcr-cnd'=>array(
@@ -18212,12 +13136,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'text/properties'=>array(
-			'properties'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'text/prs.fallenstein.rst'=>array(
 			'rst'=>array(
 				'authority'=>10,
@@ -18234,48 +13152,10 @@ final class Types {
 				'source'=>140,
 			),
 		),
-		'text/prs.prop.logic'=>array(
-			'txt'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'text/rdf'=>array(
-			'owl'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'rdf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'rdfs'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'text/richtext'=>array(
 			'rtx'=>array(
 				'authority'=>36,
 				'source'=>916,
-			),
-		),
-		'text/rss'=>array(
-			'rss'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
-		'text/rtf'=>array(
-			'rtf'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
-		'text/rust'=>array(
-			'rs'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'text/scriptlet'=>array(
@@ -18428,12 +13308,6 @@ final class Types {
 				'source'=>32,
 			),
 		),
-		'text/vnd.dvb.subtitle'=>array(
-			'sub'=>array(
-				'authority'=>36,
-				'source'=>36,
-			),
-		),
 		'text/vnd.esmertec.theme-descriptor'=>array(
 			'jtd'=>array(
 				'authority'=>36,
@@ -18506,34 +13380,10 @@ final class Types {
 				'source'=>136,
 			),
 		),
-		'text/vnd.iptc.newsml'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'text/vnd.iptc.nitf'=>array(
-			'xml'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
-		'text/vnd.ms-mediapackage'=>array(
-			'mpf'=>array(
-				'authority'=>36,
-				'source'=>32,
-			),
-		),
 		'text/vnd.net2phone.commcenter.command'=>array(
 			'ccc'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'text/vnd.qt.linguist'=>array(
-			'ts'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'text/vnd.rn-realtext'=>array(
@@ -18590,12 +13440,6 @@ final class Types {
 				'source'=>912,
 			),
 		),
-		'text/x-actionscript'=>array(
-			'as'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'text/x-ada'=>array(
 			'ada'=>array(
 				'authority'=>1,
@@ -18608,16 +13452,6 @@ final class Types {
 			'ads'=>array(
 				'authority'=>1,
 				'source'=>128,
-			),
-		),
-		'text/x-adasrc'=>array(
-			'adb'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ads'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'text/x-applescript'=>array(
@@ -18656,22 +13490,10 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'text/x-assembly'=>array(
-			'asm'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'text/x-authors'=>array(
 			'authors'=>array(
 				'authority'=>36,
 				'source'=>16,
-			),
-		),
-		'text/x-awk'=>array(
-			'awk'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'text/x-basic'=>array(
@@ -18786,28 +13608,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'text/x-chdr'=>array(
-			'hpp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'hxx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'h'=>array(
-				'authority'=>1,
-				'source'=>512,
-			),
-			'hh'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'hp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'text/x-clojure'=>array(
 			'clj'=>array(
 				'authority'=>36,
@@ -18830,12 +13630,6 @@ final class Types {
 				'source'=>144,
 			),
 		),
-		'text/x-coffeescript'=>array(
-			'coffee'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'text/x-coldfusion'=>array(
 			'cfc'=>array(
 				'authority'=>1,
@@ -18848,12 +13642,6 @@ final class Types {
 			'cfml'=>array(
 				'authority'=>1,
 				'source'=>128,
-			),
-		),
-		'text/x-comma-separated-values'=>array(
-			'csv'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'text/x-common-lisp'=>array(
@@ -18910,98 +13698,14 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'text/x-csh'=>array(
-			'csh'=>array(
-				'authority'=>36,
-				'source'=>512,
-			),
-		),
 		'text/x-csharp'=>array(
 			'cs'=>array(
 				'authority'=>36,
 				'source'=>144,
 			),
 		),
-		'text/x-csrc'=>array(
-			'cpp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'cxx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'gsh'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'gvy'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mof'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ooc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'c'=>array(
-				'authority'=>1,
-				'source'=>512,
-			),
-			'cc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'cl'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'cs'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'di'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'groovy'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'gy'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'java'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vala'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vapi'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'text/x-csv'=>array(
-			'csv'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'text/x-dbus-service'=>array(
 			'service'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'text/x-dcl'=>array(
-			'dcl'=>array(
 				'authority'=>36,
 				'source'=>16,
 			),
@@ -19030,12 +13734,6 @@ final class Types {
 			'di'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'text/x-dtd'=>array(
-			'dtd'=>array(
-				'authority'=>36,
-				'source'=>144,
 			),
 		),
 		'text/x-eiffel'=>array(
@@ -19098,12 +13796,6 @@ final class Types {
 		),
 		'text/x-gettext-translation'=>array(
 			'po'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'text/x-gettext-translation-template'=>array(
-			'pot'=>array(
 				'authority'=>36,
 				'source'=>16,
 			),
@@ -19198,12 +13890,6 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'text/x-install'=>array(
-			'install'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'text/x-iptables'=>array(
 			'iptables'=>array(
 				'authority'=>36,
@@ -19220,12 +13906,6 @@ final class Types {
 			'properties'=>array(
 				'authority'=>36,
 				'source'=>128,
-			),
-		),
-		'text/x-java-source'=>array(
-			'java'=>array(
-				'authority'=>36,
-				'source'=>132,
 			),
 		),
 		'text/x-jsp'=>array(
@@ -19258,22 +13938,10 @@ final class Types {
 				'source'=>528,
 			),
 		),
-		'text/x-log'=>array(
-			'log'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
 		'text/x-lua'=>array(
 			'lua'=>array(
 				'authority'=>36,
 				'source'=>144,
-			),
-		),
-		'text/x-lyx'=>array(
-			'lyx'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'text/x-makefile'=>array(
@@ -19294,42 +13962,10 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'text/x-markdown'=>array(
-			'mkd'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'markdown'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'md'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'text/x-microdvd'=>array(
-			'sub'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'text/x-ml'=>array(
-			'ml'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'text/x-moc'=>array(
 			'moc'=>array(
 				'authority'=>36,
 				'source'=>528,
-			),
-		),
-		'text/x-modelica'=>array(
-			'mo'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'text/x-modula'=>array(
@@ -19352,12 +13988,6 @@ final class Types {
 		),
 		'text/x-mof'=>array(
 			'mof'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'text/x-mpsub'=>array(
-			'sub'=>array(
 				'authority'=>36,
 				'source'=>16,
 			),
@@ -19420,22 +14050,10 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'text/x-opencl-src'=>array(
-			'cl'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'text/x-opml'=>array(
 			'opml'=>array(
 				'authority'=>36,
 				'source'=>20,
-			),
-		),
-		'text/x-opml+xml'=>array(
-			'opml'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'text/x-pascal'=>array(
@@ -19454,16 +14072,6 @@ final class Types {
 			'pp'=>array(
 				'authority'=>1,
 				'source'=>128,
-			),
-		),
-		'text/x-patch'=>array(
-			'diff'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'patch'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'text/x-pcs-gcd'=>array(
@@ -19494,40 +14102,8 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'text/x-php'=>array(
-			'php'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'php3'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'php4'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'text/x-po'=>array(
-			'po'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'text/x-pot'=>array(
-			'pot'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'text/x-prolog'=>array(
 			'pro'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'text/x-properties'=>array(
-			'properties'=>array(
 				'authority'=>36,
 				'source'=>128,
 			),
@@ -19590,12 +14166,6 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'text/x-readme'=>array(
-			'nfo'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'text/x-reject'=>array(
 			'rej'=>array(
 				'authority'=>36,
@@ -19625,12 +14195,6 @@ final class Types {
 			),
 			'restx'=>array(
 				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'text/x-ruby'=>array(
-			'rb'=>array(
-				'authority'=>36,
 				'source'=>128,
 			),
 		),
@@ -19690,18 +14254,6 @@ final class Types {
 				'source'=>12,
 			),
 		),
-		'text/x-sh'=>array(
-			'sh'=>array(
-				'authority'=>36,
-				'source'=>528,
-			),
-		),
-		'text/x-sql'=>array(
-			'sql'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
 		'text/x-ssa'=>array(
 			'ass'=>array(
 				'authority'=>1,
@@ -19709,18 +14261,6 @@ final class Types {
 			),
 			'ssa'=>array(
 				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'text/x-stsrc'=>array(
-			'st'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
-		'text/x-subviewer'=>array(
-			'sub'=>array(
-				'authority'=>36,
 				'source'=>16,
 			),
 		),
@@ -19826,40 +14366,8 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'text/x-texinfo'=>array(
-			'texi'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'texinfo'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-		),
-		'text/x-troff'=>array(
-			'roff'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'tr'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'text/x-troff-me'=>array(
-			'me'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'text/x-troff-mm'=>array(
 			'mm'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'text/x-troff-ms'=>array(
-			'ms'=>array(
 				'authority'=>36,
 				'source'=>16,
 			),
@@ -19902,30 +14410,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'text/x-vbasic'=>array(
-			'cls'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'frm'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'vbs'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'vb'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'text/x-vbdotnet'=>array(
-			'vb'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'text/x-vbscript'=>array(
 			'vbs'=>array(
 				'authority'=>36,
@@ -19956,16 +14440,6 @@ final class Types {
 				'source'=>16,
 			),
 			'vcard'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'text/x-verilog'=>array(
-			'svh'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'sv'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -20030,76 +14504,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'text/xml'=>array(
-			'xml'=>array(
-				'authority'=>13,
-				'source'=>240,
-			),
-			'xsd'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'rng'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xbl'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xsl'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'text/xml-external-parsed-entity'=>array(
-			'ent'=>array(
-				'authority'=>11,
-				'source'=>48,
-			),
-			'xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-		),
-		'text/xsl'=>array(
-			'fo'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'xslfo'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'xslt'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-		),
-		'text/yaml'=>array(
-			'yml'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'yaml'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'video/3gp'=>array(
-			'3ga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gpp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'video/3gpp'=>array(
 			'3gp'=>array(
 				'authority'=>36,
@@ -20110,20 +14514,6 @@ final class Types {
 				'source'=>336,
 			),
 			'3ga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'video/3gpp-encrypted'=>array(
-			'3ga'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'3gpp'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -20145,20 +14535,6 @@ final class Types {
 		'video/annodex'=>array(
 			'axv'=>array(
 				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'video/avi'=>array(
-			'avi'=>array(
-				'authority'=>3,
-				'source'=>400,
-			),
-			'avf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'divx'=>array(
-				'authority'=>1,
 				'source'=>16,
 			),
 		),
@@ -20190,22 +14566,6 @@ final class Types {
 			'dif'=>array(
 				'authority'=>1,
 				'source'=>512,
-			),
-		),
-		'video/fli'=>array(
-			'fli'=>array(
-				'authority'=>2,
-				'source'=>528,
-			),
-			'flc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'video/flv'=>array(
-			'flv'=>array(
-				'authority'=>36,
-				'source'=>16,
 			),
 		),
 		'video/gl'=>array(
@@ -20364,24 +14724,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'video/mp4v-es'=>array(
-			'f4v'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'lrv'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'm4v'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mp4'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'video/mpeg'=>array(
 			'mpg'=>array(
 				'authority'=>36,
@@ -20408,42 +14750,6 @@ final class Types {
 				'source'=>16,
 			),
 			'vob'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'video/mpeg-system'=>array(
-			'mp2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpe'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vob'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpeg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'video/msvideo'=>array(
-			'avi'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'avf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'divx'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -20504,16 +14810,6 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'video/vivo'=>array(
-			'viv'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vivo'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'video/vnd.dece.hd'=>array(
 			'uvh'=>array(
 				'authority'=>31,
@@ -20532,16 +14828,6 @@ final class Types {
 			'uvvm'=>array(
 				'authority'=>31,
 				'source'=>44,
-			),
-		),
-		'video/vnd.dece.mp4'=>array(
-			'uvu'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'uvvu'=>array(
-				'authority'=>10,
-				'source'=>32,
 			),
 		),
 		'video/vnd.dece.pd'=>array(
@@ -20574,20 +14860,6 @@ final class Types {
 				'source'=>44,
 			),
 		),
-		'video/vnd.divx'=>array(
-			'avf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'avi'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'divx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'video/vnd.dvb.file'=>array(
 			'dvb'=>array(
 				'authority'=>36,
@@ -20598,12 +14870,6 @@ final class Types {
 			'fvt'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'video/vnd.hns.video'=>array(
-			'rm'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'video/vnd.mpegurl'=>array(
@@ -20630,12 +14896,6 @@ final class Types {
 			'nim'=>array(
 				'authority'=>36,
 				'source'=>40,
-			),
-		),
-		'video/vnd.objectvideo'=>array(
-			'mp4'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'video/vnd.rn-realvideo'=>array(
@@ -20724,26 +14984,6 @@ final class Types {
 				'source'=>980,
 			),
 		),
-		'video/x-annodex'=>array(
-			'axv'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'video/x-avi'=>array(
-			'avf'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'avi'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'divx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'video/x-dirac'=>array(
 			'drc'=>array(
 				'authority'=>36,
@@ -20754,12 +14994,6 @@ final class Types {
 			'f4v'=>array(
 				'authority'=>36,
 				'source'=>132,
-			),
-		),
-		'video/x-flc'=>array(
-			'flc'=>array(
-				'authority'=>36,
-				'source'=>128,
 			),
 		),
 		'video/x-fli'=>array(
@@ -20812,12 +15046,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'video/x-jng'=>array(
-			'jng'=>array(
-				'authority'=>36,
-				'source'=>128,
-			),
-		),
 		'video/x-la-asf'=>array(
 			'lsf'=>array(
 				'authority'=>21,
@@ -20826,24 +15054,6 @@ final class Types {
 			'lsx'=>array(
 				'authority'=>21,
 				'source'=>520,
-			),
-		),
-		'video/x-m4v'=>array(
-			'm4v'=>array(
-				'authority'=>5,
-				'source'=>724,
-			),
-			'f4v'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'lrv'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mp4'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'video/x-matroska'=>array(
@@ -20860,12 +15070,6 @@ final class Types {
 				'source'=>4,
 			),
 		),
-		'video/x-matroska-3d'=>array(
-			'mk3d'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'video/x-mjpeg'=>array(
 			'mjpeg'=>array(
 				'authority'=>1,
@@ -20880,86 +15084,6 @@ final class Types {
 			'mng'=>array(
 				'authority'=>36,
 				'source'=>732,
-			),
-		),
-		'video/x-mpeg'=>array(
-			'mp2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpe'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vob'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpeg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'video/x-mpeg-system'=>array(
-			'mp2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpe'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vob'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpeg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'video/x-mpeg2'=>array(
-			'mp2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpe'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vob'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpeg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'video/x-mpegurl'=>array(
-			'm1u'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'm4u'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mxu'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'video/x-ms-asf'=>array(
@@ -20980,34 +15104,10 @@ final class Types {
 				'source'=>128,
 			),
 		),
-		'video/x-ms-asf-plugin'=>array(
-			'asf'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'video/x-ms-vob'=>array(
 			'vob'=>array(
 				'authority'=>36,
 				'source'=>4,
-			),
-		),
-		'video/x-ms-wax'=>array(
-			'asx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wax'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wmx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wvx'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 		'video/x-ms-wm'=>array(
@@ -21082,38 +15182,6 @@ final class Types {
 				'source'=>24,
 			),
 		),
-		'video/x-ogg'=>array(
-			'ogg'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ogv'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'video/x-ogm'=>array(
-			'ogm'=>array(
-				'authority'=>36,
-				'source'=>144,
-			),
-		),
-		'video/x-ogm+ogg'=>array(
-			'ogm'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'video/x-real-video'=>array(
-			'rvx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'rv'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'video/x-sgi-movie'=>array(
 			'movie'=>array(
 				'authority'=>36,
@@ -21126,134 +15194,10 @@ final class Types {
 				'source'=>12,
 			),
 		),
-		'video/x-theora'=>array(
-			'ogg'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'video/x-theora+ogg'=>array(
-			'ogg'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'x-conference/x-cooltalk'=>array(
 			'ice'=>array(
 				'authority'=>36,
 				'source'=>652,
-			),
-		),
-		'x-epoc/x-sisx-app'=>array(
-			'sisx'=>array(
-				'authority'=>36,
-				'source'=>528,
-			),
-		),
-		'x-world/x-vrml'=>array(
-			'vrm'=>array(
-				'authority'=>1,
-				'source'=>512,
-			),
-			'wrl'=>array(
-				'authority'=>1,
-				'source'=>512,
-			),
-			'vrml'=>array(
-				'authority'=>1,
-				'source'=>512,
-			),
-		),
-		'zz-application/zz-winassoc-123'=>array(
-			'wk1'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wk3'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wk4'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'wks'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'zz-application/zz-winassoc-cab'=>array(
-			'cab'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'zz-application/zz-winassoc-cdr'=>array(
-			'cdr'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'zz-application/zz-winassoc-doc'=>array(
-			'doc'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'zz-application/zz-winassoc-hlp'=>array(
-			'hlp'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'zz-application/zz-winassoc-mdb'=>array(
-			'mdb'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'zz-application/zz-winassoc-uu'=>array(
-			'uue'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
-		'zz-application/zz-winassoc-xls'=>array(
-			'xla'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xlc'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xld'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xll'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xlm'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xls'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xlt'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xlw'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 		),
 	);
