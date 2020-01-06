@@ -14,12 +14,14 @@ namespace Righteous\Build;
 use Righteous\MIMEs;
 use function Righteous\Build\collect_data;
 use function Righteous\Build\collect_group;
+use function Righteous\Build\get_template;
 use function Righteous\Build\json_to_php;
 use const Righteous\Build\BIN_DIR;
 use const Righteous\Build\LIB_DIR;
 use const Righteous\Build\OUT_DIR;
 use const Righteous\Build\ROOT_DIR;
 use const Righteous\Build\SKEL_DIR;
+use const Righteous\Build\SOURCES;
 use const Righteous\Build\TMP_DIR;
 
 
@@ -46,16 +48,102 @@ if (
 // We should steal some functionality from the main library.
 require LIB_DIR . '/vendor/autoload.php';
 
+const SOURCES = array(
+	'apache'=>array(
+		'class'=>__DIR__ . '/source/apache.php',
+		'className'=>'Righteous\\Build\\Source\\Apache',
+		'name'=>'Apache',
+		'type'=>'Server',
+		'url'=>'https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types',
+		'copyright'=>'The Apache Software Foundation',
+		'license'=>'Apache',
+		'license_url'=>'https://www.apache.org/licenses/LICENSE-2.0',
+		'data'=>TMP_DIR . '/apache.txt',
+	),
+	'blobfolio'=>array(
+		'class'=>__DIR__ . '/source/blobfolio.php',
+		'className'=>'Righteous\\Build\\Source\\Blobfolio',
+		'name'=>'Blobfolio',
+		'type'=>'Other',
+		'url'=>'https://github.com/Blobfolio/righteous-mimes',
+		'copyright'=>'Blobfolio, LLC',
+		'license'=>'WTFPL',
+		'license_url'=>'http://www.wtfpl.net/',
+		'data'=>SKEL_DIR . '/blobfolio.csv',
+	),
+	'freedesktop'=>array(
+		'class'=>__DIR__ . '/source/freedesktop.php',
+		'className'=>'Righteous\\Build\\Source\\FreeDesktop',
+		'name'=>'FreeDesktop.org',
+		'type'=>'Server',
+		'url'=>'https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in',
+		'copyright'=>'FreeDesktop.org',
+		'license'=>'MIT',
+		'license_url'=>'https://opensource.org/licenses/MIT',
+		'data'=>TMP_DIR . '/freedesktop.xml',
+	),
+	'iana'=>array(
+		'class'=>__DIR__ . '/source/iana.php',
+		'className'=>'Righteous\\Build\\Source\\Iana',
+		'name'=>'IANA',
+		'type'=>'Registry',
+		'url'=>'https://www.iana.org/assignments/media-types',
+		'copyright'=>'IETF Trust',
+		'license'=>'rfc-copyright-story',
+		'license_url'=>'https://www.rfc-editor.org/copyright/',
+		'data'=>TMP_DIR . '/iana/media-types',
+	),
+	'nginx'=>array(
+		'class'=>__DIR__ . '/source/nginx.php',
+		'className'=>'Righteous\\Build\\Source\\Nginx',
+		'name'=>'Nginx',
+		'type'=>'Server',
+		'url'=>'http://hg.nginx.org/nginx/raw-file/default/conf/mime.types',
+		'copyright'=>'Nginx includes_url',
+		'license'=>'BSD',
+		'license_url'=>'https://opensource.org/licenses/BSD-2-Clause',
+		'data'=>TMP_DIR . '/nginx.txt',
+	),
+	'tika'=>array(
+		'class'=>__DIR__ . '/source/tika.php',
+		'className'=>'Righteous\\Build\\Source\\Tika',
+		'name'=>'Tika',
+		'type'=>'Server',
+		'url'=>'https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml',
+		'copyright'=>'The Apache Software Foundation',
+		'license'=>'Apache',
+		'license_url'=>'https://www.apache.org/licenses/LICENSE-2.0',
+		'data'=>TMP_DIR . '/tika.xml',
+	),
+	'drupal'=>array(
+		'class'=>__DIR__ . '/source/drupal.php',
+		'className'=>'Righteous\\Build\\Source\\Drupal',
+		'name'=>'Drupal',
+		'type'=>'CMS',
+		'url'=>'https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php',
+		'copyright'=>'Drupal',
+		'license'=>'GPL',
+		'license_url'=>'https://www.drupal.org/about/licensing',
+		'data'=>TMP_DIR . '/drupal.php',
+	),
+	'wordpress'=>array(
+		'class'=>__DIR__ . '/source/wordpress.php',
+		'className'=>'Righteous\\Build\\Source\\WordPress',
+		'name'=>'WordPress',
+		'type'=>'CMS',
+		'url'=>'https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php',
+		'copyright'=>'Automattic',
+		'license'=>'GPLv2',
+		'license_url'=>'https://wordpress.org/about/license/',
+		'data'=>TMP_DIR . '/wp.php',
+	),
+);
+
 // This is ours.
 require __DIR__ . '/source.php';
-require __DIR__ . '/source/apache.php';
-require __DIR__ . '/source/blobfolio.php';
-require __DIR__ . '/source/drupal.php';
-require __DIR__ . '/source/freedesktop.php';
-require __DIR__ . '/source/iana.php';
-require __DIR__ . '/source/nginx.php';
-require __DIR__ . '/source/tika.php';
-require __DIR__ . '/source/wordpress.php';
+foreach (SOURCES as $v) {
+	require $v['class'];
+}
 
 // Early parsed data.
 $data = array();
@@ -93,6 +181,42 @@ function collect_group(string $ext, int $group) : void {
 	else {
 		$out_groups[$ext] |= $group;
 	}
+}
+
+/**
+ * Get Template
+ *
+ * Get a template, patching its sources.
+ *
+ * @param string $file File.
+ * @return string Content.
+ */
+function get_template(string $file) : string {
+	static $sources;
+	if (null === $sources) {
+		$tmp = SOURCES;
+		\usort($tmp, function($a, $b) {
+			return $a['name'] <=> $b['name'];
+		});
+
+		$sources = array();
+		foreach ($tmp as $v) {
+			$sources[] = \sprintf(
+				" * @author %s\n * @source {%s}\n * @copyright %d %s\n * @license %s %s",
+				$v['name'],
+				$v['url'],
+				\date('Y'),
+				$v['copyright'],
+				$v['license_url'],
+				$v['license']
+			);
+		}
+
+		$sources = \implode("\n *\n", $sources);
+	}
+
+	$out = \file_get_contents($file);
+	return \str_replace(' * @sources', $sources, $out);
 }
 
 /**
@@ -135,38 +259,9 @@ function json_to_php(string $json, bool $strip_num_keys = false) : ?string {
 }
 
 // Collect the data.
-collect_data(
-	'Righteous\\Build\\Source\\Apache',
-	TMP_DIR . '/apache.txt'
-);
-collect_data(
-	'Righteous\\Build\\Source\\Blobfolio',
-	SKEL_DIR . '/blobfolio.csv'
-);
-collect_data(
-	'Righteous\\Build\\Source\\FreeDesktop',
-	TMP_DIR . '/freedesktop.xml'
-);
-collect_data(
-	'Righteous\\Build\\Source\\Iana',
-	TMP_DIR . '/iana/media-types'
-);
-collect_data(
-	'Righteous\\Build\\Source\\Nginx',
-	TMP_DIR . '/nginx.txt'
-);
-collect_data(
-	'Righteous\\Build\\Source\\Tika',
-	TMP_DIR . '/tika.xml'
-);
-collect_data(
-	'Righteous\\Build\\Source\\Drupal',
-	TMP_DIR . '/drupal.php'
-);
-collect_data(
-	'Righteous\\Build\\Source\\WordPress',
-	TMP_DIR . '/wp.php'
-);
+foreach (SOURCES as $v) {
+	collect_data($v['className'], $v['data']);
+}
 
 // Now that we have all the data separated by source, let's merge them.
 $out_aliases = array();
@@ -495,7 +590,7 @@ $out_types = \json_encode($out_types);
 // And let's generate the library classes!
 
 // Aliases.
-$content = \file_get_contents(SKEL_DIR . '/templates/aliases.php');
+$content = get_template(SKEL_DIR . '/templates/aliases.php');
 $content = \str_replace(
 	array(
 		'ALIASES = null',
@@ -510,7 +605,7 @@ $content = \str_replace(
 \file_put_contents(OUT_DIR . '/aliases.php', $content);
 
 // Extensions.
-$content = \file_get_contents(SKEL_DIR . '/templates/extensions.php');
+$content = get_template(SKEL_DIR . '/templates/extensions.php');
 $content = \str_replace(
 	array(
 		'TYPES = null',
@@ -525,7 +620,7 @@ $content = \str_replace(
 \file_put_contents(OUT_DIR . '/extensions.php', $content);
 
 // Types.
-$content = \file_get_contents(SKEL_DIR . '/templates/types.php');
+$content = get_template(SKEL_DIR . '/templates/types.php');
 $content = \str_replace(
 	'TYPES = null',
 	'TYPES = ' . json_to_php($out_types),
