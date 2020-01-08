@@ -26,8 +26,6 @@ skel_dir     := justfile_directory() + "/skel"
 test_dir     := justfile_directory() + "/tests"
 vendor_dir   := lib_dir + "/vendor"
 
-docker_sig   := "/opt/righteous"
-
 
 
 ##        ##
@@ -178,50 +176,12 @@ _set-version VERSION:
 
 
 
-##            ##
-# DOCKER TASKS #
-##            ##
-
-# Host: Launch container build environment.
-@docker-launch: _no_docker _docker_requirements
-	just --justfile "{{ build_dir }}/justfile" launch "{{ justfile_directory() }}" "_init"
-
-
-# Host: Force a rebuild of the container build environment.
-@docker-rebuild: _no_docker _docker_requirements
-	just _header "Rebuilding Righteous Sandbox."
-
-	[ ! -d "{{ build_dir }}" ] || rm -rf "{{ build_dir }}"
-	git clone https://github.com/Blobfolio/righteous-sandbox.git "{{ build_dir }}"
-	just --justfile "{{ build_dir }}/justfile" rebuild
-
-	just _success "The container has been rebuilt."
-
-
-
 ##        ##
 # INTERNAL #
 ##        ##
 
-# Fix file/directory ownership.
-@_fix_chown PATH:
-	[ ! -e "{{ PATH }}" ] || chown -R --reference="{{ justfile() }}" "{{ PATH }}"
-
-
-# General requirements.
-@_requirements:
-	# Need our PHP apps.
-	[ $( command -v composer ) ] || just _die "Composer is required."
-	[ $( command -v php ) ] || just _die "PHP is required."
-	[ $( command -v phpcs ) ] || just _die "PHPCS is required."
-	[ $( command -v phpunit ) ] || just _die "PHPUnit is required."
-	[ $( command -v rsync ) ] || just _die "Rsync is required."
-	[ $( command -v watchexec ) ] || just _die "WatchExec is required."
-	[ $( command -v wget ) ] || just _die "WGET is required."
-
-
 # Docker requirements.
-@_docker_requirements:
+@_host_requirements:
 	# Docker should exist and be running.
 	[ $( command -v docker ) ] || just _die "Docker is required."
 
@@ -231,10 +191,49 @@ _set-version VERSION:
 	# Make sure the build environment exists.
 	[ -d "{{ build_dir }}" ] || git clone https://github.com/Blobfolio/righteous-sandbox.git "{{ build_dir }}"
 
+	# And we shouldn't be inside a container.
+	just _no_docker
+
+
+
+##       ##
+# SANDBOX #
+##       ##
+
+# Host: Launch container build environment.
+@sandbox-launch: _host_requirements
+	just _sandbox "launch" "{{ justfile_directory() }}"
+
+
+# Host: Force a rebuild of the container build environment.
+@sandbox-rebuild: _host_requirements
+	just _header "Rebuilding Righteous Sandbox."
+
+	[ ! -d "{{ build_dir }}" ] || rm -rf "{{ build_dir }}"
+	git clone https://github.com/Blobfolio/righteous-sandbox.git "{{ build_dir }}"
+	just _sandbox "rebuild"
+
+	just _success "The container has been rebuilt."
+
+
+# Run task from Sandbox justfile.
+@_sandbox TASK +ARGS='':
+	just --justfile "{{ build_dir }}/justfile" "{{ TASK }}" {{ ARGS }}
+
+
+# Fix file/directory ownership.
+@_fix_chown PATH:
+	just _sandbox "_fix_chown" "{{ PATH }}"
+
 
 # Ensure tasks are not run from within a container.
 @_no_docker:
-	[ ! -f "{{ docker_sig }}" ] || just _die "This task is meant to be run on a local machine."
+	just _sandbox "_no_docker"
+
+
+# General requirements.
+@_requirements:
+	just _sandbox "_only_docker"
 
 
 
