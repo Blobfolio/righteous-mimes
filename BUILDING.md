@@ -1,15 +1,21 @@
 # Building Righteous MIMEs!
 
-To make things easy, **Righteous MIMEs!** comes with its very own containerized build environment loaded with all but _three_ dependencies. (You don't need to install a billion dangerous packages directly to your local machine! Hurray!)
+**Note:** if you just intend to _use_ this library, you don't need to _build_ it. Just follow the [installation instructions](README.md#installation) in the main README.
 
-In other words, all you need to build this library from scratch is:
+Even simple projects these days have massive build/development dependencies. Rather than requiring users try — and fail — to install millions of NPM packages, crates, and compilers locally — again and again for each damn project — we've decided to give containers a try.
+
+This way, if you can run [Docker](https://www.docker.com/), you can build, develop, and/or test **Righteous MIMEs!**
+
+
+&nbsp;
+## Prerequisites:
+
+Locally, you only need three applications installed:
 * [Docker](https://www.docker.com/) (or [Podman](https://podman.io/) suitably aliased to `docker`).
 * [Git](https://github.com/git/git) (but you surely have that already).
 * [Just](https://github.com/casey/just).
 
-In terms of system requirements, you'll need a decent Internet connection, about `1GB` of disk space for the expanded Docker image(s) (to be safe), and at least `256MB` of RAM to run the processes, though the more the merrier.
-
-It should be noted if you just intend to _use_ this library, you don't need to _build_ it. Just follow the [installation instructions](README.md#installation) in the main README.
+The [Righteous Sandbox](https://github.com/Blobfolio/righteous-sandbox/) container is shared with several other Blobfolio projects so is a bit large — about 3.1GB — but only needs to be built once. Just make sure you have adequate disk space and a good Internet connection for the first run.
 
 
 &nbsp;
@@ -36,23 +42,13 @@ The first run will take a little time and a little bandwidth to sort out as the 
 
 After running `just sandbox-launch` from your local machine, you'll be dropped into a Docker shell listing all of the available build tasks.
 
-Run the one you want:
+If you're developing — making changes to PHP, CSS, and/or JS — run `just watch`. That will watch the project directory for script changes and execute any linting, compressing, compiling, etc., sub-tasks any time there's a change.
 
-```bash
-# Rebuild the dataset.
-just data
+To run the unit tests, run `just test`.
 
-# Watch PHP code for changes, linting and validating as you go.
-just watch
+To manually recompile the MIME data, run `just data`.
 
-# Run unit tests.
-just test
-
-# Show the list again.
-just --list
-```
-
-When you're done, press `CTRL + D` (for most computers, anyway) to exit and return to your local machine.
+When you're done, press `CTRL + D` (or whatever key combination you normally use to exit terminal sessions) to exit and return to your local machine.
 
 
 &nbsp;
@@ -65,9 +61,8 @@ To update/rebuild the environment at any point in the future, run `just sandbox-
 There is no automated removal process, but you can do that the normal Docker way, e.g.:
 
 ```bash
-# Remove the build environment and its Debian base
-# (if nothing else is using it).
-docker rmi righteous/sandbox debian:buster-slim
+# Remove the build environment.
+docker rmi righteous/sandbox
 ```
 
 
