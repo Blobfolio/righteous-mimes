@@ -201,7 +201,7 @@ _set-version VERSION:
 ##       ##
 
 # Host: Launch container build environment.
-@sandbox-launch: _host_requirements
+@sandbox: _host_requirements
 	just _sandbox "launch" "{{ justfile_directory() }}"
 
 

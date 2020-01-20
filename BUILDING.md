@@ -31,7 +31,7 @@ git clone https://github.com/Blobfolio/righteous-mimes.git righteous-mimes
 cd righteous-mimes/
 
 # Run the Just Docker task.
-just sandbox-launch
+just sandbox
 ```
 
 The first run will take a little time and a little bandwidth to sort out as the build container needs to be built, but after that things should go quickly.
@@ -40,7 +40,7 @@ The first run will take a little time and a little bandwidth to sort out as the 
 &nbsp;
 ## Build Tasks
 
-After running `just sandbox-launch` from your local machine, you'll be dropped into a Docker shell listing all of the available build tasks.
+After running `just sandbox` from your local machine, you'll be dropped into a Docker shell listing all of the available build tasks.
 
 If you're developing — making changes to PHP, CSS, and/or JS — run `just watch`. That will watch the project directory for script changes and execute any linting, compressing, compiling, etc., sub-tasks any time there's a change.
 
@@ -54,7 +54,7 @@ When you're done, press `CTRL + D` (or whatever key combination you normally use
 &nbsp;
 ## Rinse and Repeat
 
-To launch the build environment a second or third or hundredth time, pop back into the project directory and run `just sandbox-launch` again.
+To launch the build environment a second or third or hundredth time, pop back into the project directory and run `just sandbox` again.
 
 To update/rebuild the environment at any point in the future, run `just sandbox-rebuild`. Easy!
 
