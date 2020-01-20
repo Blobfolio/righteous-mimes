@@ -15,7 +15,7 @@ use Righteous\MIMEs\Sanitize;
 
 
 
-class File {
+final class File {
 	/**
 	 * Template
 	 */
