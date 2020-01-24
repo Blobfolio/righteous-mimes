@@ -168,6 +168,7 @@ _set-version VERSION:
 		--standard=Blobfolio \
 		--encoding=utf8 \
 		-p \
+		-s \
 		--cache \
 		--report=full \
 		--extensions=php \
