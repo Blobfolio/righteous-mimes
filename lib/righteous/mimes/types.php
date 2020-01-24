@@ -73,7 +73,7 @@ final class Types {
 	 * Primary Extension by Type
 	 *
 	 * @param string $type Type.
-	 * @return ?array Extensions.
+	 * @return ?string Extensions.
 	 */
 	public static function extension(string $type) : ?string {
 		if (null !== ($tmp = self::extensions($type))) {

@@ -773,7 +773,7 @@ final class File {
 	 * Righteous MIMEs does not (yet) implement ID3 parsing directly,
 	 * but if the `getID3` library is present, we'll use it!
 	 *
-	 * @return ?string MIME.
+	 * @return ?array MIME.
 	 */
 	private function _id3_info() : ?array {
 		if (! \class_exists('getID3')) {
