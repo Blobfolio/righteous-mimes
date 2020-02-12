@@ -47,7 +47,7 @@ vendor_dir   := lib_dir + "/vendor"
 	wget -q -O "/tmp/raw-mimes/drupal.php" https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php
 
 	just _info "Fetching FreeDesktop.org data."
-	wget -q -O "/tmp/raw-mimes/freedesktop.xml" https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in
+	wget -q -O "/tmp/raw-mimes/freedesktop.xml" https://cgit.freedesktop.org/xdg/shared-mime-info/plain/data/freedesktop.org.xml.in
 
 	just _info "Fetching IANA data."
 	[ -d "/tmp/raw-mimes/iana" ] || mkdir -p /tmp/raw-mimes/iana
