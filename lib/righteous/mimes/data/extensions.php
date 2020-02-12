@@ -1674,6 +1674,12 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'bps'=>array(
+			'application/x-bps-patch'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'br'=>array(
 			'application/x-brotli'=>array(
 				'authority'=>36,
@@ -6956,6 +6962,12 @@ final class Extensions {
 				'source'=>140,
 			),
 		),
+		'ips'=>array(
+			'application/x-ips-patch'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'iptables'=>array(
 			'text/x-iptables'=>array(
 				'authority'=>1,
@@ -9000,8 +9012,12 @@ final class Extensions {
 		),
 		'ma'=>array(
 			'application/mathematica'=>array(
-				'authority'=>36,
-				'source'=>172,
+				'authority'=>12,
+				'source'=>164,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'mab'=>array(
@@ -9140,8 +9156,12 @@ final class Extensions {
 		),
 		'mb'=>array(
 			'application/mathematica'=>array(
-				'authority'=>36,
-				'source'=>172,
+				'authority'=>12,
+				'source'=>164,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'mbk'=>array(
@@ -10735,11 +10755,11 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/x-mathematica'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
 			'text/plain'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
+			'application/x-mathematica'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -14372,6 +14392,12 @@ final class Extensions {
 			'application/x-sap-file'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'sar'=>array(
+			'application/vnd.sar'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'sas'=>array(
@@ -18584,6 +18610,16 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'wl'=>array(
+			'application/vnd.wolfram.wl'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
+			'application/mathematica'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
+		),
 		'wm'=>array(
 			'video/x-ms-wm'=>array(
 				'authority'=>36,
@@ -21352,6 +21388,7 @@ final class Extensions {
 		'm3u8'=>8,
 		'm4'=>8,
 		'm4u'=>8,
+		'ma'=>8,
 		'mads'=>16,
 		'maei'=>16,
 		'mak'=>8,
@@ -21360,6 +21397,7 @@ final class Extensions {
 		'manifest'=>8,
 		'markdown'=>8,
 		'mathml'=>16,
+		'mb'=>8,
 		'mbox'=>8,
 		'mc2'=>8,
 		'mcurl'=>8,
