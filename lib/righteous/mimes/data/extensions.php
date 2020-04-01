@@ -988,6 +988,16 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'asd'=>array(
+			'text/x-common-lisp'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'asf'=>array(
 			'application/vnd.ms-asf'=>array(
 				'authority'=>11,
@@ -1466,6 +1476,16 @@ final class Extensions {
 			'application/x-msdos-program'=>array(
 				'authority'=>1,
 				'source'=>512,
+			),
+		),
+		'bau'=>array(
+			'application/vnd.openofficeorg.autotext'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
+			'application/zip'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'bay'=>array(
@@ -2342,6 +2362,12 @@ final class Extensions {
 				'source'=>140,
 			),
 		),
+		'cjs'=>array(
+			'application/node'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'cl'=>array(
 			'application/simple-filter+xml'=>array(
 				'authority'=>10,
@@ -3079,6 +3105,10 @@ final class Extensions {
 			),
 		),
 		'dbf'=>array(
+			'application/vnd.dbf'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/x-dbf'=>array(
 				'authority'=>2,
 				'source'=>144,
@@ -4612,6 +4642,16 @@ final class Extensions {
 		),
 		'f95'=>array(
 			'text/x-fortran'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'fasl'=>array(
+			'text/x-common-lisp'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -7846,6 +7886,12 @@ final class Extensions {
 				'source'=>12,
 			),
 		),
+		'jsontd'=>array(
+			'application/td+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'jsp'=>array(
 			'text/x-jsp'=>array(
 				'authority'=>1,
@@ -8448,12 +8494,12 @@ final class Extensions {
 		),
 		'lisp'=>array(
 			'text/x-common-lisp'=>array(
-				'authority'=>1,
-				'source'=>128,
+				'authority'=>2,
+				'source'=>144,
 			),
 			'text/plain'=>array(
-				'authority'=>1,
-				'source'=>128,
+				'authority'=>2,
+				'source'=>144,
 			),
 		),
 		'list'=>array(
@@ -10560,6 +10606,12 @@ final class Extensions {
 				'source'=>24,
 			),
 		),
+		'mtl'=>array(
+			'model/mtl'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'mtm'=>array(
 			'audio/x-mod'=>array(
 				'authority'=>36,
@@ -11069,9 +11121,13 @@ final class Extensions {
 			),
 		),
 		'obj'=>array(
+			'model/obj'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/x-tgif'=>array(
-				'authority'=>36,
-				'source'=>28,
+				'authority'=>2,
+				'source'=>20,
 			),
 		),
 		'ocaml'=>array(
@@ -14043,9 +14099,17 @@ final class Extensions {
 			),
 		),
 		'ros'=>array(
+			'text/x-common-lisp'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'chemical/x-rosdal'=>array(
-				'authority'=>36,
-				'source'=>520,
+				'authority'=>1,
+				'source'=>512,
 			),
 		),
 		'rp'=>array(
@@ -14844,6 +14908,18 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'senml-etchc'=>array(
+			'application/senml-etch+cbor'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'senml-etchj'=>array(
+			'application/senml-etch+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'senmlc'=>array(
 			'application/senml+cbor'=>array(
 				'authority'=>36,
@@ -15101,9 +15177,13 @@ final class Extensions {
 			),
 		),
 		'shp'=>array(
+			'application/vnd.shp'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/x-shapefile'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'shtml'=>array(
@@ -15116,6 +15196,12 @@ final class Extensions {
 			'application/x-corelpresentations'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'shx'=>array(
+			'application/vnd.shx'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'si7'=>array(
@@ -16075,6 +16161,10 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'application/vnd.sun.xml.writer'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
 		),
 		'stx'=>array(
 			'application/x-sas-transport'=>array(
@@ -16290,8 +16380,8 @@ final class Extensions {
 				'source'=>660,
 			),
 			'application/zip'=>array(
-				'authority'=>1,
-				'source'=>16,
+				'authority'=>2,
+				'source'=>144,
 			),
 		),
 		'sxd'=>array(
@@ -16300,8 +16390,8 @@ final class Extensions {
 				'source'=>660,
 			),
 			'application/zip'=>array(
-				'authority'=>1,
-				'source'=>16,
+				'authority'=>2,
+				'source'=>144,
 			),
 		),
 		'sxg'=>array(
@@ -16324,8 +16414,8 @@ final class Extensions {
 				'source'=>660,
 			),
 			'application/zip'=>array(
-				'authority'=>1,
-				'source'=>16,
+				'authority'=>2,
+				'source'=>144,
 			),
 		),
 		'sxl'=>array(
@@ -16356,8 +16446,8 @@ final class Extensions {
 				'source'=>660,
 			),
 			'application/zip'=>array(
-				'authority'=>1,
-				'source'=>16,
+				'authority'=>2,
+				'source'=>144,
 			),
 			'application/x-vnd.sun.xml.writer'=>array(
 				'authority'=>1,
@@ -16558,6 +16648,10 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>2,
 				'source'=>144,
+			),
+			'text/tcl'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'tcsh'=>array(
@@ -16794,6 +16888,10 @@ final class Extensions {
 			'application/x-tcl'=>array(
 				'authority'=>2,
 				'source'=>192,
+			),
+			'text/tcl'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'tlclient'=>array(
@@ -17637,6 +17735,18 @@ final class Extensions {
 			),
 		),
 		'vbs'=>array(
+			'text/vbscript'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/vbs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'text/x-vbscript'=>array(
 				'authority'=>1,
 				'source'=>128,
@@ -21078,6 +21188,12 @@ final class Extensions {
 				'source'=>24,
 			),
 		),
+		'726'=>array(
+			'audio/32kadpcm'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'19051'=>array(
 			'application/vnd.ieee.1905'=>array(
 				'authority'=>36,
@@ -21116,6 +21232,7 @@ final class Extensions {
 		'asc'=>8,
 		'ascii'=>8,
 		'asciidoc'=>8,
+		'asd'=>8,
 		'asice'=>32,
 		'asics'=>32,
 		'asm'=>8,
@@ -21134,6 +21251,7 @@ final class Extensions {
 		'bas'=>8,
 		'bash'=>8,
 		'bat'=>8,
+		'bau'=>32,
 		'bib'=>8,
 		'bibtex'=>8,
 		'bmml'=>16,
@@ -21243,6 +21361,7 @@ final class Extensions {
 		'f77'=>8,
 		'f90'=>8,
 		'f95'=>8,
+		'fasl'=>8,
 		'fb2'=>16,
 		'feature'=>8,
 		'fl'=>8,
@@ -21351,6 +21470,7 @@ final class Extensions {
 		'json-patch'=>2,
 		'jsonld'=>2,
 		'jsonml'=>2,
+		'jsontd'=>2,
 		'jsp'=>8,
 		'jtd'=>8,
 		'junit'=>8,
@@ -21556,6 +21676,7 @@ final class Extensions {
 		'rnx'=>8,
 		'roff'=>8,
 		'roles'=>8,
+		'ros'=>8,
 		'rs'=>24,
 		'rsat'=>16,
 		'rsd'=>16,
@@ -21585,6 +21706,7 @@ final class Extensions {
 		'sdp'=>8,
 		'sed'=>8,
 		'senml'=>2,
+		'senml-etchj'=>2,
 		'senmlx'=>16,
 		'sensml'=>2,
 		'sensmlx'=>16,
