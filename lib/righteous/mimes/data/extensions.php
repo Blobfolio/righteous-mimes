@@ -103,10 +103,6 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'video/mp4'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
 		),
 		'3ga'=>array(
 			'video/3gpp'=>array(
@@ -201,10 +197,6 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'video/mp4'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
 		),
 		'3gpp'=>array(
 			'video/3gpp'=>array(
@@ -254,10 +246,6 @@ final class Extensions {
 				'source'=>16,
 			),
 			'audio/3gpp2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'video/mp4'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -315,10 +303,6 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'audio/vnd.audible.aax'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
 		),
 		'aab'=>array(
 			'application/x-authorware-bin'=>array(
@@ -359,17 +343,9 @@ final class Extensions {
 			),
 		),
 		'aax'=>array(
-			'audio/x-pn-audibleaudio'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'audio/vnd.audible'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
 			'audio/vnd.audible.aax'=>array(
-				'authority'=>1,
-				'source'=>16,
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'abs-linkmap'=>array(
@@ -1306,6 +1282,18 @@ final class Extensions {
 			'video/vnd.divx'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'avif'=>array(
+			'image/avif'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'avifs'=>array(
+			'image/avif-sequence'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'aw'=>array(
@@ -8080,8 +8068,8 @@ final class Extensions {
 		),
 		'key'=>array(
 			'application/vnd.apple.keynote'=>array(
-				'authority'=>3,
-				'source'=>400,
+				'authority'=>13,
+				'source'=>432,
 			),
 			'application/pgp-keys'=>array(
 				'authority'=>2,
@@ -8102,12 +8090,6 @@ final class Extensions {
 			'application/vnd.apple.iwork'=>array(
 				'authority'=>1,
 				'source'=>128,
-			),
-		),
-		'keynote'=>array(
-			'application/vnd.apple.keynote'=>array(
-				'authority'=>36,
-				'source'=>40,
 			),
 		),
 		'keys'=>array(
@@ -8272,6 +8254,16 @@ final class Extensions {
 			'application/vnd.kde.kspread'=>array(
 				'authority'=>2,
 				'source'=>132,
+			),
+		),
+		'kt'=>array(
+			'text/x-kotlin'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'ktr'=>array(
@@ -9484,6 +9476,12 @@ final class Extensions {
 			'application/vnd.proteus.magazine'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'mhas'=>array(
+			'audio/mhas'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'mht'=>array(
@@ -13232,6 +13230,12 @@ final class Extensions {
 				'source'=>24,
 			),
 		),
+		'pt'=>array(
+			'application/vnd.snesdev-page-table'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'pti'=>array(
 			'image/prs.pti'=>array(
 				'authority'=>36,
@@ -13242,6 +13246,12 @@ final class Extensions {
 			'application/vnd.pvi.ptid1'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'ptrom'=>array(
+			'application/vnd.snesdev-page-table'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'ptx'=>array(
@@ -13354,6 +13364,22 @@ final class Extensions {
 			'application/x-python-code'=>array(
 				'authority'=>1,
 				'source'=>512,
+			),
+		),
+		'pys'=>array(
+			'application/x-pyspread-bz-spreadsheet'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-bzip'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'pysu'=>array(
+			'application/x-pyspread-spreadsheet'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'pyv'=>array(
@@ -15724,6 +15750,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'spdx'=>array(
+			'text/spdx'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'spec'=>array(
 			'text/x-rpm-spec'=>array(
 				'authority'=>1,
@@ -15816,8 +15848,20 @@ final class Extensions {
 		),
 		'spx'=>array(
 			'audio/ogg'=>array(
-				'authority'=>13,
-				'source'=>676,
+				'authority'=>14,
+				'source'=>692,
+			),
+			'application/x-apple-systemprofiler+xml'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/xml'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'audio/x-speex+ogg'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'audio/x-speex'=>array(
 				'authority'=>1,
@@ -21481,6 +21525,7 @@ final class Extensions {
 		'kino'=>16,
 		'kml'=>16,
 		'kmz'=>32,
+		'kt'=>8,
 		'la'=>8,
 		'lasjson'=>2,
 		'lasxml'=>16,
@@ -21733,9 +21778,11 @@ final class Extensions {
 		'sml'=>16,
 		'socket'=>8,
 		'sos'=>8,
+		'spdx'=>8,
 		'spec'=>8,
 		'spo'=>8,
 		'spot'=>8,
+		'spx'=>16,
 		'sql'=>8,
 		'src'=>8,
 		'srt'=>8,
