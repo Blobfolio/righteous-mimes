@@ -503,7 +503,11 @@ foreach ($out_extensions as $ext=>$types) {
 foreach ($out_types as $type=>$exts) {
 	$certain = (bool) (1 === \count($exts));
 	foreach ($exts as $ext=>$info) {
-		if (
+		// Override MP4's default extension to be non-ambiguous.
+		if ('video/mp4' === $type && 'mp4' === $ext) {
+			$out_types[$type][$ext]['authority'] = 998;
+		}
+		elseif (
 			$certain ||
 			(isset($manual_primaries[$ext]) && $manual_primaries[$ext] === $type)
 		) {
