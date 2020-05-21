@@ -279,6 +279,9 @@ $type_aliases = array(
 		MIMEs::TYPE_OFFICE,
 		'application/xml',
 	),
+	'application/vnd.ms-outlook'=>array(
+		MIMEs::TYPE_OFFICE,
+	),
 	'application/vnd.ms-excel'=>array(
 		MIMEs::TYPE_OFFICE,
 		'application/xml',

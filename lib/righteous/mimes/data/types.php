@@ -3876,17 +3876,17 @@ final class Types {
 		'application/vnd.ms-outlook'=>array(
 			'msg'=>array(
 				'authority'=>36,
-				'source'=>136,
+				'source'=>1020,
 			),
 		),
 		'application/vnd.ms-outlook-pst'=>array(
 			'ost'=>array(
-				'authority'=>21,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
 			),
 			'pst'=>array(
-				'authority'=>21,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'application/vnd.ms-pki.seccat'=>array(

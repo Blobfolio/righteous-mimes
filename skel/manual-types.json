@@ -30,6 +30,7 @@
 	"mp3": "audio/mpeg",
 	"mp4": "video/mp4",
 	"mpg": "video/mpeg",
+	"msg": "application/vnd.ms-outlook",
 	"oga": "audio/ogg",
 	"ogv": "video/ogg",
 	"otf": "font/otf",

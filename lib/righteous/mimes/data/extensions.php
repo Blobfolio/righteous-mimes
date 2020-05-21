@@ -10499,7 +10499,11 @@ final class Extensions {
 		'msg'=>array(
 			'application/vnd.ms-outlook'=>array(
 				'authority'=>36,
-				'source'=>136,
+				'source'=>1020,
+			),
+			'application/vnd.ms-office'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'msh'=>array(
@@ -11644,8 +11648,12 @@ final class Extensions {
 		),
 		'ost'=>array(
 			'application/vnd.ms-outlook-pst'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
+			),
+			'application/vnd.ms-office'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'ota'=>array(
@@ -13220,8 +13228,12 @@ final class Extensions {
 		),
 		'pst'=>array(
 			'application/vnd.ms-outlook-pst'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
+			),
+			'application/vnd.ms-office'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'psw'=>array(
@@ -21605,6 +21617,7 @@ final class Extensions {
 		'mrml'=>8,
 		'ms'=>8,
 		'mscml'=>16,
+		'msg'=>4,
 		'mup'=>8,
 		'musd'=>16,
 		'musicxml'=>16,
@@ -21639,6 +21652,7 @@ final class Extensions {
 		'ora'=>32,
 		'osfpvg'=>16,
 		'osm'=>16,
+		'ost'=>4,
 		'otc'=>32,
 		'otf'=>32,
 		'otg'=>32,
@@ -21693,6 +21707,7 @@ final class Extensions {
 		'provx'=>16,
 		'ps'=>8,
 		'pskcxml'=>16,
+		'pst'=>4,
 		'py'=>8,
 		'py3'=>8,
 		'py3x'=>8,

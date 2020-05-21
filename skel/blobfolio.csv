@@ -16,6 +16,7 @@ docx,application/vnd.ms-office,1
 dot,application/vnd.ms-office,1
 dotm,application/vnd.ms-office,1
 dotx,application/vnd.ms-office,1
+msg,application/vnd.ms-office,1
 pot,application/vnd.ms-office,1
 potm,application/vnd.ms-office,1
 potx,application/vnd.ms-office,1

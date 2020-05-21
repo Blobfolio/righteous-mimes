@@ -59,7 +59,7 @@ final class Types {
 		}
 		// Make office searching easier.
 		elseif (0 === \strpos($out[0], 'application/cdfv2')) {
-			$out[] = MIMEs::OFFICE_TYPE;
+			$out[] = MIMEs::TYPE_OFFICE;
 		}
 
 		// Put the original first.

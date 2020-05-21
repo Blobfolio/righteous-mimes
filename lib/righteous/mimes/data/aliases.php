@@ -2315,6 +2315,8 @@ final class Aliases {
 		'application/vnd.ms-excel.template.macroenabled.12',
 		'application/vnd.ms-office',
 		'application/vnd.ms-officetheme',
+		'application/vnd.ms-outlook',
+		'application/vnd.ms-outlook-pst',
 		'application/vnd.ms-powerpoint',
 		'application/vnd.ms-powerpoint.addin.macroenabled.12',
 		'application/vnd.ms-powerpoint.presentation.macroenabled.12',
