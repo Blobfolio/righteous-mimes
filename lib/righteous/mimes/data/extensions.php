@@ -5765,6 +5765,10 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'text/plain'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
 		),
 		'gqf'=>array(
 			'application/vnd.grafeq'=>array(
@@ -8900,8 +8904,8 @@ final class Extensions {
 		),
 		'm3u8'=>array(
 			'application/vnd.apple.mpegurl'=>array(
-				'authority'=>13,
-				'source'=>116,
+				'authority'=>14,
+				'source'=>244,
 			),
 			'audio/x-mpegurl'=>array(
 				'authority'=>1,
@@ -9006,8 +9010,12 @@ final class Extensions {
 		),
 		'm4s'=>array(
 			'video/iso.segment'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>11,
+				'source'=>160,
+			),
+			'video/quicktime'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'm4u'=>array(
@@ -9384,6 +9392,16 @@ final class Extensions {
 			'image/x-raw-mamiya'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'memgraph'=>array(
+			'application/x-memgraph'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
+			'application/x-bplist'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'mesh'=>array(
@@ -10194,8 +10212,12 @@ final class Extensions {
 		),
 		'mpd'=>array(
 			'application/dash+xml'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>11,
+				'source'=>160,
+			),
+			'application/xml'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'mpdd'=>array(
@@ -11984,6 +12006,12 @@ final class Extensions {
 			'application/x-par2'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'parquet'=>array(
+			'application/x-parquet'=>array(
+				'authority'=>36,
+				'source'=>136,
 			),
 		),
 		'part'=>array(
@@ -15722,6 +15750,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'sofa'=>array(
+			'audio/sofa'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'sos'=>array(
@@ -21453,7 +21487,7 @@ final class Extensions {
 		'gp'=>8,
 		'gpg'=>8,
 		'gplt'=>8,
-		'gpx'=>16,
+		'gpx'=>24,
 		'gradle'=>8,
 		'grd'=>2,
 		'grm'=>8,
