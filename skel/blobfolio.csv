@@ -49,6 +49,7 @@ xltx,application/vnd.ms-office,1
 xlw,application/vnd.ms-office,1
 xml,application/vnd.ms-office,1
 otf,application/vnd.ms-opentype,1
+gpx,text/plain,1
 explain,application/zip,1
 mxl,application/zip,1
 mp4,audio/mp4,1
