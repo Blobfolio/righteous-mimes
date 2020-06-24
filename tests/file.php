@@ -384,6 +384,14 @@ class file_tests extends \PHPUnit\Framework\TestCase {
 		),
 
 		array(
+			'file'=>file_tests::ASSET_DIR . '/text.gpx',
+			'ext'=>'gpx',
+			'type'=>'application/gpx+xml',
+			'naked_ext'=>null,
+			'naked_type'=>null,
+		),
+
+		array(
 			'file'=>file_tests::ASSET_DIR . '/text.epub',
 			'ext'=>'epub',
 			'naked_ext'=>null,
