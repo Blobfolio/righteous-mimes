@@ -51,12 +51,14 @@ xltx,application/vnd.ms-office,1
 xlw,application/vnd.ms-office,1
 xml,application/vnd.ms-office,1
 otf,application/vnd.ms-opentype,1
-gpx,text/plain,1
 explain,application/zip,1
-mxl,application/zip,1
-mscz,application/zip,1
+gpx,text/plain,1
+mscx,application/x-musescore-portable+xml,1
 mscx,application/xml,1
-mp4,audio/mp4,1
+mscz,application/x-musescore-portable,1
+mscz,application/zip,1
+mxl,application/vnd.recordare.musicxml-portable,1
+mxl,application/zip,1
 eot,font/eot,1
 jp2,image/jp2,1
 jpf,image/jp2,1
@@ -69,4 +71,5 @@ jpf,image/jpeg2000-image,1
 jpx,image/jpeg2000-image,1
 ico,image/x-icon,1
 m4v,video/x-ivf,1
+mp4,audio/mp4,1
 mp4,video/x-ivf,1

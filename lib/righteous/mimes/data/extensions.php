@@ -10499,6 +10499,10 @@ final class Extensions {
 				'authority'=>20,
 				'source'=>8,
 			),
+			'application/x-musescore-portable+xml'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
 			'application/xml'=>array(
 				'authority'=>0,
 				'source'=>9,
@@ -10508,6 +10512,10 @@ final class Extensions {
 			'application/x-musescore'=>array(
 				'authority'=>20,
 				'source'=>8,
+			),
+			'application/x-musescore-portable'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 			'application/zip'=>array(
 				'authority'=>0,
@@ -10744,6 +10752,10 @@ final class Extensions {
 			'application/vnd.recordare.musicxml'=>array(
 				'authority'=>32,
 				'source'=>172,
+			),
+			'application/vnd.recordare.musicxml-portable'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 			'application/zip'=>array(
 				'authority'=>0,
