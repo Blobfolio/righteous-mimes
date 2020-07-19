@@ -8279,7 +8279,7 @@ final class Extensions {
 		'ktx'=>array(
 			'image/ktx'=>array(
 				'authority'=>36,
-				'source'=>28,
+				'source'=>60,
 			),
 		),
 		'ktz'=>array(
@@ -10492,6 +10492,26 @@ final class Extensions {
 			'application/mediaservercontrol+xml'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'mscx'=>array(
+			'application/x-musescore+xml'=>array(
+				'authority'=>20,
+				'source'=>8,
+			),
+			'application/xml'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+		),
+		'mscz'=>array(
+			'application/x-musescore'=>array(
+				'authority'=>20,
+				'source'=>8,
+			),
+			'application/zip'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'msd'=>array(
@@ -15210,6 +15230,12 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'shaclc'=>array(
+			'text/shaclc'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'shape'=>array(
 			'application/x-dia-shape'=>array(
 				'authority'=>1,
@@ -15224,6 +15250,12 @@ final class Extensions {
 			'application/x-shar'=>array(
 				'authority'=>36,
 				'source'=>668,
+			),
+		),
+		'shc'=>array(
+			'text/shaclc'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'shf'=>array(
@@ -21651,6 +21683,8 @@ final class Extensions {
 		'mrml'=>8,
 		'ms'=>8,
 		'mscml'=>16,
+		'mscx'=>16,
+		'mscz'=>32,
 		'msg'=>4,
 		'mup'=>8,
 		'musd'=>16,
@@ -21811,7 +21845,9 @@ final class Extensions {
 		'sgm'=>8,
 		'sgml'=>8,
 		'sh'=>8,
+		'shaclc'=>8,
 		'shape'=>16,
+		'shc'=>8,
 		'shf'=>16,
 		'shtml'=>8,
 		'sig'=>8,

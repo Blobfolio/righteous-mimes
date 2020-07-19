@@ -7431,6 +7431,18 @@ final class Types {
 				'source'=>24,
 			),
 		),
+		'application/x-musescore'=>array(
+			'mscz'=>array(
+				'authority'=>36,
+				'source'=>8,
+			),
+		),
+		'application/x-musescore+xml'=>array(
+			'mscx'=>array(
+				'authority'=>36,
+				'source'=>8,
+			),
+		),
 		'application/x-mysql-misam-compressed-index'=>array(
 			'myi'=>array(
 				'authority'=>36,
@@ -8688,11 +8700,19 @@ final class Types {
 				'authority'=>4,
 				'source'=>660,
 			),
+			'rdf'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
+			'fb2'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
 			'sml'=>array(
 				'authority'=>2,
 				'source'=>144,
 			),
-			'rdf'=>array(
+			'owl'=>array(
 				'authority'=>2,
 				'source'=>144,
 			),
@@ -8704,7 +8724,7 @@ final class Types {
 				'authority'=>2,
 				'source'=>144,
 			),
-			'fb2'=>array(
+			'kml'=>array(
 				'authority'=>2,
 				'source'=>144,
 			),
@@ -8716,14 +8736,6 @@ final class Types {
 				'authority'=>2,
 				'source'=>144,
 			),
-			'kml'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'owl'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
 			'xliff'=>array(
 				'authority'=>2,
 				'source'=>144,
@@ -8732,11 +8744,35 @@ final class Types {
 				'authority'=>2,
 				'source'=>144,
 			),
+			'nzb'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'mpd'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
+			'mml'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'nar'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
+			'abw'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'owx'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'ppj'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
-			'owx'=>array(
+			'ttx'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8752,11 +8788,11 @@ final class Types {
 				'authority'=>1,
 				'source'=>128,
 			),
-			'abw'=>array(
+			'siv'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'ttx'=>array(
+			'wml'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8764,59 +8800,15 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'nar'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'wml'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
 			'xbl'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'xdp'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'xht'=>array(
+			'gml'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-			'xmi'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xmp'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 			'xul'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'nzb'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'siv'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mpd'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'htm'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ent'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mml'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8832,11 +8824,15 @@ final class Types {
 				'authority'=>1,
 				'source'=>128,
 			),
-			'inx'=>array(
+			'ent'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'xmp'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
-			'gml'=>array(
+			'xmi'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8844,15 +8840,23 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'fo'=>array(
+			'htm'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'xfdf'=>array(
+			'xht'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'inx'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
-			'docbook'=>array(
+			'xdp'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
+			'ufraw'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8860,7 +8864,7 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'fodg'=>array(
+			'xbel'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8876,31 +8880,43 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'atom'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'xbel'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'zabw'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
 			'ui'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'meta4'=>array(
+			'xfdf'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
+			'shape'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'ufraw'=>array(
+			'ts'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'html'=>array(
+			'fodt'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'atom'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'docbook'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'fo'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'fodg'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'fodp'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8908,15 +8924,15 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'iso19139'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'jnlp'=>array(
+			'fods'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'kino'=>array(
+			'zabw'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'glade'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8928,27 +8944,23 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'shape'=>array(
+			'html'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'glade'=>array(
+			'iso19139'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
+			'jnlp'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'fodt'=>array(
+			'meta4'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'fods'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'ts'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'fodp'=>array(
+			'kino'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8960,19 +8972,11 @@ final class Types {
 				'authority'=>0,
 				'source'=>9,
 			),
+			'dot'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
 			'xlw'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlr'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xls'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlm'=>array(
 				'authority'=>0,
 				'source'=>9,
 			),
@@ -8980,7 +8984,19 @@ final class Types {
 				'authority'=>0,
 				'source'=>9,
 			),
-			'dot'=>array(
+			'xla'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+			'xls'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+			'xlr'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+			'xlm'=>array(
 				'authority'=>0,
 				'source'=>9,
 			),
@@ -8996,14 +9012,6 @@ final class Types {
 				'authority'=>0,
 				'source'=>9,
 			),
-			'xla'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
-			'xlsm'=>array(
-				'authority'=>0,
-				'source'=>9,
-			),
 			'xlsb'=>array(
 				'authority'=>0,
 				'source'=>9,
@@ -9012,7 +9020,15 @@ final class Types {
 				'authority'=>0,
 				'source'=>9,
 			),
+			'dotm'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
 			'docm'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+			'mscx'=>array(
 				'authority'=>0,
 				'source'=>9,
 			),
@@ -9020,7 +9036,7 @@ final class Types {
 				'authority'=>0,
 				'source'=>9,
 			),
-			'dotm'=>array(
+			'xlsm'=>array(
 				'authority'=>0,
 				'source'=>9,
 			),
@@ -9150,6 +9166,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'ora'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'otc'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -9162,7 +9182,7 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'oth'=>array(
+			'otp'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -9190,7 +9210,7 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'odt'=>array(
+			'ods'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -9214,15 +9234,15 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'ora'=>array(
+			'odt'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'otp'=>array(
+			'oth'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'ods'=>array(
+			'odp'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -9246,15 +9266,11 @@ final class Types {
 				'authority'=>1,
 				'source'=>128,
 			),
-			'odp'=>array(
+			'odm'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
 			'key'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'odm'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -9266,11 +9282,11 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'odb'=>array(
+			'odc'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'odc'=>array(
+			'odb'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -9278,7 +9294,7 @@ final class Types {
 				'authority'=>1,
 				'source'=>128,
 			),
-			'vsdm'=>array(
+			'docx'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -9318,11 +9334,11 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'dotx'=>array(
+			'vsdm'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'docx'=>array(
+			'dotx'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -9333,6 +9349,10 @@ final class Types {
 			'epub'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+			'asics'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 			'mmap'=>array(
 				'authority'=>1,
@@ -9366,10 +9386,6 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'asics'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
 			'oxps'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -9383,6 +9399,10 @@ final class Types {
 				'source'=>9,
 			),
 			'xlsm'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+			'mscz'=>array(
 				'authority'=>0,
 				'source'=>9,
 			),
@@ -10658,7 +10678,7 @@ final class Types {
 		'image/ktx'=>array(
 			'ktx'=>array(
 				'authority'=>36,
-				'source'=>28,
+				'source'=>60,
 			),
 		),
 		'image/openraster'=>array(
@@ -13345,6 +13365,16 @@ final class Types {
 			'sgml'=>array(
 				'authority'=>3,
 				'source'=>148,
+			),
+		),
+		'text/shaclc'=>array(
+			'shc'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'shaclc'=>array(
+				'authority'=>30,
+				'source'=>40,
 			),
 		),
 		'text/spdx'=>array(
