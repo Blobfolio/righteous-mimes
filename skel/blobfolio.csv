@@ -1,5 +1,7 @@
 Extension,Type,Alias
 mxl,application/vnd.recordare.musicxml,0
+mscx,application/x-musescore+xml,0
+mscz,application/x-musescore,0
 wav,audio/wav,0
 aac,audio/x-hx-aac-adts,0
 jpf,image/jpx,0
@@ -52,6 +54,8 @@ otf,application/vnd.ms-opentype,1
 gpx,text/plain,1
 explain,application/zip,1
 mxl,application/zip,1
+mscz,application/zip,1
+mscx,application/xml,1
 mp4,audio/mp4,1
 eot,font/eot,1
 jp2,image/jp2,1

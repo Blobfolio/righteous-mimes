@@ -408,6 +408,22 @@ class file_tests extends \PHPUnit\Framework\TestCase {
 		),
 
 		array(
+			'file'=>file_tests::ASSET_DIR . '/text.mscx',
+			'ext'=>'mscx',
+			'type'=>'application/x-musescore+xml',
+			'naked_ext'=>null,
+			'naked_type'=>null,
+		),
+
+		array(
+			'file'=>file_tests::ASSET_DIR . '/text.mscz',
+			'ext'=>'mscz',
+			'type'=>'application/x-musescore',
+			'naked_ext'=>null,
+			'naked_type'=>null,
+		),
+
+		array(
 			'file'=>file_tests::ASSET_DIR . '/text.odt',
 			'ext'=>'odt',
 			'naked_ext'=>null,
