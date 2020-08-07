@@ -1694,6 +1694,12 @@ final class Extensions {
 				'source'=>136,
 			),
 		),
+		'brf'=>array(
+			'text/plain'=>array(
+				'authority'=>36,
+				'source'=>8,
+			),
+		),
 		'brotli'=>array(
 			'application/x-brotli'=>array(
 				'authority'=>36,
@@ -21391,6 +21397,7 @@ final class Extensions {
 		'bmml'=>16,
 		'boo'=>8,
 		'bpm'=>32,
+		'brf'=>8,
 		'bsh'=>8,
 		'c'=>8,
 		'cbl'=>8,
