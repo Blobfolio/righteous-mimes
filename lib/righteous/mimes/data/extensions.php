@@ -15575,7 +15575,7 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>128,
 			),
-			'application/sldpart'=>array(
+			'application/sldprt'=>array(
 				'authority'=>0,
 				'source'=>9,
 			),

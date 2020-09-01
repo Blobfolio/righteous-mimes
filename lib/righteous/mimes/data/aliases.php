@@ -325,7 +325,7 @@ final class Aliases {
 		'application/sipc'=>'application/sipc',
 		'application/sldasm'=>'application/sldworks',
 		'application/slddrw'=>'application/sldworks',
-		'application/sldpart'=>'application/sldworks',
+		'application/sldprt'=>'application/sldworks',
 		'application/sldworks'=>'application/sldworks',
 		'application/smil'=>'application/smil',
 		'application/smil+xml'=>'application/smil+xml',
