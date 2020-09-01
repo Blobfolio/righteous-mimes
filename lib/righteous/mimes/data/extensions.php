@@ -931,6 +931,10 @@ final class Extensions {
 				'authority'=>13,
 				'source'=>180,
 			),
+			'application/pgp-keys'=>array(
+				'authority'=>11,
+				'source'=>48,
+			),
 			'text/plain'=>array(
 				'authority'=>3,
 				'source'=>784,
@@ -940,10 +944,6 @@ final class Extensions {
 				'source'=>16,
 			),
 			'application/pgp'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'application/pgp-keys'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -1286,14 +1286,22 @@ final class Extensions {
 		),
 		'avif'=>array(
 			'image/avif'=>array(
-				'authority'=>36,
-				'source'=>24,
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/avif-sequence'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'avifs'=>array(
+			'image/avif'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'image/avif-sequence'=>array(
-				'authority'=>36,
-				'source'=>24,
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'aw'=>array(
@@ -4052,8 +4060,12 @@ final class Extensions {
 		),
 		'dxf'=>array(
 			'image/vnd.dxf'=>array(
-				'authority'=>36,
-				'source'=>156,
+				'authority'=>3,
+				'source'=>148,
+			),
+			'text/plain'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'dxp'=>array(
@@ -4507,7 +4519,7 @@ final class Extensions {
 		'exi'=>array(
 			'application/exi'=>array(
 				'authority'=>36,
-				'source'=>12,
+				'source'=>44,
 			),
 		),
 		'exp'=>array(
@@ -5516,6 +5528,12 @@ final class Extensions {
 			'application/x-tex-gf'=>array(
 				'authority'=>36,
 				'source'=>536,
+			),
+		),
+		'gff3'=>array(
+			'text/gff3'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'gg'=>array(
@@ -8288,6 +8306,12 @@ final class Extensions {
 				'source'=>60,
 			),
 		),
+		'ktx2'=>array(
+			'image/ktx2'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'ktz'=>array(
 			'application/vnd.kahootz'=>array(
 				'authority'=>36,
@@ -9845,13 +9869,13 @@ final class Extensions {
 			),
 		),
 		'mml'=>array(
+			'application/mathml+xml'=>array(
+				'authority'=>11,
+				'source'=>48,
+			),
 			'text/mathml'=>array(
 				'authority'=>3,
 				'source'=>592,
-			),
-			'application/mathml+xml'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 			'application/xml'=>array(
 				'authority'=>1,
@@ -15514,14 +15538,22 @@ final class Extensions {
 		),
 		'sldasm'=>array(
 			'application/sldworks'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
+			),
+			'application/sldasm'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'slddrw'=>array(
 			'application/sldworks'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
+			),
+			'application/slddrw'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'sldm'=>array(
@@ -15540,8 +15572,12 @@ final class Extensions {
 		),
 		'sldprt'=>array(
 			'application/sldworks'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
+			),
+			'application/sldpart'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'sldx'=>array(
@@ -16212,6 +16248,20 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'step'=>array(
+			'application/sldworks'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+			'application/step'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+			'text/plain'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+		),
 		'stf'=>array(
 			'application/vnd.wt.stf'=>array(
 				'authority'=>36,
@@ -16278,6 +16328,20 @@ final class Extensions {
 			'application/vnd.sealedmedia.softseal.html'=>array(
 				'authority'=>36,
 				'source'=>40,
+			),
+		),
+		'stp'=>array(
+			'application/sldworks'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+			'applicatoin/step'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+			'text/plain'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'str'=>array(
@@ -19396,8 +19460,12 @@ final class Extensions {
 		),
 		'x_t'=>array(
 			'model/vnd.parasolid.transmit.text'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>10,
+				'source'=>32,
+			),
+			'text/plain'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'xac'=>array(
@@ -21482,6 +21550,7 @@ final class Extensions {
 		'dtd'=>8,
 		'dtx'=>8,
 		'dwd'=>16,
+		'dxf'=>8,
 		'egrm'=>8,
 		'eif'=>8,
 		'el'=>8,
@@ -21529,6 +21598,7 @@ final class Extensions {
 		'gedcom'=>8,
 		'generally'=>8,
 		'geojson'=>2,
+		'gff3'=>8,
 		'glade'=>16,
 		'gltf'=>2,
 		'gml'=>24,
@@ -21899,8 +21969,10 @@ final class Extensions {
 		'st'=>8,
 		'stc'=>32,
 		'std'=>32,
+		'step'=>8,
 		'sti'=>32,
 		'stix'=>2,
+		'stp'=>8,
 		'stw'=>32,
 		'sty'=>8,
 		'sub'=>8,
@@ -21998,6 +22070,7 @@ final class Extensions {
 		'wspolicy'=>16,
 		'x3d'=>16,
 		'x3dz'=>16,
+		'x_t'=>8,
 		'xaml'=>16,
 		'xargs'=>8,
 		'xav'=>16,
