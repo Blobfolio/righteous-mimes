@@ -269,6 +269,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'application/clr'=>array(
+			'1clr'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/clueinfo+xml'=>array(
 			'clue'=>array(
 				'authority'=>36,
@@ -1483,6 +1489,16 @@ final class Types {
 			'rtf'=>array(
 				'authority'=>36,
 				'source'=>1012,
+			),
+		),
+		'application/sarif+json'=>array(
+			'sarif'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'sarifjson'=>array(
+				'authority'=>30,
+				'source'=>40,
 			),
 		),
 		'application/sbml+xml'=>array(
@@ -3009,6 +3025,12 @@ final class Types {
 			'ggb'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'application/vnd.geogebra.slides'=>array(
+			'ggs'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'application/vnd.geogebra.tool'=>array(
@@ -5317,6 +5339,12 @@ final class Types {
 			'svd'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'application/vnd.sycle+xml'=>array(
+			'scl'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'application/vnd.symbian.install'=>array(
@@ -8502,13 +8530,13 @@ final class Types {
 				'authority'=>36,
 				'source'=>1020,
 			),
-			'der'=>array(
-				'authority'=>24,
-				'source'=>220,
-			),
 			'cert'=>array(
 				'authority'=>21,
 				'source'=>24,
+			),
+			'der'=>array(
+				'authority'=>3,
+				'source'=>84,
 			),
 			'pem'=>array(
 				'authority'=>2,
@@ -10891,6 +10919,12 @@ final class Types {
 			'npx'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'image/vnd.pco.b16'=>array(
+			'b16'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'image/vnd.radiance'=>array(
@@ -13593,6 +13627,12 @@ final class Types {
 			'dot'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'text/vnd.hans'=>array(
+			'hans'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'text/vnd.hgl'=>array(

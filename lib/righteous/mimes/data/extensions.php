@@ -64,6 +64,12 @@ final class Extensions {
 	 * Types by Extension.
 	 */
 	const TYPES = array(
+		'1clr'=>array(
+			'application/clr'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'1km'=>array(
 			'application/vnd.1000minds.decision-model+xml'=>array(
 				'authority'=>36,
@@ -1418,6 +1424,12 @@ final class Extensions {
 			'chemical/x-molconn-z'=>array(
 				'authority'=>36,
 				'source'=>520,
+			),
+		),
+		'b16'=>array(
+			'image/vnd.pco.b16'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'bak'=>array(
@@ -2777,6 +2789,14 @@ final class Extensions {
 				'authority'=>36,
 				'source'=>1020,
 			),
+			'application/x-x509-cert'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
+			'application/x-x509-user-cert'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
 		),
 		'crtr'=>array(
 			'application/vnd.multiad.creator'=>array(
@@ -3274,8 +3294,16 @@ final class Extensions {
 		),
 		'der'=>array(
 			'application/x-x509-ca-cert'=>array(
-				'authority'=>36,
-				'source'=>220,
+				'authority'=>3,
+				'source'=>84,
+			),
+			'application/x-x509-certformatder'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
+			'application/x-x509-cert'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'desktop'=>array(
@@ -5548,6 +5576,12 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'ggs'=>array(
+			'application/vnd.geogebra.slides'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'ggt'=>array(
 			'application/vnd.geogebra.tool'=>array(
 				'authority'=>36,
@@ -6134,6 +6168,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'hans'=>array(
+			'text/vnd.hans'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'hbci'=>array(
@@ -7667,6 +7707,10 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
+			'application/vnd.hyperdrive+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.ims.lis.v2.result+json'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -7707,7 +7751,7 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/vnd.hyper-item+json'=>array(
+			'application/vnd.hyper+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -7724,6 +7768,10 @@ final class Extensions {
 				'source'=>32,
 			),
 			'application/vnd.restful+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.seis+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -7747,11 +7795,11 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/vnd.hyperdrive+json'=>array(
+			'application/vnd.hyper-item+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/vnd.hyper+json'=>array(
+			'application/vnd.heroku+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -7759,7 +7807,7 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/vnd.byu.uapi+json'=>array(
+			'application/vnd.capasystems-pg+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -7799,15 +7847,15 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/vnd.capasystems-pg+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.heroku+json'=>array(
+			'application/vnd.byu.uapi+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
 			'application/vnd.collection+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.hc+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -7820,6 +7868,14 @@ final class Extensions {
 				'source'=>32,
 			),
 			'application/vnd.cryptii.pipe+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.d3m-dataset'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.d3m-problem'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -7840,10 +7896,6 @@ final class Extensions {
 				'source'=>32,
 			),
 			'application/vnd.hal+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.hc+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -12337,6 +12389,14 @@ final class Extensions {
 				'authority'=>2,
 				'source'=>80,
 			),
+			'application/x-x509-certformatpem'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
+			'application/x-x509-cert'=>array(
+				'authority'=>1,
+				'source'=>128,
+			),
 		),
 		'pen'=>array(
 			'text/plain'=>array(
@@ -14592,6 +14652,18 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'sarif'=>array(
+			'application/sarif+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'sarifjson'=>array(
+			'application/sarif+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'sas'=>array(
 			'application/x-sas'=>array(
 				'authority'=>1,
@@ -14760,6 +14832,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'scl'=>array(
+			'application/vnd.sycle+xml'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'scld'=>array(
@@ -21625,6 +21703,7 @@ final class Extensions {
 		'hal'=>16,
 		'haml'=>8,
 		'handlers'=>8,
+		'hans'=>8,
 		'held'=>16,
 		'heldxml'=>16,
 		'hgl'=>8,
@@ -21906,11 +21985,14 @@ final class Extensions {
 		'rusd'=>16,
 		's'=>8,
 		'sami'=>8,
+		'sarif'=>2,
+		'sarifjson'=>2,
 		'sas'=>8,
 		'sass'=>8,
 		'sbml'=>16,
 		'scala'=>8,
 		'schemas'=>8,
+		'scl'=>16,
 		'scm'=>8,
 		'sconscript'=>8,
 		'sconstruct'=>8,
