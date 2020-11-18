@@ -90,8 +90,18 @@ final class Extensions {
 		),
 		'3ds'=>array(
 			'image/x-3ds'=>array(
+				'authority'=>2,
+				'source'=>20,
+			),
+			'application/x-nintendo-3ds-rom'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'3dsx'=>array(
+			'application/x-nintendo-3ds-executable'=>array(
 				'authority'=>36,
-				'source'=>28,
+				'source'=>24,
 			),
 		),
 		'3fr'=>array(
@@ -2064,6 +2074,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'cci'=>array(
+			'application/x-nintendo-3ds-rom'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'ccmp'=>array(
 			'application/ccmp+xml'=>array(
 				'authority'=>36,
@@ -2118,6 +2134,12 @@ final class Extensions {
 			'application/cdfx+xml'=>array(
 				'authority'=>36,
 				'source'=>40,
+			),
+		),
+		'cdi'=>array(
+			'application/x-discjuggler-cd-image'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'cdkey'=>array(
@@ -2328,6 +2350,12 @@ final class Extensions {
 			'application/x-chat'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'chd'=>array(
+			'application/x-mame-chd'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'chm'=>array(
@@ -2882,6 +2910,12 @@ final class Extensions {
 				'source'=>652,
 			),
 		),
+		'cso'=>array(
+			'application/x-compressed-iso'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'csp'=>array(
 			'application/vnd.commonspace'=>array(
 				'authority'=>36,
@@ -3164,12 +3198,6 @@ final class Extensions {
 			'application/xml'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'dc'=>array(
-			'application/x-dc-rom'=>array(
-				'authority'=>36,
-				'source'=>24,
 			),
 		),
 		'dcd'=>array(
@@ -3610,6 +3638,10 @@ final class Extensions {
 			'application/octet-stream'=>array(
 				'authority'=>1,
 				'source'=>64,
+			),
+			'application/zlib'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'dmp'=>array(
@@ -5462,6 +5494,16 @@ final class Extensions {
 				'source'=>16,
 			),
 			'text/x-vcard'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'gdi'=>array(
+			'application/x-gd-rom-cue'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8336,6 +8378,16 @@ final class Extensions {
 				'source'=>132,
 			),
 		),
+		'ksy'=>array(
+			'text/x-kaitai-struct'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-yaml'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'kt'=>array(
 			'text/x-kotlin'=>array(
 				'authority'=>1,
@@ -10280,8 +10332,8 @@ final class Extensions {
 		),
 		'mpc'=>array(
 			'application/vnd.mophun.certificate'=>array(
-				'authority'=>2,
-				'source'=>132,
+				'authority'=>12,
+				'source'=>164,
 			),
 			'audio/x-musepack'=>array(
 				'authority'=>1,
@@ -10449,7 +10501,7 @@ final class Extensions {
 		'mpn'=>array(
 			'application/vnd.mophun.application'=>array(
 				'authority'=>36,
-				'source'=>140,
+				'source'=>172,
 			),
 		),
 		'mpp'=>array(
@@ -12480,6 +12532,12 @@ final class Extensions {
 				'source'=>148,
 			),
 		),
+		'pgb'=>array(
+			'image/vnd.globalgraphics.pgb'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'pgm'=>array(
 			'image/x-portable-graymap'=>array(
 				'authority'=>4,
@@ -13455,7 +13513,7 @@ final class Extensions {
 		'pwn'=>array(
 			'application/vnd.3m.post-it-notes'=>array(
 				'authority'=>36,
-				'source'=>140,
+				'source'=>172,
 			),
 		),
 		'pxn'=>array(
@@ -14618,6 +14676,16 @@ final class Extensions {
 			'application/vnd.yamaha.smaf-audio'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'sage'=>array(
+			'text/x-sagemath'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/x-python'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'sam'=>array(
@@ -19313,7 +19381,7 @@ final class Extensions {
 		'wqd'=>array(
 			'application/vnd.wqd'=>array(
 				'authority'=>36,
-				'source'=>140,
+				'source'=>172,
 			),
 		),
 		'wri'=>array(
@@ -21672,6 +21740,7 @@ final class Extensions {
 		'gcd'=>8,
 		'gcode'=>8,
 		'gcrd'=>8,
+		'gdi'=>8,
 		'ged'=>8,
 		'gedcom'=>8,
 		'generally'=>8,
@@ -21771,6 +21840,7 @@ final class Extensions {
 		'kino'=>16,
 		'kml'=>16,
 		'kmz'=>32,
+		'ksy'=>8,
 		'kt'=>8,
 		'la'=>8,
 		'lasjson'=>2,
@@ -21984,6 +22054,7 @@ final class Extensions {
 		'rtx'=>8,
 		'rusd'=>16,
 		's'=>8,
+		'sage'=>8,
 		'sami'=>8,
 		'sarif'=>2,
 		'sarifjson'=>2,

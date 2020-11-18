@@ -11,6 +11,7 @@ ivf,video/x-ivf,0
 mov,video/quicktime,0
 brf,text/plain,0
 ai,application/pdf,1
+dmg,application/zlib,1
 doc,application/vnd.ms-office,1
 docm,application/vnd.ms-office,1
 docx,application/vnd.ms-office,1
