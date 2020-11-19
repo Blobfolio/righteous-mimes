@@ -14,6 +14,12 @@ use Righteous\MIMEs\Sanitize;
 
 
 
+if (file_exists('/usr/share/php/getid3/autoload.php')) {
+	require_once '/usr/share/php/getid3/autoload.php';
+}
+
+
+
 class sanitize_tests extends \PHPUnit\Framework\TestCase {
 	// -----------------------------------------------------------------
 	// Tests

@@ -13,6 +13,12 @@ use Righteous\MIMEs\File;
 
 
 
+if (file_exists('/usr/share/php/getid3/autoload.php')) {
+	require_once '/usr/share/php/getid3/autoload.php';
+}
+
+
+
 class file_tests extends \PHPUnit\Framework\TestCase {
 	const ASSET_DIR = __DIR__ . '/assets';
 
