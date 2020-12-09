@@ -454,6 +454,14 @@ class file_tests extends \PHPUnit\Framework\TestCase {
 		),
 
 		array(
+			'file'=>file_tests::ASSET_DIR . '/text.sat',
+			'ext'=>'sat',
+			'naked_ext'=>null,
+			'type'=>'text/plain',
+			'naked_type'=>null,
+		),
+
+		array(
 			'file'=>file_tests::ASSET_DIR . '/text.txt',
 			'ext'=>'txt',
 			'naked_ext'=>null,

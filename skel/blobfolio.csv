@@ -55,6 +55,7 @@ ppt,application/vnd.ms-office,1
 pptm,application/vnd.ms-office,1
 pptx,application/vnd.ms-office,1
 ppz,application/vnd.ms-office,1
+sat,text/plain,1
 sldasm,application/sldasm,1
 slddrw,application/slddrw,1
 sldm,application/vnd.ms-office,1
