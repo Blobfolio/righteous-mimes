@@ -1106,6 +1106,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'astc'=>array(
+			'image/astc'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'asx'=>array(
 			'video/x-ms-asf'=>array(
 				'authority'=>4,
@@ -2764,6 +2770,12 @@ final class Extensions {
 			'image/x-corelphotopaint'=>array(
 				'authority'=>1,
 				'source'=>512,
+			),
+		),
+		'cql'=>array(
+			'text/cql'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'cr2'=>array(
@@ -14836,6 +14848,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'sat'=>array(
+			'text/plain'=>array(
+				'authority'=>36,
+				'source'=>9,
+			),
+		),
 		'sav'=>array(
 			'application/x-spss-sav'=>array(
 				'authority'=>1,
@@ -21644,6 +21662,7 @@ final class Extensions {
 		'copying'=>8,
 		'cpl'=>16,
 		'cpp'=>8,
+		'cql'=>8,
 		'credits'=>8,
 		'cs'=>8,
 		'csh'=>8,
@@ -22060,6 +22079,7 @@ final class Extensions {
 		'sarifjson'=>2,
 		'sas'=>8,
 		'sass'=>8,
+		'sat'=>8,
 		'sbml'=>16,
 		'scala'=>8,
 		'schemas'=>8,
