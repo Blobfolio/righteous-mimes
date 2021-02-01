@@ -129,7 +129,7 @@ final class File {
 		// If this looks like a URL, let's parse it as such. This isn't
 		// what this function is for, really, so we won't try too hard.
 		if (\preg_match('#^(https?|s?ftps?)?(:?//)#i', $this->_file['raw'])) {
-			$this->_file['path'] = \parse_url($this->_file['raw'], \ PHP_URL_PATH) ?? '';
+			$this->_file['path'] = \parse_url($this->_file['raw'], \PHP_URL_PATH) ?? '';
 			if (! $this->_file['path']) {
 				return false;
 			}
