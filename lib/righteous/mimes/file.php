@@ -45,9 +45,9 @@ final class File {
 	 * For better or worse, this is the value used to initialize the
 	 * File object.
 	 *
-	 * @var ?string
+	 * @var ?array
 	 */
-	protected $_file;
+	protected ?array $_file;
 
 
 
