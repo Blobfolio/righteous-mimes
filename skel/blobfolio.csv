@@ -4,12 +4,14 @@ mscx,application/x-musescore+xml,0
 mscz,application/x-musescore,0
 wav,audio/wav,0
 aac,audio/x-hx-aac-adts,0
+avif,image/avif,0
 jpf,image/jpx,0
 jpx,image/jpx,0
 jp2,image/jpx,0
 ivf,video/x-ivf,0
 mov,video/quicktime,0
 brf,text/plain,0
+sqlite3,application/vnd.sqlite3,0
 ai,application/pdf,1
 dmg,application/zlib,1
 doc,application/vnd.ms-office,1

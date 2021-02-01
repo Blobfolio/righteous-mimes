@@ -17,42 +17,42 @@
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
- * @copyright 2020 The Apache Software Foundation
+ * @copyright 2021 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author Blobfolio
  * @source {https://github.com/Blobfolio/righteous-mimes}
- * @copyright 2020 Blobfolio, LLC
+ * @copyright 2021 Blobfolio, LLC
  * @license http://www.wtfpl.net/ WTFPL
  *
  * @author Drupal
  * @source {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
- * @copyright 2020 Drupal
+ * @copyright 2021 Drupal
  * @license https://www.drupal.org/about/licensing GPL
  *
  * @author FreeDesktop.org
  * @source {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
- * @copyright 2020 FreeDesktop.org
+ * @copyright 2021 FreeDesktop.org
  * @license https://opensource.org/licenses/MIT MIT
  *
  * @author IANA
  * @source {https://www.iana.org/assignments/media-types}
- * @copyright 2020 IETF Trust
+ * @copyright 2021 IETF Trust
  * @license https://www.rfc-editor.org/copyright/ rfc-copyright-story
  *
  * @author Nginx
  * @source {http://hg.nginx.org/nginx/raw-file/default/conf/mime.types}
- * @copyright 2020 Nginx includes_url
+ * @copyright 2021 Nginx includes_url
  * @license https://opensource.org/licenses/BSD-2-Clause BSD
  *
  * @author Tika
  * @source {https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml}
- * @copyright 2020 The Apache Software Foundation
+ * @copyright 2021 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author WordPress
  * @source {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
- * @copyright 2020 Automattic
+ * @copyright 2021 Automattic
  * @license https://wordpress.org/about/license/ GPLv2
  */
 
@@ -246,6 +246,7 @@ final class Aliases {
 		'application/onenoteformatone'=>'application/onenoteformatone',
 		'application/onenoteformatonetoc2'=>'application/onenote',
 		'application/onenoteformatpackage'=>'application/onenote',
+		'application/ovf'=>'application/ovf',
 		'application/owl+xml'=>'application/owl+xml',
 		'application/oxps'=>'application/oxps',
 		'application/p2p-overlay+xml'=>'application/p2p-overlay+xml',
@@ -473,6 +474,8 @@ final class Aliases {
 		'application/vnd.curl.car'=>'application/vnd.curl.car',
 		'application/vnd.curl.pcurl'=>'application/vnd.curl.pcurl',
 		'application/vnd.cyan.dean.root+xml'=>'application/xml',
+		'application/vnd.cyclonedx+json'=>'application/json',
+		'application/vnd.cyclonedx+xml'=>'application/xml',
 		'application/vnd.d3m-dataset'=>'application/json',
 		'application/vnd.d3m-problem'=>'application/json',
 		'application/vnd.dart'=>'application/vnd.dart',
@@ -1173,6 +1176,7 @@ final class Aliases {
 		'application/x-doom'=>'application/x-doom',
 		'application/x-doom-wad'=>'application/x-doom',
 		'application/x-dosexec'=>'application/x-msdownload',
+		'application/x-dreamcast-rom'=>'application/x-iso9660-image',
 		'application/x-dtbncx+xml'=>'application/x-dtbncx+xml',
 		'application/x-dtbook+xml'=>'application/x-dtbook+xml',
 		'application/x-dtbresource+xml'=>'application/x-dtbresource+xml',
@@ -1267,6 +1271,8 @@ final class Aliases {
 		'application/x-it87'=>'application/x-it87',
 		'application/x-itunes-ipa'=>'application/x-itunes-ipa',
 		'application/x-iwork-keynote-sffkey'=>'application/vnd.apple.keynote',
+		'application/x-iwork-numbers-sffnumbers'=>'application/vnd.apple.numbers',
+		'application/x-iwork-pages-sffpages'=>'application/vnd.apple.pages',
 		'application/x-jar'=>'application/vnd.osgi.bundle',
 		'application/x-java'=>'application/vnd.dvb.dvbj',
 		'application/x-java-archive-diff'=>'application/x-java-archive-diff',
@@ -1403,6 +1409,7 @@ final class Aliases {
 		'application/x-pyspread-spreadsheet'=>'application/x-pyspread-spreadsheet',
 		'application/x-python-bytecode'=>'application/x-python-bytecode',
 		'application/x-python-code'=>'application/x-python-bytecode',
+		'application/x-qed-disk'=>'application/x-qed-disk',
 		'application/x-qemu-disk'=>'application/x-qemu-disk',
 		'application/x-qpress'=>'application/x-qpress',
 		'application/x-qtiplot'=>'application/x-qtiplot',
@@ -1449,6 +1456,7 @@ final class Aliases {
 		'application/x-sdp'=>'application/sdp',
 		'application/x-sea'=>'application/x-sea',
 		'application/x-sega-cd-rom'=>'application/x-iso9660-image',
+		'application/x-sega-pico-rom'=>'application/x-iso9660-image',
 		'application/x-sfdu'=>'application/x-sfdu',
 		'application/x-sg1000-rom'=>'application/x-sg1000-rom',
 		'application/x-sh'=>'application/x-sh',
@@ -1461,7 +1469,7 @@ final class Aliases {
 		'application/x-siag'=>'application/x-siag',
 		'application/x-silverlight-app'=>'application/x-silverlight-app',
 		'application/x-sit'=>'application/x-stuffit',
-		'application/x-smaf'=>'application/x-smaf',
+		'application/x-smaf'=>'application/vnd.smaf',
 		'application/x-sms-rom'=>'application/vnd.3gpp2.sms',
 		'application/x-snappy-framed'=>'application/x-snappy-framed',
 		'application/x-snes-rom'=>'application/vnd.nintendo.snes.rom',
@@ -1472,6 +1480,7 @@ final class Aliases {
 		'application/x-spss-savefile'=>'application/x-spss-sav',
 		'application/x-sql'=>'application/sql',
 		'application/x-sqlite2'=>'application/x-sqlite2',
+		'application/x-sqlite3'=>'application/vnd.sqlite3',
 		'application/x-srt'=>'application/x-subrip',
 		'application/x-staroffice-template'=>'application/vnd.stardivision.writer',
 		'application/x-stata-do'=>'application/x-stata-do',
@@ -1509,8 +1518,16 @@ final class Aliases {
 		'application/x-ufraw'=>'application/x-ufraw',
 		'application/x-unix-archive'=>'application/x-archive',
 		'application/x-ustar'=>'application/x-ustar',
+		'application/x-vdi-disk'=>'application/x-vdi-disk',
+		'application/x-vhd-disk'=>'application/x-vhd-disk',
+		'application/x-vhdx-disk'=>'application/x-vhdx-disk',
 		'application/x-virtual-boy-rom'=>'application/x-virtual-boy-rom',
-		'application/x-vmdk'=>'application/x-vmdk',
+		'application/x-virtualbox-ova'=>'application/ovf',
+		'application/x-virtualbox-vdi'=>'application/x-vdi-disk',
+		'application/x-virtualbox-vhdx'=>'application/x-vhdx-disk',
+		'application/x-virtualbox-vmdk'=>'application/x-vmdk-disk',
+		'application/x-vmdk'=>'application/x-vmdk-disk',
+		'application/x-vmdk-disk'=>'application/x-vmdk-disk',
 		'application/x-vnd.kde.kexi'=>'application/x-kexiproject-sqlite2',
 		'application/x-vnd.oasis.opendocument.chart'=>'application/vnd.oasis.opendocument.chart',
 		'application/x-vnd.oasis.opendocument.chart-template'=>'application/vnd.oasis.opendocument.chart-template',
@@ -1582,6 +1599,7 @@ final class Aliases {
 		'application/xml-external-parsed-entity'=>'application/xml-external-parsed-entity',
 		'application/xop+xml'=>'application/xop+xml',
 		'application/xproc+xml'=>'application/xproc+xml',
+		'application/xps'=>'application/vnd.ms-xpsdocument',
 		'application/xquery'=>'application/xquery',
 		'application/xslt+xml'=>'application/xslt+xml',
 		'application/xspf+xml'=>'application/xspf+xml',
@@ -1967,7 +1985,6 @@ final class Aliases {
 		'image/x-sony-sr2'=>'image/x-sony-sr2',
 		'image/x-sony-srf'=>'image/x-sony-srf',
 		'image/x-sun-raster'=>'image/x-sun-raster',
-		'image/x-targa'=>'image/x-tga',
 		'image/x-tga'=>'image/x-tga',
 		'image/x-win-bitmap'=>'image/x-win-bitmap',
 		'image/x-win-metafile'=>'image/wmf',
@@ -2127,6 +2144,7 @@ final class Aliases {
 		'text/x-csh'=>'application/x-csh',
 		'text/x-csharp'=>'text/x-csharp',
 		'text/x-csv'=>'text/csv',
+		'text/x-dart'=>'application/vnd.dart',
 		'text/x-dbus-service'=>'text/x-dbus-service',
 		'text/x-dcl'=>'text/plain',
 		'text/x-diff'=>'text/x-diff',
