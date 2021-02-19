@@ -511,8 +511,16 @@ final class File {
 
 		// Try fileinfo.
 		$finfo = \finfo_open(\FILEINFO_MIME_TYPE);
+		$magic = \finfo_file($finfo, $this->_file['path']);
+
+		// There appears to be an interesting typo or handling bug in PHP 7.3
+		// and 7.4 that duplicates this file type.
+		if ('application/vnd.openxmlformats-officedocument.wordprocessingml.documentapplication/vnd.openxmlformats-officedocument.wordprocessingml.document' === $magic) {
+			$magic = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+		}
+
 		if (
-			(false !== ($magic = \finfo_file($finfo, $this->_file['path']))) &&
+			(false !== $magic) &&
 			(null !== ($magic = Sanitize::type(
 				\strval($magic),
 				MIMEs::FILTER_UPDATE_ALIAS
