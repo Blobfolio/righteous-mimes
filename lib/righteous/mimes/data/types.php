@@ -11413,6 +11413,12 @@ final class Types {
 				'source'=>16,
 			),
 		),
+		'image/x-nikon-nrw'=>array(
+			'nrw'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
 		'image/x-olympus-orf'=>array(
 			'orf'=>array(
 				'authority'=>36,
@@ -11569,16 +11575,6 @@ final class Types {
 			'mef'=>array(
 				'authority'=>36,
 				'source'=>136,
-			),
-		),
-		'image/x-raw-nikon'=>array(
-			'nrw'=>array(
-				'authority'=>21,
-				'source'=>136,
-			),
-			'nef'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'image/x-raw-pentax'=>array(
@@ -15323,6 +15319,16 @@ final class Types {
 			'nim'=>array(
 				'authority'=>36,
 				'source'=>40,
+			),
+		),
+		'video/vnd.radgamettools.bink'=>array(
+			'bik'=>array(
+				'authority'=>21,
+				'source'=>24,
+			),
+			'bk2'=>array(
+				'authority'=>21,
+				'source'=>24,
 			),
 		),
 		'video/vnd.rn-realvideo'=>array(

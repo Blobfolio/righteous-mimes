@@ -1582,6 +1582,12 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'bik'=>array(
+			'video/vnd.radgamettools.bink'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'bin'=>array(
 			'application/gltf-buffer'=>array(
 				'authority'=>10,
@@ -1590,6 +1596,12 @@ final class Extensions {
 			'application/octet-stream'=>array(
 				'authority'=>4,
 				'source'=>708,
+			),
+		),
+		'bk2'=>array(
+			'video/vnd.radgamettools.bink'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'bkm'=>array(
@@ -11263,9 +11275,17 @@ final class Extensions {
 			),
 		),
 		'nrw'=>array(
+			'image/x-nikon-nrw'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-dcraw'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'image/x-raw-nikon'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'nsc'=>array(
