@@ -388,6 +388,14 @@ class file_tests extends \PHPUnit\Framework\TestCase {
 			'naked_type'=>null,
 		),
 
+		array(
+			'file'=>file_tests::ASSET_DIR . '/text-double.docx',
+			'ext'=>'docx',
+			'type'=>'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+			'naked_ext'=>null,
+			'naked_type'=>null,
+		),
+
 		// This is an empty document with a CSV extension.
 		array(
 			'file'=>file_tests::ASSET_DIR . '/text-empty.csv',

@@ -512,19 +512,15 @@ final class File {
 		// Try fileinfo.
 		$finfo = \finfo_open(\FILEINFO_MIME_TYPE);
 		$magic = \finfo_file($finfo, $this->_file['path']);
-
-		// There appears to be an interesting typo or handling bug in PHP 7.3
-		// and 7.4 that duplicates this file type.
-		if ('application/vnd.openxmlformats-officedocument.wordprocessingml.documentapplication/vnd.openxmlformats-officedocument.wordprocessingml.document' === $magic) {
-			$magic = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+		if (! $magic) {
+			return null;
 		}
 
+		// Fix a potential duplication bug.
+		$magic = $this->_fileinfo_77784(\strval($magic));
+
 		if (
-			(false !== $magic) &&
-			(null !== ($magic = Sanitize::type(
-				\strval($magic),
-				MIMEs::FILTER_UPDATE_ALIAS
-			)))
+			null !== ($magic = Sanitize::type($magic, MIMEs::FILTER_UPDATE_ALIAS))
 		) {
 			// Some answers we just don't need.
 			if (MIMEs::TYPE_EMPTY === $magic) {
@@ -575,6 +571,37 @@ final class File {
 		}
 
 		return $magic ? $magic : null;
+	}
+
+	/**
+	 * Fileinfo Double Fix
+	 *
+	 * This fixes a silly bug in `fileinfo.so` causing some (mostly MS
+	 * Office) types to get duplicated like "application/typeapplication/type".
+	 *
+	 * @see {https://bugs.php.net/bug.php?id=77784}
+	 *
+	 * @param string $mime MIME.
+	 * @return string MIME.
+	 */
+	private function _fileinfo_77784(string $mime) : string {
+		// MIME types should only have one "/", unless they've maybe been
+		// duplicated!
+		if (2 === \substr_count($mime, '/')) {
+			// Cut the string in half and compare the halves to see if they're
+			// the same.
+			$len = (int) \strlen($mime);
+			$halflen = (int) \floor($len / 2);
+			if ($halflen * 2 === $len) {
+				$a = \substr($mime, 0, $halflen);
+				$b = \substr($mime, $halflen);
+				if ($a === $b) {
+					return $b;
+				}
+			}
+		}
+
+		return $mime;
 	}
 
 	/**
