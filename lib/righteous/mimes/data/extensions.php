@@ -1890,6 +1890,18 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'c9r'=>array(
+			'application/vnd.cryptomator.encrypted'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'c9s'=>array(
+			'application/vnd.cryptomator.encrypted'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'cab'=>array(
 			'application/vnd.ms-cab-compressed'=>array(
 				'authority'=>36,
@@ -6043,11 +6055,11 @@ final class Extensions {
 			),
 		),
 		'gsm'=>array(
-			'model/vnd.gs-gdl'=>array(
+			'model/vnd.gdl'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
-			'model/vnd.gdl'=>array(
+			'model/vnd.gs-gdl'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -6209,11 +6221,11 @@ final class Extensions {
 			),
 		),
 		'h5'=>array(
-			'application/sipc'=>array(
+			'application/mipc'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/mipc'=>array(
+			'application/sipc'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -7819,114 +7831,6 @@ final class Extensions {
 				'authority'=>36,
 				'source'=>1020,
 			),
-			'application/vnd.micro+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.hyperdrive+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.ims.lis.v2.result+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.ims.lti.v2.toolconsumerprofile+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.ims.lti.v2.toolproxy+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.ims.lti.v2.toolproxy.id+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.ims.lti.v2.toolsettings+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.ims.lti.v2.toolsettings.simple+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.infotech.project'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.leap+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.mason+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.miele+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.hyper+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.nearst.inv+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.oftn.l10n+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.oracle.resource+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.restful+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.seis+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.shootproof+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.siren+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.tableschema+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.vel+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.xacml+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.hyper-item+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.heroku+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/webpush-options+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.capasystems-pg+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
 			'application/csvm+json'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -7967,11 +7871,11 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/vnd.collection+json'=>array(
+			'application/vnd.capasystems-pg+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/vnd.hc+json'=>array(
+			'application/vnd.collection+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -8016,6 +7920,114 @@ final class Extensions {
 				'source'=>32,
 			),
 			'application/vnd.hal+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.hc+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.heroku+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.hyper+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.hyper-item+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.hyperdrive+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.ims.lis.v2.result+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.ims.lti.v2.toolconsumerprofile+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.ims.lti.v2.toolproxy+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.ims.lti.v2.toolproxy.id+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.ims.lti.v2.toolsettings+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.ims.lti.v2.toolsettings.simple+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.infotech.project'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.leap+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.mason+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.micro+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.miele+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.nearst.inv+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.oftn.l10n+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.oracle.resource+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.restful+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.seis+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.shootproof+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.siren+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.tableschema+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.vel+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.xacml+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/webpush-options+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -8692,6 +8704,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'line'=>array(
+			'application/vnd.nebumind.line'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'link66'=>array(
@@ -10665,13 +10683,13 @@ final class Extensions {
 			),
 		),
 		'ms'=>array(
-			'application/x-troff-ms'=>array(
-				'authority'=>2,
-				'source'=>640,
-			),
 			'text/troff'=>array(
 				'authority'=>2,
 				'source'=>132,
+			),
+			'application/x-troff-ms'=>array(
+				'authority'=>2,
+				'source'=>640,
 			),
 			'text/x-troff-ms'=>array(
 				'authority'=>1,
@@ -11112,6 +11130,12 @@ final class Extensions {
 			'application/x-nintendo-ds-rom'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'nebul'=>array(
+			'application/vnd.nebumind.line'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'nef'=>array(
@@ -11691,11 +11715,11 @@ final class Extensions {
 			),
 		),
 		'ogm'=>array(
-			'video/ogg'=>array(
+			'video/x-ogm'=>array(
 				'authority'=>2,
 				'source'=>144,
 			),
-			'video/x-ogm'=>array(
+			'video/ogg'=>array(
 				'authority'=>2,
 				'source'=>144,
 			),
@@ -13151,11 +13175,11 @@ final class Extensions {
 			),
 		),
 		'ppa'=>array(
-			'application/mspowerpoint'=>array(
+			'application/vnd.ms-powerpoint'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
-			'application/vnd.ms-powerpoint'=>array(
+			'application/mspowerpoint'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
@@ -16041,11 +16065,11 @@ final class Extensions {
 			),
 		),
 		'sms'=>array(
-			'application/vnd.3gpp2.sms'=>array(
+			'application/vnd.3gpp.sms'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/vnd.3gpp.sms'=>array(
+			'application/vnd.3gpp2.sms'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -18414,6 +18438,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'vds'=>array(
+			'model/vnd.sap.vds'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'ves'=>array(
 			'application/vnd.ves.encrypted'=>array(
 				'authority'=>36,
@@ -19673,11 +19703,11 @@ final class Extensions {
 			),
 		),
 		'wsc'=>array(
-			'message/vnd.wfa.wsc'=>array(
+			'application/vnd.wfa.wsc'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/vnd.wfa.wsc'=>array(
+			'message/vnd.wfa.wsc'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -20667,347 +20697,7 @@ final class Extensions {
 				'authority'=>13,
 				'source'=>240,
 			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcacherecords+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.usernames+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.tablesinglecells+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheetmetadata+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.sharedstrings+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.revisionlog+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.revisionheaders+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.querytable+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.pivottable+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcachedefinition+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.externallink+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.calcchain+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.viewprops+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.template.main+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.tags+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.tablestyles+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.slideupdateinfo+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.volatiledependencies+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.themeoverride+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.theme+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-package.relationships+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'text/xml-external-parsed-entity'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'text/vnd.iptc.newsml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'text/vnd.iptc.nitf'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'message/imdn+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/xml-external-parsed-entity'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/xenc+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/xcon-conference-info-diff+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/xcon-conference-info+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/watcherinfo+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.yamaha.openscoreformat.osfpvg+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.tmd.mediaflex.api+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.recordare.musicxml+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.slidelayout+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-package.core-properties+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.wordprocessingml.websettings+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.wordprocessingml.fonttable+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.slidemaster+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.slide+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.etsi.pstn+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/load-control+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.cyclonedx+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.cyan.dean.root+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.avistar+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.amundsen.maze+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/simple-filter+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/rfc+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/reginfo+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/prs.xsf+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/pidf-diff+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/odm+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/media-policy-dataset+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/epp+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/dicom+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/dialog-info+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/cpl+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/conference-info+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/clue+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/cea-2018+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/emergencycalldata.veds+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/emergencycalldata.subscriberinfo+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/emergencycalldata.serviceinfo+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/emergencycalldata.providerinfo+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/emergencycalldata.deviceinfo+xml'=>array(
+			'application/emergencycalldata.comment+xml'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -21015,7 +20705,107 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
+			'application/emergencycalldata.deviceinfo+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/emergencycalldata.providerinfo+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/emergencycalldata.serviceinfo+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/emergencycalldata.subscriberinfo+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/emergencycalldata.veds+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/cea-2018+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/clue+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/conference-info+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/cpl+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/dialog-info+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/dicom+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/epp+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/load-control+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/media-policy-dataset+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/odm+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/pidf-diff+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/prs.xsf+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/reginfo+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/rfc+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/simple-filter+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.amundsen.maze+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.avistar+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.cyan.dean.root+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.cyclonedx+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.eprints.data+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.etsi.pstn+xml'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -21023,107 +20813,11 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/emergencycalldata.comment+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.drawingml.chart+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.presprops+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.notesslide+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.notesmaster+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.handoutmaster+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.comments+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.presentationml.commentauthors+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.extended-properties+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.drawingml.diagramstyle+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.drawingml.diagramlayout+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.drawingml.diagramdata+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.drawingml.diagramcolors+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.drawing+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
 			'application/vnd.gov.sk.xmldatacontainer+xml'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/vnd.openxmlformats-officedocument.customxmlproperties+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.openxmlformats-officedocument.custom-properties+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.oma.dd2+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.iptc.g2.planningitem+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.iptc.g2.packageitem+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.iptc.g2.newsmessage+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.iptc.g2.newsitem+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.iptc.g2.knowledgeitem+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.iptc.g2.conceptitem+xml'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'application/vnd.iptc.g2.catalogitem+xml'=>array(
+			'application/vnd.informedcontrol.rms+xml'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -21131,7 +20825,343 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/vnd.informedcontrol.rms+xml'=>array(
+			'application/vnd.iptc.g2.catalogitem+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.iptc.g2.conceptitem+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.iptc.g2.knowledgeitem+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.iptc.g2.newsitem+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.iptc.g2.newsmessage+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.iptc.g2.packageitem+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.iptc.g2.planningitem+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.oma.dd2+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.custom-properties+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.customxmlproperties+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.drawing+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.drawingml.chart+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.drawingml.diagramcolors+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.drawingml.diagramdata+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.drawingml.diagramlayout+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.drawingml.diagramstyle+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.extended-properties+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.commentauthors+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.comments+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.handoutmaster+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.notesmaster+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.notesslide+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.presprops+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.slide+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.slidelayout+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.slidemaster+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.slideupdateinfo+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.tablestyles+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.tags+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.template.main+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.presentationml.viewprops+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.calcchain+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.externallink+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcachedefinition+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotcacherecords+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.pivottable+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.querytable+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.revisionheaders+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.revisionlog+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.sharedstrings+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheetmetadata+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.tablesinglecells+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.usernames+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.volatiledependencies+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.theme+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.themeoverride+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.wordprocessingml.fonttable+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-officedocument.wordprocessingml.websettings+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-package.core-properties+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.openxmlformats-package.relationships+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.recordare.musicxml+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.tmd.mediaflex.api+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.yamaha.openscoreformat.osfpvg+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/watcherinfo+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/xcon-conference-info+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/xcon-conference-info-diff+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/xenc+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/xml-external-parsed-entity'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'message/imdn+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'text/vnd.iptc.nitf'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'text/vnd.iptc.newsml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'text/xml-external-parsed-entity'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
