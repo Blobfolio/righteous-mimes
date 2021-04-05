@@ -28,7 +28,7 @@
         "ext-xml": "*"
     },
     "require-dev": {
-        "james-heinrich\/getid3": "*"
+        "james-heinrich\/getid3": "dev-master"
     },
     "suggest": {
         "james-heinrich\/getid3": "ID3 parsing improves detection of audio\/video variants."
