@@ -11260,8 +11260,16 @@ final class Extensions {
 		),
 		'notebook'=>array(
 			'application/vnd.smart.notebook'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/x-smarttech-notebook'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+			'application/zip'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'notice'=>array(
@@ -13713,6 +13721,10 @@ final class Extensions {
 			),
 		),
 		'pyo'=>array(
+			'model/vnd.pytha.pyox'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/x-python-bytecode'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -13720,6 +13732,12 @@ final class Extensions {
 			'application/x-python-code'=>array(
 				'authority'=>1,
 				'source'=>512,
+			),
+		),
+		'pyox'=>array(
+			'model/vnd.pytha.pyox'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'pys'=>array(
@@ -22230,6 +22248,7 @@ final class Extensions {
 		'ncx'=>16,
 		'nfo'=>8,
 		'not'=>8,
+		'notebook'=>32,
 		'notice'=>8,
 		'nroff'=>8,
 		'numbers'=>32,

@@ -5110,7 +5110,7 @@ final class Types {
 		'application/vnd.smart.notebook'=>array(
 			'notebook'=>array(
 				'authority'=>36,
-				'source'=>40,
+				'source'=>32,
 			),
 		),
 		'application/vnd.smart.teacher'=>array(
@@ -9494,6 +9494,10 @@ final class Types {
 				'authority'=>0,
 				'source'=>9,
 			),
+			'notebook'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
 			'xlsm'=>array(
 				'authority'=>0,
 				'source'=>9,
@@ -11856,6 +11860,16 @@ final class Types {
 		'model/vnd.parasolid.transmit.text'=>array(
 			'x_t'=>array(
 				'authority'=>36,
+				'source'=>32,
+			),
+		),
+		'model/vnd.pytha.pyox'=>array(
+			'pyox'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'pyo'=>array(
+				'authority'=>10,
 				'source'=>32,
 			),
 		),

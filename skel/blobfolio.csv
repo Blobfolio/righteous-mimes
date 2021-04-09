@@ -44,6 +44,8 @@ mscz,application/zip,1
 msg,application/vnd.ms-office,1
 mxl,application/vnd.recordare.musicxml-portable,1
 mxl,application/zip,1
+notebook,application/x-smarttech-notebook,1
+notebook,application/zip,1
 otf,application/vnd.ms-opentype,1
 pot,application/vnd.ms-office,1
 potm,application/vnd.ms-office,1
