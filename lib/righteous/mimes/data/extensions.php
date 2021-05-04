@@ -2888,6 +2888,12 @@ final class Extensions {
 				'source'=>136,
 			),
 		),
+		'cryptomator'=>array(
+			'application/vnd.cryptomator.vault'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'cryptonote'=>array(
 			'application/vnd.rig.cryptonote'=>array(
 				'authority'=>36,
@@ -14886,6 +14892,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'sarif-external-properties'=>array(
+			'application/sarif-external-properties+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'sarifjson'=>array(
 			'application/sarif+json'=>array(
 				'authority'=>36,
@@ -16032,6 +16044,12 @@ final class Extensions {
 			'application/xml'=>array(
 				'authority'=>2,
 				'source'=>144,
+			),
+		),
+		'smk'=>array(
+			'video/vnd.radgamettools.smacker'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'sml'=>array(
@@ -19013,7 +19031,7 @@ final class Extensions {
 		'wasm'=>array(
 			'application/wasm'=>array(
 				'authority'=>36,
-				'source'=>136,
+				'source'=>168,
 			),
 		),
 		'wav'=>array(
@@ -19968,8 +19986,12 @@ final class Extensions {
 		),
 		'xbd'=>array(
 			'application/vnd.fujixerox.docuworks.binder'=>array(
-				'authority'=>36,
-				'source'=>172,
+				'authority'=>12,
+				'source'=>164,
+			),
+			'application/vnd.fujifilm.fb.docuworks.binder'=>array(
+				'authority'=>10,
+				'source'=>32,
 			),
 		),
 		'xbel'=>array(
@@ -20053,9 +20075,13 @@ final class Extensions {
 			),
 		),
 		'xct'=>array(
+			'application/vnd.fujifilm.fb.docuworks.container'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.fujixerox.docuworks.container'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>10,
+				'source'=>32,
 			),
 		),
 		'xdd'=>array(
@@ -20112,8 +20138,12 @@ final class Extensions {
 		),
 		'xdw'=>array(
 			'application/vnd.fujixerox.docuworks'=>array(
-				'authority'=>36,
-				'source'=>172,
+				'authority'=>12,
+				'source'=>164,
+			),
+			'application/vnd.fujifilm.fb.docuworks'=>array(
+				'authority'=>10,
+				'source'=>32,
 			),
 		),
 		'xegrm'=>array(
@@ -20824,6 +20854,10 @@ final class Extensions {
 				'source'=>32,
 			),
 			'application/vnd.etsi.pstn+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.fujifilm.fb.jfi+xml'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -22372,6 +22406,7 @@ final class Extensions {
 		'sage'=>8,
 		'sami'=>8,
 		'sarif'=>2,
+		'sarif-external-properties'=>2,
 		'sarifjson'=>2,
 		'sas'=>8,
 		'sass'=>8,

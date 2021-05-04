@@ -1491,6 +1491,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'application/sarif-external-properties+json'=>array(
+			'sarif-external-properties'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/sbml+xml'=>array(
 			'sbml'=>array(
 				'authority'=>36,
@@ -2475,6 +2481,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'application/vnd.cryptomator.vault'=>array(
+			'cryptomator'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/vnd.ctc-posml'=>array(
 			'pml'=>array(
 				'authority'=>36,
@@ -2937,6 +2949,12 @@ final class Types {
 				'source'=>172,
 			),
 		),
+		'application/vnd.fujifilm.fb.docuworks.container'=>array(
+			'xct'=>array(
+				'authority'=>36,
+				'source'=>32,
+			),
+		),
 		'application/vnd.fujitsu.oasys'=>array(
 			'oas'=>array(
 				'authority'=>36,
@@ -2976,19 +2994,13 @@ final class Types {
 		'application/vnd.fujixerox.docuworks'=>array(
 			'xdw'=>array(
 				'authority'=>36,
-				'source'=>172,
+				'source'=>164,
 			),
 		),
 		'application/vnd.fujixerox.docuworks.binder'=>array(
 			'xbd'=>array(
 				'authority'=>36,
-				'source'=>172,
-			),
-		),
-		'application/vnd.fujixerox.docuworks.container'=>array(
-			'xct'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'source'=>164,
 			),
 		),
 		'application/vnd.fuzzysheet'=>array(
@@ -5848,7 +5860,7 @@ final class Types {
 		'application/wasm'=>array(
 			'wasm'=>array(
 				'authority'=>36,
-				'source'=>136,
+				'source'=>168,
 			),
 		),
 		'application/watcherinfo+xml'=>array(
@@ -15286,6 +15298,12 @@ final class Types {
 			),
 			'bk2'=>array(
 				'authority'=>21,
+				'source'=>24,
+			),
+		),
+		'video/vnd.radgamettools.smacker'=>array(
+			'smk'=>array(
+				'authority'=>36,
 				'source'=>24,
 			),
 		),
