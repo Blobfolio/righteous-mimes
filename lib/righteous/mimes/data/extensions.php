@@ -666,6 +666,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'aion'=>array(
+			'application/vnd.veritone.aion+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'air'=>array(
 			'application/vnd.adobe.air-application-installer-package+zip'=>array(
 				'authority'=>36,
@@ -900,6 +906,18 @@ final class Extensions {
 			'application/x-arj-compressed'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'arrow'=>array(
+			'application/vnd.apache.arrow.file'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'arrows'=>array(
+			'application/vnd.apache.arrow.stream'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'art'=>array(
@@ -2802,6 +2820,20 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'cr'=>array(
+			'text/x-crystal'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/crystal'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'cr2'=>array(
 			'image/x-canon-cr2'=>array(
 				'authority'=>1,
@@ -2814,6 +2846,16 @@ final class Extensions {
 			'image/x-raw-canon'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'cr3'=>array(
+			'image/x-canon-cr3'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-dcraw'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'crd'=>array(
@@ -4604,6 +4646,16 @@ final class Extensions {
 				'source'=>12,
 			),
 		),
+		'ex'=>array(
+			'text/x-elixir'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'exe'=>array(
 			'application/x-msdownload'=>array(
 				'authority'=>3,
@@ -4654,6 +4706,16 @@ final class Extensions {
 				'source'=>160,
 			),
 			'image/x-exr'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'exs'=>array(
+			'text/x-elixir'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8029,6 +8091,10 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
+			'application/vnd.veritone.aion+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.xacml+json'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -8040,6 +8106,10 @@ final class Extensions {
 			'application/javascript'=>array(
 				'authority'=>2,
 				'source'=>144,
+			),
+			'application/schema+json'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'json-patch'=>array(
@@ -8128,6 +8198,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'jxl'=>array(
+			'image/jxl'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'jxr'=>array(
@@ -8453,6 +8529,12 @@ final class Extensions {
 			),
 		),
 		'kra'=>array(
+			'application/x-krita'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'krz'=>array(
 			'application/x-krita'=>array(
 				'authority'=>36,
 				'source'=>24,
@@ -11932,8 +12014,16 @@ final class Extensions {
 		),
 		'org'=>array(
 			'application/vnd.lotus-organizer'=>array(
-				'authority'=>36,
-				'source'=>140,
+				'authority'=>2,
+				'source'=>132,
+			),
+			'text/org'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'orq'=>array(
@@ -12088,6 +12178,10 @@ final class Extensions {
 			'application/vnd.oasis.opendocument.spreadsheet-template'=>array(
 				'authority'=>14,
 				'source'=>692,
+			),
+			'application/vnd.opentimestamps.ots'=>array(
+				'authority'=>10,
+				'source'=>32,
 			),
 			'application/zip'=>array(
 				'authority'=>1,
@@ -13726,6 +13820,16 @@ final class Extensions {
 				'source'=>512,
 			),
 		),
+		'pyi'=>array(
+			'text/x-python3'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/x-python'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'pyo'=>array(
 			'model/vnd.pytha.pyox'=>array(
 				'authority'=>10,
@@ -14216,6 +14320,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'reload'=>array(
+			'application/vnd.resilient.logic'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'rep'=>array(
 			'application/vnd.businessobjects'=>array(
 				'authority'=>12,
@@ -14332,6 +14442,12 @@ final class Extensions {
 			'image/rle'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'rlm'=>array(
+			'application/vnd.resilient.logic'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'rm'=>array(
@@ -15032,8 +15148,16 @@ final class Extensions {
 		),
 		'sc'=>array(
 			'application/vnd.ibm.secure-container'=>array(
-				'authority'=>36,
-				'source'=>172,
+				'authority'=>12,
+				'source'=>164,
+			),
+			'text/x-scala'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'sc7'=>array(
@@ -15620,6 +15744,12 @@ final class Extensions {
 		),
 		'shc'=>array(
 			'text/shaclc'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'shex'=>array(
+			'text/shex'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -16674,6 +16804,12 @@ final class Extensions {
 				'source'=>9,
 			),
 		),
+		'stpz'=>array(
+			'model/step+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'str'=>array(
 			'application/vnd.pg.format'=>array(
 				'authority'=>36,
@@ -17532,6 +17668,16 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'toml'=>array(
+			'application/toml'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'torrent'=>array(
 			'application/x-bittorrent'=>array(
 				'authority'=>36,
@@ -18036,8 +18182,12 @@ final class Extensions {
 		),
 		'url'=>array(
 			'application/x-mswinurl'=>array(
-				'authority'=>36,
-				'source'=>24,
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'urls'=>array(
@@ -18930,6 +19080,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'vtnstd'=>array(
+			'application/vnd.veritone.aion+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'vtt'=>array(
 			'text/vtt'=>array(
 				'authority'=>4,
@@ -19031,7 +19187,7 @@ final class Extensions {
 		'wasm'=>array(
 			'application/wasm'=>array(
 				'authority'=>36,
-				'source'=>168,
+				'source'=>232,
 			),
 		),
 		'wav'=>array(
@@ -19188,6 +19344,12 @@ final class Extensions {
 			'application/x-matroska'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'webmanifest'=>array(
+			'application/manifest+json'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'webp'=>array(
@@ -21917,6 +22079,7 @@ final class Extensions {
 		'adb'=>8,
 		'adoc'=>8,
 		'ads'=>8,
+		'aion'=>2,
 		'aj'=>8,
 		'al'=>8,
 		'am'=>8,
@@ -21989,6 +22152,7 @@ final class Extensions {
 		'cpl'=>16,
 		'cpp'=>8,
 		'cql'=>8,
+		'cr'=>8,
 		'credits'=>8,
 		'cs'=>8,
 		'csh'=>8,
@@ -22057,8 +22221,10 @@ final class Extensions {
 		'es3'=>16,
 		'et3'=>16,
 		'etx'=>8,
+		'ex'=>8,
 		'exp'=>8,
 		'explain'=>32,
+		'exs'=>8,
 		'f'=>8,
 		'f77'=>8,
 		'f90'=>8,
@@ -22304,6 +22470,7 @@ final class Extensions {
 		'opf'=>16,
 		'opml'=>24,
 		'ora'=>32,
+		'org'=>8,
 		'osfpvg'=>16,
 		'osm'=>16,
 		'ost'=>4,
@@ -22366,6 +22533,7 @@ final class Extensions {
 		'py'=>8,
 		'py3'=>8,
 		'py3x'=>8,
+		'pyi'=>8,
 		'pyx'=>8,
 		'qml'=>8,
 		'qmlproject'=>8,
@@ -22412,6 +22580,7 @@ final class Extensions {
 		'sass'=>8,
 		'sat'=>8,
 		'sbml'=>16,
+		'sc'=>8,
 		'scala'=>8,
 		'schemas'=>8,
 		'scl'=>16,
@@ -22441,6 +22610,7 @@ final class Extensions {
 		'shaclc'=>8,
 		'shape'=>16,
 		'shc'=>8,
+		'shex'=>8,
 		'shf'=>16,
 		'shtml'=>8,
 		'sig'=>8,
@@ -22511,6 +22681,7 @@ final class Extensions {
 		'tld'=>8,
 		'tm'=>8,
 		'toc'=>8,
+		'toml'=>8,
 		'tr'=>8,
 		'trig'=>8,
 		'ts'=>24,
@@ -22530,6 +22701,7 @@ final class Extensions {
 		'uri'=>8,
 		'uric'=>8,
 		'uris'=>8,
+		'url'=>8,
 		'urls'=>8,
 		'uu'=>8,
 		'uue'=>8,
@@ -22557,11 +22729,13 @@ final class Extensions {
 		'vssx'=>48,
 		'vstm'=>48,
 		'vstx'=>48,
+		'vtnstd'=>2,
 		'vtt'=>8,
 		'vxm'=>16,
 		'vxml'=>16,
 		'wadl'=>16,
 		'wbs'=>16,
+		'webmanifest'=>2,
 		'wif'=>16,
 		'wml'=>24,
 		'wmls'=>8,

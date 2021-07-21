@@ -733,6 +733,12 @@ final class Types {
 				'source'=>44,
 			),
 		),
+		'application/manifest+json'=>array(
+			'webmanifest'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/marc'=>array(
 			'mrc'=>array(
 				'authority'=>36,
@@ -1853,6 +1859,12 @@ final class Types {
 				'source'=>172,
 			),
 		),
+		'application/toml'=>array(
+			'toml'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
 		'application/trig'=>array(
 			'trig'=>array(
 				'authority'=>36,
@@ -2103,6 +2115,18 @@ final class Types {
 			'atx'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'application/vnd.apache.arrow.file'=>array(
+			'arrow'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.apache.arrow.stream'=>array(
+			'arrows'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'application/vnd.apple.installer+xml'=>array(
@@ -3258,7 +3282,7 @@ final class Types {
 		'application/vnd.ibm.secure-container'=>array(
 			'sc'=>array(
 				'authority'=>36,
-				'source'=>172,
+				'source'=>164,
 			),
 		),
 		'application/vnd.iccprofile'=>array(
@@ -3595,8 +3619,8 @@ final class Types {
 				'source'=>40,
 			),
 			'org'=>array(
-				'authority'=>22,
-				'source'=>140,
+				'authority'=>2,
+				'source'=>132,
 			),
 		),
 		'application/vnd.lotus-screencam'=>array(
@@ -4821,6 +4845,16 @@ final class Types {
 				'source'=>32,
 			),
 		),
+		'application/vnd.resilient.logic'=>array(
+			'rlm'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'reload'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+		),
 		'application/vnd.rig.cryptonote'=>array(
 			'cryptonote'=>array(
 				'authority'=>36,
@@ -5555,6 +5589,20 @@ final class Types {
 				'source'=>32,
 			),
 		),
+		'application/vnd.veritone.aion+json'=>array(
+			'aion'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'vtnstd'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+		),
 		'application/vnd.veryant.thin'=>array(
 			'istc'=>array(
 				'authority'=>30,
@@ -5860,7 +5908,7 @@ final class Types {
 		'application/wasm'=>array(
 			'wasm'=>array(
 				'authority'=>36,
-				'source'=>168,
+				'source'=>232,
 			),
 		),
 		'application/watcherinfo+xml'=>array(
@@ -7121,7 +7169,11 @@ final class Types {
 		),
 		'application/x-krita'=>array(
 			'kra'=>array(
-				'authority'=>36,
+				'authority'=>21,
+				'source'=>24,
+			),
+			'krz'=>array(
+				'authority'=>21,
 				'source'=>24,
 			),
 		),
@@ -7496,7 +7548,7 @@ final class Types {
 		'application/x-mswinurl'=>array(
 			'url'=>array(
 				'authority'=>36,
-				'source'=>24,
+				'source'=>16,
 			),
 		),
 		'application/x-mswrite'=>array(
@@ -10761,6 +10813,12 @@ final class Types {
 				'source'=>8,
 			),
 		),
+		'image/jxl'=>array(
+			'jxl'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'image/jxr'=>array(
 			'jxr'=>array(
 				'authority'=>36,
@@ -11167,6 +11225,12 @@ final class Types {
 		),
 		'image/x-canon-cr2'=>array(
 			'cr2'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
+		'image/x-canon-cr3'=>array(
+			'cr3'=>array(
 				'authority'=>36,
 				'source'=>16,
 			),
@@ -11785,6 +11849,12 @@ final class Types {
 			'obj'=>array(
 				'authority'=>36,
 				'source'=>32,
+			),
+		),
+		'model/step+zip'=>array(
+			'stpz'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'model/stl'=>array(
@@ -12684,6 +12754,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>128,
 			),
+			'exs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'f77'=>array(
 				'authority'=>1,
 				'source'=>128,
@@ -12820,6 +12894,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'org'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'p7s'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -12933,6 +13011,10 @@ final class Types {
 				'source'=>16,
 			),
 			'uil'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'url'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13056,6 +13138,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'cr'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'credits'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -13077,6 +13163,10 @@ final class Types {
 				'source'=>16,
 			),
 			'device'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'ex'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13356,6 +13446,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'sc'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'scope'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -13421,6 +13515,10 @@ final class Types {
 				'source'=>16,
 			),
 			'timer'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'toml'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13530,6 +13628,12 @@ final class Types {
 			),
 			'shaclc'=>array(
 				'authority'=>30,
+				'source'=>40,
+			),
+		),
+		'text/shex'=>array(
+			'shex'=>array(
+				'authority'=>36,
 				'source'=>40,
 			),
 		),
@@ -14083,6 +14187,12 @@ final class Types {
 				'source'=>16,
 			),
 		),
+		'text/x-crystal'=>array(
+			'cr'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
 		'text/x-csharp'=>array(
 			'cs'=>array(
 				'authority'=>36,
@@ -14124,6 +14234,16 @@ final class Types {
 		'text/x-eiffel'=>array(
 			'eif'=>array(
 				'authority'=>36,
+				'source'=>16,
+			),
+		),
+		'text/x-elixir'=>array(
+			'exs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'ex'=>array(
+				'authority'=>1,
 				'source'=>16,
 			),
 		),
@@ -14514,6 +14634,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'pyi'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'pyx'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -14541,6 +14665,10 @@ final class Types {
 		),
 		'text/x-python3'=>array(
 			'py3'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'pyi'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -14613,8 +14741,12 @@ final class Types {
 		),
 		'text/x-scala'=>array(
 			'scala'=>array(
-				'authority'=>36,
+				'authority'=>2,
 				'source'=>144,
+			),
+			'sc'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'text/x-scheme'=>array(
