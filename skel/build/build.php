@@ -495,7 +495,7 @@ foreach ($out_extensions as $ext=>$types) {
 		) {
 			collect_group($ext, MIMEs::GROUP_XML);
 		}
-		if ('application/zip' === $type) {
+		if ('application/zip' === $type || '+zip' === \substr($type, -4)) {
 			collect_group($ext, MIMEs::GROUP_ZIP);
 		}
 	}
