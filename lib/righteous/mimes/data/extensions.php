@@ -5794,6 +5794,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'glb'=>array(
+			'model/gltf-binary'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'glbin'=>array(
 			'application/gltf-buffer'=>array(
 				'authority'=>36,
@@ -5808,8 +5814,12 @@ final class Extensions {
 		),
 		'gltf'=>array(
 			'model/gltf+json'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>11,
+				'source'=>48,
+			),
+			'application/json'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'gml'=>array(
@@ -10272,6 +10282,10 @@ final class Extensions {
 			'audio/x-mod'=>array(
 				'authority'=>2,
 				'source'=>144,
+			),
+			'application/x-object'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'model-inter'=>array(
@@ -16804,10 +16818,20 @@ final class Extensions {
 				'source'=>9,
 			),
 		),
-		'stpz'=>array(
-			'model/step+zip'=>array(
+		'stpxz'=>array(
+			'model/step-xml+zip'=>array(
 				'authority'=>36,
 				'source'=>40,
+			),
+		),
+		'stpz'=>array(
+			'application/p21+zip'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'model/step+zip'=>array(
+				'authority'=>10,
+				'source'=>32,
 			),
 		),
 		'str'=>array(
@@ -22080,6 +22104,7 @@ final class Extensions {
 		'adoc'=>8,
 		'ads'=>8,
 		'aion'=>2,
+		'air'=>32,
 		'aj'=>8,
 		'al'=>8,
 		'am'=>8,
@@ -22219,6 +22244,7 @@ final class Extensions {
 		'erl'=>8,
 		'es'=>8,
 		'es3'=>16,
+		'espass'=>32,
 		'et3'=>16,
 		'etx'=>8,
 		'ex'=>8,
@@ -22235,6 +22261,7 @@ final class Extensions {
 		'fl'=>8,
 		'flatpakref'=>8,
 		'flatpakrepo'=>8,
+		'flb'=>32,
 		'flt'=>8,
 		'flx'=>8,
 		'fly'=>8,
@@ -22291,6 +22318,7 @@ final class Extensions {
 		'hh'=>8,
 		'hp'=>8,
 		'hpp'=>8,
+		'hpub'=>32,
 		'hs'=>8,
 		'htaccess'=>8,
 		'htc'=>8,
@@ -22299,6 +22327,7 @@ final class Extensions {
 		'hx'=>8,
 		'hxx'=>8,
 		'i3'=>8,
+		'ibooks'=>32,
 		'ica'=>8,
 		'ico'=>8,
 		'ics'=>8,
@@ -22312,6 +22341,8 @@ final class Extensions {
 		'igs'=>8,
 		'ihtml'=>8,
 		'ime'=>8,
+		'imf'=>32,
+		'imi'=>32,
 		'imy'=>8,
 		'in'=>8,
 		'ini'=>8,
@@ -22359,6 +22390,8 @@ final class Extensions {
 		'lasxml'=>16,
 		'latex'=>8,
 		'lbe'=>16,
+		'lca'=>32,
+		'lcs'=>32,
 		'ldif'=>8,
 		'less'=>8,
 		'lgr'=>16,
@@ -22427,6 +22460,7 @@ final class Extensions {
 		'mpd'=>16,
 		'mpf'=>24,
 		'mpkg'=>16,
+		'mpw'=>32,
 		'mpx'=>8,
 		'mrcx'=>16,
 		'mrl'=>8,
@@ -22582,12 +22616,14 @@ final class Extensions {
 		'sbml'=>16,
 		'sc'=>8,
 		'scala'=>8,
+		'sce'=>32,
 		'schemas'=>8,
 		'scl'=>16,
 		'scm'=>8,
 		'sconscript'=>8,
 		'sconstruct'=>8,
 		'scope'=>8,
+		'scs'=>32,
 		'scss'=>8,
 		'sct'=>8,
 		'scurl'=>8,
@@ -22647,6 +22683,8 @@ final class Extensions {
 		'sti'=>32,
 		'stix'=>2,
 		'stp'=>8,
+		'stpxz'=>32,
+		'stpz'=>32,
 		'stw'=>32,
 		'sty'=>8,
 		'sub'=>8,
@@ -22703,6 +22741,7 @@ final class Extensions {
 		'uris'=>8,
 		'url'=>8,
 		'urls'=>8,
+		'usdz'=>32,
 		'uu'=>8,
 		'uue'=>8,
 		'uvt'=>16,
@@ -22759,6 +22798,7 @@ final class Extensions {
 		'xcat'=>8,
 		'xconf'=>8,
 		'xcs'=>16,
+		'xdd'=>32,
 		'xdf'=>16,
 		'xdm'=>16,
 		'xdp'=>16,

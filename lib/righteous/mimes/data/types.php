@@ -666,6 +666,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'gltf'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'ipynb'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -1099,6 +1103,12 @@ final class Types {
 			'xps'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'application/p21+zip'=>array(
+			'stpz'=>array(
+				'authority'=>36,
+				'source'=>32,
 			),
 		),
 		'application/p2p-overlay+xml'=>array(
@@ -7689,8 +7699,12 @@ final class Types {
 		),
 		'application/x-object'=>array(
 			'o'=>array(
-				'authority'=>36,
+				'authority'=>21,
 				'source'=>520,
+			),
+			'mod'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'application/x-oleo'=>array(
@@ -11812,7 +11826,13 @@ final class Types {
 		'model/gltf+json'=>array(
 			'gltf'=>array(
 				'authority'=>36,
-				'source'=>40,
+				'source'=>48,
+			),
+		),
+		'model/gltf-binary'=>array(
+			'glb'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'model/iges'=>array(
@@ -11851,8 +11871,8 @@ final class Types {
 				'source'=>32,
 			),
 		),
-		'model/step+zip'=>array(
-			'stpz'=>array(
+		'model/step-xml+zip'=>array(
+			'stpxz'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
