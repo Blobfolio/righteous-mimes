@@ -315,6 +315,12 @@ final class Types {
 				'source'=>160,
 			),
 		),
+		'application/dash-patch+xml'=>array(
+			'mpp'=>array(
+				'authority'=>36,
+				'source'=>32,
+			),
+		),
 		'application/dashdelta'=>array(
 			'mpdd'=>array(
 				'authority'=>36,
@@ -1751,6 +1757,12 @@ final class Types {
 				'source'=>140,
 			),
 		),
+		'application/spdx+json'=>array(
+			'spdxjson'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/sql'=>array(
 			'sql'=>array(
 				'authority'=>36,
@@ -2221,6 +2233,12 @@ final class Types {
 			'pages'=>array(
 				'authority'=>36,
 				'source'=>432,
+			),
+		),
+		'application/vnd.apple.pkpass'=>array(
+			'pkpass'=>array(
+				'authority'=>36,
+				'source'=>16,
 			),
 		),
 		'application/vnd.aristanetworks.swi'=>array(
@@ -5445,6 +5463,12 @@ final class Types {
 		),
 		'application/vnd.sycle+xml'=>array(
 			'scl'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.syft+json'=>array(
+			'syftjson'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -9553,6 +9577,10 @@ final class Types {
 				'source'=>16,
 			),
 			'pages'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'pkpass'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13913,6 +13941,12 @@ final class Types {
 			'jtd'=>array(
 				'authority'=>36,
 				'source'=>40,
+			),
+		),
+		'text/vnd.familysearch.gedcom'=>array(
+			'ged'=>array(
+				'authority'=>36,
+				'source'=>32,
 			),
 		),
 		'text/vnd.ficlab.flt'=>array(

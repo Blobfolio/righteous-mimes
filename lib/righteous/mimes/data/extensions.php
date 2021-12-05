@@ -5649,6 +5649,10 @@ final class Extensions {
 			),
 		),
 		'ged'=>array(
+			'text/vnd.familysearch.gedcom'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/x-gedcom'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -10759,6 +10763,10 @@ final class Extensions {
 			),
 		),
 		'mpp'=>array(
+			'application/dash-patch+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.ms-project'=>array(
 				'authority'=>3,
 				'source'=>388,
@@ -13084,6 +13092,16 @@ final class Extensions {
 			'application/pkix-pkipath'=>array(
 				'authority'=>36,
 				'source'=>188,
+			),
+		),
+		'pkpass'=>array(
+			'application/vnd.apple.pkpass'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/zip'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'pkr'=>array(
@@ -16456,6 +16474,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'spdxjson'=>array(
+			'application/spdx+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'spec'=>array(
 			'text/x-rpm-spec'=>array(
 				'authority'=>1,
@@ -17272,6 +17296,12 @@ final class Extensions {
 			'application/x-vnd.sun.xml.writer'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'syftjson'=>array(
+			'application/vnd.syft+json'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'sylk'=>array(
@@ -22603,6 +22633,7 @@ final class Extensions {
 		'mpf'=>24,
 		'mpkg'=>16,
 		'mpl'=>8,
+		'mpp'=>16,
 		'mpw'=>32,
 		'mpx'=>8,
 		'mrcx'=>16,
@@ -22679,6 +22710,7 @@ final class Extensions {
 		'php5'=>8,
 		'phps'=>8,
 		'pkg'=>16,
+		'pkpass'=>32,
 		'pkr'=>8,
 		'pl'=>8,
 		'pls'=>16,
@@ -22807,6 +22839,7 @@ final class Extensions {
 		'socket'=>8,
 		'sos'=>8,
 		'spdx'=>8,
+		'spdxjson'=>2,
 		'spec'=>8,
 		'spo'=>8,
 		'spot'=>8,
@@ -22845,6 +22878,7 @@ final class Extensions {
 		'sxi'=>32,
 		'sxm'=>32,
 		'sxw'=>32,
+		'syftjson'=>2,
 		'sylk'=>8,
 		't'=>8,
 		't2t'=>8,
