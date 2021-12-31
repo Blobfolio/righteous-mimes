@@ -4610,6 +4610,12 @@ final class Extensions {
 				'source'=>44,
 			),
 		),
+		'escn'=>array(
+			'application/x-godot-scene'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'esf'=>array(
 			'application/vnd.epson.esf'=>array(
 				'authority'=>36,
@@ -5628,6 +5634,16 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'gd'=>array(
+			'application/x-gdscript'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'gdi'=>array(
 			'application/x-gd-rom-cue'=>array(
 				'authority'=>1,
@@ -5646,6 +5662,22 @@ final class Extensions {
 			'model/vnd.gs-gdl'=>array(
 				'authority'=>10,
 				'source'=>32,
+			),
+		),
+		'gdshader'=>array(
+			'application/x-godot-shader'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'gdz'=>array(
+			'application/vnd.familysearch.gedcom+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'ged'=>array(
@@ -6228,6 +6260,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'gx'=>array(
+			'text/x-gcode-gx'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'gxf'=>array(
 			'application/gxf'=>array(
 				'authority'=>36,
@@ -6538,8 +6576,24 @@ final class Extensions {
 		),
 		'hif'=>array(
 			'image/avif'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>10,
+				'source'=>32,
+			),
+			'image/heif'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/heic'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/heic-sequence'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/heif-sequence'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'hin'=>array(
@@ -10149,11 +10203,19 @@ final class Extensions {
 			),
 		),
 		'mm'=>array(
+			'text/x-objc+src'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/x-c+src'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'text/x-troff-mm'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'text/plain'=>array(
+			'text/troff'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -14472,8 +14534,12 @@ final class Extensions {
 		),
 		'res'=>array(
 			'application/x-dtbresource+xml'=>array(
-				'authority'=>36,
-				'source'=>140,
+				'authority'=>2,
+				'source'=>132,
+			),
+			'application/x-godot-resource'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'rest'=>array(
@@ -15354,6 +15420,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>2,
 				'source'=>144,
+			),
+		),
+		'scn'=>array(
+			'application/x-godot-scene'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'sconscript'=>array(
@@ -17952,6 +18024,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'tres'=>array(
+			'application/x-godot-resource'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'trig'=>array(
 			'application/trig'=>array(
 				'authority'=>11,
@@ -18002,6 +18080,12 @@ final class Extensions {
 			'application/tamp-sequence-adjust'=>array(
 				'authority'=>36,
 				'source'=>40,
+			),
+		),
+		'tscn'=>array(
+			'application/x-godot-scene'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'tsd'=>array(
@@ -22451,7 +22535,10 @@ final class Extensions {
 		'gcd'=>8,
 		'gcode'=>8,
 		'gcrd'=>8,
+		'gd'=>8,
 		'gdi'=>8,
+		'gdshader'=>8,
+		'gdz'=>32,
 		'ged'=>8,
 		'gedcom'=>8,
 		'generally'=>8,
@@ -22477,6 +22564,7 @@ final class Extensions {
 		'gv'=>8,
 		'gvp'=>8,
 		'gvy'=>8,
+		'gx'=>8,
 		'gy'=>8,
 		'gz'=>1,
 		'h'=>8,

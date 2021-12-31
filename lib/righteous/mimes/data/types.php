@@ -2911,6 +2911,12 @@ final class Types {
 				'source'=>172,
 			),
 		),
+		'application/vnd.familysearch.gedcom+zip'=>array(
+			'gdz'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/vnd.fastcopy-disk-image'=>array(
 			'dim'=>array(
 				'authority'=>36,
@@ -6606,7 +6612,7 @@ final class Types {
 		'application/x-dtbresource+xml'=>array(
 			'res'=>array(
 				'authority'=>36,
-				'source'=>140,
+				'source'=>132,
 			),
 		),
 		'application/x-dvi'=>array(
@@ -6833,6 +6839,12 @@ final class Types {
 				'source'=>16,
 			),
 		),
+		'application/x-gdscript'=>array(
+			'gd'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
 		'application/x-gedcom'=>array(
 			'ged'=>array(
 				'authority'=>1,
@@ -6927,6 +6939,36 @@ final class Types {
 			'sgf'=>array(
 				'authority'=>36,
 				'source'=>528,
+			),
+		),
+		'application/x-godot-resource'=>array(
+			'tres'=>array(
+				'authority'=>21,
+				'source'=>24,
+			),
+			'res'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'application/x-godot-scene'=>array(
+			'scn'=>array(
+				'authority'=>21,
+				'source'=>24,
+			),
+			'escn'=>array(
+				'authority'=>21,
+				'source'=>24,
+			),
+			'tscn'=>array(
+				'authority'=>21,
+				'source'=>24,
+			),
+		),
+		'application/x-godot-shader'=>array(
+			'gdshader'=>array(
+				'authority'=>36,
+				'source'=>16,
 			),
 		),
 		'application/x-gramps-xml'=>array(
@@ -10711,8 +10753,8 @@ final class Types {
 				'source'=>120,
 			),
 			'hif'=>array(
-				'authority'=>30,
-				'source'=>40,
+				'authority'=>10,
+				'source'=>32,
 			),
 			'heif'=>array(
 				'authority'=>10,
@@ -10776,6 +10818,10 @@ final class Types {
 				'authority'=>11,
 				'source'=>48,
 			),
+			'hif'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 		),
 		'image/heif'=>array(
 			'heif'=>array(
@@ -10786,11 +10832,19 @@ final class Types {
 				'authority'=>2,
 				'source'=>144,
 			),
+			'hif'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 		),
 		'image/heif-sequence'=>array(
 			'heifs'=>array(
 				'authority'=>36,
 				'source'=>1020,
+			),
+			'hif'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'heic'=>array(
 				'authority'=>1,
@@ -13344,6 +13398,14 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'gd'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'gdshader'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'gedcom'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -13485,10 +13547,6 @@ final class Types {
 				'source'=>128,
 			),
 			'mk'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mm'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13847,6 +13905,10 @@ final class Types {
 			'ms'=>array(
 				'authority'=>2,
 				'source'=>132,
+			),
+			'mm'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'nroff'=>array(
 				'authority'=>1,
@@ -14236,6 +14298,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>512,
 			),
+			'mm'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 		),
 		'text/x-cgi'=>array(
 			'cgi'=>array(
@@ -14449,6 +14515,12 @@ final class Types {
 			'f95'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'text/x-gcode-gx'=>array(
+			'gx'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'text/x-genie'=>array(
@@ -14703,6 +14775,12 @@ final class Types {
 			'nfo'=>array(
 				'authority'=>36,
 				'source'=>20,
+			),
+		),
+		'text/x-objc+src'=>array(
+			'mm'=>array(
+				'authority'=>36,
+				'source'=>16,
 			),
 		),
 		'text/x-ocaml'=>array(
@@ -15066,12 +15144,6 @@ final class Types {
 			),
 			'latex'=>array(
 				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'text/x-troff-mm'=>array(
-			'mm'=>array(
-				'authority'=>36,
 				'source'=>16,
 			),
 		),
