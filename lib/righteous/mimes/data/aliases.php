@@ -17,42 +17,42 @@
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
- * @copyright 2021 The Apache Software Foundation
+ * @copyright 2022 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author Blobfolio
  * @source {https://github.com/Blobfolio/righteous-mimes}
- * @copyright 2021 Blobfolio, LLC
+ * @copyright 2022 Blobfolio, LLC
  * @license http://www.wtfpl.net/ WTFPL
  *
  * @author Drupal
  * @source {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
- * @copyright 2021 Drupal
+ * @copyright 2022 Drupal
  * @license https://www.drupal.org/about/licensing GPL
  *
  * @author FreeDesktop.org
  * @source {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
- * @copyright 2021 FreeDesktop.org
+ * @copyright 2022 FreeDesktop.org
  * @license https://opensource.org/licenses/MIT MIT
  *
  * @author IANA
  * @source {https://www.iana.org/assignments/media-types}
- * @copyright 2021 IETF Trust
+ * @copyright 2022 IETF Trust
  * @license https://www.rfc-editor.org/copyright/ rfc-copyright-story
  *
  * @author Nginx
  * @source {http://hg.nginx.org/nginx/raw-file/default/conf/mime.types}
- * @copyright 2021 Nginx includes_url
+ * @copyright 2022 Nginx includes_url
  * @license https://opensource.org/licenses/BSD-2-Clause BSD
  *
  * @author Tika
  * @source {https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml}
- * @copyright 2021 The Apache Software Foundation
+ * @copyright 2022 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author WordPress
  * @source {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
- * @copyright 2021 Automattic
+ * @copyright 2022 Automattic
  * @license https://wordpress.org/about/license/ GPLv2
  */
 
@@ -106,6 +106,7 @@ final class Aliases {
 		'application/cdr'=>'application/cdr',
 		'application/cea'=>'application/cea',
 		'application/cea-2018+xml'=>'application/xml',
+		'application/city+json'=>'application/json',
 		'application/clr'=>'application/clr',
 		'application/clue+xml'=>'application/xml',
 		'application/clueinfo+xml'=>'application/clueinfo+xml',
@@ -117,6 +118,7 @@ final class Aliases {
 		'application/cose-key-set'=>'application/cbor',
 		'application/cpl+xml'=>'application/cpl+xml',
 		'application/csrattrs'=>'application/csrattrs',
+		'application/csv'=>'text/csv',
 		'application/csvm+json'=>'application/json',
 		'application/cu-seeme'=>'application/cu-seeme',
 		'application/dash+xml'=>'application/dash+xml',
@@ -522,6 +524,7 @@ final class Aliases {
 		'application/vnd.dynageo'=>'application/vnd.dynageo',
 		'application/vnd.dzr'=>'application/vnd.dzr',
 		'application/vnd.easykaraoke.cdgdownload'=>'application/zip',
+		'application/vnd.eclipse.ditto+json'=>'application/json',
 		'application/vnd.ecowin.chart'=>'application/vnd.ecowin.chart',
 		'application/vnd.emusic-emusicpackage'=>'application/vnd.emusic-emusicpackage',
 		'application/vnd.enliven'=>'application/vnd.enliven',
@@ -538,6 +541,7 @@ final class Aliases {
 		'application/vnd.etsi.asic-s+zip'=>'application/vnd.etsi.asic-s+zip',
 		'application/vnd.etsi.pstn+xml'=>'application/xml',
 		'application/vnd.etsi.timestamp-token'=>'application/vnd.etsi.timestamp-token',
+		'application/vnd.eu.kasparian.car+json'=>'application/vnd.eu.kasparian.car+json',
 		'application/vnd.evolv.ecig.profile'=>'application/vnd.evolv.ecig.profile',
 		'application/vnd.evolv.ecig.settings'=>'application/vnd.evolv.ecig.settings',
 		'application/vnd.evolv.ecig.theme'=>'application/vnd.evolv.ecig.theme',

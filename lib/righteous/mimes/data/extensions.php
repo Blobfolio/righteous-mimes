@@ -18,42 +18,42 @@
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
- * @copyright 2021 The Apache Software Foundation
+ * @copyright 2022 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author Blobfolio
  * @source {https://github.com/Blobfolio/righteous-mimes}
- * @copyright 2021 Blobfolio, LLC
+ * @copyright 2022 Blobfolio, LLC
  * @license http://www.wtfpl.net/ WTFPL
  *
  * @author Drupal
  * @source {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
- * @copyright 2021 Drupal
+ * @copyright 2022 Drupal
  * @license https://www.drupal.org/about/licensing GPL
  *
  * @author FreeDesktop.org
  * @source {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
- * @copyright 2021 FreeDesktop.org
+ * @copyright 2022 FreeDesktop.org
  * @license https://opensource.org/licenses/MIT MIT
  *
  * @author IANA
  * @source {https://www.iana.org/assignments/media-types}
- * @copyright 2021 IETF Trust
+ * @copyright 2022 IETF Trust
  * @license https://www.rfc-editor.org/copyright/ rfc-copyright-story
  *
  * @author Nginx
  * @source {http://hg.nginx.org/nginx/raw-file/default/conf/mime.types}
- * @copyright 2021 Nginx includes_url
+ * @copyright 2022 Nginx includes_url
  * @license https://opensource.org/licenses/BSD-2-Clause BSD
  *
  * @author Tika
  * @source {https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml}
- * @copyright 2021 The Apache Software Foundation
+ * @copyright 2022 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author WordPress
  * @source {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
- * @copyright 2021 Automattic
+ * @copyright 2022 Automattic
  * @license https://wordpress.org/about/license/ GPLv2
  */
 
@@ -1992,6 +1992,12 @@ final class Extensions {
 				'source'=>140,
 			),
 		),
+		'carjson'=>array(
+			'application/vnd.eu.kasparian.car+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'cascii'=>array(
 			'chemical/x-cactvs-binary'=>array(
 				'authority'=>36,
@@ -3054,6 +3060,10 @@ final class Extensions {
 			'text/x-csv'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+			'application/csv'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'csvs'=>array(
@@ -8011,6 +8021,10 @@ final class Extensions {
 				'authority'=>36,
 				'source'=>1020,
 			),
+			'application/city+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/csvm+json'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -8092,6 +8106,10 @@ final class Extensions {
 				'source'=>32,
 			),
 			'application/vnd.drive+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.eclipse.ditto+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -22402,6 +22420,7 @@ final class Extensions {
 		'brf'=>8,
 		'bsh'=>8,
 		'c'=>8,
+		'carjson'=>2,
 		'cbl'=>8,
 		'cbz'=>32,
 		'cc'=>8,
