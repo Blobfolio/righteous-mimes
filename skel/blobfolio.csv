@@ -13,6 +13,7 @@ mov,video/quicktime,0
 brf,text/plain,0
 sqlite3,application/vnd.sqlite3,0
 ai,application/pdf,1
+csv,application/csv,1
 dmg,application/zlib,1
 doc,application/vnd.ms-office,1
 docm,application/vnd.ms-office,1
