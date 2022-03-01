@@ -276,6 +276,12 @@ final class Extensions {
 				'source'=>32,
 			),
 		),
+		'3tz'=>array(
+			'application/vnd.maxar.archive.3tz+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'4th'=>array(
 			'text/x-forth'=>array(
 				'authority'=>1,
@@ -3478,6 +3484,16 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'dff'=>array(
+			'audio/x-dff'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'audio/dff'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'dfxp'=>array(
 			'application/ttaf+xml'=>array(
 				'authority'=>36,
@@ -4034,6 +4050,24 @@ final class Extensions {
 			'text/prs.lines.tag'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'dsf'=>array(
+			'audio/x-dsf'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'audio/dsf'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'audio/x-dsd'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'audio/dsd'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'dsl'=>array(
@@ -5074,18 +5108,26 @@ final class Extensions {
 		),
 		'fit'=>array(
 			'application/fits'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>2,
+				'source'=>144,
+			),
+			'image/x-fits'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/fits'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'fits'=>array(
 			'image/fits'=>array(
-				'authority'=>11,
-				'source'=>48,
+				'authority'=>36,
+				'source'=>1020,
 			),
 			'application/fits'=>array(
-				'authority'=>11,
-				'source'=>160,
+				'authority'=>12,
+				'source'=>176,
 			),
 			'image/x-fits'=>array(
 				'authority'=>1,
@@ -5451,9 +5493,17 @@ final class Extensions {
 			),
 		),
 		'fts'=>array(
-			'application/fits'=>array(
+			'image/fits'=>array(
 				'authority'=>36,
-				'source'=>136,
+				'source'=>1020,
+			),
+			'application/fits'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
+			'image/x-fits'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'fv'=>array(
@@ -14192,6 +14242,12 @@ final class Extensions {
 				'source'=>136,
 			),
 		),
+		'qs'=>array(
+			'application/sparql-query'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'qt'=>array(
 			'video/quicktime'=>array(
 				'authority'=>5,
@@ -16808,8 +16864,12 @@ final class Extensions {
 		),
 		'srx'=>array(
 			'application/sparql-results+xml'=>array(
-				'authority'=>36,
-				'source'=>140,
+				'authority'=>3,
+				'source'=>148,
+			),
+			'application/xml'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'ss'=>array(
@@ -18306,6 +18366,12 @@ final class Extensions {
 			'application/x-authorware-bin'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'u3d'=>array(
+			'model/u3d'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'uc2'=>array(
@@ -22224,6 +22290,20 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'zipx'=>array(
+			'application/zip'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-zip-compressed'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-zip'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'zir'=>array(
 			'application/vnd.zul'=>array(
 				'authority'=>36,
@@ -22366,6 +22446,7 @@ final class Extensions {
 	const GROUPS = array(
 		'1km'=>16,
 		'3dml'=>8,
+		'3tz'=>32,
 		'4th'=>8,
 		'aart'=>8,
 		'abs-linkmap'=>8,
@@ -23157,6 +23238,7 @@ final class Extensions {
 		'zabw'=>16,
 		'zaz'=>16,
 		'zip'=>32,
+		'zipx'=>32,
 		'zmm'=>16,
 		'323'=>8,
 	);

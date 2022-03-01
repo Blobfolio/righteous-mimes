@@ -488,17 +488,17 @@ final class Types {
 			),
 		),
 		'application/fits'=>array(
+			'fits'=>array(
+				'authority'=>12,
+				'source'=>176,
+			),
 			'fit'=>array(
-				'authority'=>21,
-				'source'=>136,
+				'authority'=>2,
+				'source'=>144,
 			),
 			'fts'=>array(
-				'authority'=>21,
-				'source'=>136,
-			),
-			'fits'=>array(
-				'authority'=>11,
-				'source'=>160,
+				'authority'=>2,
+				'source'=>144,
 			),
 		),
 		'application/font-tdpfr'=>array(
@@ -1747,14 +1747,18 @@ final class Types {
 		),
 		'application/sparql-query'=>array(
 			'rq'=>array(
-				'authority'=>36,
+				'authority'=>22,
 				'source'=>140,
+			),
+			'qs'=>array(
+				'authority'=>21,
+				'source'=>24,
 			),
 		),
 		'application/sparql-results+xml'=>array(
 			'srx'=>array(
 				'authority'=>36,
-				'source'=>140,
+				'source'=>148,
 			),
 		),
 		'application/spdx+json'=>array(
@@ -3727,6 +3731,12 @@ final class Types {
 		),
 		'application/vnd.marlin.drm.mdcf'=>array(
 			'mdc'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.maxar.archive.3tz+zip'=>array(
+			'3tz'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -9106,6 +9116,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'srx'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'ttx'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -9688,6 +9702,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'zipx'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'mxl'=>array(
 				'authority'=>0,
 				'source'=>9,
@@ -10159,6 +10177,18 @@ final class Types {
 			'caf'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'audio/x-dff'=>array(
+			'dff'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
+		'audio/x-dsf'=>array(
+			'dsf'=>array(
+				'authority'=>36,
+				'source'=>16,
 			),
 		),
 		'audio/x-hx-aac-adts'=>array(
@@ -10804,9 +10834,17 @@ final class Types {
 			),
 		),
 		'image/fits'=>array(
+			'fts'=>array(
+				'authority'=>36,
+				'source'=>1020,
+			),
 			'fits'=>array(
 				'authority'=>36,
-				'source'=>48,
+				'source'=>1020,
+			),
+			'fit'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'image/gif'=>array(
@@ -12023,6 +12061,12 @@ final class Types {
 			'stl'=>array(
 				'authority'=>36,
 				'source'=>48,
+			),
+		),
+		'model/u3d'=>array(
+			'u3d'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'model/vnd.collada+xml'=>array(
