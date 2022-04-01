@@ -272,8 +272,12 @@ final class Extensions {
 				'source'=>1020,
 			),
 			'model/3mf'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
+			),
+			'application/zip'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'3tz'=>array(
@@ -970,6 +974,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'asar'=>array(
+			'application/x-asar'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'asc'=>array(
@@ -10151,15 +10161,19 @@ final class Extensions {
 				'authority'=>36,
 				'source'=>1020,
 			),
+			'text/javascript'=>array(
+				'authority'=>11,
+				'source'=>48,
+			),
+			'text/ecmascript'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/javascript'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
 			'application/x-javascript'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'text/javascript'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -11194,8 +11208,12 @@ final class Extensions {
 		),
 		'mtl'=>array(
 			'model/mtl'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>11,
+				'source'=>48,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'mtm'=>array(
@@ -11742,12 +11760,16 @@ final class Extensions {
 		),
 		'obj'=>array(
 			'model/obj'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
 			),
 			'application/x-tgif'=>array(
 				'authority'=>2,
 				'source'=>20,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'ocaml'=>array(
@@ -13726,6 +13748,10 @@ final class Extensions {
 			'application/vnd.palm'=>array(
 				'authority'=>11,
 				'source'=>48,
+			),
+			'model/prc'=>array(
+				'authority'=>10,
+				'source'=>32,
 			),
 			'application/x-mobipocket-ebook'=>array(
 				'authority'=>4,
@@ -22446,6 +22472,7 @@ final class Extensions {
 	const GROUPS = array(
 		'1km'=>16,
 		'3dml'=>8,
+		'3mf'=>32,
 		'3tz'=>32,
 		'4th'=>8,
 		'aart'=>8,
@@ -22832,6 +22859,7 @@ final class Extensions {
 		'mscx'=>16,
 		'mscz'=>32,
 		'msg'=>4,
+		'mtl'=>8,
 		'mup'=>8,
 		'musd'=>16,
 		'musicxml'=>16,
@@ -22850,6 +22878,7 @@ final class Extensions {
 		'numbers'=>32,
 		'nzb'=>16,
 		'obgx'=>16,
+		'obj'=>8,
 		'ocaml'=>8,
 		'ocl'=>8,
 		'odb'=>32,

@@ -6173,6 +6173,12 @@ final class Types {
 				'source'=>144,
 			),
 		),
+		'application/x-asar'=>array(
+			'asar'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'application/x-atari-2600-rom'=>array(
 			'a26'=>array(
 				'authority'=>36,
@@ -9462,6 +9468,10 @@ final class Types {
 				'authority'=>2,
 				'source'=>144,
 			),
+			'3mf'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'bau'=>array(
 				'authority'=>1,
 				'source'=>128,
@@ -12036,13 +12046,13 @@ final class Types {
 		'model/mtl'=>array(
 			'mtl'=>array(
 				'authority'=>36,
-				'source'=>40,
+				'source'=>48,
 			),
 		),
 		'model/obj'=>array(
 			'obj'=>array(
 				'authority'=>36,
-				'source'=>32,
+				'source'=>48,
 			),
 		),
 		'model/step+xml'=>array(
@@ -13120,6 +13130,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>128,
 			),
+			'mtl'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'mup'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -13129,6 +13143,10 @@ final class Types {
 				'source'=>16,
 			),
 			'not'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'obj'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
