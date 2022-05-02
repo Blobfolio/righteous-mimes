@@ -487,6 +487,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'application/fdf'=>array(
+			'fdf'=>array(
+				'authority'=>36,
+				'source'=>32,
+			),
+		),
 		'application/fits'=>array(
 			'fits'=>array(
 				'authority'=>12,
@@ -2597,12 +2603,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.curl.car'=>array(
-			'car'=>array(
-				'authority'=>36,
-				'source'=>140,
-			),
-		),
 		'application/vnd.curl.pcurl'=>array(
 			'pcurl'=>array(
 				'authority'=>36,
@@ -2933,12 +2933,6 @@ final class Types {
 				'source'=>40,
 			),
 		),
-		'application/vnd.fdf'=>array(
-			'fdf'=>array(
-				'authority'=>36,
-				'source'=>140,
-			),
-		),
 		'application/vnd.fdsn.mseed'=>array(
 			'mseed'=>array(
 				'authority'=>32,
@@ -3119,6 +3113,12 @@ final class Types {
 			'txd'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'application/vnd.genozip'=>array(
+			'genozip'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'application/vnd.gentics.grd+json'=>array(
@@ -3451,6 +3451,12 @@ final class Types {
 			'qfx'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'application/vnd.ipld.car'=>array(
+			'car'=>array(
+				'authority'=>36,
+				'source'=>32,
 			),
 		),
 		'application/vnd.iptc.g2.newsmessage+xml'=>array(
@@ -6628,7 +6634,7 @@ final class Types {
 		'application/x-dtbook+xml'=>array(
 			'dtb'=>array(
 				'authority'=>36,
-				'source'=>140,
+				'source'=>132,
 			),
 		),
 		'application/x-dtbresource+xml'=>array(
@@ -12966,6 +12972,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'dts'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'dtx'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -13431,6 +13441,10 @@ final class Types {
 				'source'=>16,
 			),
 			'device'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'dtsi'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -14500,6 +14514,16 @@ final class Types {
 		'text/x-dbus-service'=>array(
 			'service'=>array(
 				'authority'=>36,
+				'source'=>16,
+			),
+		),
+		'text/x-devicetree-source'=>array(
+			'dts'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'dtsi'=>array(
+				'authority'=>1,
 				'source'=>16,
 			),
 		),

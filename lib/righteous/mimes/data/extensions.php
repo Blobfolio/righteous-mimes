@@ -2003,9 +2003,13 @@ final class Extensions {
 			),
 		),
 		'car'=>array(
+			'application/vnd.ipld.car'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.curl.car'=>array(
-				'authority'=>36,
-				'source'=>140,
+				'authority'=>2,
+				'source'=>132,
 			),
 		),
 		'carjson'=>array(
@@ -4116,8 +4120,12 @@ final class Extensions {
 		),
 		'dtb'=>array(
 			'application/x-dtbook+xml'=>array(
-				'authority'=>36,
-				'source'=>140,
+				'authority'=>2,
+				'source'=>132,
+			),
+			'text/x-devicetree-binary'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'dtd'=>array(
@@ -4143,6 +4151,14 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'text/x-devicetree-source'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 		),
 		'dtshd'=>array(
 			'audio/vnd.dts.hd'=>array(
@@ -4154,6 +4170,16 @@ final class Extensions {
 				'source'=>16,
 			),
 			'audio/vnd.dts'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'dtsi'=>array(
+			'text/x-devicetree-source'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -4983,9 +5009,13 @@ final class Extensions {
 			),
 		),
 		'fdf'=>array(
+			'application/fdf'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.fdf'=>array(
-				'authority'=>36,
-				'source'=>140,
+				'authority'=>2,
+				'source'=>132,
 			),
 		),
 		'fds'=>array(
@@ -5804,6 +5834,12 @@ final class Extensions {
 		),
 		'generally'=>array(
 			'text/vnd.fmi.flexstor'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'genozip'=>array(
+			'application/vnd.genozip'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -19581,6 +19617,10 @@ final class Extensions {
 				'authority'=>2,
 				'source'=>144,
 			),
+			'application/x-riff'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'audio/wave'=>array(
 				'authority'=>1,
 				'source'=>128,
@@ -20724,6 +20764,10 @@ final class Extensions {
 			'application/vnd.adobe.xfdf'=>array(
 				'authority'=>12,
 				'source'=>164,
+			),
+			'application/xfdf'=>array(
+				'authority'=>10,
+				'source'=>32,
 			),
 			'application/xml'=>array(
 				'authority'=>1,
@@ -22610,8 +22654,10 @@ final class Extensions {
 		'dsl'=>8,
 		'dsp'=>8,
 		'dsw'=>8,
-		'dtb'=>16,
+		'dtb'=>24,
 		'dtd'=>8,
+		'dts'=>8,
+		'dtsi'=>8,
 		'dtx'=>8,
 		'dwd'=>16,
 		'dxf'=>8,
