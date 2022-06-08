@@ -309,6 +309,18 @@ final class Types {
 				'source'=>652,
 			),
 		),
+		'application/cwl'=>array(
+			'cwl'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/cwl+json'=>array(
+			'cwljson'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/dash+xml'=>array(
 			'mpd'=>array(
 				'authority'=>36,
@@ -2063,12 +2075,6 @@ final class Types {
 				'source'=>164,
 			),
 		),
-		'application/vnd.adobe.xfdf'=>array(
-			'xfdf'=>array(
-				'authority'=>36,
-				'source'=>164,
-			),
-		),
 		'application/vnd.afpc.modca'=>array(
 			'afp'=>array(
 				'authority'=>36,
@@ -2295,6 +2301,12 @@ final class Types {
 		),
 		'application/vnd.banana-accounting'=>array(
 			'ac2'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.belightsoft.lhzd+zip'=>array(
+			'lhzd'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -8959,6 +8971,12 @@ final class Types {
 				'source'=>32,
 			),
 		),
+		'application/xfdf'=>array(
+			'xfdf'=>array(
+				'authority'=>36,
+				'source'=>32,
+			),
+		),
 		'application/xhtml+xml'=>array(
 			'xhtml2'=>array(
 				'authority'=>21,
@@ -10349,6 +10367,12 @@ final class Types {
 			'ram'=>array(
 				'authority'=>2,
 				'source'=>384,
+			),
+		),
+		'audio/x-tak'=>array(
+			'tak'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'audio/x-tta'=>array(

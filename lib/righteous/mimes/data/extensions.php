@@ -3174,6 +3174,18 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'cwl'=>array(
+			'application/cwl'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'cwljson'=>array(
+			'application/cwl+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'cww'=>array(
 			'application/prs.cww'=>array(
 				'authority'=>36,
@@ -8074,8 +8086,8 @@ final class Extensions {
 				'source'=>1020,
 			),
 			'text/javascript'=>array(
-				'authority'=>12,
-				'source'=>176,
+				'authority'=>13,
+				'source'=>180,
 			),
 			'application/node'=>array(
 				'authority'=>10,
@@ -9016,6 +9028,12 @@ final class Extensions {
 			'application/x-lhz'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'lhzd'=>array(
+			'application/vnd.belightsoft.lhzd+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'license'=>array(
@@ -10198,8 +10216,8 @@ final class Extensions {
 				'source'=>1020,
 			),
 			'text/javascript'=>array(
-				'authority'=>11,
-				'source'=>48,
+				'authority'=>12,
+				'source'=>52,
 			),
 			'text/ecmascript'=>array(
 				'authority'=>10,
@@ -11839,6 +11857,10 @@ final class Extensions {
 				'authority'=>15,
 				'source'=>948,
 			),
+			'application/vnd.oasis.opendocument.base'=>array(
+				'authority'=>11,
+				'source'=>160,
+			),
 			'application/vnd.sun.xml.base'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -11846,10 +11868,6 @@ final class Extensions {
 			'application/zip'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-			'application/vnd.oasis.opendocument.base'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'odc'=>array(
@@ -17570,6 +17588,12 @@ final class Extensions {
 				'source'=>44,
 			),
 		),
+		'tak'=>array(
+			'audio/x-tak'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'tam'=>array(
 			'application/vnd.onepager'=>array(
 				'authority'=>36,
@@ -20761,13 +20785,13 @@ final class Extensions {
 			),
 		),
 		'xfdf'=>array(
-			'application/vnd.adobe.xfdf'=>array(
-				'authority'=>12,
-				'source'=>164,
-			),
 			'application/xfdf'=>array(
 				'authority'=>10,
 				'source'=>32,
+			),
+			'application/vnd.adobe.xfdf'=>array(
+				'authority'=>2,
+				'source'=>132,
 			),
 			'application/xml'=>array(
 				'authority'=>1,
@@ -22615,6 +22639,7 @@ final class Extensions {
 		'cue'=>8,
 		'curl'=>8,
 		'cwiki'=>8,
+		'cwljson'=>2,
 		'cxx'=>8,
 		'd'=>8,
 		'dae'=>16,
@@ -22829,6 +22854,7 @@ final class Extensions {
 		'less'=>8,
 		'lgr'=>16,
 		'lhs'=>8,
+		'lhzd'=>32,
 		'license'=>8,
 		'link66'=>16,
 		'lisp'=>8,
