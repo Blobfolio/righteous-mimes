@@ -760,6 +760,16 @@ final class Extensions {
 		),
 		'aml'=>array(
 			'application/aml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/automationml-aml+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+		),
+		'amlx'=>array(
+			'application/automationml-amlx+zip'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -2784,6 +2794,12 @@ final class Extensions {
 				'source'=>24,
 			),
 		),
+		'coswid'=>array(
+			'application/swid+cbor'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'cpa'=>array(
 			'chemical/x-compass'=>array(
 				'authority'=>36,
@@ -3761,9 +3777,13 @@ final class Extensions {
 			),
 		),
 		'dl'=>array(
+			'application/vnd.datalog'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'video/dl'=>array(
-				'authority'=>36,
-				'source'=>520,
+				'authority'=>1,
+				'source'=>512,
 			),
 		),
 		'dll'=>array(
@@ -4039,9 +4059,13 @@ final class Extensions {
 			),
 		),
 		'dpx'=>array(
+			'image/dpx'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'image/x-dpx'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'dra'=>array(
@@ -8107,7 +8131,7 @@ final class Extensions {
 			),
 		),
 		'jsm'=>array(
-			'application/javascript'=>array(
+			'text/javascript'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8115,7 +8139,7 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'text/javascript'=>array(
+			'application/javascript'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8345,13 +8369,17 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/javascript'=>array(
-				'authority'=>2,
-				'source'=>144,
+			'text/javascript'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'application/schema+json'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+			'application/javascript'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'json-patch'=>array(
@@ -9032,6 +9060,12 @@ final class Extensions {
 		),
 		'lhzd'=>array(
 			'application/vnd.belightsoft.lhzd+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'lhzl'=>array(
+			'application/vnd.belightsoft.lhzl+zip'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -10223,11 +10257,11 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/javascript'=>array(
+			'application/x-javascript'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'application/x-javascript'=>array(
+			'application/javascript'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -19070,6 +19104,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'vfk'=>array(
+			'text/vnd.exchangeable'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'vfr'=>array(
 			'application/vnd.tml'=>array(
 				'authority'=>36,
@@ -22558,6 +22598,8 @@ final class Extensions {
 		'aj'=>8,
 		'al'=>8,
 		'am'=>8,
+		'aml'=>16,
+		'amlx'=>32,
 		'anpa'=>8,
 		'appcache'=>8,
 		'applescript'=>8,
@@ -22826,7 +22868,7 @@ final class Extensions {
 		'jrd'=>2,
 		'js'=>8,
 		'jsm'=>8,
-		'json'=>2,
+		'json'=>10,
 		'json-patch'=>2,
 		'jsonld'=>2,
 		'jsonml'=>2,
@@ -22855,6 +22897,7 @@ final class Extensions {
 		'lgr'=>16,
 		'lhs'=>8,
 		'lhzd'=>32,
+		'lhzl'=>32,
 		'license'=>8,
 		'link66'=>16,
 		'lisp'=>8,
@@ -23223,6 +23266,7 @@ final class Extensions {
 		'vcj'=>2,
 		'vcs'=>8,
 		'vct'=>8,
+		'vfk'=>8,
 		'vhd'=>8,
 		'vhdl'=>8,
 		'vlc'=>8,
