@@ -74,7 +74,7 @@ final class Types {
 		'application/aml'=>array(
 			'aml'=>array(
 				'authority'=>36,
-				'source'=>40,
+				'source'=>32,
 			),
 		),
 		'application/andrew-inset'=>array(
@@ -171,6 +171,12 @@ final class Types {
 		),
 		'application/auth-policy+xml'=>array(
 			'apxml'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/automationml-amlx+zip'=>array(
+			'amlx'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -664,10 +670,6 @@ final class Types {
 				'authority'=>36,
 				'source'=>1020,
 			),
-			'json'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
 			'jsm'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -675,6 +677,10 @@ final class Types {
 			'mjs'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+			'json'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'application/jrd+json'=>array(
@@ -1835,6 +1841,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'application/swid+cbor'=>array(
+			'coswid'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/swid+xml'=>array(
 			'swidtag'=>array(
 				'authority'=>36,
@@ -2311,6 +2323,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'application/vnd.belightsoft.lhzl+zip'=>array(
+			'lhzl'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/vnd.blueice.multipass'=>array(
 			'mpm'=>array(
 				'authority'=>36,
@@ -2631,6 +2649,12 @@ final class Types {
 			'rdz'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'application/vnd.datalog'=>array(
+			'dl'=>array(
+				'authority'=>36,
+				'source'=>32,
 			),
 		),
 		'application/vnd.dbf'=>array(
@@ -10867,6 +10891,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'image/dpx'=>array(
+			'dpx'=>array(
+				'authority'=>36,
+				'source'=>32,
+			),
+		),
 		'image/emf'=>array(
 			'emf'=>array(
 				'authority'=>36,
@@ -11491,12 +11521,6 @@ final class Types {
 			'dds'=>array(
 				'authority'=>36,
 				'source'=>24,
-			),
-		),
-		'image/x-dpx'=>array(
-			'dpx'=>array(
-				'authority'=>36,
-				'source'=>136,
 			),
 		),
 		'image/x-freehand'=>array(
@@ -12381,6 +12405,24 @@ final class Types {
 			'uls'=>array(
 				'authority'=>36,
 				'source'=>520,
+			),
+		),
+		'text/javascript'=>array(
+			'js'=>array(
+				'authority'=>13,
+				'source'=>180,
+			),
+			'mjs'=>array(
+				'authority'=>12,
+				'source'=>52,
+			),
+			'jsm'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'json'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'text/jcr-cnd'=>array(
@@ -14111,6 +14153,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'text/vnd.exchangeable'=>array(
+			'vfk'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'text/vnd.familysearch.gedcom'=>array(
 			'ged'=>array(
 				'authority'=>36,
@@ -15435,12 +15483,6 @@ final class Types {
 			'avi'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-		),
-		'video/dl'=>array(
-			'dl'=>array(
-				'authority'=>36,
-				'source'=>520,
 			),
 		),
 		'video/dv'=>array(
