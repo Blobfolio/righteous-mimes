@@ -1947,6 +1947,20 @@ final class Types {
 				'source'=>172,
 			),
 		),
+		'application/tm+json'=>array(
+			'jsontm'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'tmjson'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'tmjsonld'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+		),
 		'application/toml'=>array(
 			'toml'=>array(
 				'authority'=>36,
@@ -5525,6 +5539,20 @@ final class Types {
 				'source'=>140,
 			),
 		),
+		'application/vnd.sybyl.mol2'=>array(
+			'ml2'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'sy2'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'mol2'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+		),
 		'application/vnd.sycle+xml'=>array(
 			'scl'=>array(
 				'authority'=>36,
@@ -5807,6 +5835,12 @@ final class Types {
 			'wmlsc'=>array(
 				'authority'=>36,
 				'source'=>684,
+			),
+		),
+		'application/vnd.wasmflow.wafl'=>array(
+			'wafl'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'application/vnd.webturbo'=>array(
@@ -10693,12 +10727,6 @@ final class Types {
 		),
 		'chemical/x-mmcif'=>array(
 			'mcif'=>array(
-				'authority'=>36,
-				'source'=>520,
-			),
-		),
-		'chemical/x-mol2'=>array(
-			'mol2'=>array(
 				'authority'=>36,
 				'source'=>520,
 			),

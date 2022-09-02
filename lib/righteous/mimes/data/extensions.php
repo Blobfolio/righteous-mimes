@@ -8438,6 +8438,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'jsontm'=>array(
+			'application/tm+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'jsp'=>array(
 			'text/x-jsp'=>array(
 				'authority'=>1,
@@ -10352,6 +10358,12 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'ml2'=>array(
+			'application/vnd.sybyl.mol2'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'mli'=>array(
 			'text/x-ocaml'=>array(
 				'authority'=>2,
@@ -10601,9 +10613,13 @@ final class Extensions {
 			),
 		),
 		'mol2'=>array(
+			'application/vnd.sybyl.mol2'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'chemical/x-mol2'=>array(
-				'authority'=>36,
-				'source'=>520,
+				'authority'=>1,
+				'source'=>512,
 			),
 		),
 		'moo'=>array(
@@ -17562,6 +17578,12 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'sy2'=>array(
+			'application/vnd.sybyl.mol2'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'syftjson'=>array(
 			'application/vnd.syft+json'=>array(
 				'authority'=>36,
@@ -18070,6 +18092,18 @@ final class Extensions {
 			'text/texmacs'=>array(
 				'authority'=>36,
 				'source'=>520,
+			),
+		),
+		'tmjson'=>array(
+			'application/tm+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'tmjsonld'=>array(
+			'application/tm+json'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'tmo'=>array(
@@ -19638,6 +19672,12 @@ final class Extensions {
 		),
 		'wadl'=>array(
 			'application/vnd.sun.wadl+xml'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'wafl'=>array(
+			'application/vnd.wasmflow.wafl'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -22873,6 +22913,7 @@ final class Extensions {
 		'jsonld'=>2,
 		'jsonml'=>2,
 		'jsontd'=>2,
+		'jsontm'=>2,
 		'jsp'=>8,
 		'jtd'=>8,
 		'junit'=>8,
@@ -23229,6 +23270,8 @@ final class Extensions {
 		'tk'=>8,
 		'tld'=>8,
 		'tm'=>8,
+		'tmjson'=>2,
+		'tmjsonld'=>2,
 		'toc'=>8,
 		'toml'=>8,
 		'tr'=>8,
