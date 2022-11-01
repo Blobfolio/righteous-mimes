@@ -2093,6 +2093,10 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
+			'application/vnd.ipld.dag-cbor'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 		),
 		'cbr'=>array(
 			'application/vnd.comicbook-rar'=>array(
@@ -8153,6 +8157,10 @@ final class Extensions {
 				'authority'=>36,
 				'source'=>1020,
 			),
+			'application/emergencycalldata.legacyesn+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/city+json'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -8298,6 +8306,10 @@ final class Extensions {
 				'source'=>32,
 			),
 			'application/vnd.infotech.project'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.ipld.dag-json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -16227,6 +16239,10 @@ final class Extensions {
 				'authority'=>13,
 				'source'=>180,
 			),
+			'application/rpki-checklist'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -17877,7 +17893,11 @@ final class Extensions {
 		'text'=>array(
 			'text/plain'=>array(
 				'authority'=>36,
-				'source'=>652,
+				'source'=>1020,
+			),
+			'application/vnd.cncf.helm.chart.provenance.v1.prov'=>array(
+				'authority'=>10,
+				'source'=>32,
 			),
 		),
 		'tfi'=>array(
@@ -18696,6 +18716,12 @@ final class Extensions {
 			'text/uri-list'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'usda'=>array(
+			'model/vnd.usda'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'usdz'=>array(
@@ -21542,6 +21568,14 @@ final class Extensions {
 				'source'=>32,
 			),
 			'application/vnd.fujifilm.fb.jfi+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.gentoo.catmetadata+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.gentoo.pkgmetadata+xml'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),

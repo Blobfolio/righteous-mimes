@@ -42,6 +42,7 @@
 	"svg": "image/svg+xml",
 	"tar": "application/x-tar",
 	"txt": "text/plain",
+	"text": "text/plain",
 	"wav": "audio/wav",
 	"webp": "image/webp",
 	"woff": "font/woff",

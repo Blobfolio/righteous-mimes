@@ -12259,6 +12259,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'model/vnd.usda'=>array(
+			'usda'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'model/vnd.usdz+zip'=>array(
 			'usdz'=>array(
 				'authority'=>36,
@@ -12491,8 +12497,8 @@ final class Types {
 				'source'=>1020,
 			),
 			'text'=>array(
-				'authority'=>23,
-				'source'=>652,
+				'authority'=>36,
+				'source'=>1020,
 			),
 			'def'=>array(
 				'authority'=>22,
