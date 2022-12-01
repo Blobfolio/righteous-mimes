@@ -3177,6 +3177,34 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'application/vnd.gentoo.ebuild'=>array(
+			'ebuild'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.gentoo.eclass'=>array(
+			'eclass'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.gentoo.gpkg'=>array(
+			'gpkgtar'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.gentoo.xpak'=>array(
+			'xpak'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'tbz2'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+		),
 		'application/vnd.geocube+xml'=>array(
 			'g3'=>array(
 				'authority'=>36,
@@ -10857,6 +10885,12 @@ final class Types {
 				'source'=>160,
 			),
 		),
+		'image/apng'=>array(
+			'apng'=>array(
+				'authority'=>36,
+				'source'=>32,
+			),
+		),
 		'image/astc'=>array(
 			'astc'=>array(
 				'authority'=>36,
@@ -11335,16 +11369,6 @@ final class Types {
 			'ico'=>array(
 				'authority'=>36,
 				'source'=>1020,
-			),
-		),
-		'image/vnd.mozilla.apng'=>array(
-			'apng'=>array(
-				'authority'=>30,
-				'source'=>40,
-			),
-			'png'=>array(
-				'authority'=>10,
-				'source'=>32,
 			),
 		),
 		'image/vnd.ms-modi'=>array(
@@ -12924,6 +12948,10 @@ final class Types {
 				'authority'=>2,
 				'source'=>144,
 			),
+			'jl'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
 			'lisp'=>array(
 				'authority'=>2,
 				'source'=>144,
@@ -13657,10 +13685,6 @@ final class Types {
 				'source'=>16,
 			),
 			'java'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
-			'jl'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),

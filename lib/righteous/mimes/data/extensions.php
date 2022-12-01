@@ -845,9 +845,13 @@ final class Extensions {
 			),
 		),
 		'apng'=>array(
+			'image/apng'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'image/vnd.mozilla.apng'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>10,
+				'source'=>32,
 			),
 		),
 		'appcache'=>array(
@@ -4382,6 +4386,12 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'ebuild'=>array(
+			'application/vnd.gentoo.ebuild'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'ecelp4800'=>array(
 			'audio/vnd.nuera.ecelp4800'=>array(
 				'authority'=>36,
@@ -4414,6 +4424,12 @@ final class Extensions {
 		),
 		'ecigtheme'=>array(
 			'application/vnd.evolv.ecig.theme'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'eclass'=>array(
+			'application/vnd.gentoo.eclass'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -6154,6 +6170,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'gpkgtar'=>array(
+			'application/vnd.gentoo.gpkg'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'gplt'=>array(
 			'application/x-gnuplot'=>array(
 				'authority'=>1,
@@ -7863,11 +7885,15 @@ final class Extensions {
 			),
 		),
 		'jl'=>array(
-			'text/x-common-lisp'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
 			'text/plain'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
+			'text/julia'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/x-common-lisp'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
@@ -17775,6 +17801,10 @@ final class Extensions {
 			),
 		),
 		'tbz2'=>array(
+			'application/vnd.gentoo.xpak'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/x-bzip'=>array(
 				'authority'=>2,
 				'source'=>144,
@@ -22014,6 +22044,12 @@ final class Extensions {
 		),
 		'xott'=>array(
 			'application/vnd.collabio.xodocuments.document-template'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'xpak'=>array(
+			'application/vnd.gentoo.xpak'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
