@@ -17,42 +17,42 @@
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
- * @copyright 2022 The Apache Software Foundation
+ * @copyright 2023 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author Blobfolio
  * @source {https://github.com/Blobfolio/righteous-mimes}
- * @copyright 2022 Blobfolio, LLC
+ * @copyright 2023 Blobfolio, LLC
  * @license http://www.wtfpl.net/ WTFPL
  *
  * @author Drupal
  * @source {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
- * @copyright 2022 Drupal
+ * @copyright 2023 Drupal
  * @license https://www.drupal.org/about/licensing GPL
  *
  * @author FreeDesktop.org
  * @source {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
- * @copyright 2022 FreeDesktop.org
+ * @copyright 2023 FreeDesktop.org
  * @license https://opensource.org/licenses/MIT MIT
  *
  * @author IANA
  * @source {https://www.iana.org/assignments/media-types}
- * @copyright 2022 IETF Trust
+ * @copyright 2023 IETF Trust
  * @license https://www.rfc-editor.org/copyright/ rfc-copyright-story
  *
  * @author Nginx
  * @source {http://hg.nginx.org/nginx/raw-file/default/conf/mime.types}
- * @copyright 2022 Nginx includes_url
+ * @copyright 2023 Nginx includes_url
  * @license https://opensource.org/licenses/BSD-2-Clause BSD
  *
  * @author Tika
  * @source {https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml}
- * @copyright 2022 The Apache Software Foundation
+ * @copyright 2023 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author WordPress
  * @source {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
- * @copyright 2022 Automattic
+ * @copyright 2023 Automattic
  * @license https://wordpress.org/about/license/ GPLv2
  */
 
@@ -2091,6 +2091,7 @@ final class Aliases {
 		'model/step-xml+zip'=>'model/step-xml+zip',
 		'model/stl'=>'model/stl',
 		'model/u3d'=>'model/u3d',
+		'model/vnd.cld'=>'model/vnd.cld',
 		'model/vnd.collada+xml'=>'model/vnd.collada+xml',
 		'model/vnd.dwf'=>'model/vnd.dwf',
 		'model/vnd.dwfx+xps'=>'model/vnd.dwfx+xps',
