@@ -829,13 +829,9 @@ final class Extensions {
 				'authority'=>3,
 				'source'=>148,
 			),
-			'application/x-java-archive'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
 			'application/java-archive'=>array(
-				'authority'=>1,
-				'source'=>128,
+				'authority'=>2,
+				'source'=>144,
 			),
 		),
 		'apkg'=>array(
@@ -6874,6 +6870,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'hsl'=>array(
+			'application/vnd.hsl'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'hta'=>array(
 			'application/hta'=>array(
 				'authority'=>36,
@@ -7789,11 +7791,11 @@ final class Extensions {
 				'authority'=>2,
 				'source'=>144,
 			),
-			'application/x-java-archive'=>array(
+			'application/x-jar'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'application/x-jar'=>array(
+			'application/x-java-archive'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8241,6 +8243,10 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
+			'application/vnd.cncf.helm.config.v1+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.collection+json'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -8500,6 +8506,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'jt'=>array(
+			'model/jt'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'jtd'=>array(
@@ -10634,6 +10646,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'modl'=>array(
+			'application/vnd.modl'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'mods'=>array(
 			'application/mods+xml'=>array(
 				'authority'=>36,
@@ -12316,6 +12334,16 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'openvpn'=>array(
+			'application/x-openvpn-profile'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'opf'=>array(
 			'application/oebps-package+xml'=>array(
 				'authority'=>36,
@@ -12537,6 +12565,10 @@ final class Extensions {
 			),
 		),
 		'otm'=>array(
+			'application/vnd.oasis.opendocument.text-master-template'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.oasis.opendocument.text-master'=>array(
 				'authority'=>1,
 				'source'=>128,
@@ -12610,6 +12642,16 @@ final class Extensions {
 			'application/vnd.afpc.modca-overlay'=>array(
 				'authority'=>36,
 				'source'=>40,
+			),
+		),
+		'ovpn'=>array(
+			'application/x-openvpn-profile'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'owl'=>array(
@@ -15282,6 +15324,12 @@ final class Extensions {
 				'source'=>520,
 			),
 		),
+		'rxr'=>array(
+			'application/vnd.medicalholodeck.recordxr'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		's'=>array(
 			'text/x-asm'=>array(
 				'authority'=>36,
@@ -16296,6 +16344,12 @@ final class Extensions {
 			'model/mesh'=>array(
 				'authority'=>36,
 				'source'=>652,
+			),
+		),
+		'sipa'=>array(
+			'application/vnd.smintio.portals.archive'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'sis'=>array(
@@ -19944,6 +19998,12 @@ final class Extensions {
 				'source'=>44,
 			),
 		),
+		'wgsl'=>array(
+			'text/wgsl'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'wgt'=>array(
 			'application/widget'=>array(
 				'authority'=>36,
@@ -21623,6 +21683,10 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
+			'application/vnd.gpxsee.map+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.informedcontrol.rms+xml'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -23124,6 +23188,7 @@ final class Extensions {
 		'odt'=>32,
 		'omdoc'=>16,
 		'ooc'=>8,
+		'openvpn'=>8,
 		'opf'=>16,
 		'opml'=>24,
 		'ora'=>32,
@@ -23138,6 +23203,7 @@ final class Extensions {
 		'otp'=>32,
 		'ots'=>32,
 		'ott'=>32,
+		'ovpn'=>8,
 		'owl'=>24,
 		'owx'=>16,
 		'oxps'=>32,
@@ -23406,6 +23472,7 @@ final class Extensions {
 		'wadl'=>16,
 		'wbs'=>16,
 		'webmanifest'=>2,
+		'wgsl'=>8,
 		'wif'=>16,
 		'wml'=>24,
 		'wmls'=>8,

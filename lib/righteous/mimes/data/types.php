@@ -646,6 +646,10 @@ final class Types {
 				'authority'=>5,
 				'source'=>724,
 			),
+			'apk'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
 			'ear'=>array(
 				'authority'=>2,
 				'source'=>192,
@@ -653,10 +657,6 @@ final class Types {
 			'war'=>array(
 				'authority'=>2,
 				'source'=>192,
-			),
-			'apk'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'application/java-serialized-object'=>array(
@@ -3397,6 +3397,12 @@ final class Types {
 				'source'=>140,
 			),
 		),
+		'application/vnd.hsl'=>array(
+			'hsl'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/vnd.hydrostatix.sof-data'=>array(
 			'sfd-hdstx'=>array(
 				'authority'=>36,
@@ -3849,6 +3855,12 @@ final class Types {
 				'source'=>172,
 			),
 		),
+		'application/vnd.medicalholodeck.recordxr'=>array(
+			'rxr'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/vnd.mfer'=>array(
 			'mwf'=>array(
 				'authority'=>36,
@@ -3945,6 +3957,12 @@ final class Types {
 			'txf'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'application/vnd.modl'=>array(
+			'modl'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'application/vnd.mophun.application'=>array(
@@ -4575,6 +4593,12 @@ final class Types {
 			'otm'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'application/vnd.oasis.opendocument.text-master-template'=>array(
+			'otm'=>array(
+				'authority'=>36,
+				'source'=>32,
 			),
 		),
 		'application/vnd.oasis.opendocument.text-template'=>array(
@@ -5335,6 +5359,12 @@ final class Types {
 			'teacher'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'application/vnd.smintio.portals.archive'=>array(
+			'sipa'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'application/vnd.snap'=>array(
@@ -7941,6 +7971,16 @@ final class Types {
 			'oleo'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'application/x-openvpn-profile'=>array(
+			'openvpn'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'ovpn'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'application/x-openzim'=>array(
@@ -12135,6 +12175,12 @@ final class Types {
 				'source'=>660,
 			),
 		),
+		'model/jt'=>array(
+			'jt'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'model/mesh'=>array(
 			'msh'=>array(
 				'authority'=>23,
@@ -13758,6 +13804,14 @@ final class Types {
 				'authority'=>1,
 				'source'=>128,
 			),
+			'openvpn'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'ovpn'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'path'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -14359,6 +14413,12 @@ final class Types {
 			'vtt'=>array(
 				'authority'=>36,
 				'source'=>912,
+			),
+		),
+		'text/wgsl'=>array(
+			'wgsl'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'text/x-ada'=>array(
