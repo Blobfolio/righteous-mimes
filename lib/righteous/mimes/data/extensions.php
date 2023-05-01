@@ -1510,6 +1510,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'bary'=>array(
+			'model/vnd.bary'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'bas'=>array(
 			'text/x-basic'=>array(
 				'authority'=>1,
@@ -7779,13 +7785,13 @@ final class Extensions {
 			),
 		),
 		'jar'=>array(
+			'application/java-archive'=>array(
+				'authority'=>15,
+				'source'=>756,
+			),
 			'application/vnd.osgi.bundle'=>array(
 				'authority'=>10,
 				'source'=>32,
-			),
-			'application/java-archive'=>array(
-				'authority'=>5,
-				'source'=>724,
 			),
 			'application/zip'=>array(
 				'authority'=>2,
@@ -9888,6 +9894,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'mbsdf'=>array(
+			'application/vnd.mdl-mbsdf'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'mc1'=>array(
 			'application/vnd.medcalcdata'=>array(
 				'authority'=>36,
@@ -9990,6 +10002,12 @@ final class Extensions {
 			'image/vnd.ms-modi'=>array(
 				'authority'=>36,
 				'source'=>188,
+			),
+		),
+		'mdl'=>array(
+			'application/vnd.mdl'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'mdo'=>array(
@@ -11904,6 +11922,12 @@ final class Extensions {
 			'application/vnd.fujitsu.oasys'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'ob'=>array(
+			'application/vnd.1ob'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'obd'=>array(
@@ -14438,6 +14462,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'qoi'=>array(
+			'image/qoi'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'qp'=>array(

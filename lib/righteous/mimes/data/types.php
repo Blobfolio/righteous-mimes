@@ -643,8 +643,8 @@ final class Types {
 		),
 		'application/java-archive'=>array(
 			'jar'=>array(
-				'authority'=>5,
-				'source'=>724,
+				'authority'=>15,
+				'source'=>756,
 			),
 			'apk'=>array(
 				'authority'=>2,
@@ -1993,6 +1993,12 @@ final class Types {
 		),
 		'application/vnd.1000minds.decision-model+xml'=>array(
 			'1km'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.1ob'=>array(
+			'ob'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -3843,6 +3849,18 @@ final class Types {
 				'source'=>164,
 			),
 		),
+		'application/vnd.mdl'=>array(
+			'mdl'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.mdl-mbsdf'=>array(
+			'mbsdf'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/vnd.medcalcdata'=>array(
 			'mc1'=>array(
 				'authority'=>36,
@@ -4807,12 +4825,6 @@ final class Types {
 			'mgp'=>array(
 				'authority'=>36,
 				'source'=>36,
-			),
-		),
-		'application/vnd.osgi.bundle'=>array(
-			'jar'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.osgi.dp'=>array(
@@ -11261,6 +11273,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'image/qoi'=>array(
+			'qoi'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'image/rle'=>array(
 			'rle'=>array(
 				'authority'=>36,
@@ -12227,6 +12245,12 @@ final class Types {
 		),
 		'model/u3d'=>array(
 			'u3d'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'model/vnd.bary'=>array(
+			'bary'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
