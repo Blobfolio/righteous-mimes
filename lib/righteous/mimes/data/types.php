@@ -3543,6 +3543,12 @@ final class Types {
 				'source'=>172,
 			),
 		),
+		'application/vnd.ipfs.ipns-record'=>array(
+			'ipns-record'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/vnd.ipld.car'=>array(
 			'car'=>array(
 				'authority'=>36,
@@ -11101,6 +11107,16 @@ final class Types {
 				'source'=>668,
 			),
 		),
+		'image/j2c'=>array(
+			'j2c'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'j2k'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+		),
 		'image/jls'=>array(
 			'jls'=>array(
 				'authority'=>36,
@@ -11768,17 +11784,17 @@ final class Types {
 			),
 		),
 		'image/x-jp2-codestream'=>array(
-			'j2c'=>array(
-				'authority'=>22,
-				'source'=>152,
-			),
-			'j2k'=>array(
-				'authority'=>21,
-				'source'=>24,
-			),
 			'jpc'=>array(
 				'authority'=>21,
 				'source'=>24,
+			),
+			'j2c'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
+			'j2k'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'image/x-kodak-k25'=>array(

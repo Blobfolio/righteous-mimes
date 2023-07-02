@@ -7536,6 +7536,12 @@ final class Extensions {
 				'source'=>140,
 			),
 		),
+		'ipns-record'=>array(
+			'application/vnd.ipfs.ipns-record'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'ips'=>array(
 			'application/x-ips-patch'=>array(
 				'authority'=>36,
@@ -7757,15 +7763,23 @@ final class Extensions {
 			),
 		),
 		'j2c'=>array(
+			'image/j2c'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'image/x-jp2-codestream'=>array(
-				'authority'=>36,
-				'source'=>152,
+				'authority'=>2,
+				'source'=>144,
 			),
 		),
 		'j2k'=>array(
+			'image/j2c'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'image/x-jp2-codestream'=>array(
-				'authority'=>36,
-				'source'=>24,
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'jad'=>array(
