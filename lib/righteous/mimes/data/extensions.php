@@ -11117,11 +11117,27 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'application/vnd.ms-office'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+			'application/msproject'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
 		),
 		'mpt'=>array(
 			'application/vnd.ms-project'=>array(
-				'authority'=>36,
-				'source'=>140,
+				'authority'=>2,
+				'source'=>132,
+			),
+			'application/vnd.ms-office'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
+			'application/msproject'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'mpw'=>array(
@@ -23188,7 +23204,8 @@ final class Extensions {
 		'mpf'=>24,
 		'mpkg'=>16,
 		'mpl'=>8,
-		'mpp'=>16,
+		'mpp'=>20,
+		'mpt'=>4,
 		'mpw'=>32,
 		'mpx'=>8,
 		'mrcx'=>16,

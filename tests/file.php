@@ -365,6 +365,14 @@ class file_tests extends \PHPUnit\Framework\TestCase {
 		// -------------------------------------------------------------
 
 		array(
+			'file'=>file_tests::ASSET_DIR . '/msproject.mpp',
+			'ext'=>'mpp',
+			'naked_ext'=>null,
+			'type'=>'application/dash-patch+xml',
+			'naked_type'=>null,
+		),
+
+		array(
 			'file'=>file_tests::ASSET_DIR . '/text.azw3',
 			'ext'=>'azw3',
 			'naked_ext'=>null,

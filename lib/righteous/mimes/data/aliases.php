@@ -2475,6 +2475,7 @@ final class Aliases {
 	const OFFICE = array(
 		'application/msexcel',
 		'application/mspowerpoint',
+		'application/msproject',
 		'application/msword',
 		'application/msword-template',
 		'application/powerpoint',
@@ -2493,6 +2494,7 @@ final class Aliases {
 		'application/vnd.ms-powerpoint.slide.macroenabled.12',
 		'application/vnd.ms-powerpoint.slideshow.macroenabled.12',
 		'application/vnd.ms-powerpoint.template.macroenabled.12',
+		'application/vnd.ms-project',
 		'application/vnd.ms-word',
 		'application/vnd.ms-word.document.macroenabled.12',
 		'application/vnd.ms-word.template.macroenabled.12',

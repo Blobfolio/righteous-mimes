@@ -275,6 +275,10 @@ $out_types = array();
 // specific type patterns. New types might spring up, so that's why
 // we're applying them now.
 $type_aliases = array(
+	'application/vnd.ms-project'=>array(
+		MIMEs::TYPE_OFFICE,
+		'application/msproject',
+	),
 	'application/vnd.ms-word'=>array(
 		MIMEs::TYPE_OFFICE,
 		'application/xml',
@@ -556,8 +560,10 @@ $out_office = \array_unique($out_office);
 $out_office = \array_diff(
 	$out_office,
 	array(
+		'application/dash-patch+xml',
 		'application/xml',
 		'application/zip',
+		'audio/x-musepack',
 		'text/plain',
 	)
 );

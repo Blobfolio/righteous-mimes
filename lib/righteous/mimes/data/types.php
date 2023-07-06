@@ -4222,13 +4222,13 @@ final class Types {
 			),
 		),
 		'application/vnd.ms-project'=>array(
-			'mpt'=>array(
-				'authority'=>22,
-				'source'=>140,
-			),
 			'mpp'=>array(
 				'authority'=>3,
 				'source'=>388,
+			),
+			'mpt'=>array(
+				'authority'=>2,
+				'source'=>132,
 			),
 		),
 		'application/vnd.ms-tnef'=>array(
