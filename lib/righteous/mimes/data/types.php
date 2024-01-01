@@ -19,42 +19,42 @@
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
- * @copyright 2023 The Apache Software Foundation
+ * @copyright 2024 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author Blobfolio
  * @source {https://github.com/Blobfolio/righteous-mimes}
- * @copyright 2023 Blobfolio, LLC
+ * @copyright 2024 Blobfolio, LLC
  * @license http://www.wtfpl.net/ WTFPL
  *
  * @author Drupal
  * @source {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
- * @copyright 2023 Drupal
+ * @copyright 2024 Drupal
  * @license https://www.drupal.org/about/licensing GPL
  *
  * @author FreeDesktop.org
  * @source {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
- * @copyright 2023 FreeDesktop.org
+ * @copyright 2024 FreeDesktop.org
  * @license https://opensource.org/licenses/MIT MIT
  *
  * @author IANA
  * @source {https://www.iana.org/assignments/media-types}
- * @copyright 2023 IETF Trust
+ * @copyright 2024 IETF Trust
  * @license https://www.rfc-editor.org/copyright/ rfc-copyright-story
  *
  * @author Nginx
  * @source {http://hg.nginx.org/nginx/raw-file/default/conf/mime.types}
- * @copyright 2023 Nginx includes_url
+ * @copyright 2024 Nginx includes_url
  * @license https://opensource.org/licenses/BSD-2-Clause BSD
  *
  * @author Tika
  * @source {https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml}
- * @copyright 2023 The Apache Software Foundation
+ * @copyright 2024 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author WordPress
  * @source {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
- * @copyright 2023 Automattic
+ * @copyright 2024 Automattic
  * @license https://wordpress.org/about/license/ GPLv2
  */
 
@@ -97,10 +97,28 @@ final class Types {
 				'source'=>16,
 			),
 		),
+		'application/appinstaller'=>array(
+			'appinstaller'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
 		'application/applixware'=>array(
 			'aw'=>array(
 				'authority'=>36,
 				'source'=>132,
+			),
+		),
+		'application/appx'=>array(
+			'appx'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
+		'application/appxbundle'=>array(
+			'appxbundle'=>array(
+				'authority'=>36,
+				'source'=>16,
 			),
 		),
 		'application/atf'=>array(
@@ -305,8 +323,8 @@ final class Types {
 		),
 		'application/cpl+xml'=>array(
 			'cpl'=>array(
-				'authority'=>30,
-				'source'=>40,
+				'authority'=>10,
+				'source'=>32,
 			),
 			'xml'=>array(
 				'authority'=>10,
@@ -462,15 +480,7 @@ final class Types {
 				'authority'=>22,
 				'source'=>140,
 			),
-			'jsm'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'mjs'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'js'=>array(
+			'json5'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -620,7 +630,7 @@ final class Types {
 		'application/hta'=>array(
 			'hta'=>array(
 				'authority'=>36,
-				'source'=>520,
+				'source'=>528,
 			),
 		),
 		'application/hyperstudio'=>array(
@@ -648,7 +658,7 @@ final class Types {
 		'application/its+xml'=>array(
 			'its'=>array(
 				'authority'=>36,
-				'source'=>40,
+				'source'=>48,
 			),
 		),
 		'application/java-archive'=>array(
@@ -739,6 +749,16 @@ final class Types {
 				'source'=>48,
 			),
 		),
+		'application/json5'=>array(
+			'json'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'json5'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'application/jsonml+json'=>array(
 			'jsonml'=>array(
 				'authority'=>36,
@@ -778,7 +798,7 @@ final class Types {
 		'application/mac-binhex40'=>array(
 			'hqx'=>array(
 				'authority'=>36,
-				'source'=>708,
+				'source'=>724,
 			),
 		),
 		'application/mads+xml'=>array(
@@ -917,6 +937,18 @@ final class Types {
 			'mp4s'=>array(
 				'authority'=>36,
 				'source'=>132,
+			),
+		),
+		'application/msix'=>array(
+			'msix'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
+		'application/msixbundle'=>array(
+			'msixbundle'=>array(
+				'authority'=>36,
+				'source'=>16,
 			),
 		),
 		'application/msword'=>array(
@@ -2413,6 +2445,12 @@ final class Types {
 				'source'=>164,
 			),
 		),
+		'application/vnd.bzip3'=>array(
+			'bz3'=>array(
+				'authority'=>36,
+				'source'=>32,
+			),
+		),
 		'application/vnd.cendio.thinlinc.clientconf'=>array(
 			'tlclient'=>array(
 				'authority'=>36,
@@ -2672,13 +2710,13 @@ final class Types {
 			),
 		),
 		'application/vnd.cups-ppd'=>array(
-			'ppd'=>array(
-				'authority'=>32,
-				'source'=>172,
-			),
 			'ppdgz'=>array(
 				'authority'=>30,
 				'source'=>40,
+			),
+			'ppd'=>array(
+				'authority'=>13,
+				'source'=>180,
 			),
 		),
 		'application/vnd.curl.pcurl'=>array(
@@ -3987,6 +4025,44 @@ final class Types {
 				'source'=>172,
 			),
 		),
+		'application/vnd.microsoft.portable-executable'=>array(
+			'cpl'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'dll'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'drv'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'efi'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'exe'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'lib'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'ocx'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'scr'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'sys'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'application/vnd.mindjet.mindmanager'=>array(
 			'mmp'=>array(
 				'authority'=>1,
@@ -4447,6 +4523,30 @@ final class Types {
 				'source'=>44,
 			),
 		),
+		'application/vnd.nato.bindingdataobject+cbor'=>array(
+			'bdob'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.nato.bindingdataobject+json'=>array(
+			'bdoj'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.nato.bindingdataobject+xml'=>array(
+			'bdo'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.nato.openxmlformats-package.iepd+zip'=>array(
+			'iepd'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/vnd.nebumind.line'=>array(
 			'line'=>array(
 				'authority'=>30,
@@ -4573,6 +4673,26 @@ final class Types {
 			'ext'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'application/vnd.oai.workflows'=>array(
+			'json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'yaml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+		),
+		'application/vnd.oai.workflows+yaml'=>array(
+			'yml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'yaml'=>array(
+				'authority'=>10,
+				'source'=>32,
 			),
 		),
 		'application/vnd.oasis.opendocument.chart'=>array(
@@ -6238,7 +6358,7 @@ final class Types {
 		'application/wasm'=>array(
 			'wasm'=>array(
 				'authority'=>36,
-				'source'=>236,
+				'source'=>252,
 			),
 		),
 		'application/watcherinfo+xml'=>array(
@@ -6550,25 +6670,31 @@ final class Types {
 			),
 		),
 		'application/x-bzip'=>array(
-			'bz'=>array(
-				'authority'=>23,
-				'source'=>156,
-			),
-			'tbz'=>array(
+			'bz2'=>array(
 				'authority'=>2,
 				'source'=>144,
+			),
+			'bz'=>array(
+				'authority'=>2,
+				'source'=>132,
 			),
 			'boz'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
-			'bz2'=>array(
+			'tbz'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
 			'tbz2'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'application/x-bzip1-compressed-tar'=>array(
+			'tbz'=>array(
+				'authority'=>36,
+				'source'=>16,
 			),
 		),
 		'application/x-bzip2'=>array(
@@ -6599,16 +6725,6 @@ final class Types {
 				'source'=>16,
 			),
 			'tbz2'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'application/x-bzip3'=>array(
-			'bz3'=>array(
-				'authority'=>21,
-				'source'=>24,
-			),
-			'tbz3'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -7810,7 +7926,7 @@ final class Types {
 		'application/x-ms-shortcut'=>array(
 			'lnk'=>array(
 				'authority'=>36,
-				'source'=>12,
+				'source'=>20,
 			),
 		),
 		'application/x-ms-wim'=>array(
@@ -7867,14 +7983,14 @@ final class Types {
 		),
 		'application/x-msdownload'=>array(
 			'exe'=>array(
-				'authority'=>3,
-				'source'=>388,
-			),
-			'com'=>array(
-				'authority'=>2,
-				'source'=>132,
+				'authority'=>4,
+				'source'=>404,
 			),
 			'dll'=>array(
+				'authority'=>3,
+				'source'=>148,
+			),
+			'com'=>array(
 				'authority'=>2,
 				'source'=>132,
 			),
@@ -7882,9 +7998,37 @@ final class Types {
 				'authority'=>1,
 				'source'=>4,
 			),
+			'cpl'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'drv'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'efi'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'lib'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'msi'=>array(
 				'authority'=>1,
 				'source'=>4,
+			),
+			'ocx'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'scr'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'sys'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'application/x-msi'=>array(
@@ -8257,6 +8401,12 @@ final class Types {
 			'psw'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'application/x-powershell'=>array(
+			'ps1'=>array(
+				'authority'=>36,
+				'source'=>16,
 			),
 		),
 		'application/x-project'=>array(
@@ -9330,6 +9480,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'htc'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'htm'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -9337,6 +9491,10 @@ final class Types {
 			'inx'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+			'its'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'mml'=>array(
 				'authority'=>1,
@@ -9419,6 +9577,10 @@ final class Types {
 				'source'=>128,
 			),
 			'xul'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'appinstaller'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -9687,24 +9849,6 @@ final class Types {
 				'source'=>164,
 			),
 		),
-		'application/yaml'=>array(
-			'ksy'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'yml'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'raml'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'yaml'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'application/yang'=>array(
 			'yang'=>array(
 				'authority'=>36,
@@ -9882,6 +10026,14 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'appx'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'appxbundle'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'asice'=>array(
 				'authority'=>1,
 				'source'=>128,
@@ -9923,6 +10075,14 @@ final class Types {
 				'source'=>128,
 			),
 			'mrpack'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'msix'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'msixbundle'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -10115,6 +10275,12 @@ final class Types {
 			'flac'=>array(
 				'authority'=>36,
 				'source'=>1020,
+			),
+		),
+		'audio/matroska'=>array(
+			'mka'=>array(
+				'authority'=>36,
+				'source'=>32,
 			),
 		),
 		'audio/mhas'=>array(
@@ -10519,12 +10685,6 @@ final class Types {
 			'm4r'=>array(
 				'authority'=>36,
 				'source'=>16,
-			),
-		),
-		'audio/x-matroska'=>array(
-			'mka'=>array(
-				'authority'=>36,
-				'source'=>916,
 			),
 		),
 		'audio/x-minipsf'=>array(
@@ -11001,6 +11161,20 @@ final class Types {
 				'source'=>520,
 			),
 		),
+		'chemical/x-pdb'=>array(
+			'pdb'=>array(
+				'authority'=>3,
+				'source'=>656,
+			),
+			'brk'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'ent'=>array(
+				'authority'=>1,
+				'source'=>512,
+			),
+		),
 		'chemical/x-swissprot'=>array(
 			'sw'=>array(
 				'authority'=>36,
@@ -11224,7 +11398,7 @@ final class Types {
 		'image/hej2k'=>array(
 			'hej2'=>array(
 				'authority'=>36,
-				'source'=>40,
+				'source'=>56,
 			),
 		),
 		'image/hsj2'=>array(
@@ -11286,10 +11460,6 @@ final class Types {
 				'authority'=>21,
 				'source'=>136,
 			),
-			'jfif'=>array(
-				'authority'=>21,
-				'source'=>136,
-			),
 			'jpeg'=>array(
 				'authority'=>6,
 				'source'=>980,
@@ -11297,6 +11467,10 @@ final class Types {
 			'jpe'=>array(
 				'authority'=>5,
 				'source'=>916,
+			),
+			'jfif'=>array(
+				'authority'=>2,
+				'source'=>144,
 			),
 			'mjpeg'=>array(
 				'authority'=>1,
@@ -12690,6 +12864,10 @@ final class Types {
 				'authority'=>6,
 				'source'=>980,
 			),
+			'hta'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 		),
 		'text/iso19139+xml'=>array(
 			'iso19139'=>array(
@@ -12716,7 +12894,7 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'json'=>array(
+			'es'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -12725,6 +12903,12 @@ final class Types {
 			'cnd'=>array(
 				'authority'=>36,
 				'source'=>32,
+			),
+		),
+		'text/jscript.encode'=>array(
+			'jse'=>array(
+				'authority'=>36,
+				'source'=>16,
 			),
 		),
 		'text/markdown'=>array(
@@ -13010,6 +13194,10 @@ final class Types {
 				'authority'=>2,
 				'source'=>144,
 			),
+			'bas'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
 			'bat'=>array(
 				'authority'=>2,
 				'source'=>144,
@@ -13278,11 +13466,11 @@ final class Types {
 				'authority'=>1,
 				'source'=>128,
 			),
-			'bas'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
 			'blp'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'brk'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13401,6 +13589,10 @@ final class Types {
 			'hpp'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+			'hqx'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'htc'=>array(
 				'authority'=>1,
@@ -13550,6 +13742,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'pdb'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'pgn'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -13558,9 +13754,17 @@ final class Types {
 				'authority'=>1,
 				'source'=>128,
 			),
+			'ppd'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'pro'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+			'ps1'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'qml'=>array(
 				'authority'=>1,
@@ -14194,6 +14398,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'vb'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'vcard'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -14419,6 +14627,12 @@ final class Types {
 		),
 		'text/vbscript'=>array(
 			'vbs'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
+		'text/vbscript.encode'=>array(
+			'vbe'=>array(
 				'authority'=>36,
 				'source'=>16,
 			),
@@ -14695,8 +14909,8 @@ final class Types {
 		),
 		'text/x-basic'=>array(
 			'bas'=>array(
-				'authority'=>1,
-				'source'=>128,
+				'authority'=>2,
+				'source'=>144,
 			),
 			'cls'=>array(
 				'authority'=>1,
@@ -14884,7 +15098,7 @@ final class Types {
 		'text/x-component'=>array(
 			'htc'=>array(
 				'authority'=>36,
-				'source'=>576,
+				'source'=>592,
 			),
 		),
 		'text/x-config'=>array(
@@ -15783,16 +15997,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'text/x-yaml'=>array(
-			'yaml'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'yml'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
 		'text/x.gcode'=>array(
 			'gcode'=>array(
 				'authority'=>36,
@@ -15901,6 +16105,12 @@ final class Types {
 			'jpgm'=>array(
 				'authority'=>2,
 				'source'=>132,
+			),
+		),
+		'video/matroska-3d'=>array(
+			'mk3d'=>array(
+				'authority'=>36,
+				'source'=>32,
 			),
 		),
 		'video/mj2'=>array(

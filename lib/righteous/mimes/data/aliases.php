@@ -17,42 +17,42 @@
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
- * @copyright 2023 The Apache Software Foundation
+ * @copyright 2024 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author Blobfolio
  * @source {https://github.com/Blobfolio/righteous-mimes}
- * @copyright 2023 Blobfolio, LLC
+ * @copyright 2024 Blobfolio, LLC
  * @license http://www.wtfpl.net/ WTFPL
  *
  * @author Drupal
  * @source {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
- * @copyright 2023 Drupal
+ * @copyright 2024 Drupal
  * @license https://www.drupal.org/about/licensing GPL
  *
  * @author FreeDesktop.org
  * @source {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
- * @copyright 2023 FreeDesktop.org
+ * @copyright 2024 FreeDesktop.org
  * @license https://opensource.org/licenses/MIT MIT
  *
  * @author IANA
  * @source {https://www.iana.org/assignments/media-types}
- * @copyright 2023 IETF Trust
+ * @copyright 2024 IETF Trust
  * @license https://www.rfc-editor.org/copyright/ rfc-copyright-story
  *
  * @author Nginx
  * @source {http://hg.nginx.org/nginx/raw-file/default/conf/mime.types}
- * @copyright 2023 Nginx includes_url
+ * @copyright 2024 Nginx includes_url
  * @license https://opensource.org/licenses/BSD-2-Clause BSD
  *
  * @author Tika
  * @source {https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml}
- * @copyright 2023 The Apache Software Foundation
+ * @copyright 2024 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author WordPress
  * @source {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
- * @copyright 2023 Automattic
+ * @copyright 2024 Automattic
  * @license https://wordpress.org/about/license/ GPLv2
  */
 
@@ -73,7 +73,10 @@ final class Aliases {
 		'application/aml'=>'application/aml',
 		'application/andrew-inset'=>'application/andrew-inset',
 		'application/annodex'=>'application/annodex',
+		'application/appinstaller'=>'application/appinstaller',
 		'application/applixware'=>'application/applixware',
+		'application/appx'=>'application/appx',
+		'application/appxbundle'=>'application/appxbundle',
 		'application/atf'=>'application/atf',
 		'application/atfx'=>'application/atfx',
 		'application/atom'=>'application/atom+xml',
@@ -204,6 +207,7 @@ final class Aliases {
 		'application/jrd+json'=>'application/jrd+json',
 		'application/json'=>'application/json',
 		'application/json-patch+json'=>'application/json-patch+json',
+		'application/json5'=>'application/json5',
 		'application/jsonml+json'=>'application/jsonml+json',
 		'application/ld+json'=>'application/ld+json',
 		'application/lgr+xml'=>'application/lgr+xml',
@@ -240,6 +244,8 @@ final class Aliases {
 		'application/ms-tnef'=>'application/vnd.ms-tnef',
 		'application/msaccess'=>'application/x-msaccess',
 		'application/msexcel'=>'application/vnd.ms-excel',
+		'application/msix'=>'application/msix',
+		'application/msixbundle'=>'application/msixbundle',
 		'application/msonenote'=>'application/onenote',
 		'application/mspowerpoint'=>'application/vnd.ms-powerpoint',
 		'application/msword'=>'application/msword',
@@ -461,6 +467,7 @@ final class Aliases {
 		'application/vnd.bpf3'=>'application/vnd.bpf',
 		'application/vnd.businessobjects'=>'application/vnd.businessobjects',
 		'application/vnd.byu.uapi+json'=>'application/json',
+		'application/vnd.bzip3'=>'application/vnd.bzip3',
 		'application/vnd.capasystems-pg+json'=>'application/json',
 		'application/vnd.cendio.thinlinc.clientconf'=>'application/vnd.cendio.thinlinc.clientconf',
 		'application/vnd.chemdraw+xml'=>'application/vnd.chemdraw+xml',
@@ -752,6 +759,7 @@ final class Aliases {
 		'application/vnd.micro+json'=>'application/json',
 		'application/vnd.micrografx.flo'=>'application/vnd.micrografx.flo',
 		'application/vnd.micrografx.igx'=>'application/vnd.micrografx.igx',
+		'application/vnd.microsoft.portable-executable'=>'application/vnd.microsoft.portable-executable',
 		'application/vnd.miele+json'=>'application/json',
 		'application/vnd.mif'=>'application/x-mif',
 		'application/vnd.mindjet.mindmanager'=>'application/vnd.mindjet.mindmanager',
@@ -826,6 +834,10 @@ final class Aliases {
 		'application/vnd.muvee.style'=>'application/vnd.muvee.style',
 		'application/vnd.mynfc'=>'application/vnd.mynfc',
 		'application/vnd.nacamar.ybrid+json'=>'application/json',
+		'application/vnd.nato.bindingdataobject+cbor'=>'application/vnd.nato.bindingdataobject+cbor',
+		'application/vnd.nato.bindingdataobject+json'=>'application/vnd.nato.bindingdataobject+json',
+		'application/vnd.nato.bindingdataobject+xml'=>'application/vnd.nato.bindingdataobject+xml',
+		'application/vnd.nato.openxmlformats-package.iepd+zip'=>'application/vnd.nato.openxmlformats-package.iepd+zip',
 		'application/vnd.nearst.inv+json'=>'application/json',
 		'application/vnd.nebumind.line'=>'application/vnd.nebumind.line',
 		'application/vnd.nervana'=>'application/vnd.nervana',
@@ -844,6 +856,9 @@ final class Aliases {
 		'application/vnd.novadigm.edm'=>'application/vnd.novadigm.edm',
 		'application/vnd.novadigm.edx'=>'application/vnd.novadigm.edx',
 		'application/vnd.novadigm.ext'=>'application/vnd.novadigm.ext',
+		'application/vnd.oai.workflows'=>'application/vnd.oai.workflows',
+		'application/vnd.oai.workflows+json'=>'application/json',
+		'application/vnd.oai.workflows+yaml'=>'application/vnd.oai.workflows+yaml',
 		'application/vnd.oasis.opendocument.base'=>'application/vnd.oasis.opendocument.database',
 		'application/vnd.oasis.opendocument.chart'=>'application/vnd.oasis.opendocument.chart',
 		'application/vnd.oasis.opendocument.chart-template'=>'application/vnd.oasis.opendocument.chart-template',
@@ -1205,10 +1220,9 @@ final class Aliases {
 		'application/x-brotli'=>'application/x-brotli',
 		'application/x-bsdiff'=>'application/x-bsdiff',
 		'application/x-bzip'=>'application/x-bzip',
-		'application/x-bzip-compressed-tar'=>'application/x-bzip',
+		'application/x-bzip1-compressed-tar'=>'application/x-bzip1-compressed-tar',
 		'application/x-bzip2'=>'application/x-bzip2',
 		'application/x-bzip2-compressed-tar'=>'application/x-bzip2-compressed-tar',
-		'application/x-bzip3'=>'application/x-bzip3',
 		'application/x-bzip3-compressed-tar'=>'application/x-bzip3-compressed-tar',
 		'application/x-cab'=>'application/vnd.ms-cab-compressed',
 		'application/x-cb7'=>'application/x-cbr',
@@ -1425,9 +1439,9 @@ final class Aliases {
 		'application/x-mobipocket-ebook'=>'application/x-mobipocket-ebook',
 		'application/x-modrinth-modpack+zip'=>'application/x-modrinth-modpack+zip',
 		'application/x-ms-application'=>'application/x-ms-application',
-		'application/x-ms-dos-executable'=>'application/x-msdownload',
 		'application/x-ms-emz'=>'application/x-msmetafile',
 		'application/x-ms-installer'=>'application/x-ms-installer',
+		'application/x-ms-pdb'=>'application/vnd.palm',
 		'application/x-ms-shortcut'=>'application/x-ms-shortcut',
 		'application/x-ms-wim'=>'application/x-ms-wim',
 		'application/x-ms-wmd'=>'application/x-ms-wmd',
@@ -1495,6 +1509,7 @@ final class Aliases {
 		'application/x-pkcs7-crl'=>'application/pkix-crl',
 		'application/x-planperfect'=>'application/x-planperfect',
 		'application/x-pocket-word'=>'application/x-pocket-word',
+		'application/x-powershell'=>'application/x-powershell',
 		'application/x-project'=>'application/x-project',
 		'application/x-prt'=>'application/x-prt',
 		'application/x-pw'=>'application/x-pw',
@@ -1649,6 +1664,7 @@ final class Aliases {
 		'application/x-wii-iso-image'=>'application/x-iso9660-image',
 		'application/x-wii-rom'=>'application/x-iso9660-image',
 		'application/x-wii-wad'=>'application/x-doom',
+		'application/x-win-lnk'=>'application/x-ms-shortcut',
 		'application/x-windows-themepack'=>'application/x-windows-themepack',
 		'application/x-wingz'=>'application/x-wingz',
 		'application/x-wmf'=>'image/wmf',
@@ -1701,7 +1717,6 @@ final class Aliases {
 		'application/xslt+xml'=>'application/xslt+xml',
 		'application/xspf+xml'=>'application/xspf+xml',
 		'application/xv+xml'=>'application/xv+xml',
-		'application/yaml'=>'application/yaml',
 		'application/yang'=>'application/yang',
 		'application/yin+xml'=>'application/yin+xml',
 		'application/zip'=>'application/zip',
@@ -1728,6 +1743,7 @@ final class Aliases {
 		'audio/flac'=>'audio/flac',
 		'audio/imelody'=>'text/x-imelody',
 		'audio/m4a'=>'audio/mp4',
+		'audio/matroska'=>'audio/matroska',
 		'audio/mhas'=>'audio/mhas',
 		'audio/midi'=>'audio/midi',
 		'audio/mobile-xmf'=>'audio/mobile-xmf',
@@ -1797,7 +1813,7 @@ final class Aliases {
 		'audio/x-m4a'=>'audio/mp4',
 		'audio/x-m4b'=>'audio/mp4',
 		'audio/x-m4r'=>'audio/x-m4r',
-		'audio/x-matroska'=>'audio/x-matroska',
+		'audio/x-matroska'=>'audio/matroska',
 		'audio/x-midi'=>'audio/midi',
 		'audio/x-minipsf'=>'audio/x-minipsf',
 		'audio/x-mo3'=>'audio/x-mo3',
@@ -1888,6 +1904,7 @@ final class Aliases {
 		'chemical/x-ncbi-asn1-ascii'=>'application/x-prt',
 		'chemical/x-ncbi-asn1-binary'=>'chemical/x-ncbi-asn1-binary',
 		'chemical/x-ncbi-asn1-spec'=>'chemical/x-ncbi-asn1-spec',
+		'chemical/x-pdb'=>'chemical/x-pdb',
 		'chemical/x-rosdal'=>'text/x-common-lisp',
 		'chemical/x-swissprot'=>'chemical/x-swissprot',
 		'chemical/x-vamas-iso14976'=>'chemical/x-vamas-iso14976',
@@ -2177,6 +2194,7 @@ final class Aliases {
 		'text/iuls'=>'text/iuls',
 		'text/javascript'=>'text/javascript',
 		'text/jcr-cnd'=>'text/jcr-cnd',
+		'text/jscript.encode'=>'text/jscript.encode',
 		'text/julia'=>'text/plain',
 		'text/markdown'=>'text/markdown',
 		'text/mathml'=>'application/mathml+xml',
@@ -2207,6 +2225,7 @@ final class Aliases {
 		'text/uri-list'=>'text/uri-list',
 		'text/vbs'=>'text/vbscript',
 		'text/vbscript'=>'text/vbscript',
+		'text/vbscript.encode'=>'text/vbscript.encode',
 		'text/vcard'=>'text/vcard',
 		'text/vnd.ascii-art'=>'text/vnd.ascii-art',
 		'text/vnd.curl'=>'text/vnd.curl',
@@ -2393,6 +2412,7 @@ final class Aliases {
 		'text/x-uil'=>'text/x-uil',
 		'text/x-uuencode'=>'text/x-uuencode',
 		'text/x-vala'=>'text/x-vala',
+		'text/x-vb'=>'application/x-virtual-boy-rom',
 		'text/x-vbdotnet'=>'application/x-virtual-boy-rom',
 		'text/x-vbscript'=>'text/vbscript',
 		'text/x-vcalendar'=>'text/x-vcalendar',
@@ -2401,7 +2421,6 @@ final class Aliases {
 		'text/x-web-markdown'=>'text/x-web-markdown',
 		'text/x-xmi'=>'text/x-xmi',
 		'text/x-xslfo'=>'text/x-xslfo',
-		'text/x-yaml'=>'text/x-yaml',
 		'text/x.gcode'=>'text/x.gcode',
 		'video/3gp'=>'video/3gpp',
 		'video/3gpp'=>'video/3gpp',
@@ -2419,6 +2438,8 @@ final class Aliases {
 		'video/iso.segment'=>'video/iso.segment',
 		'video/jpeg'=>'video/jpeg',
 		'video/jpm'=>'video/jpm',
+		'video/matroska'=>'video/x-matroska',
+		'video/matroska-3d'=>'video/matroska-3d',
 		'video/mj2'=>'video/mj2',
 		'video/mp2t'=>'video/mp2t',
 		'video/mp4'=>'video/mp4',
@@ -2463,7 +2484,7 @@ final class Aliases {
 		'video/x-jng'=>'image/x-jng',
 		'video/x-la-asf'=>'video/x-la-asf',
 		'video/x-matroska'=>'video/x-matroska',
-		'video/x-matroska-3d'=>'video/x-matroska',
+		'video/x-matroska-3d'=>'video/matroska-3d',
 		'video/x-mjpeg'=>'video/x-mjpeg',
 		'video/x-mng'=>'video/x-mng',
 		'video/x-mpegurl'=>'video/vnd.mpegurl',

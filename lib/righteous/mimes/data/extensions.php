@@ -18,42 +18,42 @@
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
- * @copyright 2023 The Apache Software Foundation
+ * @copyright 2024 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author Blobfolio
  * @source {https://github.com/Blobfolio/righteous-mimes}
- * @copyright 2023 Blobfolio, LLC
+ * @copyright 2024 Blobfolio, LLC
  * @license http://www.wtfpl.net/ WTFPL
  *
  * @author Drupal
  * @source {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
- * @copyright 2023 Drupal
+ * @copyright 2024 Drupal
  * @license https://www.drupal.org/about/licensing GPL
  *
  * @author FreeDesktop.org
  * @source {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
- * @copyright 2023 FreeDesktop.org
+ * @copyright 2024 FreeDesktop.org
  * @license https://opensource.org/licenses/MIT MIT
  *
  * @author IANA
  * @source {https://www.iana.org/assignments/media-types}
- * @copyright 2023 IETF Trust
+ * @copyright 2024 IETF Trust
  * @license https://www.rfc-editor.org/copyright/ rfc-copyright-story
  *
  * @author Nginx
  * @source {http://hg.nginx.org/nginx/raw-file/default/conf/mime.types}
- * @copyright 2023 Nginx includes_url
+ * @copyright 2024 Nginx includes_url
  * @license https://opensource.org/licenses/BSD-2-Clause BSD
  *
  * @author Tika
  * @source {https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml}
- * @copyright 2023 The Apache Software Foundation
+ * @copyright 2024 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author WordPress
  * @source {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
- * @copyright 2023 Automattic
+ * @copyright 2024 Automattic
  * @license https://wordpress.org/about/license/ GPLv2
  */
 
@@ -880,6 +880,16 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'appinstaller'=>array(
+			'application/appinstaller'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/xml'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'applescript'=>array(
 			'text/x-applescript'=>array(
 				'authority'=>1,
@@ -894,6 +904,26 @@ final class Extensions {
 			'application/x-ms-application'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'appx'=>array(
+			'application/appx'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/zip'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'appxbundle'=>array(
+			'application/appxbundle'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/zip'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'apr'=>array(
@@ -1536,12 +1566,12 @@ final class Extensions {
 		),
 		'bas'=>array(
 			'text/x-basic'=>array(
-				'authority'=>1,
-				'source'=>128,
+				'authority'=>2,
+				'source'=>144,
 			),
 			'text/plain'=>array(
-				'authority'=>1,
-				'source'=>128,
+				'authority'=>2,
+				'source'=>144,
 			),
 		),
 		'bash'=>array(
@@ -1618,6 +1648,24 @@ final class Extensions {
 			'video/mp2t'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'bdo'=>array(
+			'application/vnd.nato.bindingdataobject+xml'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'bdob'=>array(
+			'application/vnd.nato.bindingdataobject+cbor'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'bdoj'=>array(
+			'application/vnd.nato.bindingdataobject+json'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'bed'=>array(
@@ -1832,6 +1880,16 @@ final class Extensions {
 				'source'=>8,
 			),
 		),
+		'brk'=>array(
+			'chemical/x-pdb'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'brotli'=>array(
 			'application/x-brotli'=>array(
 				'authority'=>36,
@@ -1876,8 +1934,12 @@ final class Extensions {
 		),
 		'bz'=>array(
 			'application/x-bzip'=>array(
-				'authority'=>36,
-				'source'=>156,
+				'authority'=>2,
+				'source'=>132,
+			),
+			'application/x-bzip1'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'bz2'=>array(
@@ -1885,19 +1947,23 @@ final class Extensions {
 				'authority'=>3,
 				'source'=>148,
 			),
+			'application/x-bzip'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
 			'application/bzip2'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'application/x-bzip'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
 		),
 		'bz3'=>array(
+			'application/vnd.bzip3'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/x-bzip3'=>array(
-				'authority'=>36,
-				'source'=>24,
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'c'=>array(
@@ -2874,8 +2940,28 @@ final class Extensions {
 		),
 		'cpl'=>array(
 			'application/cpl+xml'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/x-msdownload'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-ms-dos-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-ms-ne-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/vnd.microsoft.portable-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'cpp'=>array(
@@ -3840,8 +3926,24 @@ final class Extensions {
 		),
 		'dll'=>array(
 			'application/x-msdownload'=>array(
-				'authority'=>2,
-				'source'=>132,
+				'authority'=>3,
+				'source'=>148,
+			),
+			'application/x-ms-dos-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-ms-ne-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/vnd.microsoft.portable-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'application/octet-stream'=>array(
 				'authority'=>1,
@@ -4156,6 +4258,28 @@ final class Extensions {
 			'image/dicom-rle'=>array(
 				'authority'=>36,
 				'source'=>40,
+			),
+		),
+		'drv'=>array(
+			'application/x-msdownload'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-ms-dos-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-ms-ne-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/vnd.microsoft.portable-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'dsc'=>array(
@@ -4506,6 +4630,16 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'efi'=>array(
+			'application/vnd.microsoft.portable-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-msdownload'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'efif'=>array(
 			'application/vnd.picsel'=>array(
 				'authority'=>36,
@@ -4793,7 +4927,7 @@ final class Extensions {
 				'authority'=>11,
 				'source'=>48,
 			),
-			'application/x-executable'=>array(
+			'text/javascript'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -4874,20 +5008,32 @@ final class Extensions {
 		),
 		'exe'=>array(
 			'application/x-msdownload'=>array(
-				'authority'=>3,
-				'source'=>388,
+				'authority'=>4,
+				'source'=>404,
+			),
+			'application/x-dosexec'=>array(
+				'authority'=>2,
+				'source'=>144,
 			),
 			'application/x-ms-dos-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-ms-ne-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/vnd.microsoft.portable-executable'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
 			'application/octet-stream'=>array(
 				'authority'=>1,
 				'source'=>64,
-			),
-			'application/x-dosexec'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 			'application/x-msdos-program'=>array(
 				'authority'=>1,
@@ -6797,7 +6943,7 @@ final class Extensions {
 		'hej2'=>array(
 			'image/hej2k'=>array(
 				'authority'=>36,
-				'source'=>40,
+				'source'=>56,
 			),
 		),
 		'held'=>array(
@@ -6950,8 +7096,12 @@ final class Extensions {
 		),
 		'hqx'=>array(
 			'application/mac-binhex40'=>array(
-				'authority'=>4,
-				'source'=>708,
+				'authority'=>5,
+				'source'=>724,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'application/mac-binhex'=>array(
 				'authority'=>1,
@@ -6986,8 +7136,12 @@ final class Extensions {
 		),
 		'hta'=>array(
 			'application/hta'=>array(
-				'authority'=>36,
-				'source'=>520,
+				'authority'=>2,
+				'source'=>528,
+			),
+			'text/html'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'htaccess'=>array(
@@ -6998,8 +7152,12 @@ final class Extensions {
 		),
 		'htc'=>array(
 			'text/x-component'=>array(
-				'authority'=>2,
-				'source'=>576,
+				'authority'=>3,
+				'source'=>592,
+			),
+			'application/xml'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'text/plain'=>array(
 				'authority'=>1,
@@ -7306,6 +7464,12 @@ final class Extensions {
 			'image/ief'=>array(
 				'authority'=>36,
 				'source'=>668,
+			),
+		),
+		'iepd'=>array(
+			'application/vnd.nato.openxmlformats-package.iepd+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'ifb'=>array(
@@ -7854,8 +8018,12 @@ final class Extensions {
 		),
 		'its'=>array(
 			'application/its+xml'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>11,
+				'source'=>48,
+			),
+			'application/xml'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'ivf'=>array(
@@ -7998,8 +8166,12 @@ final class Extensions {
 		),
 		'jfif'=>array(
 			'image/jpeg'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>2,
+				'source'=>144,
+			),
+			'image/pjpeg'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'jhc'=>array(
@@ -8293,13 +8465,27 @@ final class Extensions {
 				'authority'=>2,
 				'source'=>144,
 			),
-			'application/ecmascript'=>array(
+			'text/jscript'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'jse'=>array(
+			'text/jscript.encode'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'jsm'=>array(
@@ -8315,7 +8501,11 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'application/ecmascript'=>array(
+			'text/jscript'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8509,6 +8699,14 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
+			'application/vnd.oai.workflows'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.oai.workflows+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.oftn.l10n+json'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -8553,7 +8751,7 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
-			'text/javascript'=>array(
+			'application/json5'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8572,6 +8770,16 @@ final class Extensions {
 				'source'=>48,
 			),
 			'application/json'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'json5'=>array(
+			'application/json5'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/ecmascript'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -9270,6 +9478,16 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'lib'=>array(
+			'application/vnd.microsoft.portable-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-msdownload'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'license'=>array(
 			'text/plain'=>array(
 				'authority'=>36,
@@ -9342,8 +9560,12 @@ final class Extensions {
 		),
 		'lnk'=>array(
 			'application/x-ms-shortcut'=>array(
-				'authority'=>36,
-				'source'=>12,
+				'authority'=>2,
+				'source'=>20,
+			),
+			'application/x-win-lnk'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'lnx'=>array(
@@ -10493,7 +10715,11 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'application/ecmascript'=>array(
+			'text/jscript'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -10509,6 +10735,10 @@ final class Extensions {
 			),
 		),
 		'mk3d'=>array(
+			'video/matroska-3d'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'video/x-matroska'=>array(
 				'authority'=>1,
 				'source'=>4,
@@ -10523,6 +10753,10 @@ final class Extensions {
 			),
 		),
 		'mka'=>array(
+			'audio/matroska'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'audio/x-matroska'=>array(
 				'authority'=>5,
 				'source'=>916,
@@ -10560,6 +10794,10 @@ final class Extensions {
 			'video/x-matroska'=>array(
 				'authority'=>36,
 				'source'=>1020,
+			),
+			'video/matroska'=>array(
+				'authority'=>10,
+				'source'=>32,
 			),
 			'application/x-matroska'=>array(
 				'authority'=>2,
@@ -11498,6 +11736,26 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'msix'=>array(
+			'application/msix'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/zip'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'msixbundle'=>array(
+			'application/msixbundle'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/zip'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'msl'=>array(
 			'application/vnd.mobius.msl'=>array(
 				'authority'=>36,
@@ -12198,6 +12456,16 @@ final class Extensions {
 				'source'=>16,
 			),
 			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'ocx'=>array(
+			'application/vnd.microsoft.portable-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-msdownload'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13294,10 +13562,18 @@ final class Extensions {
 				'source'=>52,
 			),
 			'chemical/x-pdb'=>array(
-				'authority'=>2,
-				'source'=>640,
+				'authority'=>3,
+				'source'=>656,
 			),
 			'application/x-aportisdoc'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-ms-pdb'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -14016,8 +14292,12 @@ final class Extensions {
 		),
 		'ppd'=>array(
 			'application/vnd.cups-ppd'=>array(
-				'authority'=>36,
-				'source'=>172,
+				'authority'=>13,
+				'source'=>180,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'ppdgz'=>array(
@@ -14302,6 +14582,16 @@ final class Extensions {
 			'application/postscript'=>array(
 				'authority'=>5,
 				'source'=>724,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'ps1'=>array(
+			'application/x-powershell'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'text/plain'=>array(
 				'authority'=>1,
@@ -16040,6 +16330,28 @@ final class Extensions {
 			'application/scvp-cv-request'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'scr'=>array(
+			'application/x-msdownload'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-ms-dos-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-ms-ne-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/vnd.microsoft.portable-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'scs'=>array(
@@ -17994,6 +18306,16 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'sys'=>array(
+			'application/vnd.microsoft.portable-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-msdownload'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'sz'=>array(
 			'application/x-snappy-framed'=>array(
 				'authority'=>36,
@@ -18137,19 +18459,27 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'application/x-bzip-compressed-tar'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'application/x-bzip2'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
 		),
 		'tbz'=>array(
-			'application/x-bzip'=>array(
-				'authority'=>2,
-				'source'=>144,
-			),
-			'application/x-bzip-compressed-tar'=>array(
+			'application/x-bzip1-compressed-tar'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+			'application/x-bzip1'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-bzip'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'tbz2'=>array(
@@ -18162,6 +18492,10 @@ final class Extensions {
 				'source'=>144,
 			),
 			'application/x-bzip2-compressed-tar'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-bzip-compressed-tar'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -19405,6 +19739,14 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'text/x-vb'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'text/x-vbdotnet'=>array(
 				'authority'=>1,
 				'source'=>128,
@@ -19412,6 +19754,16 @@ final class Extensions {
 			'text/x-vbasic'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'vbe'=>array(
+			'text/vbscript.encode'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'vbk'=>array(
@@ -20169,7 +20521,7 @@ final class Extensions {
 		'wasm'=>array(
 			'application/wasm'=>array(
 				'authority'=>36,
-				'source'=>236,
+				'source'=>252,
 			),
 		),
 		'wav'=>array(
@@ -22805,6 +23157,14 @@ final class Extensions {
 			),
 		),
 		'yaml'=>array(
+			'application/vnd.oai.workflows'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.oai.workflows+yaml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'text/x-yaml'=>array(
 				'authority'=>2,
 				'source'=>144,
@@ -22845,6 +23205,10 @@ final class Extensions {
 			),
 		),
 		'yml'=>array(
+			'application/vnd.oai.workflows+yaml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/yaml'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -23184,7 +23548,10 @@ final class Extensions {
 		'amlx'=>32,
 		'anpa'=>8,
 		'appcache'=>8,
+		'appinstaller'=>16,
 		'applescript'=>8,
+		'appx'=>32,
+		'appxbundle'=>32,
 		'apt'=>8,
 		'apxml'=>16,
 		'artisan'=>2,
@@ -23212,6 +23579,8 @@ final class Extensions {
 		'bash'=>8,
 		'bat'=>8,
 		'bau'=>32,
+		'bdo'=>16,
+		'bdoj'=>2,
 		'bib'=>8,
 		'bibtex'=>8,
 		'blp'=>8,
@@ -23219,6 +23588,7 @@ final class Extensions {
 		'boo'=>8,
 		'bpm'=>32,
 		'brf'=>8,
+		'brk'=>8,
 		'bsh'=>8,
 		'c'=>8,
 		'carjson'=>2,
@@ -23406,9 +23776,11 @@ final class Extensions {
 		'hp'=>8,
 		'hpp'=>8,
 		'hpub'=>32,
+		'hqx'=>8,
 		'hs'=>8,
+		'hta'=>8,
 		'htaccess'=>8,
-		'htc'=>8,
+		'htc'=>24,
 		'htm'=>24,
 		'html'=>24,
 		'hx'=>8,
@@ -23420,6 +23792,7 @@ final class Extensions {
 		'ics'=>8,
 		'icz'=>8,
 		'idl'=>8,
+		'iepd'=>32,
 		'ifb'=>8,
 		'ig'=>8,
 		'iges'=>8,
@@ -23454,8 +23827,9 @@ final class Extensions {
 		'jnlp'=>16,
 		'jrd'=>2,
 		'js'=>8,
+		'jse'=>8,
 		'jsm'=>8,
-		'json'=>10,
+		'json'=>2,
 		'json-patch'=>2,
 		'jsonld'=>2,
 		'jsonml'=>2,
@@ -23564,6 +23938,8 @@ final class Extensions {
 		'mscx'=>16,
 		'mscz'=>32,
 		'msg'=>4,
+		'msix'=>32,
+		'msixbundle'=>32,
 		'mtl'=>8,
 		'mup'=>8,
 		'musd'=>16,
@@ -23628,6 +24004,7 @@ final class Extensions {
 		'patch'=>8,
 		'path'=>8,
 		'pcf'=>8,
+		'pdb'=>8,
 		'pen'=>8,
 		'perl'=>8,
 		'pgn'=>8,
@@ -23652,6 +24029,7 @@ final class Extensions {
 		'pp'=>8,
 		'ppa'=>4,
 		'ppam'=>4,
+		'ppd'=>8,
 		'ppj'=>16,
 		'pps'=>4,
 		'ppsm'=>4,
@@ -23666,6 +24044,7 @@ final class Extensions {
 		'properties'=>8,
 		'provx'=>16,
 		'ps'=>8,
+		'ps1'=>8,
 		'pskcxml'=>16,
 		'pst'=>4,
 		'py'=>8,
@@ -23860,6 +24239,7 @@ final class Extensions {
 		'vala'=>8,
 		'vapi'=>8,
 		'vb'=>8,
+		'vbe'=>8,
 		'vbs'=>8,
 		'vcard'=>8,
 		'vcf'=>8,
