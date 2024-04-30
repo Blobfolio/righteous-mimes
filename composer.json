@@ -7,7 +7,7 @@
         "extensions",
         "suffix"
     ],
-    "version": "0.24.1",
+    "version": "0.24.5",
     "type": "library",
     "homepage": "https:\/\/github.com\/Blobfolio\/righteous-mimes",
     "license": "WTFPL",
