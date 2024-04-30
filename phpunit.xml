@@ -1,14 +1,13 @@
+<?xml version="1.0"?>
 <phpunit
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	bootstrap="lib/vendor/autoload.php"
 	backupGlobals="false"
 	colors="true"
-	convertErrorsToExceptions="true"
-	convertNoticesToExceptions="true"
-	convertWarningsToExceptions="true"
-	convertDeprecationsToExceptions="true"
 	beStrictAboutOutputDuringTests="true"
 	beStrictAboutTestsThatDoNotTestAnything="true"
-	>
+	xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/11.1/phpunit.xsd" cacheDirectory="/tmp/phpunit-cache"
+>
 	<testsuites>
 		<testsuite name="unit">
 			<directory suffix=".php">./tests/</directory>

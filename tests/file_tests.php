@@ -9,6 +9,9 @@
  * @author	Blobfolio, LLC <hello@blobfolio.com>
  */
 
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\Attributes\Test;
+use PHPUnit\Framework\TestCase;
 use Righteous\MIMEs\File;
 
 
@@ -19,7 +22,7 @@ if (file_exists('/usr/share/php/getid3/autoload.php')) {
 
 
 
-class file_tests extends \PHPUnit\Framework\TestCase {
+final class file_tests extends TestCase {
 	const ASSET_DIR = __DIR__ . '/assets';
 
 	const FILES = array(
@@ -578,16 +581,17 @@ class file_tests extends \PHPUnit\Framework\TestCase {
 	// Tests
 	// -----------------------------------------------------------------
 
+	#[Test]
+	#[DataProvider('_file')]
 	/**
 	 * Test File
 	 *
-	 * @dataProvider _file
 	 * @param array $args Arguments.
 	 * @param ?array $expected Expected.
 	 * @param ?string $naked_ext Extension found from extensionless file name.
 	 * @param ?string $naked_type Type found from extensionless file name.
 	 */
-	function test_file(
+	public function test_file(
 		array $args,
 		?array $expected,
 		?string $naked_ext = null,
@@ -617,10 +621,11 @@ class file_tests extends \PHPUnit\Framework\TestCase {
 		}
 	}
 
+	#[Test]
 	/**
 	 * Test File (Wrong Name)
 	 */
-	function test_file_wrong() : void {
+	public function test_file_wrong() : void {
 		$real = self::ASSET_DIR . '/audio.flac';
 		$fake = '/tmp/fake.mp3';
 
@@ -695,7 +700,7 @@ class file_tests extends \PHPUnit\Framework\TestCase {
 	 *
 	 * @return array Data.
 	 */
-	function _file() : array {
+	static function _file() : array {
 		$out = array();
 
 		// Let's start with the files we have.

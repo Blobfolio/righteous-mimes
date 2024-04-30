@@ -9,6 +9,9 @@
  * @author	Blobfolio, LLC <hello@blobfolio.com>
  */
 
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\Attributes\Test;
+use PHPUnit\Framework\TestCase;
 use Righteous\MIMEs;
 use Righteous\MIMEs\Sanitize;
 
@@ -20,32 +23,35 @@ if (file_exists('/usr/share/php/getid3/autoload.php')) {
 
 
 
-class sanitize_tests extends \PHPUnit\Framework\TestCase {
+
+final class sanitize_tests extends TestCase {
 	// -----------------------------------------------------------------
 	// Tests
 	// -----------------------------------------------------------------
 
+	#[Test]
+	#[DataProvider('_extension')]
 	/**
 	 * Sanitize Extension
 	 *
-	 * @dataProvider _extension
 	 * @param array $args Args.
 	 * @param ?string $expected Expected.
 	 */
-	function test_extension(array $args, ?string $expected) : void {
+	public function test_extension(array $args, ?string $expected) : void {
 		// Test the original file.
 		$result = Sanitize::extension(...$args);
 		$this->assertSame($expected, $result);
 	}
 
+	#[Test]
+	#[DataProvider('_type')]
 	/**
 	 * Sanitize Type
 	 *
-	 * @dataProvider _type
 	 * @param array $args Args.
 	 * @param ?string $expected Expected.
 	 */
-	function test_type(array $args, ?string $expected) : void {
+	public function test_type(array $args, ?string $expected) : void {
 		// Test the original file.
 		$result = Sanitize::type(...$args);
 		$this->assertSame($expected, $result);
@@ -62,7 +68,7 @@ class sanitize_tests extends \PHPUnit\Framework\TestCase {
 	 *
 	 * @return array Data.
 	 */
-	function _extension() : array {
+	static function _extension() : array {
 		return array(
 			// An extension by itself.
 			array(
@@ -124,7 +130,7 @@ class sanitize_tests extends \PHPUnit\Framework\TestCase {
 	 *
 	 * @return array Data.
 	 */
-	function _type() : array {
+	static function _type() : array {
 		return array(
 			// Basic checks.
 			array(
