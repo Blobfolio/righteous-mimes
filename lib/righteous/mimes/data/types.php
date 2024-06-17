@@ -1615,6 +1615,12 @@ final class Types {
 				'source'=>44,
 			),
 		),
+		'application/rpki-signed-tal'=>array(
+			'tak'=>array(
+				'authority'=>36,
+				'source'=>32,
+			),
+		),
 		'application/rsd+xml'=>array(
 			'rsd'=>array(
 				'authority'=>36,
@@ -2930,6 +2936,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'sfs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'fd'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -2946,7 +2956,15 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'sqfs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'sqsh'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'squashfs'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -4073,10 +4091,6 @@ final class Types {
 				'source'=>16,
 			),
 			'exe'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'lib'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -5674,7 +5688,7 @@ final class Types {
 		'application/vnd.spotfire.sfs'=>array(
 			'sfs'=>array(
 				'authority'=>36,
-				'source'=>172,
+				'source'=>164,
 			),
 		),
 		'application/vnd.sqlite3'=>array(
@@ -5688,11 +5702,23 @@ final class Types {
 			),
 		),
 		'application/vnd.squashfs'=>array(
+			'sfs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'snap'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
+			'sqfs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'sqsh'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'squashfs'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -6538,6 +6564,10 @@ final class Types {
 			),
 		),
 		'application/x-archive'=>array(
+			'lib'=>array(
+				'authority'=>21,
+				'source'=>24,
+			),
 			'ar'=>array(
 				'authority'=>2,
 				'source'=>144,
@@ -8026,10 +8056,6 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'lib'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
 			'msi'=>array(
 				'authority'=>1,
 				'source'=>4,
@@ -8344,6 +8370,16 @@ final class Types {
 		'application/x-pc-engine-rom'=>array(
 			'pce'=>array(
 				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'application/x-pcapng'=>array(
+			'ntar'=>array(
+				'authority'=>21,
+				'source'=>24,
+			),
+			'pcapng'=>array(
+				'authority'=>21,
 				'source'=>24,
 			),
 		),
@@ -10873,12 +10909,6 @@ final class Types {
 				'source'=>384,
 			),
 		),
-		'audio/x-tak'=>array(
-			'tak'=>array(
-				'authority'=>36,
-				'source'=>24,
-			),
-		),
 		'audio/x-tta'=>array(
 			'tta'=>array(
 				'authority'=>36,
@@ -11347,8 +11377,8 @@ final class Types {
 		),
 		'image/avif'=>array(
 			'avif'=>array(
-				'authority'=>33,
-				'source'=>376,
+				'authority'=>34,
+				'source'=>380,
 			),
 			'hif'=>array(
 				'authority'=>10,
@@ -11802,7 +11832,7 @@ final class Types {
 		'image/vnd.fpx'=>array(
 			'fpx'=>array(
 				'authority'=>36,
-				'source'=>172,
+				'source'=>180,
 			),
 		),
 		'image/vnd.fst'=>array(
@@ -12187,6 +12217,16 @@ final class Types {
 			'j2k'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'image/x-kiss-cel'=>array(
+			'cel'=>array(
+				'authority'=>21,
+				'source'=>24,
+			),
+			'kcf'=>array(
+				'authority'=>21,
+				'source'=>24,
 			),
 		),
 		'image/x-kodak-k25'=>array(
@@ -12901,10 +12941,14 @@ final class Types {
 				'source'=>916,
 			),
 			'ifb'=>array(
-				'authority'=>2,
-				'source'=>132,
+				'authority'=>3,
+				'source'=>148,
 			),
 			'vcs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'icalendar'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13284,6 +13328,10 @@ final class Types {
 				'authority'=>2,
 				'source'=>144,
 			),
+			'asm'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
 			'asp'=>array(
 				'authority'=>2,
 				'source'=>144,
@@ -13345,6 +13393,10 @@ final class Types {
 				'source'=>144,
 			),
 			'idl'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
+			'ifb'=>array(
 				'authority'=>2,
 				'source'=>144,
 			),
@@ -13560,10 +13612,6 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'asm'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
 			'ass'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -13724,10 +13772,6 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'ifb'=>array(
-				'authority'=>1,
-				'source'=>128,
-			),
 			'igs'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -13832,6 +13876,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'nix'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'not'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -13841,6 +13889,10 @@ final class Types {
 				'source'=>16,
 			),
 			'ocl'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'ooc'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13877,6 +13929,18 @@ final class Types {
 				'source'=>128,
 			),
 			'ps1'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'pxd'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'pxi'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'pyx'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -14219,6 +14283,10 @@ final class Types {
 			'i3'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+			'icalendar'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'ig'=>array(
 				'authority'=>1,
@@ -14951,6 +15019,12 @@ final class Types {
 				'source'=>692,
 			),
 		),
+		'text/vnd.zoo.kcl'=>array(
+			'kcl'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'text/vtt'=>array(
 			'vtt'=>array(
 				'authority'=>36,
@@ -15003,8 +15077,8 @@ final class Types {
 				'source'=>12,
 			),
 			'asm'=>array(
-				'authority'=>2,
-				'source'=>132,
+				'authority'=>3,
+				'source'=>148,
 			),
 		),
 		'text/x-aspectj'=>array(
@@ -15249,6 +15323,20 @@ final class Types {
 			'cs'=>array(
 				'authority'=>36,
 				'source'=>144,
+			),
+		),
+		'text/x-cython'=>array(
+			'pxd'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'pxi'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'pyx'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'text/x-dbus-service'=>array(
@@ -15619,6 +15707,12 @@ final class Types {
 				'source'=>16,
 			),
 		),
+		'text/x-nix'=>array(
+			'nix'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
 		'text/x-objc+src'=>array(
 			'cpp'=>array(
 				'authority'=>1,
@@ -15726,19 +15820,15 @@ final class Types {
 				'authority'=>3,
 				'source'=>656,
 			),
+			'py2'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'py3'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
 			'pyi'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'pyx'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'py3x'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -15759,6 +15849,16 @@ final class Types {
 				'source'=>16,
 			),
 		),
+		'text/x-python2'=>array(
+			'py2'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'py'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'text/x-python3'=>array(
 			'py3'=>array(
 				'authority'=>1,
@@ -15769,10 +15869,6 @@ final class Types {
 				'source'=>16,
 			),
 			'py'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'py3x'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -16051,6 +16147,14 @@ final class Types {
 				'source'=>660,
 			),
 			'ics'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'ifb'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'icalendar'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),

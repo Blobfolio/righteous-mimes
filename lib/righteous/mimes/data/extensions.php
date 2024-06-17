@@ -1190,14 +1190,14 @@ final class Extensions {
 		),
 		'asm'=>array(
 			'text/x-asm'=>array(
-				'authority'=>2,
-				'source'=>132,
-			),
-			'text/x-assembly'=>array(
-				'authority'=>1,
-				'source'=>128,
+				'authority'=>3,
+				'source'=>148,
 			),
 			'text/plain'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
+			'text/x-assembly'=>array(
 				'authority'=>1,
 				'source'=>128,
 			),
@@ -1476,8 +1476,8 @@ final class Extensions {
 		),
 		'avif'=>array(
 			'image/avif'=>array(
-				'authority'=>33,
-				'source'=>376,
+				'authority'=>34,
+				'source'=>380,
 			),
 			'image/avif-sequence'=>array(
 				'authority'=>1,
@@ -1792,6 +1792,10 @@ final class Extensions {
 			'application/octet-stream'=>array(
 				'authority'=>4,
 				'source'=>708,
+			),
+			'application/x-dosexec'=>array(
+				'authority'=>0,
+				'source'=>9,
 			),
 		),
 		'bk2'=>array(
@@ -2522,6 +2526,12 @@ final class Extensions {
 			'chemical/x-cxf'=>array(
 				'authority'=>36,
 				'source'=>520,
+			),
+		),
+		'cel'=>array(
+			'image/x-kiss-cel'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'cer'=>array(
@@ -5786,8 +5796,16 @@ final class Extensions {
 		),
 		'fpx'=>array(
 			'image/vnd.fpx'=>array(
-				'authority'=>36,
-				'source'=>172,
+				'authority'=>13,
+				'source'=>180,
+			),
+			'image/x-fpx'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-ole-storage'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'frame'=>array(
@@ -7390,6 +7408,24 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'icalendar'=>array(
+			'text/calendar'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/x-vcalendar'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/ics'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'icb'=>array(
 			'image/x-tga'=>array(
 				'authority'=>2,
@@ -7546,12 +7582,20 @@ final class Extensions {
 		),
 		'ifb'=>array(
 			'text/calendar'=>array(
-				'authority'=>2,
-				'source'=>132,
+				'authority'=>3,
+				'source'=>148,
 			),
 			'text/plain'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
+			'text/x-vcalendar'=>array(
 				'authority'=>1,
-				'source'=>128,
+				'source'=>16,
+			),
+			'application/ics'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'ifc'=>array(
@@ -9034,6 +9078,18 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'kcf'=>array(
+			'image/x-kiss-cel'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'kcl'=>array(
+			'text/vnd.zoo.kcl'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'kcm'=>array(
 			'application/vnd.nervana'=>array(
 				'authority'=>36,
@@ -9547,13 +9603,9 @@ final class Extensions {
 			),
 		),
 		'lib'=>array(
-			'application/vnd.microsoft.portable-executable'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'application/x-msdownload'=>array(
-				'authority'=>1,
-				'source'=>16,
+			'application/x-archive'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'license'=>array(
@@ -12288,6 +12340,16 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'nix'=>array(
+			'text/x-nix'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'nlu'=>array(
 			'application/vnd.neurolanguage.nlu'=>array(
 				'authority'=>36,
@@ -12412,6 +12474,12 @@ final class Extensions {
 		),
 		'nsv'=>array(
 			'video/x-nsv'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'ntar'=>array(
+			'application/x-pcapng'=>array(
 				'authority'=>36,
 				'source'=>24,
 			),
@@ -12945,7 +13013,7 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'text/x-csrc'=>array(
+			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13594,6 +13662,12 @@ final class Extensions {
 			'application/cap'=>array(
 				'authority'=>1,
 				'source'=>512,
+			),
+		),
+		'pcapng'=>array(
+			'application/x-pcapng'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'pcd'=>array(
@@ -14886,6 +14960,26 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'pxd'=>array(
+			'text/x-cython'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'pxi'=>array(
+			'text/x-cython'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'pxn'=>array(
 			'image/x-raw-logitech'=>array(
 				'authority'=>36,
@@ -14901,6 +14995,10 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'text/x-python2'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'application/x-executable'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -14910,8 +15008,8 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
-		'py3'=>array(
-			'text/x-python3'=>array(
+		'py2'=>array(
+			'text/x-python2'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -14920,7 +15018,7 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
-		'py3x'=>array(
+		'py3'=>array(
 			'text/x-python3'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -14999,11 +15097,11 @@ final class Extensions {
 			),
 		),
 		'pyx'=>array(
-			'text/x-python'=>array(
+			'text/x-cython'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'application/x-executable'=>array(
+			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -16882,8 +16980,16 @@ final class Extensions {
 		),
 		'sfs'=>array(
 			'application/vnd.spotfire.sfs'=>array(
-				'authority'=>36,
-				'source'=>172,
+				'authority'=>12,
+				'source'=>164,
+			),
+			'application/vnd.squashfs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/vnd.efi.img'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'sfv'=>array(
@@ -17782,6 +17888,16 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'sqfs'=>array(
+			'application/vnd.squashfs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/vnd.efi.img'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'sql'=>array(
 			'application/sql'=>array(
 				'authority'=>11,
@@ -17817,6 +17933,16 @@ final class Extensions {
 			),
 		),
 		'sqsh'=>array(
+			'application/vnd.squashfs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/vnd.efi.img'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'squashfs'=>array(
 			'application/vnd.squashfs'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -18569,9 +18695,13 @@ final class Extensions {
 			),
 		),
 		'tak'=>array(
+			'application/rpki-signed-tal'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'audio/x-tak'=>array(
-				'authority'=>36,
-				'source'=>24,
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'tam'=>array(
@@ -23957,6 +24087,7 @@ final class Extensions {
 		'i3'=>8,
 		'ibooks'=>32,
 		'ica'=>8,
+		'icalendar'=>8,
 		'ico'=>8,
 		'ics'=>8,
 		'icz'=>8,
@@ -24008,6 +24139,7 @@ final class Extensions {
 		'jtd'=>8,
 		'junit'=>8,
 		'jx'=>8,
+		'kcl'=>8,
 		'kdelnk'=>8,
 		'key'=>40,
 		'keys'=>8,
@@ -24124,6 +24256,7 @@ final class Extensions {
 		'nim'=>8,
 		'nimble'=>8,
 		'nims'=>8,
+		'nix'=>8,
 		'not'=>8,
 		'notebook'=>32,
 		'notice'=>8,
@@ -24217,9 +24350,11 @@ final class Extensions {
 		'ps1'=>8,
 		'pskcxml'=>16,
 		'pst'=>4,
+		'pxd'=>8,
+		'pxi'=>8,
 		'py'=>8,
+		'py2'=>8,
 		'py3'=>8,
-		'py3x'=>8,
 		'pyi'=>8,
 		'pyx'=>8,
 		'qbrew'=>16,
