@@ -3016,6 +3016,12 @@ final class Extensions {
 				'source'=>668,
 			),
 		),
+		'cpj'=>array(
+			'application/vnd.xarin.cpj'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'cpkg'=>array(
 			'application/vnd.xmpie.cpkg'=>array(
 				'authority'=>36,
@@ -8424,8 +8430,8 @@ final class Extensions {
 		),
 		'jpeg'=>array(
 			'image/jpeg'=>array(
-				'authority'=>6,
-				'source'=>980,
+				'authority'=>16,
+				'source'=>1012,
 			),
 			'image/pjpeg'=>array(
 				'authority'=>1,
@@ -8989,7 +8995,7 @@ final class Extensions {
 		'jxl'=>array(
 			'image/jxl'=>array(
 				'authority'=>36,
-				'source'=>56,
+				'source'=>60,
 			),
 		),
 		'jxr'=>array(
@@ -9258,6 +9264,18 @@ final class Extensions {
 			'application/xml'=>array(
 				'authority'=>2,
 				'source'=>144,
+			),
+		),
+		'kmp'=>array(
+			'application/vnd.keyman.kmp+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'kmx'=>array(
+			'application/vnd.keyman.kmx'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'kmz'=>array(
@@ -10350,6 +10368,12 @@ final class Extensions {
 			'application/mathml+xml'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'mayf'=>array(
+			'application/prs.mayfile'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'mb'=>array(
@@ -20142,6 +20166,12 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'vc'=>array(
+			'application/vc'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'vcard'=>array(
 			'text/vcard'=>array(
 				'authority'=>2,
@@ -20167,6 +20197,10 @@ final class Extensions {
 			),
 		),
 		'vcf'=>array(
+			'text/vnd.vcf'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'text/x-vcard'=>array(
 				'authority'=>4,
 				'source'=>660,
@@ -20514,6 +20548,12 @@ final class Extensions {
 			'application/x-authorware-bin'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'vp'=>array(
+			'application/vp'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'vpc'=>array(
@@ -24145,6 +24185,7 @@ final class Extensions {
 		'keys'=>8,
 		'kino'=>16,
 		'kml'=>16,
+		'kmp'=>32,
 		'kmz'=>32,
 		'ksy'=>8,
 		'kt'=>8,

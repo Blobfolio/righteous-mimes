@@ -1479,6 +1479,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'application/prs.mayfile'=>array(
+			'mayf'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/prs.nprend'=>array(
 			'rct'=>array(
 				'authority'=>30,
@@ -2071,6 +2077,12 @@ final class Types {
 		),
 		'application/urc-ressheet+xml'=>array(
 			'rsheet'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vc'=>array(
+			'vc'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -3805,6 +3817,18 @@ final class Types {
 			'htke'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'application/vnd.keyman.kmp+zip'=>array(
+			'kmp'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vnd.keyman.kmx'=>array(
+			'kmx'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'application/vnd.kidspiration'=>array(
@@ -6269,6 +6293,12 @@ final class Types {
 				'source'=>164,
 			),
 		),
+		'application/vnd.xarin.cpj'=>array(
+			'cpj'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/vnd.xecrets-encrypted'=>array(
 			'axx'=>array(
 				'authority'=>36,
@@ -6399,6 +6429,12 @@ final class Types {
 		),
 		'application/voucher-cms+json'=>array(
 			'vcj'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/vp'=>array(
+			'vp'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -11563,8 +11599,8 @@ final class Types {
 				'source'=>136,
 			),
 			'jpeg'=>array(
-				'authority'=>6,
-				'source'=>980,
+				'authority'=>16,
+				'source'=>1012,
 			),
 			'jpe'=>array(
 				'authority'=>5,
@@ -11612,7 +11648,7 @@ final class Types {
 		'image/jxl'=>array(
 			'jxl'=>array(
 				'authority'=>36,
-				'source'=>56,
+				'source'=>60,
 			),
 		),
 		'image/jxr'=>array(
@@ -15007,6 +15043,12 @@ final class Types {
 				'source'=>48,
 			),
 		),
+		'text/vnd.vcf'=>array(
+			'vcf'=>array(
+				'authority'=>36,
+				'source'=>32,
+			),
+		),
 		'text/vnd.wap.wml'=>array(
 			'wml'=>array(
 				'authority'=>36,
@@ -16155,24 +16197,6 @@ final class Types {
 				'source'=>16,
 			),
 			'icalendar'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-		),
-		'text/x-vcard'=>array(
-			'vcf'=>array(
-				'authority'=>4,
-				'source'=>660,
-			),
-			'vct'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'gcrd'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'vcard'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
