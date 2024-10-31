@@ -27,7 +27,6 @@ The table below explains the process in more detail:
    * [Working With Files](#working-with-files)
    * [General Helpers](#general-helpers)
 5. [Bug/Type Reporting](#bugtype-reporting)
-6. [License](#license)
 
 
 
@@ -522,26 +521,3 @@ MIME type detection is an endless game of cat and mouse, _and your help is neede
 If you ever happen to find instances where an up-to-date **Righteous MIMEs!** incorrectly identifies a file types (or does something silly like suggest it be renamed), please open a ticket and report the issue.
 
 Thank you very much!
-
-
-
-&nbsp;
-## License
-
-Copyright © 2024 [Blobfolio, LLC](https://blobfolio.com) &lt;hello@blobfolio.com&gt;
-
-This work is free. You can redistribute it and/or modify it under the terms of the Do What The Fuck You Want To Public License, Version 2.
-
-    DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-    Version 2, December 2004
-    
-    Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
-    
-    Everyone is permitted to copy and distribute verbatim or modified
-    copies of this license document, and changing it is allowed as long
-    as the name is changed.
-    
-    DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-    
-    0. You just DO WHAT THE FUCK YOU WANT TO.
