@@ -14790,6 +14790,10 @@ final class Types {
 				'authority'=>0,
 				'source'=>9,
 			),
+			'nlogo'=>array(
+				'authority'=>0,
+				'source'=>9,
+			),
 			'step'=>array(
 				'authority'=>0,
 				'source'=>9,

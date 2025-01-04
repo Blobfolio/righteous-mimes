@@ -368,6 +368,14 @@ final class file_tests extends TestCase {
 		// -------------------------------------------------------------
 
 		array(
+			'file'=>file_tests::ASSET_DIR . '/circle.nlogo',
+			'ext'=>'nlogo',
+			'naked_ext'=>null,
+			'type'=>'text/plain',
+			'naked_type'=>null,
+		),
+
+		array(
 			'file'=>file_tests::ASSET_DIR . '/msproject.mpp',
 			'ext'=>'mpp',
 			'naked_ext'=>null,

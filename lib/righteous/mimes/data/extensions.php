@@ -12412,6 +12412,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'nlogo'=>array(
+			'text/plain'=>array(
+				'authority'=>36,
+				'source'=>9,
+			),
+		),
 		'nlu'=>array(
 			'application/vnd.neurolanguage.nlu'=>array(
 				'authority'=>36,
@@ -24388,6 +24394,7 @@ final class Extensions {
 		'nimble'=>8,
 		'nims'=>8,
 		'nix'=>8,
+		'nlogo'=>8,
 		'not'=>8,
 		'notebook'=>32,
 		'notice'=>8,
