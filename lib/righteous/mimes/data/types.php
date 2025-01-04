@@ -19,42 +19,42 @@
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
- * @copyright 2024 The Apache Software Foundation
+ * @copyright 2025 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author Blobfolio
  * @source {https://github.com/Blobfolio/righteous-mimes}
- * @copyright 2024 Blobfolio, LLC
+ * @copyright 2025 Blobfolio, LLC
  * @license http://www.wtfpl.net/ WTFPL
  *
  * @author Drupal
  * @source {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
- * @copyright 2024 Drupal
+ * @copyright 2025 Drupal
  * @license https://www.drupal.org/about/licensing GPL
  *
  * @author FreeDesktop.org
  * @source {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
- * @copyright 2024 FreeDesktop.org
+ * @copyright 2025 FreeDesktop.org
  * @license https://opensource.org/licenses/MIT MIT
  *
  * @author IANA
  * @source {https://www.iana.org/assignments/media-types}
- * @copyright 2024 IETF Trust
+ * @copyright 2025 IETF Trust
  * @license https://www.rfc-editor.org/copyright/ rfc-copyright-story
  *
  * @author Nginx
  * @source {http://hg.nginx.org/nginx/raw-file/default/conf/mime.types}
- * @copyright 2024 Nginx includes_url
+ * @copyright 2025 Nginx includes_url
  * @license https://opensource.org/licenses/BSD-2-Clause BSD
  *
  * @author Tika
  * @source {https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml}
- * @copyright 2024 The Apache Software Foundation
+ * @copyright 2025 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author WordPress
  * @source {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
- * @copyright 2024 Automattic
+ * @copyright 2025 Automattic
  * @license https://wordpress.org/about/license/ GPLv2
  */
 
@@ -2054,7 +2054,7 @@ final class Types {
 		'application/toml'=>array(
 			'toml'=>array(
 				'authority'=>36,
-				'source'=>16,
+				'source'=>48,
 			),
 		),
 		'application/trig'=>array(
@@ -2071,6 +2071,18 @@ final class Types {
 		),
 		'application/ttml+xml'=>array(
 			'ttml'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/uccs+cbor'=>array(
+			'uccs'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/ujcs+json'=>array(
+			'ujcs'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -2791,6 +2803,12 @@ final class Types {
 				'source'=>48,
 			),
 		),
+		'application/vnd.dcmp+xml'=>array(
+			'dcmp'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/vnd.debian.binary-package'=>array(
 			'deb'=>array(
 				'authority'=>12,
@@ -3154,27 +3172,19 @@ final class Types {
 				'authority'=>32,
 				'source'=>172,
 			),
-			'msd'=>array(
+			'mseed3'=>array(
 				'authority'=>30,
 				'source'=>40,
-			),
-			'dataless'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
-			'seed'=>array(
-				'authority'=>10,
-				'source'=>32,
 			),
 		),
 		'application/vnd.fdsn.seed'=>array(
 			'dataless'=>array(
-				'authority'=>12,
-				'source'=>164,
+				'authority'=>32,
+				'source'=>172,
 			),
 			'seed'=>array(
-				'authority'=>12,
-				'source'=>164,
+				'authority'=>32,
+				'source'=>172,
 			),
 		),
 		'application/vnd.ficlab.flb+zip'=>array(
@@ -3381,6 +3391,12 @@ final class Types {
 			'ggb'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'application/vnd.geogebra.pinboard'=>array(
+			'ggp'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'application/vnd.geogebra.slides'=>array(
@@ -3811,6 +3827,12 @@ final class Types {
 			'kon'=>array(
 				'authority'=>36,
 				'source'=>132,
+			),
+		),
+		'application/vnd.kdl'=>array(
+			'kdl'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'application/vnd.kenameaapp'=>array(
@@ -4995,6 +5017,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'application/vnd.openvpi.dspx+json'=>array(
+			'dspx'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'application/vnd.openxmlformats-officedocument.presentationml.presentation'=>array(
 			'pptx'=>array(
 				'authority'=>15,
@@ -5637,6 +5665,16 @@ final class Types {
 				'source'=>172,
 			),
 		),
+		'application/vnd.sketchometry'=>array(
+			'sketch'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'sketcho'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+		),
 		'application/vnd.smaf'=>array(
 			'mmf'=>array(
 				'authority'=>14,
@@ -6163,6 +6201,12 @@ final class Types {
 			'vis'=>array(
 				'authority'=>36,
 				'source'=>164,
+			),
+		),
+		'application/vnd.vocalshaper.vsp4'=>array(
+			'vsp4'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'application/vnd.vsf'=>array(
@@ -10746,6 +10790,10 @@ final class Types {
 				'authority'=>36,
 				'source'=>1020,
 			),
+			'x-wav'=>array(
+				'authority'=>21,
+				'source'=>264,
+			),
 		),
 		'audio/webm'=>array(
 			'weba'=>array(
@@ -11501,6 +11549,28 @@ final class Types {
 				'source'=>16,
 			),
 		),
+		'image/heic-sequence'=>array(
+			'heics'=>array(
+				'authority'=>21,
+				'source'=>264,
+			),
+			'heifs'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'hif'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'heic'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'heif'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'image/heif'=>array(
 			'heif'=>array(
 				'authority'=>36,
@@ -11559,6 +11629,18 @@ final class Types {
 			'j2k'=>array(
 				'authority'=>10,
 				'source'=>32,
+			),
+		),
+		'image/jaii'=>array(
+			'jaii'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'image/jais'=>array(
+			'jais'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'image/jls'=>array(
@@ -12411,6 +12493,12 @@ final class Types {
 				'source'=>660,
 			),
 		),
+		'image/x-pxr'=>array(
+			'pxr'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'image/x-quicktime'=>array(
 			'qtif'=>array(
 				'authority'=>21,
@@ -12513,6 +12601,12 @@ final class Types {
 			'rgb'=>array(
 				'authority'=>36,
 				'source'=>668,
+			),
+		),
+		'image/x-sct'=>array(
+			'sct'=>array(
+				'authority'=>36,
+				'source'=>16,
 			),
 		),
 		'image/x-sigma-x3f'=>array(
@@ -14727,16 +14821,6 @@ final class Types {
 			'rtx'=>array(
 				'authority'=>36,
 				'source'=>916,
-			),
-		),
-		'text/scriptlet'=>array(
-			'sct'=>array(
-				'authority'=>21,
-				'source'=>520,
-			),
-			'wsc'=>array(
-				'authority'=>1,
-				'source'=>512,
 			),
 		),
 		'text/sgml'=>array(

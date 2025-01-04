@@ -18,42 +18,42 @@
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
- * @copyright 2024 The Apache Software Foundation
+ * @copyright 2025 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author Blobfolio
  * @source {https://github.com/Blobfolio/righteous-mimes}
- * @copyright 2024 Blobfolio, LLC
+ * @copyright 2025 Blobfolio, LLC
  * @license http://www.wtfpl.net/ WTFPL
  *
  * @author Drupal
  * @source {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
- * @copyright 2024 Drupal
+ * @copyright 2025 Drupal
  * @license https://www.drupal.org/about/licensing GPL
  *
  * @author FreeDesktop.org
  * @source {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
- * @copyright 2024 FreeDesktop.org
+ * @copyright 2025 FreeDesktop.org
  * @license https://opensource.org/licenses/MIT MIT
  *
  * @author IANA
  * @source {https://www.iana.org/assignments/media-types}
- * @copyright 2024 IETF Trust
+ * @copyright 2025 IETF Trust
  * @license https://www.rfc-editor.org/copyright/ rfc-copyright-story
  *
  * @author Nginx
  * @source {http://hg.nginx.org/nginx/raw-file/default/conf/mime.types}
- * @copyright 2024 Nginx includes_url
+ * @copyright 2025 Nginx includes_url
  * @license https://opensource.org/licenses/BSD-2-Clause BSD
  *
  * @author Tika
  * @source {https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml}
- * @copyright 2024 The Apache Software Foundation
+ * @copyright 2025 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author WordPress
  * @source {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
- * @copyright 2024 Automattic
+ * @copyright 2025 Automattic
  * @license https://wordpress.org/about/license/ GPLv2
  */
 
@@ -94,12 +94,6 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
-		'19051'=>array(
-			'application/vnd.ieee.1905'=>array(
-				'authority'=>36,
-				'source'=>40,
-			),
-		),
 		'1clr'=>array(
 			'application/clr'=>array(
 				'authority'=>36,
@@ -126,6 +120,12 @@ final class Extensions {
 			'text/h323'=>array(
 				'authority'=>36,
 				'source'=>520,
+			),
+		),
+		'19051'=>array(
+			'application/vnd.ieee.1905'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'32x'=>array(
@@ -3516,12 +3516,8 @@ final class Extensions {
 		),
 		'dataless'=>array(
 			'application/vnd.fdsn.seed'=>array(
-				'authority'=>12,
-				'source'=>164,
-			),
-			'application/vnd.fdsn.mseed'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>36,
+				'source'=>172,
 			),
 		),
 		'davmount'=>array(
@@ -3602,6 +3598,12 @@ final class Extensions {
 			'application/dicom'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'dcmp'=>array(
+			'application/vnd.dcmp+xml'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'dcr'=>array(
@@ -4412,6 +4414,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'dspx'=>array(
+			'application/vnd.openvpi.dspx+json'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'dssc'=>array(
@@ -6296,6 +6304,12 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'ggp'=>array(
+			'application/vnd.geogebra.pinboard'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'ggs'=>array(
 			'application/vnd.geogebra.slides'=>array(
 				'authority'=>36,
@@ -6994,6 +7008,12 @@ final class Extensions {
 			'image/hevc'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'heics'=>array(
+			'image/heic-sequence'=>array(
+				'authority'=>36,
+				'source'=>264,
 			),
 		),
 		'heif'=>array(
@@ -8196,6 +8216,18 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'jaii'=>array(
+			'image/jaii'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'jais'=>array(
+			'image/jais'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'jam'=>array(
 			'application/vnd.jam'=>array(
 				'authority'=>36,
@@ -9128,6 +9160,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'kdl'=>array(
+			'application/vnd.kdl'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'kexi'=>array(
@@ -11828,16 +11866,16 @@ final class Extensions {
 				'source'=>9,
 			),
 		),
-		'msd'=>array(
-			'application/vnd.fdsn.mseed'=>array(
-				'authority'=>36,
-				'source'=>40,
-			),
-		),
 		'mseed'=>array(
 			'application/vnd.fdsn.mseed'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'mseed3'=>array(
+			'application/vnd.fdsn.mseed'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'mseq'=>array(
@@ -13923,6 +13961,10 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>4,
 			),
+			'image/x-pfm'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'application/x-font-printer-metric'=>array(
 				'authority'=>1,
 				'source'=>128,
@@ -15008,6 +15050,12 @@ final class Extensions {
 			'image/x-raw-logitech'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'pxr'=>array(
+			'image/x-pxr'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'py'=>array(
@@ -16641,9 +16689,13 @@ final class Extensions {
 			),
 		),
 		'sct'=>array(
+			'image/x-sct'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'text/scriptlet'=>array(
-				'authority'=>36,
-				'source'=>520,
+				'authority'=>1,
+				'source'=>512,
 			),
 		),
 		'scurl'=>array(
@@ -16834,12 +16886,8 @@ final class Extensions {
 		),
 		'seed'=>array(
 			'application/vnd.fdsn.seed'=>array(
-				'authority'=>12,
-				'source'=>164,
-			),
-			'application/vnd.fdsn.mseed'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>36,
+				'source'=>172,
 			),
 		),
 		'sem'=>array(
@@ -17356,6 +17404,18 @@ final class Extensions {
 			'application/x-koan'=>array(
 				'authority'=>2,
 				'source'=>640,
+			),
+		),
+		'sketch'=>array(
+			'application/vnd.sketchometry'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'sketcho'=>array(
+			'application/vnd.sketchometry'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'skm'=>array(
@@ -19280,8 +19340,8 @@ final class Extensions {
 		),
 		'toml'=>array(
 			'application/toml'=>array(
-				'authority'=>1,
-				'source'=>16,
+				'authority'=>11,
+				'source'=>48,
 			),
 			'text/plain'=>array(
 				'authority'=>1,
@@ -19690,6 +19750,12 @@ final class Extensions {
 				'source'=>136,
 			),
 		),
+		'uccs'=>array(
+			'application/uccs+cbor'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'udeb'=>array(
 			'application/vnd.debian.binary-package'=>array(
 				'authority'=>12,
@@ -19752,6 +19818,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'ujcs'=>array(
+			'application/ujcs+json'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'uls'=>array(
@@ -20662,6 +20734,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'vsp4'=>array(
+			'application/vnd.vocalshaper.vsp4'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'vss'=>array(
@@ -21760,6 +21838,12 @@ final class Extensions {
 				'source'=>520,
 			),
 		),
+		'x-wav'=>array(
+			'audio/wav'=>array(
+				'authority'=>36,
+				'source'=>264,
+			),
+		),
 		'x32'=>array(
 			'application/x-authorware-bin'=>array(
 				'authority'=>36,
@@ -22812,6 +22896,10 @@ final class Extensions {
 				'source'=>32,
 			),
 			'application/vnd.etsi.pstn+xml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.fdsn.stationxml+xml'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -23982,6 +24070,7 @@ final class Extensions {
 		'davmount'=>16,
 		'dbk'=>16,
 		'dcl'=>8,
+		'dcmp'=>16,
 		'dcurl'=>8,
 		'dd2'=>16,
 		'ddf'=>16,
@@ -24013,6 +24102,7 @@ final class Extensions {
 		'dsc'=>8,
 		'dsl'=>8,
 		'dsp'=>8,
+		'dspx'=>2,
 		'dsw'=>8,
 		'dtb'=>24,
 		'dtd'=>8,
@@ -24571,6 +24661,7 @@ final class Extensions {
 		'ufraw'=>16,
 		'ui'=>16,
 		'uil'=>8,
+		'ujcs'=>2,
 		'uls'=>8,
 		'uo'=>16,
 		'uoml'=>16,

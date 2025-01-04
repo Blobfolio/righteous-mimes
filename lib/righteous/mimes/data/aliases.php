@@ -17,42 +17,42 @@
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
- * @copyright 2024 The Apache Software Foundation
+ * @copyright 2025 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author Blobfolio
  * @source {https://github.com/Blobfolio/righteous-mimes}
- * @copyright 2024 Blobfolio, LLC
+ * @copyright 2025 Blobfolio, LLC
  * @license http://www.wtfpl.net/ WTFPL
  *
  * @author Drupal
  * @source {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
- * @copyright 2024 Drupal
+ * @copyright 2025 Drupal
  * @license https://www.drupal.org/about/licensing GPL
  *
  * @author FreeDesktop.org
  * @source {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
- * @copyright 2024 FreeDesktop.org
+ * @copyright 2025 FreeDesktop.org
  * @license https://opensource.org/licenses/MIT MIT
  *
  * @author IANA
  * @source {https://www.iana.org/assignments/media-types}
- * @copyright 2024 IETF Trust
+ * @copyright 2025 IETF Trust
  * @license https://www.rfc-editor.org/copyright/ rfc-copyright-story
  *
  * @author Nginx
  * @source {http://hg.nginx.org/nginx/raw-file/default/conf/mime.types}
- * @copyright 2024 Nginx includes_url
+ * @copyright 2025 Nginx includes_url
  * @license https://opensource.org/licenses/BSD-2-Clause BSD
  *
  * @author Tika
  * @source {https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml}
- * @copyright 2024 The Apache Software Foundation
+ * @copyright 2025 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author WordPress
  * @source {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
- * @copyright 2024 Automattic
+ * @copyright 2025 Automattic
  * @license https://wordpress.org/about/license/ GPLv2
  */
 
@@ -398,6 +398,8 @@ final class Aliases {
 		'application/trig'=>'application/trig',
 		'application/ttaf+xml'=>'application/ttaf+xml',
 		'application/ttml+xml'=>'application/ttml+xml',
+		'application/uccs+cbor'=>'application/uccs+cbor',
+		'application/ujcs+json'=>'application/ujcs+json',
 		'application/urc-ressheet+xml'=>'application/urc-ressheet+xml',
 		'application/vc'=>'application/vc',
 		'application/vnd.1000minds.decision-model+xml'=>'application/vnd.1000minds.decision-model+xml',
@@ -535,6 +537,7 @@ final class Aliases {
 		'application/vnd.datapackage+json'=>'application/json',
 		'application/vnd.dataresource+json'=>'application/json',
 		'application/vnd.dbf'=>'application/vnd.dbf',
+		'application/vnd.dcmp+xml'=>'application/vnd.dcmp+xml',
 		'application/vnd.debian.binary-package'=>'application/vnd.debian.binary-package',
 		'application/vnd.dece.data'=>'application/vnd.dece.data',
 		'application/vnd.dece.ttml+xml'=>'application/vnd.dece.ttml+xml',
@@ -591,6 +594,7 @@ final class Aliases {
 		'application/vnd.fdf'=>'application/fdf',
 		'application/vnd.fdsn.mseed'=>'application/vnd.fdsn.mseed',
 		'application/vnd.fdsn.seed'=>'application/vnd.fdsn.seed',
+		'application/vnd.fdsn.stationxml+xml'=>'application/xml',
 		'application/vnd.ficlab.flb+zip'=>'application/vnd.ficlab.flb+zip',
 		'application/vnd.filmit.zfc'=>'application/vnd.filmit.zfc',
 		'application/vnd.flatpak'=>'application/vnd.flatpak',
@@ -628,6 +632,7 @@ final class Aliases {
 		'application/vnd.gentoo.xpak'=>'application/vnd.gentoo.xpak',
 		'application/vnd.geocube+xml'=>'application/vnd.geocube+xml',
 		'application/vnd.geogebra.file'=>'application/vnd.geogebra.file',
+		'application/vnd.geogebra.pinboard'=>'application/vnd.geogebra.pinboard',
 		'application/vnd.geogebra.slides'=>'application/vnd.geogebra.slides',
 		'application/vnd.geogebra.tool'=>'application/vnd.geogebra.tool',
 		'application/vnd.geometry-explorer'=>'application/vnd.geometry-explorer',
@@ -725,6 +730,7 @@ final class Aliases {
 		'application/vnd.kde.kpresenter'=>'application/x-kpresenter',
 		'application/vnd.kde.kspread'=>'application/x-kspread',
 		'application/vnd.kde.kword'=>'application/x-kword',
+		'application/vnd.kdl'=>'application/vnd.kdl',
 		'application/vnd.kenameaapp'=>'application/vnd.kenameaapp',
 		'application/vnd.keyman.kmp+zip'=>'application/vnd.keyman.kmp+zip',
 		'application/vnd.keyman.kmx'=>'application/vnd.keyman.kmx',
@@ -910,6 +916,7 @@ final class Aliases {
 		'application/vnd.openofficeorg.extension'=>'application/vnd.openofficeorg.extension',
 		'application/vnd.openstreetmap.data+xml'=>'application/vnd.openstreetmap.data+xml',
 		'application/vnd.opentimestamps.ots'=>'application/vnd.oasis.opendocument.spreadsheet-template',
+		'application/vnd.openvpi.dspx+json'=>'application/vnd.openvpi.dspx+json',
 		'application/vnd.openxmlformats-officedocument.custom-properties+xml'=>'application/xml',
 		'application/vnd.openxmlformats-officedocument.customxmlproperties+xml'=>'application/xml',
 		'application/vnd.openxmlformats-officedocument.drawing+xml'=>'application/xml',
@@ -1061,6 +1068,7 @@ final class Aliases {
 		'application/vnd.sigrok.session'=>'application/vnd.sigrok.session',
 		'application/vnd.simtech-mindmapper'=>'application/vnd.simtech-mindmapper',
 		'application/vnd.siren+json'=>'application/json',
+		'application/vnd.sketchometry'=>'application/vnd.sketchometry',
 		'application/vnd.smaf'=>'application/vnd.smaf',
 		'application/vnd.smart.notebook'=>'application/vnd.smart.notebook',
 		'application/vnd.smart.teacher'=>'application/vnd.smart.teacher',
@@ -1139,6 +1147,7 @@ final class Aliases {
 		'application/vnd.visio'=>'application/vnd.visio',
 		'application/vnd.visionary'=>'application/vnd.visionary',
 		'application/vnd.vividence.scriptfile'=>'application/vnd.vidsoft.vidconference',
+		'application/vnd.vocalshaper.vsp4'=>'application/vnd.vocalshaper.vsp4',
 		'application/vnd.vsf'=>'application/vnd.vsf',
 		'application/vnd.wap.wbxml'=>'application/vnd.wap.wbxml',
 		'application/vnd.wap.wmlc'=>'application/vnd.wap.wmlc',
@@ -1972,6 +1981,7 @@ final class Aliases {
 		'image/g3fax'=>'application/vnd.geocube+xml',
 		'image/gif'=>'image/gif',
 		'image/heic'=>'image/heic',
+		'image/heic-sequence'=>'image/heic-sequence',
 		'image/heif'=>'image/heif',
 		'image/heif-sequence'=>'image/heif-sequence',
 		'image/hej2k'=>'image/hej2k',
@@ -1982,6 +1992,8 @@ final class Aliases {
 		'image/icon'=>'image/vnd.microsoft.icon',
 		'image/ief'=>'image/ief',
 		'image/j2c'=>'image/j2c',
+		'image/jaii'=>'image/jaii',
+		'image/jais'=>'image/jais',
 		'image/jls'=>'image/jls',
 		'image/jp2'=>'image/jp2',
 		'image/jpeg'=>'image/jpeg',
@@ -2113,6 +2125,7 @@ final class Aliases {
 		'image/x-pc-paintbrush'=>'image/vnd.zbrush.pcx',
 		'image/x-pcx'=>'image/vnd.zbrush.pcx',
 		'image/x-pentax-pef'=>'image/x-pentax-pef',
+		'image/x-pfm'=>'application/x-font-type1',
 		'image/x-photo-cd'=>'image/x-photo-cd',
 		'image/x-photoshop'=>'image/vnd.adobe.photoshop',
 		'image/x-pict'=>'image/x-pict',
@@ -2121,6 +2134,7 @@ final class Aliases {
 		'image/x-portable-graymap'=>'image/x-portable-graymap',
 		'image/x-portable-pixmap'=>'image/x-portable-pixmap',
 		'image/x-psd'=>'image/vnd.adobe.photoshop',
+		'image/x-pxr'=>'image/x-pxr',
 		'image/x-quicktime'=>'image/x-quicktime',
 		'image/x-raw-adobe'=>'image/x-adobe-dng',
 		'image/x-raw-casio'=>'image/x-raw-casio',
@@ -2140,6 +2154,7 @@ final class Aliases {
 		'image/x-raw-red'=>'image/x-raw-red',
 		'image/x-raw-sigma'=>'image/x-sigma-x3f',
 		'image/x-rgb'=>'image/x-rgb',
+		'image/x-sct'=>'image/x-sct',
 		'image/x-sgi'=>'image/vnd.sealedmedia.softseal.gif',
 		'image/x-sigma-x3f'=>'image/x-sigma-x3f',
 		'image/x-skencil'=>'image/x-skencil',
@@ -2247,7 +2262,6 @@ final class Aliases {
 		'text/rss'=>'application/rss+xml',
 		'text/rtf'=>'application/rtf',
 		'text/rust'=>'application/rls-services+xml',
-		'text/scriptlet'=>'text/scriptlet',
 		'text/sgml'=>'text/sgml',
 		'text/shaclc'=>'text/shaclc',
 		'text/shex'=>'text/shex',
