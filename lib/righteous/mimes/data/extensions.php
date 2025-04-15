@@ -1405,7 +1405,7 @@ final class Extensions {
 		'avci'=>array(
 			'image/avci'=>array(
 				'authority'=>36,
-				'source'=>40,
+				'source'=>56,
 			),
 		),
 		'avcs'=>array(
@@ -1996,6 +1996,16 @@ final class Extensions {
 			'model/vnd.valve.source.compiled-map'=>array(
 				'authority'=>36,
 				'source'=>40,
+			),
+		),
+		'bst'=>array(
+			'application/buildstream+yaml'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/yaml'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'btf'=>array(
@@ -2688,8 +2698,28 @@ final class Extensions {
 		),
 		'cjs'=>array(
 			'application/node'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>10,
+				'source'=>32,
+			),
+			'text/javascript'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-javascript'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/javascript'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/jscript'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/typescript'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'cl'=>array(
@@ -2762,6 +2792,12 @@ final class Extensions {
 		),
 		'cld'=>array(
 			'model/vnd.cld'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'clip'=>array(
+			'image/vnd.clip'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -3338,6 +3374,16 @@ final class Extensions {
 				'source'=>520,
 			),
 		),
+		'cts'=>array(
+			'application/typescript'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'ctx'=>array(
 			'chemical/x-ctx'=>array(
 				'authority'=>36,
@@ -3822,6 +3868,12 @@ final class Extensions {
 				'source'=>24,
 			),
 		),
+		'did'=>array(
+			'application/did'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'dif'=>array(
 			'application/dif+xml'=>array(
 				'authority'=>1,
@@ -4168,6 +4220,16 @@ final class Extensions {
 			'application/vnd.document+json'=>array(
 				'authority'=>36,
 				'source'=>40,
+			),
+		),
+		'dockerfile'=>array(
+			'text/x-dockerfile'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'docm'=>array(
@@ -6968,8 +7030,8 @@ final class Extensions {
 		),
 		'hdr'=>array(
 			'image/vnd.radiance'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
 			),
 			'application/envi.hdr'=>array(
 				'authority'=>1,
@@ -8619,7 +8681,7 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'application/x-executable'=>array(
+			'application/typescript'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8655,7 +8717,7 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'application/x-executable'=>array(
+			'application/typescript'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -9784,10 +9846,28 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'lot'=>array(
+			'video/lottie+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'lrf'=>array(
 			'application/octet-stream'=>array(
 				'authority'=>2,
 				'source'=>132,
+			),
+			'video/mp4'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'video/mp4v-es'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'video/x-m4v'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'application/x-sony-bbeb'=>array(
 				'authority'=>1,
@@ -10915,7 +10995,7 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'application/x-executable'=>array(
+			'application/typescript'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -12065,6 +12145,14 @@ final class Extensions {
 				'authority'=>2,
 				'source'=>20,
 			),
+			'application/typescript'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 		),
 		'multitrack'=>array(
 			'audio/vnd.presonus.multitrack'=>array(
@@ -12571,7 +12659,7 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'text/x-nu'=>array(
+			'text/x-nushell'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13566,8 +13654,12 @@ final class Extensions {
 		),
 		'pac'=>array(
 			'application/x-ns-proxy-autoconfig'=>array(
-				'authority'=>36,
-				'source'=>520,
+				'authority'=>2,
+				'source'=>528,
+			),
+			'text/javascript'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'pack'=>array(
@@ -14052,6 +14144,12 @@ final class Extensions {
 				'source'=>9,
 			),
 		),
+		'phm'=>array(
+			'image/x-phm'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'php'=>array(
 			'text/plain'=>array(
 				'authority'=>2,
@@ -14150,8 +14248,8 @@ final class Extensions {
 		),
 		'pic'=>array(
 			'image/vnd.radiance'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
 			),
 			'image/x-pict'=>array(
 				'authority'=>2,
@@ -14220,6 +14318,16 @@ final class Extensions {
 		),
 		'pkpass'=>array(
 			'application/vnd.apple.pkpass'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/zip'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'pkpasses'=>array(
+			'application/vnd.apple.pkpasses'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -15013,6 +15121,14 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'text/x-ssh-public-key'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 		),
 		'pvb'=>array(
 			'application/vnd.3gpp.pic-bw-var'=>array(
@@ -15747,7 +15863,7 @@ final class Extensions {
 		'rgbe'=>array(
 			'image/vnd.radiance'=>array(
 				'authority'=>36,
-				'source'=>40,
+				'source'=>56,
 			),
 		),
 		'rhtml'=>array(
@@ -16550,6 +16666,12 @@ final class Extensions {
 				'source'=>144,
 			),
 		),
+		'scap'=>array(
+			'application/x-pcapng'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'scd'=>array(
 			'application/vnd.scribus'=>array(
 				'authority'=>10,
@@ -16775,6 +16897,10 @@ final class Extensions {
 			),
 		),
 		'sdf'=>array(
+			'application/sdf+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.kinar'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -16782,6 +16908,12 @@ final class Extensions {
 			'chemical/x-mdl-sdfile'=>array(
 				'authority'=>1,
 				'source'=>512,
+			),
+		),
+		'sdfjson'=>array(
+			'application/sdf+json'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'sdkd'=>array(
@@ -19493,6 +19625,14 @@ final class Extensions {
 				'authority'=>3,
 				'source'=>84,
 			),
+			'application/typescript'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'application/x-linguist'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -19703,6 +19843,10 @@ final class Extensions {
 			),
 		),
 		'typ'=>array(
+			'text/vnd.typst'=>array(
+				'authority'=>11,
+				'source'=>48,
+			),
 			'text/x-typst'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -20502,6 +20646,12 @@ final class Extensions {
 			'video/vivo'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'vjj'=>array(
+			'application/voucher-jws+json'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'vlc'=>array(
@@ -21781,6 +21931,10 @@ final class Extensions {
 			),
 		),
 		'wv'=>array(
+			'application/vnd.wantverse'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.wv.csp+wbxml'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -22616,8 +22770,8 @@ final class Extensions {
 		),
 		'xlsx'=>array(
 			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'=>array(
-				'authority'=>5,
-				'source'=>916,
+				'authority'=>15,
+				'source'=>948,
 			),
 			'application/zip'=>array(
 				'authority'=>1,
@@ -22680,10 +22834,6 @@ final class Extensions {
 			'application/vnd.openxmlformats-officedocument.spreadsheetml.template'=>array(
 				'authority'=>15,
 				'source'=>948,
-			),
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'=>array(
-				'authority'=>10,
-				'source'=>32,
 			),
 			'application/zip'=>array(
 				'authority'=>1,
@@ -23649,7 +23799,7 @@ final class Extensions {
 		'xyze'=>array(
 			'image/vnd.radiance'=>array(
 				'authority'=>36,
-				'source'=>40,
+				'source'=>56,
 			),
 		),
 		'xz'=>array(
@@ -23744,6 +23894,12 @@ final class Extensions {
 			'application/zip'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'yuv'=>array(
+			'video/vnd.planar'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'z'=>array(
@@ -24040,6 +24196,7 @@ final class Extensions {
 		'cfml'=>8,
 		'cgi'=>8,
 		'changelog'=>8,
+		'cjs'=>8,
 		'cl'=>24,
 		'classpath'=>8,
 		'clj'=>8,
@@ -24098,6 +24255,7 @@ final class Extensions {
 		'doc'=>20,
 		'docbook'=>16,
 		'docjson'=>2,
+		'dockerfile'=>8,
 		'docm'=>20,
 		'docx'=>36,
 		'dot'=>28,
@@ -24305,6 +24463,7 @@ final class Extensions {
 		'log'=>8,
 		'lostsyncxml'=>16,
 		'lostxml'=>16,
+		'lot'=>2,
 		'lsp'=>8,
 		'ltx'=>8,
 		'lua'=>8,
@@ -24440,6 +24599,7 @@ final class Extensions {
 		'oxt'=>32,
 		'p'=>8,
 		'p7s'=>8,
+		'pac'=>8,
 		'pages'=>32,
 		'pas'=>8,
 		'patch'=>8,
@@ -24457,6 +24617,7 @@ final class Extensions {
 		'phps'=>8,
 		'pkg'=>16,
 		'pkpass'=>32,
+		'pkpasses'=>32,
 		'pkr'=>8,
 		'pl'=>8,
 		'pls'=>16,
@@ -24488,6 +24649,7 @@ final class Extensions {
 		'ps1'=>8,
 		'pskcxml'=>16,
 		'pst'=>4,
+		'pub'=>8,
 		'pxd'=>8,
 		'pxi'=>8,
 		'py'=>8,
@@ -24554,6 +24716,8 @@ final class Extensions {
 		'scss'=>8,
 		'sct'=>8,
 		'scurl'=>8,
+		'sdf'=>2,
+		'sdfjson'=>2,
 		'sdkd'=>16,
 		'sdkm'=>16,
 		'sdp'=>8,
@@ -24695,6 +24859,7 @@ final class Extensions {
 		'vfk'=>8,
 		'vhd'=>8,
 		'vhdl'=>8,
+		'vjj'=>2,
 		'vlc'=>8,
 		'vm'=>8,
 		'vrm'=>8,

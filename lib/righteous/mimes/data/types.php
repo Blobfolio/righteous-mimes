@@ -211,6 +211,12 @@ final class Types {
 				'source'=>128,
 			),
 		),
+		'application/buildstream+yaml'=>array(
+			'bst'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
 		'application/c2pa'=>array(
 			'c2pa'=>array(
 				'authority'=>36,
@@ -399,6 +405,12 @@ final class Types {
 			'dicomdir'=>array(
 				'authority'=>21,
 				'source'=>24,
+			),
+		),
+		'application/did'=>array(
+			'did'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'application/dif+xml'=>array(
@@ -696,6 +708,10 @@ final class Types {
 				'authority'=>36,
 				'source'=>1020,
 			),
+			'cjs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'jsm'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -987,8 +1003,8 @@ final class Types {
 		),
 		'application/node'=>array(
 			'cjs'=>array(
-				'authority'=>30,
-				'source'=>40,
+				'authority'=>10,
+				'source'=>32,
 			),
 			'js'=>array(
 				'authority'=>10,
@@ -1691,6 +1707,16 @@ final class Types {
 				'source'=>164,
 			),
 		),
+		'application/sdf+json'=>array(
+			'sdfjson'=>array(
+				'authority'=>30,
+				'source'=>40,
+			),
+			'sdf'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+		),
 		'application/sdp'=>array(
 			'sdp'=>array(
 				'authority'=>36,
@@ -2075,6 +2101,36 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'application/typescript'=>array(
+			'cjs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'cts'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'jsm'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'mjs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'mts'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'js'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'ts'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'application/uccs+cbor'=>array(
 			'uccs'=>array(
 				'authority'=>36,
@@ -2399,6 +2455,12 @@ final class Types {
 		),
 		'application/vnd.apple.pkpass'=>array(
 			'pkpass'=>array(
+				'authority'=>36,
+				'source'=>16,
+			),
+		),
+		'application/vnd.apple.pkpasses'=>array(
+			'pkpasses'=>array(
 				'authority'=>36,
 				'source'=>16,
 			),
@@ -5068,13 +5130,9 @@ final class Types {
 			),
 		),
 		'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'=>array(
-			'xltx'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
 			'xlsx'=>array(
-				'authority'=>5,
-				'source'=>916,
+				'authority'=>15,
+				'source'=>948,
 			),
 			'xlam'=>array(
 				'authority'=>1,
@@ -6215,6 +6273,12 @@ final class Types {
 				'source'=>172,
 			),
 		),
+		'application/vnd.wantverse'=>array(
+			'wv'=>array(
+				'authority'=>36,
+				'source'=>32,
+			),
+		),
 		'application/vnd.wap.wbxml'=>array(
 			'wbxml'=>array(
 				'authority'=>36,
@@ -6323,12 +6387,6 @@ final class Types {
 			'stf'=>array(
 				'authority'=>36,
 				'source'=>172,
-			),
-		),
-		'application/vnd.wv.csp+wbxml'=>array(
-			'wv'=>array(
-				'authority'=>36,
-				'source'=>32,
 			),
 		),
 		'application/vnd.xara'=>array(
@@ -6473,6 +6531,12 @@ final class Types {
 		),
 		'application/voucher-cms+json'=>array(
 			'vcj'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'application/voucher-jws+json'=>array(
+			'vjj'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -8344,7 +8408,7 @@ final class Types {
 		'application/x-ns-proxy-autoconfig'=>array(
 			'pac'=>array(
 				'authority'=>36,
-				'source'=>520,
+				'source'=>528,
 			),
 		),
 		'application/x-nuscript'=>array(
@@ -8459,6 +8523,10 @@ final class Types {
 				'source'=>24,
 			),
 			'pcapng'=>array(
+				'authority'=>21,
+				'source'=>24,
+			),
+			'scap'=>array(
 				'authority'=>21,
 				'source'=>24,
 			),
@@ -10284,6 +10352,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'pkpasses'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'potx'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -11450,7 +11522,7 @@ final class Types {
 		'image/avci'=>array(
 			'avci'=>array(
 				'authority'=>36,
-				'source'=>40,
+				'source'=>56,
 			),
 		),
 		'image/avcs'=>array(
@@ -11889,6 +11961,12 @@ final class Types {
 				'source'=>40,
 			),
 		),
+		'image/vnd.clip'=>array(
+			'clip'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'image/vnd.dece.graphic'=>array(
 			'uvg'=>array(
 				'authority'=>31,
@@ -12017,20 +12095,20 @@ final class Types {
 		),
 		'image/vnd.radiance'=>array(
 			'rgbe'=>array(
-				'authority'=>30,
-				'source'=>40,
+				'authority'=>31,
+				'source'=>56,
 			),
 			'xyze'=>array(
-				'authority'=>30,
-				'source'=>40,
+				'authority'=>31,
+				'source'=>56,
 			),
 			'hdr'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
 			),
 			'pic'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
 			),
 		),
 		'image/vnd.sealed.png'=>array(
@@ -12427,6 +12505,12 @@ final class Types {
 			'pef'=>array(
 				'authority'=>36,
 				'source'=>16,
+			),
+		),
+		'image/x-phm'=>array(
+			'phm'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'image/x-photo-cd'=>array(
@@ -13158,7 +13242,15 @@ final class Types {
 				'authority'=>12,
 				'source'=>52,
 			),
+			'cjs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'jsm'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'pac'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -14062,6 +14154,10 @@ final class Types {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'pub'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'pxd'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -14315,6 +14411,10 @@ final class Types {
 				'source'=>16,
 			),
 			'di'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'dockerfile'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -15131,6 +15231,12 @@ final class Types {
 				'source'=>48,
 			),
 		),
+		'text/vnd.typst'=>array(
+			'typ'=>array(
+				'authority'=>36,
+				'source'=>48,
+			),
+		),
 		'text/vnd.vcf'=>array(
 			'vcf'=>array(
 				'authority'=>36,
@@ -15493,6 +15599,12 @@ final class Types {
 			'patch'=>array(
 				'authority'=>3,
 				'source'=>656,
+			),
+		),
+		'text/x-dockerfile'=>array(
+			'dockerfile'=>array(
+				'authority'=>36,
+				'source'=>16,
 			),
 		),
 		'text/x-dsl'=>array(
@@ -16239,12 +16351,6 @@ final class Types {
 				'source'=>16,
 			),
 		),
-		'text/x-typst'=>array(
-			'typ'=>array(
-				'authority'=>36,
-				'source'=>16,
-			),
-		),
 		'text/x-uil'=>array(
 			'uil'=>array(
 				'authority'=>36,
@@ -16443,6 +16549,12 @@ final class Types {
 				'source'=>132,
 			),
 		),
+		'video/lottie+json'=>array(
+			'lot'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'video/matroska-3d'=>array(
 			'mk3d'=>array(
 				'authority'=>36,
@@ -16531,6 +16643,10 @@ final class Types {
 				'source'=>16,
 			),
 			'3gp'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'lrf'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -16737,6 +16853,12 @@ final class Types {
 			'nim'=>array(
 				'authority'=>36,
 				'source'=>32,
+			),
+		),
+		'video/vnd.planar'=>array(
+			'yuv'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'video/vnd.radgamettools.bink'=>array(
