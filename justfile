@@ -129,11 +129,11 @@ _set-version VERSION:
 
 	watchexec \
 		--postpone \
-		--no-shell \
+		--shell=none \
 		--watch "{{ lib_dir }}" \
 		--watch "{{ skel_dir }}" \
 		--watch "{{ test_dir }}" \
-		--debounce 1000 \
+		--debounce 1000ms \
 		--exts php \
 		-- just _watch_php
 
