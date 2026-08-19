@@ -18,42 +18,42 @@
  *
  * @author Apache
  * @source {https://raw.githubusercontent.com/apache/httpd/trunk/docs/conf/mime.types}
- * @copyright 2025 The Apache Software Foundation
+ * @copyright 2026 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author Blobfolio
  * @source {https://github.com/Blobfolio/righteous-mimes}
- * @copyright 2025 Blobfolio, LLC
+ * @copyright 2026 Blobfolio, LLC
  * @license http://www.wtfpl.net/ WTFPL
  *
  * @author Drupal
  * @source {https://raw.githubusercontent.com/drupal/drupal/8.8.x/core/lib/Drupal/Core/File/MimeType/ExtensionMimeTypeGuesser.php}
- * @copyright 2025 Drupal
+ * @copyright 2026 Drupal
  * @license https://www.drupal.org/about/licensing GPL
  *
  * @author FreeDesktop.org
  * @source {https://cgit.freedesktop.org/xdg/shared-mime-info/plain/freedesktop.org.xml.in}
- * @copyright 2025 FreeDesktop.org
+ * @copyright 2026 FreeDesktop.org
  * @license https://opensource.org/licenses/MIT MIT
  *
  * @author IANA
  * @source {https://www.iana.org/assignments/media-types}
- * @copyright 2025 IETF Trust
+ * @copyright 2026 IETF Trust
  * @license https://www.rfc-editor.org/copyright/ rfc-copyright-story
  *
  * @author Nginx
  * @source {http://hg.nginx.org/nginx/raw-file/default/conf/mime.types}
- * @copyright 2025 Nginx includes_url
+ * @copyright 2026 Nginx includes_url
  * @license https://opensource.org/licenses/BSD-2-Clause BSD
  *
  * @author Tika
  * @source {https://raw.githubusercontent.com/apache/tika/master/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml}
- * @copyright 2025 The Apache Software Foundation
+ * @copyright 2026 The Apache Software Foundation
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache
  *
  * @author WordPress
  * @source {https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/functions.php}
- * @copyright 2025 Automattic
+ * @copyright 2026 Automattic
  * @license https://wordpress.org/about/license/ GPLv2
  */
 
@@ -94,6 +94,12 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'1clr'=>array(
+			'application/clr'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'1km'=>array(
 			'application/vnd.1000minds.decision-model+xml'=>array(
 				'authority'=>36,
@@ -116,22 +122,26 @@ final class Extensions {
 				'source'=>520,
 			),
 		),
-		'19051'=>array(
-			'application/vnd.ieee.1905'=>array(
-				'authority'=>36,
-				'source'=>40,
-			),
-		),
-		'1clr'=>array(
-			'application/clr'=>array(
-				'authority'=>36,
-				'source'=>40,
-			),
-		),
 		'32x'=>array(
 			'application/x-genesis-32x-rom'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'386'=>array(
+			'application/x-lx-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-msdownload'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'19051'=>array(
+			'application/vnd.ieee.1905'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'3dml'=>array(
@@ -156,10 +166,24 @@ final class Extensions {
 				'source'=>24,
 			),
 		),
-		'3fr'=>array(
-			'image/x-raw-hasselblad'=>array(
+		'3dtileszip'=>array(
+			'application/vnd.maxar.archive.3tz+zip'=>array(
 				'authority'=>36,
-				'source'=>136,
+				'source'=>40,
+			),
+		),
+		'3fr'=>array(
+			'image/x-hasselblad-3fr'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-dcraw'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-raw-hasselblad'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'3g2'=>array(
@@ -355,7 +379,17 @@ final class Extensions {
 			),
 		),
 		'669'=>array(
-			'audio/x-mod'=>array(
+			'audio/x-669'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'audio/x-669-mod'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'68k'=>array(
+			'application/x-genesis-rom'=>array(
 				'authority'=>36,
 				'source'=>24,
 			),
@@ -370,6 +404,16 @@ final class Extensions {
 			'application/x-7z-compressed'=>array(
 				'authority'=>36,
 				'source'=>988,
+			),
+		),
+		'8o'=>array(
+			'application/x-chip8-octo-source'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'a26'=>array(
@@ -402,8 +446,16 @@ final class Extensions {
 		),
 		'aab'=>array(
 			'application/x-authorware-bin'=>array(
-				'authority'=>36,
-				'source'=>140,
+				'authority'=>2,
+				'source'=>132,
+			),
+			'application/vnd.android.app-bundle'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/java-archive'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'aac'=>array(
@@ -438,6 +490,18 @@ final class Extensions {
 				'source'=>140,
 			),
 		),
+		'aasx'=>array(
+			'application/aas+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'aaud'=>array(
+			'audio/prs.aaud'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'aax'=>array(
 			'audio/vnd.audible.aax'=>array(
 				'authority'=>36,
@@ -448,6 +512,12 @@ final class Extensions {
 			'audio/vnd.audible.aaxc'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'ablbx'=>array(
+			'application/vnd.abdalsecuritygroup.lockbox'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'abs-linkmap'=>array(
@@ -617,6 +687,10 @@ final class Extensions {
 				'authority'=>11,
 				'source'=>36,
 			),
+			'application/vnd.aep+zip'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.adobe.aftereffects.project'=>array(
 				'authority'=>1,
 				'source'=>128,
@@ -670,6 +744,30 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'agent'=>array(
+			'application/vnd.agentmug.agent+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'agentjson'=>array(
+			'application/vnd.agtp.identity+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'agentyaml'=>array(
+			'application/vnd.agtp.identity+yaml'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'agentyml'=>array(
+			'application/vnd.agtp.identity+yaml'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'ahead'=>array(
 			'application/vnd.ahead.space'=>array(
 				'authority'=>36,
@@ -692,6 +790,12 @@ final class Extensions {
 			'application/pdf'=>array(
 				'authority'=>0,
 				'source'=>9,
+			),
+		),
+		'aia'=>array(
+			'application/vnd.aia'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'aif'=>array(
@@ -756,6 +860,12 @@ final class Extensions {
 			'application/x-iff'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'aimg'=>array(
+			'image/prs.aimg'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'aion'=>array(
@@ -1164,6 +1274,18 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'ase'=>array(
+			'image/x-aseprite'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'aseprite'=>array(
+			'image/x-aseprite'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'asf'=>array(
 			'application/vnd.ms-asf'=>array(
 				'authority'=>11,
@@ -1396,6 +1518,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'aum'=>array(
+			'application/vnd.aumtrix.aum'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'authors'=>array(
 			'text/x-authors'=>array(
 				'authority'=>1,
@@ -1488,6 +1616,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'avid'=>array(
+			'video/prs.avid'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'avif'=>array(
 			'image/avif'=>array(
 				'authority'=>34,
@@ -1529,17 +1663,21 @@ final class Extensions {
 			),
 		),
 		'awk'=>array(
-			'application/x-awk'=>array(
-				'authority'=>1,
-				'source'=>16,
+			'text/x-awk'=>array(
+				'authority'=>2,
+				'source'=>144,
 			),
 			'application/x-executable'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'text/x-awk'=>array(
+			'text/x-gawk'=>array(
 				'authority'=>1,
-				'source'=>128,
+				'source'=>16,
+			),
+			'text/x-nawk'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'text/plain'=>array(
 				'authority'=>1,
@@ -1634,6 +1772,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'b3k'=>array(
+			'application/prs.bwtc32key'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'bak'=>array(
 			'application/x-trash'=>array(
 				'authority'=>36,
@@ -1681,6 +1825,10 @@ final class Extensions {
 				'authority'=>2,
 				'source'=>144,
 			),
+			'application/x-msdos-program'=>array(
+				'authority'=>2,
+				'source'=>528,
+			),
 			'text/plain'=>array(
 				'authority'=>2,
 				'source'=>144,
@@ -1689,9 +1837,9 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>4,
 			),
-			'application/x-msdos-program'=>array(
+			'text/x-msdos-batch'=>array(
 				'authority'=>1,
-				'source'=>512,
+				'source'=>16,
 			),
 		),
 		'bau'=>array(
@@ -1720,6 +1868,12 @@ final class Extensions {
 			'application/x-font-bdf'=>array(
 				'authority'=>36,
 				'source'=>156,
+			),
+		),
+		'bdl'=>array(
+			'application/x-git-bundle'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'bdm'=>array(
@@ -1906,6 +2060,12 @@ final class Extensions {
 				'source'=>512,
 			),
 		),
+		'bovnar'=>array(
+			'text/vnd.bovnar'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'box'=>array(
 			'application/vnd.previewsystems.box'=>array(
 				'authority'=>36,
@@ -1962,8 +2122,12 @@ final class Extensions {
 		),
 		'br'=>array(
 			'application/x-brotli'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>2,
+				'source'=>144,
+			),
+			'application/brotli'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'brf'=>array(
@@ -2034,6 +2198,18 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'bundle'=>array(
+			'application/x-git-bundle'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'bvnr'=>array(
+			'text/vnd.bovnar'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'bz'=>array(
 			'application/x-bzip'=>array(
 				'authority'=>2,
@@ -2060,8 +2236,8 @@ final class Extensions {
 		),
 		'bz3'=>array(
 			'application/vnd.bzip3'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
 			),
 			'application/x-bzip3'=>array(
 				'authority'=>1,
@@ -2146,6 +2322,32 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'c509'=>array(
+			'application/cose-c509+cbor'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/cose-c509-cert+cbor'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/cose-c509-crtemplate+cbor'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/cose-c509-pem+cbor'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/cose-c509-pkcs10+cbor'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/cose-c509-privkey+cbor'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+		),
 		'c9r'=>array(
 			'application/vnd.cryptomator.encrypted'=>array(
 				'authority'=>36,
@@ -2220,8 +2422,8 @@ final class Extensions {
 		),
 		'car'=>array(
 			'application/vnd.ipld.car'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
 			),
 			'application/vnd.curl.car'=>array(
 				'authority'=>2,
@@ -2243,7 +2445,7 @@ final class Extensions {
 		'cat'=>array(
 			'application/vnd.ms-pki.seccat'=>array(
 				'authority'=>36,
-				'source'=>652,
+				'source'=>668,
 			),
 		),
 		'cb7'=>array(
@@ -2404,6 +2606,18 @@ final class Extensions {
 			'application/x-cocoa'=>array(
 				'authority'=>36,
 				'source'=>72,
+			),
+		),
+		'ccr'=>array(
+			'application/rpki-ccr'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'ccrgz'=>array(
+			'application/rpki-ccr+gzip'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'cct'=>array(
@@ -2571,15 +2785,23 @@ final class Extensions {
 				'authority'=>13,
 				'source'=>180,
 			),
+			'application/x-x509-ca-cert'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'chemical/x-cerius'=>array(
 				'authority'=>1,
 				'source'=>512,
 			),
 		),
 		'cert'=>array(
+			'application/pkix-cert'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'application/x-x509-ca-cert'=>array(
-				'authority'=>36,
-				'source'=>24,
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'cfc'=>array(
@@ -2648,6 +2870,16 @@ final class Extensions {
 			'image/cgm'=>array(
 				'authority'=>36,
 				'source'=>156,
+			),
+		),
+		'ch8'=>array(
+			'application/x-chip8-program'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'changelog'=>array(
@@ -2934,18 +3166,32 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'cmcd'=>array(
+			'application/cmcd'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'cmd'=>array(
 			'application/x-bat'=>array(
-				'authority'=>1,
-				'source'=>128,
+				'authority'=>2,
+				'source'=>144,
 			),
 			'application/bat'=>array(
-				'authority'=>1,
-				'source'=>128,
+				'authority'=>2,
+				'source'=>144,
 			),
 			'text/plain'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
+			'application/x-msdos-program'=>array(
 				'authority'=>1,
-				'source'=>128,
+				'source'=>16,
+			),
+			'text/x-msdos-batch'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'cmdf'=>array(
@@ -3239,6 +3485,14 @@ final class Extensions {
 				'authority'=>36,
 				'source'=>1020,
 			),
+			'application/pkix-cert'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-commodore-crt'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'application/x-x509-cert'=>array(
 				'authority'=>1,
 				'source'=>128,
@@ -3307,13 +3561,13 @@ final class Extensions {
 				'authority'=>3,
 				'source'=>148,
 			),
-			'application/x-shellscript'=>array(
+			'text/x-csh'=>array(
+				'authority'=>2,
+				'source'=>528,
+			),
+			'text/x-shellscript'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-			'text/x-csh'=>array(
-				'authority'=>1,
-				'source'=>512,
 			),
 		),
 		'csl'=>array(
@@ -3344,6 +3598,12 @@ final class Extensions {
 			'application/vnd.commonspace'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'csr'=>array(
+			'application/pkcs10'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'csrattrs'=>array(
@@ -3528,6 +3788,12 @@ final class Extensions {
 				'source'=>140,
 			),
 		),
+		'cxtf'=>array(
+			'application/vnd.cxtf'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'cxx'=>array(
 			'text/x-c+src'=>array(
 				'authority'=>3,
@@ -3546,10 +3812,62 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'cxzip'=>array(
+			'application/vnd.cxzip'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'd'=>array(
 			'text/x-dsrc'=>array(
 				'authority'=>36,
 				'source'=>520,
+			),
+		),
+		'd40'=>array(
+			'application/x-spectrum-d80'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'd64'=>array(
+			'application/x-commodore-d64-disk'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'd71'=>array(
+			'application/x-commodore-d71-disk'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'd80'=>array(
+			'application/x-commodore-d80-disk'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-spectrum-d80'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'd81'=>array(
+			'application/x-commodore-d81-disk'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'd82'=>array(
+			'application/x-commodore-d82-disk'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'd90'=>array(
+			'application/x-commodore-d90-disk'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'dae'=>array(
@@ -3747,9 +4065,13 @@ final class Extensions {
 			),
 		),
 		'dds'=>array(
+			'image/vnd.ms-dds'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'image/x-dds'=>array(
-				'authority'=>36,
-				'source'=>24,
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'deb'=>array(
@@ -3774,6 +4096,12 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'deck'=>array(
+			'application/vnd.deckyard.deck'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'def'=>array(
 			'text/plain'=>array(
 				'authority'=>36,
@@ -3790,6 +4118,46 @@ final class Extensions {
 			'application/x-x509-ca-cert'=>array(
 				'authority'=>3,
 				'source'=>84,
+			),
+			'application/pkcs7-mime'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkcs7-signature'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkcs8'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkcs8-encrypted'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkcs10'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkix-cert'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkix-crl'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-pkcs7-certificates'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkcs12'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-pkcs12'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'application/x-x509-certformatder'=>array(
 				'authority'=>1,
@@ -3812,6 +4180,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'deut'=>array(
+			'application/vnd.deut+json'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'device'=>array(
@@ -3856,6 +4230,12 @@ final class Extensions {
 			'application/x-dgc-compressed'=>array(
 				'authority'=>36,
 				'source'=>12,
+			),
+		),
+		'dgl'=>array(
+			'application/vnd.dgl'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'di'=>array(
@@ -4116,6 +4496,10 @@ final class Extensions {
 				'source'=>16,
 			),
 			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-lx-executable'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -4480,6 +4864,12 @@ final class Extensions {
 				'source'=>140,
 			),
 		),
+		'dsdoc'=>array(
+			'application/vnd.digitalstack.document+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'dsf'=>array(
 			'audio/x-dsf'=>array(
 				'authority'=>1,
@@ -4498,6 +4888,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'dsk'=>array(
+			'application/x-spectrum-dsk'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'dsl'=>array(
 			'text/x-dsl'=>array(
 				'authority'=>1,
@@ -4508,10 +4904,20 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'dsm'=>array(
+			'audio/x-dsp'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'dsp'=>array(
 			'text/plain'=>array(
 				'authority'=>2,
 				'source'=>144,
+			),
+			'audio/x-dsp'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'text/x-ms-visualstudio.project'=>array(
 				'authority'=>1,
@@ -4528,6 +4934,12 @@ final class Extensions {
 			'application/dssc+der'=>array(
 				'authority'=>36,
 				'source'=>44,
+			),
+		),
+		'dstack'=>array(
+			'application/vnd.digitalstack.document+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'dsw'=>array(
@@ -4830,10 +5242,22 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'edux'=>array(
+			'application/vnd.edulith.edux+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'edx'=>array(
 			'application/vnd.novadigm.edx'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'efd'=>array(
+			'application/vnd.cmmf-efd+xml'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'efi'=>array(
@@ -5099,9 +5523,17 @@ final class Extensions {
 			),
 		),
 		'erf'=>array(
+			'image/x-epson-erf'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-dcraw'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'image/x-raw-epson'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'eris'=>array(
@@ -5226,6 +5658,10 @@ final class Extensions {
 				'source'=>16,
 			),
 			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-lx-executable'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -5412,8 +5848,32 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'facts'=>array(
+			'application/vnd.blockfact.facts'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'factv'=>array(
 			'video/vnd.blockfact.factv'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'faf'=>array(
+			'application/vnd.faf+yaml'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'fafa'=>array(
+			'application/vnd.fafa+yaml'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'fafm'=>array(
+			'application/vnd.fafm+yaml'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -5530,10 +5990,24 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
-		'fff'=>array(
-			'image/x-raw-imacon'=>array(
+		'ff'=>array(
+			'image/x-farbfeld'=>array(
 				'authority'=>36,
-				'source'=>136,
+				'source'=>24,
+			),
+		),
+		'fff'=>array(
+			'image/x-hasselblad-fff'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-dcraw'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-raw-imacon'=>array(
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'fg5'=>array(
@@ -5751,6 +6225,10 @@ final class Extensions {
 			),
 		),
 		'flc'=>array(
+			'video/x-flc'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
 			'video/x-flic'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -5762,10 +6240,6 @@ final class Extensions {
 			'video/x-fli'=>array(
 				'authority'=>1,
 				'source'=>16,
-			),
-			'video/x-flc'=>array(
-				'authority'=>1,
-				'source'=>128,
 			),
 		),
 		'fli'=>array(
@@ -5778,6 +6252,10 @@ final class Extensions {
 				'source'=>528,
 			),
 			'video/x-flic'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'video/x-flc'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -5992,8 +6470,12 @@ final class Extensions {
 		),
 		'fst'=>array(
 			'image/vnd.fst'=>array(
-				'authority'=>36,
-				'source'=>172,
+				'authority'=>12,
+				'source'=>164,
+			),
+			'audio/x-mod'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'ft'=>array(
@@ -6042,6 +6524,12 @@ final class Extensions {
 			'application/vnd.fluxtime.clip'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'ftech'=>array(
+			'application/vnd.foritech.container'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'fti'=>array(
@@ -6134,6 +6622,18 @@ final class Extensions {
 			'application/vnd.geospace'=>array(
 				'authority'=>36,
 				'source'=>44,
+			),
+		),
+		'g64'=>array(
+			'application/x-commodore-g64-disk'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'g71'=>array(
+			'application/x-commodore-g71-disk'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'gac'=>array(
@@ -6482,6 +6982,12 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'gitbundle'=>array(
+			'application/x-git-bundle'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'gjc'=>array(
 			'chemical/x-gaussian-input'=>array(
 				'authority'=>36,
@@ -6632,6 +7138,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'gp3'=>array(
+			'application/vnd.gp3'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'gpg'=>array(
 			'application/pgp-encrypted'=>array(
 				'authority'=>1,
@@ -6734,12 +7246,8 @@ final class Extensions {
 		),
 		'gradle'=>array(
 			'text/x-gradle'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'text/x-groovy'=>array(
-				'authority'=>1,
-				'source'=>16,
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'gram'=>array(
@@ -7035,6 +7543,10 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
+			'application/vnd.hdfgroup.hdf5'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/x-hdf'=>array(
 				'authority'=>2,
 				'source'=>144,
@@ -7088,6 +7600,14 @@ final class Extensions {
 			'application/x-hdf'=>array(
 				'authority'=>36,
 				'source'=>1020,
+			),
+			'application/vnd.hdfgroup.hdf4'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/x-spectrum-hdf'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'hdf4'=>array(
@@ -7163,7 +7683,7 @@ final class Extensions {
 		'heics'=>array(
 			'image/heic-sequence'=>array(
 				'authority'=>36,
-				'source'=>264,
+				'source'=>268,
 			),
 		),
 		'heif'=>array(
@@ -7210,6 +7730,12 @@ final class Extensions {
 			'image/hej2k'=>array(
 				'authority'=>36,
 				'source'=>56,
+			),
+		),
+		'hekaya'=>array(
+			'text/vnd.hekaya'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'held'=>array(
@@ -7500,6 +8026,28 @@ final class Extensions {
 				'source'=>16,
 			),
 			'application/vnd.haansoft-hwp'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'hwpx'=>array(
+			'application/x-hwpx'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/hwp+zip'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/vnd.hancom.hwpx'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-hwp+zip'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/zip'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -7879,9 +8427,17 @@ final class Extensions {
 			),
 		),
 		'iiq'=>array(
+			'image/x-phaseone-iiq'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-dcraw'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'image/x-raw-phaseone'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'ilbm'=>array(
@@ -8086,6 +8642,12 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'ipf'=>array(
+			'application/vnd.softpres-ipf-disk-image'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'ipfix'=>array(
 			'application/ipfix'=>array(
 				'authority'=>36,
@@ -8121,6 +8683,10 @@ final class Extensions {
 			),
 		),
 		'ipynb'=>array(
+			'application/vnd.jupyter'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/x-ipynb+json'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -8170,10 +8736,6 @@ final class Extensions {
 				'source'=>16,
 			),
 			'application/x-sega-cd-rom'=>array(
-				'authority'=>1,
-				'source'=>16,
-			),
-			'application/x-sega-pico-rom'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -8815,11 +9377,39 @@ final class Extensions {
 				'authority'=>36,
 				'source'=>1020,
 			),
+			'application/3gpp-mbs-object-manifest+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/3gpp-mbs-user-service-descriptions+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/3gpp-media-delivery-metrics-report+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/emergencycalldata.legacyesn+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
+			'application/asyncapi+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/asyncapi+yaml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/city+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/cloudevents+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/cloudevents-batch+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -8851,6 +9441,10 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
+			'application/vnd.apple.steering-list'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.avalon+json'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -8864,6 +9458,14 @@ final class Extensions {
 				'source'=>32,
 			),
 			'application/vnd.capasystems-pg+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.cmmf-configuration-information+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/vnd.cmmf-encoder-configuration+json'=>array(
 				'authority'=>10,
 				'source'=>32,
 			),
@@ -9162,6 +9764,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'jumbf'=>array(
+			'application/jumbf'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'junit'=>array(
 			'text/plain'=>array(
 				'authority'=>36,
@@ -9266,6 +9874,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'kbl'=>array(
+			'application/kbl+xml'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'kcf'=>array(
 			'image/x-kiss-cel'=>array(
 				'authority'=>36,
@@ -9365,6 +9979,10 @@ final class Extensions {
 				'authority'=>2,
 				'source'=>528,
 			),
+			'application/pkcs8'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'application/x-iwork-keynote-sffkey'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -9442,6 +10060,12 @@ final class Extensions {
 			'application/xml'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'klypix'=>array(
+			'application/vnd.klypix+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'kml'=>array(
@@ -9756,6 +10380,12 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'lf'=>array(
+			'text/vnd.longform'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'lgr'=>array(
 			'application/lgr+xml'=>array(
 				'authority'=>36,
@@ -9916,6 +10546,12 @@ final class Extensions {
 				'source'=>144,
 			),
 		),
+		'longform'=>array(
+			'text/vnd.longform'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'loom'=>array(
 			'application/vnd.loom'=>array(
 				'authority'=>36,
@@ -9938,6 +10574,16 @@ final class Extensions {
 			'video/lottie+json'=>array(
 				'authority'=>36,
 				'source'=>40,
+			),
+		),
+		'lrc'=>array(
+			'text/x-lrc'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'lrf'=>array(
@@ -10042,6 +10688,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'luku'=>array(
+			'application/vnd.lukuid.package+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'lvp'=>array(
@@ -10500,6 +11152,12 @@ final class Extensions {
 				'source'=>512,
 			),
 		),
+		'maml'=>array(
+			'application/vnd.maml'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'man'=>array(
 			'application/x-troff-man'=>array(
 				'authority'=>3,
@@ -10667,6 +11325,10 @@ final class Extensions {
 				'authority'=>2,
 				'source'=>144,
 			),
+			'application/x-sega-pico-rom'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'application/x-genesis-rom'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -10716,8 +11378,16 @@ final class Extensions {
 		),
 		'mdc'=>array(
 			'application/vnd.marlin.drm.mdcf'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>10,
+				'source'=>32,
+			),
+			'image/x-minolta-mdc'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-dcraw'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'mdi'=>array(
@@ -10738,6 +11408,12 @@ final class Extensions {
 				'source'=>136,
 			),
 		),
+		'mdr'=>array(
+			'application/x-spectrum-mdr'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'mdtext'=>array(
 			'text/x-web-markdown'=>array(
 				'authority'=>1,
@@ -10748,10 +11424,22 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'mdtps'=>array(
+			'text/vnd.tps'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'mdx'=>array(
 			'application/x-genesis-32x-rom'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'mdz'=>array(
+			'application/prs.archive-markdown-format'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'me'=>array(
@@ -10785,15 +11473,23 @@ final class Extensions {
 			),
 		),
 		'med'=>array(
-			'audio/x-mod'=>array(
+			'audio/x-med'=>array(
 				'authority'=>36,
 				'source'=>24,
 			),
 		),
 		'mef'=>array(
+			'image/x-mamiya-mef'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-dcraw'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'image/x-raw-mamiya'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'memgraph'=>array(
@@ -10896,6 +11592,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'mgt'=>array(
+			'application/x-spectrum-mgt'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'mgz'=>array(
@@ -11028,6 +11730,18 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'mjkb'=>array(
+			'application/vnd.majikah.bundle'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'mjksig'=>array(
+			'application/vnd.majikah.mjksig'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'mjp2'=>array(
 			'video/mj2'=>array(
 				'authority'=>3,
@@ -11100,8 +11814,8 @@ final class Extensions {
 		),
 		'mk3d'=>array(
 			'video/matroska-3d'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
 			),
 			'video/x-matroska'=>array(
 				'authority'=>1,
@@ -11118,8 +11832,8 @@ final class Extensions {
 		),
 		'mka'=>array(
 			'audio/matroska'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
 			),
 			'audio/x-matroska'=>array(
 				'authority'=>5,
@@ -11160,8 +11874,8 @@ final class Extensions {
 				'source'=>1020,
 			),
 			'video/matroska'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
 			),
 			'application/x-matroska'=>array(
 				'authority'=>2,
@@ -11440,6 +12154,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'mohnetic'=>array(
+			'application/vnd.mohnetic'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'mol'=>array(
 			'chemical/x-mdl-molfile'=>array(
 				'authority'=>36,
@@ -11481,9 +12201,17 @@ final class Extensions {
 			),
 		),
 		'mos'=>array(
+			'image/x-leaf-mos'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-dcraw'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'image/x-raw-leaf'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'mount'=>array(
@@ -12219,9 +12947,13 @@ final class Extensions {
 			),
 		),
 		'mtm'=>array(
-			'audio/x-mod'=>array(
-				'authority'=>36,
-				'source'=>24,
+			'audio/x-mtm'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'audio/x-multitrack'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'mts'=>array(
@@ -12296,6 +13028,12 @@ final class Extensions {
 			'application/vnd.mfer'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'mx'=>array(
+			'text/vnd.gist.mx'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'mxf'=>array(
@@ -12392,12 +13130,12 @@ final class Extensions {
 		),
 		'n3'=>array(
 			'text/n3'=>array(
-				'authority'=>1,
-				'source'=>4,
+				'authority'=>2,
+				'source'=>20,
 			),
 			'text/plain'=>array(
-				'authority'=>1,
-				'source'=>128,
+				'authority'=>2,
+				'source'=>144,
 			),
 		),
 		'n64'=>array(
@@ -12440,6 +13178,12 @@ final class Extensions {
 				'source'=>44,
 			),
 		),
+		'nbs'=>array(
+			'audio/vnd.opennbs.nbs'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'nc'=>array(
 			'application/x-netcdf'=>array(
 				'authority'=>36,
@@ -12465,9 +13209,13 @@ final class Extensions {
 			),
 		),
 		'nds'=>array(
+			'application/vnd.nintendo.nitro.rom'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'application/x-nintendo-ds-rom'=>array(
-				'authority'=>36,
-				'source'=>24,
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'nebul'=>array(
@@ -12528,6 +13276,12 @@ final class Extensions {
 			'application/x-neo-geo-pocket-rom'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'nila'=>array(
+			'application/vnd.nila.protobuf-bundle+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'nim'=>array(
@@ -12630,6 +13384,12 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'nomos'=>array(
+			'application/vnd.nomos+json'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'not'=>array(
 			'text/x-mup'=>array(
 				'authority'=>1,
@@ -12664,6 +13424,12 @@ final class Extensions {
 			'image/vnd.net-fpx'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'nrg'=>array(
+			'application/x-nrg'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'nroff'=>array(
@@ -12720,6 +13486,32 @@ final class Extensions {
 			'application/vnd.lotus-notes'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'nsh'=>array(
+			'text/x-nsis'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'nsi'=>array(
+			'text/x-nsis'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
+		'nst'=>array(
+			'audio/x-mod'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'nsv'=>array(
@@ -12784,6 +13576,16 @@ final class Extensions {
 			'application/x-nwc'=>array(
 				'authority'=>36,
 				'source'=>520,
+			),
+		),
+		'nx'=>array(
+			'application/x-lowresnx-program'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'nzb'=>array(
@@ -12852,6 +13654,10 @@ final class Extensions {
 			'application/x-tgif'=>array(
 				'authority'=>2,
 				'source'=>20,
+			),
+			'application/x-coff'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'application/prs.wavefront-obj'=>array(
 				'authority'=>1,
@@ -13059,11 +13865,11 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'audio/x-vorbis+ogg'=>array(
+			'audio/vorbis'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'audio/vorbis'=>array(
+			'audio/x-vorbis+ogg'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -13268,6 +14074,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'ootmm'=>array(
+			'application/vnd.ootmm.patch+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'openvpn'=>array(
 			'application/x-openvpn-profile'=>array(
 				'authority'=>1,
@@ -13361,13 +14173,13 @@ final class Extensions {
 			),
 		),
 		'org'=>array(
+			'text/org'=>array(
+				'authority'=>11,
+				'source'=>48,
+			),
 			'application/vnd.lotus-organizer'=>array(
 				'authority'=>2,
 				'source'=>132,
-			),
-			'text/org'=>array(
-				'authority'=>1,
-				'source'=>16,
 			),
 			'text/plain'=>array(
 				'authority'=>1,
@@ -13700,6 +14512,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'p7'=>array(
+			'image/x-xv-thumbnail'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'p7b'=>array(
 			'application/x-pkcs7-certificates'=>array(
 				'authority'=>36,
@@ -13726,18 +14544,28 @@ final class Extensions {
 		),
 		'p7s'=>array(
 			'application/pkcs7-signature'=>array(
-				'authority'=>3,
-				'source'=>148,
+				'authority'=>36,
+				'source'=>156,
 			),
-			'text/plain'=>array(
-				'authority'=>1,
-				'source'=>16,
+		),
+		'p7z'=>array(
+			'application/pkcs7-mime'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'p8'=>array(
 			'application/pkcs8'=>array(
-				'authority'=>36,
-				'source'=>60,
+				'authority'=>12,
+				'source'=>52,
+			),
+			'application/x-pico8-source'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'p8e'=>array(
@@ -13790,6 +14618,16 @@ final class Extensions {
 			'application/x-pak'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'pam'=>array(
+			'image/x-portable-arbitrarymap'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-portable-anymap'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'par2'=>array(
@@ -14087,6 +14925,46 @@ final class Extensions {
 				'authority'=>2,
 				'source'=>80,
 			),
+			'application/pkcs7-mime'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkcs7-signature'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkcs8'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkcs8-encrypted'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkcs10'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkix-cert'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkix-crl'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-pkcs7-certificates'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/pkcs12'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-pkcs12'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 			'application/x-x509-certformatpem'=>array(
 				'authority'=>1,
 				'source'=>128,
@@ -14236,6 +15114,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>0,
 				'source'=>9,
+			),
+		),
+		'phbk'=>array(
+			'application/vnd.phbk+xml'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'phm'=>array(
@@ -14992,6 +15876,12 @@ final class Extensions {
 				'source'=>652,
 			),
 		),
+		'prg'=>array(
+			'application/vnd.project-graph'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'pro'=>array(
 			'text/x-prolog'=>array(
 				'authority'=>1,
@@ -15028,6 +15918,12 @@ final class Extensions {
 		),
 		'provx'=>array(
 			'application/provenance+xml'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'prsm'=>array(
+			'application/vnd.prismatic'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -15234,16 +16130,38 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'puml'=>array(
+			'text/vnd.plantuml'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'pvb'=>array(
 			'application/vnd.3gpp.pic-bw-var'=>array(
 				'authority'=>36,
 				'source'=>172,
 			),
 		),
+		'pvf'=>array(
+			'application/vnd.vertifile.pvf'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'pw'=>array(
 			'application/x-pw'=>array(
 				'authority'=>36,
 				'source'=>24,
+			),
+		),
+		'pweb'=>array(
+			'application/vnd.portableweb+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'pwn'=>array(
@@ -15410,6 +16328,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'pzx'=>array(
+			'application/x-spectrum-pzx'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'qam'=>array(
 			'application/vnd.epson.quickanime'=>array(
 				'authority'=>36,
@@ -15493,6 +16417,10 @@ final class Extensions {
 			),
 		),
 		'qml'=>array(
+			'text/qml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'text/x-qml'=>array(
 				'authority'=>1,
 				'source'=>16,
@@ -15866,6 +16794,12 @@ final class Extensions {
 				'source'=>136,
 			),
 		),
+		'receipt'=>array(
+			'application/scitt-receipt+cose'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'reg'=>array(
 			'text/x-ms-regedit'=>array(
 				'authority'=>1,
@@ -15874,6 +16808,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'rego'=>array(
+			'application/vnd.rego'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'rej'=>array(
@@ -16404,6 +17344,32 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'rvz'=>array(
+			'application/x-wii-rom'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-wii-iso-image'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-wbfs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-wia'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-gamecube-rom'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-gamecube-iso-image'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'rw2'=>array(
 			'image/x-panasonic-rw2'=>array(
 				'authority'=>1,
@@ -16420,6 +17386,20 @@ final class Extensions {
 			'image/x-raw-panasonic'=>array(
 				'authority'=>1,
 				'source'=>128,
+			),
+		),
+		'rwl'=>array(
+			'image/x-panasonic-rw2'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-panasonic-raw2'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-dcraw'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'rwz'=>array(
@@ -16442,6 +17422,12 @@ final class Extensions {
 		),
 		'rz'=>array(
 			'application/x-rzip'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'rzx'=>array(
+			'application/x-spectrum-rzx'=>array(
 				'authority'=>36,
 				'source'=>24,
 			),
@@ -16572,6 +17558,12 @@ final class Extensions {
 			'text/x-python'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'sal'=>array(
+			'application/vnd.salvanote.sal'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'sam'=>array(
@@ -16776,6 +17768,16 @@ final class Extensions {
 				'source'=>136,
 			),
 		),
+		'sc8'=>array(
+			'application/x-chip8-program'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'scala'=>array(
 			'text/x-scala'=>array(
 				'authority'=>2,
@@ -16820,6 +17822,12 @@ final class Extensions {
 				'source'=>136,
 			),
 		),
+		'scitt'=>array(
+			'application/scitt-statement+cose'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'scl'=>array(
 			'application/vnd.sycle+xml'=>array(
 				'authority'=>36,
@@ -16828,6 +17836,12 @@ final class Extensions {
 		),
 		'scld'=>array(
 			'application/vnd.doremir.scorecloud-binary-document'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'sclt'=>array(
+			'application/prs.sclt'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -16880,6 +17894,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'scp'=>array(
+			'application/vnd.supercard-pro-disk-image'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'scq'=>array(
@@ -16937,13 +17957,17 @@ final class Extensions {
 			),
 		),
 		'sct'=>array(
-			'image/x-sct'=>array(
+			'text/scriptlet'=>array(
+				'authority'=>2,
+				'source'=>528,
+			),
+			'application/xml'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'text/scriptlet'=>array(
+			'image/x-sct'=>array(
 				'authority'=>1,
-				'source'=>512,
+				'source'=>16,
 			),
 		),
 		'scurl'=>array(
@@ -17017,10 +18041,6 @@ final class Extensions {
 			),
 		),
 		'sdf'=>array(
-			'application/sdf+json'=>array(
-				'authority'=>10,
-				'source'=>32,
-			),
 			'application/vnd.kinar'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -17128,8 +18148,12 @@ final class Extensions {
 		),
 		'sed'=>array(
 			'text/x-sed'=>array(
+				'authority'=>2,
+				'source'=>144,
+			),
+			'application/x-executable'=>array(
 				'authority'=>1,
-				'source'=>128,
+				'source'=>16,
 			),
 			'text/plain'=>array(
 				'authority'=>1,
@@ -17268,6 +18292,12 @@ final class Extensions {
 			'application/set-registration-initiation'=>array(
 				'authority'=>36,
 				'source'=>140,
+			),
+		),
+		'sf2'=>array(
+			'audio/soundfont'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'sf3'=>array(
@@ -17456,6 +18486,10 @@ final class Extensions {
 			'text/x-sh'=>array(
 				'authority'=>2,
 				'source'=>528,
+			),
+			'text/x-shellscript'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 			'application/x-shellscript'=>array(
 				'authority'=>1,
@@ -17772,6 +18806,12 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'sld'=>array(
+			'image/vnd.sld'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'sldasm'=>array(
 			'application/sldworks'=>array(
 				'authority'=>1,
@@ -17840,6 +18880,16 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'slint'=>array(
+			'text/slint'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'text/plain'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'slk'=>array(
 			'application/x-sylk'=>array(
 				'authority'=>1,
@@ -17862,8 +18912,16 @@ final class Extensions {
 		),
 		'slt'=>array(
 			'application/vnd.epson.salt'=>array(
-				'authority'=>36,
-				'source'=>172,
+				'authority'=>12,
+				'source'=>164,
+			),
+			'application/x-spectrum-slt'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-spectrum-z80'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'sm'=>array(
@@ -17903,7 +18961,7 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'application/x-genesis-rom'=>array(
+			'application/x-genesis-rom-smd'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -18050,6 +19108,12 @@ final class Extensions {
 				'source'=>44,
 			),
 		),
+		'sna'=>array(
+			'application/x-spectrum-sna'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'snap'=>array(
 			'application/vnd.snap'=>array(
 				'authority'=>1,
@@ -18144,6 +19208,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'spdx3json'=>array(
+			'application/spdx3+json'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'spdxjson'=>array(
@@ -18300,6 +19370,12 @@ final class Extensions {
 				'source'=>4,
 			),
 		),
+		'sqlite'=>array(
+			'application/vnd.sqlite3'=>array(
+				'authority'=>36,
+				'source'=>12,
+			),
+		),
 		'sqlite2'=>array(
 			'application/x-sqlite2'=>array(
 				'authority'=>36,
@@ -18308,8 +19384,8 @@ final class Extensions {
 		),
 		'sqlite3'=>array(
 			'application/vnd.sqlite3'=>array(
-				'authority'=>21,
-				'source'=>24,
+				'authority'=>22,
+				'source'=>28,
 			),
 			'application/x-sqlite3'=>array(
 				'authority'=>1,
@@ -18410,6 +19486,16 @@ final class Extensions {
 			'application/sru+xml'=>array(
 				'authority'=>36,
 				'source'=>44,
+			),
+		),
+		'srw'=>array(
+			'image/x-samsung-srw'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-dcraw'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'srx'=>array(
@@ -18577,6 +19663,14 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
+			'image/x-sinar-sti'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'image/x-dcraw'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
 		),
 		'stif'=>array(
 			'application/vnd.sealed.tiff'=>array(
@@ -18592,8 +19686,12 @@ final class Extensions {
 		),
 		'stk'=>array(
 			'application/hyperstudio'=>array(
-				'authority'=>36,
-				'source'=>140,
+				'authority'=>2,
+				'source'=>132,
+			),
+			'audio/x-mod'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'stl'=>array(
@@ -18711,9 +19809,13 @@ final class Extensions {
 			),
 		),
 		'stx'=>array(
+			'application/vnd.pasti-stx-disk-image'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/x-sas-transport'=>array(
-				'authority'=>36,
-				'source'=>136,
+				'authority'=>1,
+				'source'=>128,
 			),
 		),
 		'sty'=>array(
@@ -18858,6 +19960,12 @@ final class Extensions {
 			'text/x-verilog'=>array(
 				'authority'=>1,
 				'source'=>16,
+			),
+		),
+		'svrjson'=>array(
+			'application/vnd.svr.receipt+json'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'sw'=>array(
@@ -19031,11 +20139,15 @@ final class Extensions {
 			),
 		),
 		'sys'=>array(
-			'application/vnd.microsoft.portable-executable'=>array(
+			'application/x-lx-executable'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
 			'application/x-msdownload'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/vnd.microsoft.portable-executable'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -19050,6 +20162,12 @@ final class Extensions {
 			'application/x-snappy-framed'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'szx'=>array(
+			'application/x-spectrum-szx'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		't'=>array(
@@ -19080,6 +20198,18 @@ final class Extensions {
 		),
 		't38'=>array(
 			'image/t38'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		't64'=>array(
+			'application/x-commodore-tape'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
+		'tabla'=>array(
+			'application/vnd.tablafocus.notation'=>array(
 				'authority'=>36,
 				'source'=>40,
 			),
@@ -19126,8 +20256,16 @@ final class Extensions {
 		),
 		'tap'=>array(
 			'image/vnd.tencent.tap'=>array(
-				'authority'=>36,
-				'source'=>40,
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/x-commodore-tape'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-spectrum-tap'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'tar'=>array(
@@ -19202,6 +20340,16 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'tbr'=>array(
+			'application/x-brotli-compressed-tar'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-brotli'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'tbz'=>array(
 			'application/x-bzip1-compressed-tar'=>array(
 				'authority'=>1,
@@ -19243,7 +20391,7 @@ final class Extensions {
 				'authority'=>1,
 				'source'=>16,
 			),
-			'application/x-bzip3'=>array(
+			'application/vnd.bzip3'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -19324,8 +20472,8 @@ final class Extensions {
 		),
 		'texi'=>array(
 			'application/texinfo'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
 			),
 			'text/prs.texi'=>array(
 				'authority'=>10,
@@ -19346,8 +20494,8 @@ final class Extensions {
 		),
 		'texinfo'=>array(
 			'application/texinfo'=>array(
-				'authority'=>10,
-				'source'=>32,
+				'authority'=>11,
+				'source'=>48,
 			),
 			'application/x-texinfo'=>array(
 				'authority'=>3,
@@ -19512,6 +20660,16 @@ final class Extensions {
 				'source'=>9,
 			),
 		),
+		'tic'=>array(
+			'application/x-tic80-item'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'tif'=>array(
 			'image/tiff'=>array(
 				'authority'=>36,
@@ -19522,6 +20680,12 @@ final class Extensions {
 			'image/tiff'=>array(
 				'authority'=>36,
 				'source'=>988,
+			),
+		),
+		'tim'=>array(
+			'image/x-tim'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'timer'=>array(
@@ -19712,6 +20876,18 @@ final class Extensions {
 			'application/vnd.groove-tool-template'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'tps'=>array(
+			'text/vnd.tps'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'tpsmd'=>array(
+			'text/vnd.tps'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'tpt'=>array(
@@ -19933,7 +21109,7 @@ final class Extensions {
 				'authority'=>2,
 				'source'=>20,
 			),
-			'text/plain'=>array(
+			'text/n3'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
@@ -20064,6 +21240,12 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'tzx'=>array(
+			'application/x-spectrum-tzx'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'u32'=>array(
 			'application/x-authorware-bin'=>array(
 				'authority'=>36,
@@ -20165,9 +21347,13 @@ final class Extensions {
 			),
 		),
 		'ult'=>array(
-			'audio/x-mod'=>array(
-				'authority'=>36,
-				'source'=>24,
+			'audio/x-ult'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'audio/x-multimate-mod'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'ulx'=>array(
@@ -20189,9 +21375,13 @@ final class Extensions {
 			),
 		),
 		'uni'=>array(
-			'audio/x-mod'=>array(
-				'authority'=>36,
-				'source'=>24,
+			'audio/x-669'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'audio/x-669-mod'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'unif'=>array(
@@ -20738,6 +21928,24 @@ final class Extensions {
 				'source'=>40,
 			),
 		),
+		'vec'=>array(
+			'application/vec+xml'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'vecpkggz'=>array(
+			'application/vec-package+gzip'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'vecpkgzip'=>array(
+			'application/vec-package+zip'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'ves'=>array(
 			'application/vnd.ves.encrypted'=>array(
 				'authority'=>36,
@@ -20870,6 +22078,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'vma'=>array(
+			'application/vnd.vimina.vma'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'vmd'=>array(
@@ -21244,10 +22458,26 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'vuq'=>array(
+			'application/vnd.vuq'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'vwx'=>array(
 			'application/vnd.vectorworks'=>array(
 				'authority'=>36,
 				'source'=>40,
+			),
+		),
+		'vxd'=>array(
+			'application/x-lx-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-msdownload'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'vxm'=>array(
@@ -21530,6 +22760,32 @@ final class Extensions {
 			'application/widget'=>array(
 				'authority'=>36,
 				'source'=>44,
+			),
+		),
+		'wia'=>array(
+			'application/x-wii-rom'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-wii-iso-image'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-wbfs'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-wia'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-gamecube-rom'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-gamecube-iso-image'=>array(
+				'authority'=>1,
+				'source'=>16,
 			),
 		),
 		'wif'=>array(
@@ -22081,13 +23337,17 @@ final class Extensions {
 				'authority'=>10,
 				'source'=>32,
 			),
-			'application/x-wonderswan-color-rom'=>array(
+			'text/scriptlet'=>array(
+				'authority'=>2,
+				'source'=>528,
+			),
+			'application/xml'=>array(
 				'authority'=>1,
 				'source'=>16,
 			),
-			'text/scriptlet'=>array(
+			'application/x-wonderswan-color-rom'=>array(
 				'authority'=>1,
-				'source'=>512,
+				'source'=>16,
 			),
 		),
 		'wsdd'=>array(
@@ -22266,6 +23526,12 @@ final class Extensions {
 				'source'=>128,
 			),
 		),
+		'x64'=>array(
+			'application/x-commodore-x64-disk'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'x_b'=>array(
 			'model/vnd.parasolid.transmit.binary'=>array(
 				'authority'=>36,
@@ -22382,6 +23648,12 @@ final class Extensions {
 			'text/plain'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'xcdn'=>array(
+			'application/vnd.xcdn'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'xcf'=>array(
@@ -23662,6 +24934,16 @@ final class Extensions {
 				'source'=>172,
 			),
 		),
+		'xo8'=>array(
+			'application/x-chip8-program'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+			'application/x-executable'=>array(
+				'authority'=>1,
+				'source'=>16,
+			),
+		),
 		'xodp'=>array(
 			'application/vnd.collabio.xodocuments.presentation'=>array(
 				'authority'=>36,
@@ -24007,6 +25289,14 @@ final class Extensions {
 			),
 		),
 		'yaml'=>array(
+			'application/asyncapi+json'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
+			'application/asyncapi+yaml'=>array(
+				'authority'=>10,
+				'source'=>32,
+			),
 			'application/vnd.oai.workflows'=>array(
 				'authority'=>10,
 				'source'=>32,
@@ -24160,6 +25450,12 @@ final class Extensions {
 				'source'=>12,
 			),
 		),
+		'z80'=>array(
+			'application/x-spectrum-z80'=>array(
+				'authority'=>36,
+				'source'=>24,
+			),
+		),
 		'zabw'=>array(
 			'application/x-abiword'=>array(
 				'authority'=>1,
@@ -24174,6 +25470,12 @@ final class Extensions {
 			'application/vnd.zzazz.deck+xml'=>array(
 				'authority'=>36,
 				'source'=>172,
+			),
+		),
+		'zdoc'=>array(
+			'application/vnd.zoho-document.writer'=>array(
+				'authority'=>36,
+				'source'=>40,
 			),
 		),
 		'zfc'=>array(
@@ -24286,6 +25588,18 @@ final class Extensions {
 				'source'=>16,
 			),
 		),
+		'zsheet'=>array(
+			'application/vnd.zoho.spreadsheetml.sheet'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
+		'zshow'=>array(
+			'application/vnd.zoho-presentation.show'=>array(
+				'authority'=>36,
+				'source'=>40,
+			),
+		),
 		'zst'=>array(
 			'application/zstd'=>array(
 				'authority'=>36,
@@ -24296,6 +25610,12 @@ final class Extensions {
 			'application/zstd'=>array(
 				'authority'=>36,
 				'source'=>136,
+			),
+		),
+		'zx-state'=>array(
+			'application/x-spectrum-szx'=>array(
+				'authority'=>36,
+				'source'=>24,
 			),
 		),
 		'zz'=>array(
@@ -24313,10 +25633,13 @@ final class Extensions {
 		'1km'=>16,
 		'323'=>8,
 		'3dml'=>8,
+		'3dtileszip'=>32,
 		'3mf'=>32,
 		'3tz'=>32,
 		'4th'=>8,
+		'8o'=>8,
 		'aart'=>8,
+		'aasx'=>32,
 		'abs-linkmap'=>8,
 		'abs-menulinks'=>8,
 		'abw'=>16,
@@ -24326,6 +25649,9 @@ final class Extensions {
 		'adb'=>8,
 		'adoc'=>8,
 		'ads'=>8,
+		'aep'=>32,
+		'agent'=>2,
+		'agentjson'=>2,
 		'aion'=>2,
 		'air'=>32,
 		'aj'=>8,
@@ -24373,10 +25699,12 @@ final class Extensions {
 		'blp'=>8,
 		'bmml'=>16,
 		'boo'=>8,
+		'bovnar'=>8,
 		'bpm'=>32,
 		'brf'=>8,
 		'brk'=>8,
 		'bsh'=>8,
+		'bvnr'=>8,
 		'c'=>8,
 		'carjson'=>2,
 		'cbl'=>8,
@@ -24438,6 +25766,7 @@ final class Extensions {
 		'ddf'=>16,
 		'def'=>8,
 		'desktop'=>8,
+		'deut'=>2,
 		'device'=>8,
 		'dfxp'=>16,
 		'di'=>8,
@@ -24463,9 +25792,11 @@ final class Extensions {
 		'dpr'=>8,
 		'drl'=>8,
 		'dsc'=>8,
+		'dsdoc'=>32,
 		'dsl'=>8,
 		'dsp'=>8,
 		'dspx'=>2,
+		'dstack'=>32,
 		'dsw'=>8,
 		'dtb'=>24,
 		'dtd'=>8,
@@ -24474,6 +25805,8 @@ final class Extensions {
 		'dtx'=>8,
 		'dwd'=>16,
 		'dxf'=>8,
+		'edux'=>2,
+		'efd'=>16,
 		'egrm'=>8,
 		'eif'=>8,
 		'el'=>8,
@@ -24562,6 +25895,7 @@ final class Extensions {
 		'handlers'=>8,
 		'hans'=>8,
 		'har'=>2,
+		'hekaya'=>8,
 		'held'=>16,
 		'heldxml'=>16,
 		'hgl'=>8,
@@ -24576,6 +25910,7 @@ final class Extensions {
 		'htc'=>24,
 		'htm'=>24,
 		'html'=>24,
+		'hwpx'=>32,
 		'hx'=>8,
 		'hxx'=>8,
 		'i3'=>8,
@@ -24633,11 +25968,13 @@ final class Extensions {
 		'jtd'=>8,
 		'junit'=>8,
 		'jx'=>8,
+		'kbl'=>16,
 		'kcl'=>8,
 		'kdelnk'=>8,
 		'key'=>40,
 		'keys'=>8,
 		'kino'=>16,
+		'klypix'=>32,
 		'kml'=>16,
 		'kmp'=>32,
 		'kmz'=>32,
@@ -24652,6 +25989,7 @@ final class Extensions {
 		'lcs'=>32,
 		'ldif'=>8,
 		'less'=>8,
+		'lf'=>8,
 		'lgr'=>16,
 		'lhs'=>8,
 		'lhzd'=>32,
@@ -24661,12 +25999,15 @@ final class Extensions {
 		'lisp'=>8,
 		'list'=>8,
 		'log'=>8,
+		'longform'=>8,
 		'lostsyncxml'=>16,
 		'lostxml'=>16,
 		'lot'=>2,
+		'lrc'=>8,
 		'lsp'=>8,
 		'ltx'=>8,
 		'lua'=>8,
+		'luku'=>32,
 		'ly'=>8,
 		'lyx'=>8,
 		'm1u'=>8,
@@ -24691,6 +26032,7 @@ final class Extensions {
 		'md'=>8,
 		'mdo'=>8,
 		'mdtext'=>8,
+		'mdtps'=>8,
 		'me'=>8,
 		'meta'=>8,
 		'meta4'=>16,
@@ -24741,6 +26083,7 @@ final class Extensions {
 		'mup'=>8,
 		'musd'=>16,
 		'musicxml'=>16,
+		'mx'=>8,
 		'mxl'=>32,
 		'mxml'=>16,
 		'mxu'=>8,
@@ -24749,17 +26092,22 @@ final class Extensions {
 		'nb'=>8,
 		'ncx'=>16,
 		'nfo'=>8,
+		'nila'=>32,
 		'nim'=>8,
 		'nimble'=>8,
 		'nims'=>8,
 		'nix'=>8,
 		'nlogo'=>8,
+		'nomos'=>2,
 		'not'=>8,
 		'notebook'=>32,
 		'notice'=>8,
 		'nroff'=>8,
+		'nsh'=>8,
+		'nsi'=>8,
 		'nu'=>8,
 		'numbers'=>32,
+		'nx'=>8,
 		'nzb'=>16,
 		'obgx'=>16,
 		'obj'=>8,
@@ -24776,6 +26124,7 @@ final class Extensions {
 		'odt'=>32,
 		'omdoc'=>16,
 		'ooc'=>8,
+		'ootmm'=>32,
 		'openvpn'=>8,
 		'opf'=>16,
 		'opml'=>24,
@@ -24798,7 +26147,7 @@ final class Extensions {
 		'oxps'=>32,
 		'oxt'=>32,
 		'p'=>8,
-		'p7s'=>8,
+		'p8'=>8,
 		'pac'=>8,
 		'pages'=>32,
 		'pas'=>8,
@@ -24810,6 +26159,7 @@ final class Extensions {
 		'perl'=>8,
 		'pgn'=>8,
 		'pgp'=>8,
+		'phbk'=>16,
 		'php'=>8,
 		'php3'=>8,
 		'php4'=>8,
@@ -24850,6 +26200,8 @@ final class Extensions {
 		'pskcxml'=>16,
 		'pst'=>4,
 		'pub'=>8,
+		'puml'=>8,
+		'pweb'=>32,
 		'pxd'=>8,
 		'pxi'=>8,
 		'py'=>8,
@@ -24916,9 +26268,8 @@ final class Extensions {
 		'scope'=>8,
 		'scs'=>32,
 		'scss'=>8,
-		'sct'=>8,
+		'sct'=>24,
 		'scurl'=>8,
-		'sdf'=>2,
 		'sdfjson'=>2,
 		'sdkd'=>16,
 		'sdkm'=>16,
@@ -24948,6 +26299,7 @@ final class Extensions {
 		'sldm'=>4,
 		'sldx'=>36,
 		'slice'=>8,
+		'slint'=>8,
 		'slk'=>8,
 		'sls'=>16,
 		'smi'=>24,
@@ -24956,6 +26308,7 @@ final class Extensions {
 		'socket'=>8,
 		'sos'=>8,
 		'spdx'=>8,
+		'spdx3json'=>2,
 		'spdxjson'=>2,
 		'spec'=>8,
 		'spo'=>8,
@@ -24987,6 +26340,7 @@ final class Extensions {
 		'svg'=>16,
 		'svgz'=>1,
 		'svh'=>8,
+		'svrjson'=>2,
 		'swap'=>8,
 		'swidtag'=>16,
 		'sxc'=>32,
@@ -25020,6 +26374,8 @@ final class Extensions {
 		'tmx'=>16,
 		'toc'=>8,
 		'toml'=>8,
+		'tps'=>8,
+		'tpsmd'=>8,
 		'tr'=>8,
 		'trig'=>8,
 		'ts'=>24,
@@ -25059,6 +26415,8 @@ final class Extensions {
 		'vcj'=>2,
 		'vcs'=>8,
 		'vct'=>8,
+		'vec'=>16,
+		'vecpkgzip'=>32,
 		'vfk'=>8,
 		'vhd'=>8,
 		'vhdl'=>8,
@@ -25087,7 +26445,7 @@ final class Extensions {
 		'wmls'=>8,
 		'wmz'=>1,
 		'wrl'=>8,
-		'wsc'=>8,
+		'wsc'=>24,
 		'wsdd'=>8,
 		'wsdl'=>16,
 		'wsgi'=>8,
@@ -25172,7 +26530,7 @@ final class Extensions {
 		'xvml'=>16,
 		'xweb'=>8,
 		'xwelcome'=>8,
-		'yaml'=>8,
+		'yaml'=>10,
 		'yin'=>16,
 		'yml'=>8,
 		'yt'=>32,
